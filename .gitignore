@@ -1,5 +1,7 @@
 # IntelliJ
 .idea
+# JSON Files
+*.json
 # Logs
 logs
 *.log
