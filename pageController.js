@@ -5,12 +5,32 @@ async function scrapeAll(browserInstance) {
     let browser;
     try {
         browser = await browserInstance;
+        // the scrapedData object will be parsed to a JSON file
         let scrapedData = {};
-        // Call the scraper for different set of books to be scraped
-        scrapedData['Travel'] = await pageScraper.scraper(browser, 'Travel');
-        scrapedData['HistoricalFiction'] = await pageScraper.scraper(browser, 'Historical Fiction');
-        scrapedData['Mystery'] = await pageScraper.scraper(browser, 'Mystery');
+
+        // these category URLs will be scraped (respectively for ?l params of fortran, c and  c++)
+        let toBeScrapedURLs = [
+            'https://github.com/topics/science'
+        ];
+
+        // call the scraper for the URLs
+        for (let i = 0; i < toBeScrapedURLs.length; i++) {
+            // regex for getting the topic of the URL
+            let category = toBeScrapedURLs[i].match(/\/topics\/(.*)/)[1];
+
+            // scraper call for all three programming languages
+            const fortranArray = await pageScraper.scraper(browser, `${toBeScrapedURLs[i]}?l=fortran`);
+            const cArray = await pageScraper.scraper(browser, `${toBeScrapedURLs[i]}?l=c`);
+            const cPlusPlusArray = await pageScraper.scraper(browser, `${toBeScrapedURLs[i]}?l=c%2B%2B`);
+
+            // concat all arrays
+            scrapedData[`${category}`] = fortranArray.concat(cArray, cPlusPlusArray)
+        }
+
+        // close browser
         await browser.close();
+
+        // write scraped content to JSON file
         fs.writeFile("data.json", JSON.stringify(scrapedData), 'utf8', function (err) {
             if (err) {
                 return console.log(err);
