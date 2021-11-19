@@ -1,20 +1,38 @@
 const scraperObject = {
-    url: 'https://books.toscrape.com',
-    async scraper(browser, category) {
+    async scraper(browser, url) {
+        // passed URL
+        const currentURL = url;
+        // new tab which opens
         let page = await browser.newPage();
-        console.log(`Navigating to ${this.url}...`);
-        // Navigate to the selected page
-        await page.goto(this.url);
-        // Select the category of book to be displayed
-        let selectedCategory = await page.$$eval('.side_categories > ul > li > ul > li > a', (links, _category) => {
+        console.log(`Navigating to ${currentURL}...`);
 
-            // Search for the element that has the matching text
-            links = links.map(a => a.textContent.replace(/(\r\n\t|\n|\r|\t|^\s|\s$|\B\s|\s\B)/gm, "") === _category ? a : null);
-            let link = links.filter(tx => tx !== null)[0];
-            return link.href;
-        }, category);
-        // Navigate to the selected category
-        await page.goto(selectedCategory);
+        // Navigate to the selected page
+        await page.goto(currentURL);
+
+        // check if page is empty
+        let pageHasNoRepositories = await page.$eval('.topic .color-fg-muted', (element) => {
+            if (element.innerText.match("topic hasn't been used on any public repositories")) {
+                return true;
+            }
+            return false;
+        })
+        if (pageHasNoRepositories) {
+            return;
+        }
+
+        // press load more... button on the bottom of the page as long as its available
+        // TODO retry pressing 'button.ajax-pagination-btn' until it can be found so all repos of a topic are on one site
+
+
+        // build list of relevant repositories
+        let repositoryList = await page.$$eval('#js-pjax-container div.col-md-8 > article > div.px-3 > div h3 > a.text-bold', (repositories) => {
+            let hrefs = [];
+            repositories.forEach(repository => hrefs.push(repository.href));
+            return hrefs
+        });
+
+        console.log(repositoryList)
+        /*
         let scrapedData = [];
 
         // Wait for the required DOM to be rendered
@@ -75,6 +93,7 @@ const scraperObject = {
         let data = await scrapeCurrentPage();
         console.log(data);
         return data;
+         */
     }
 }
 
