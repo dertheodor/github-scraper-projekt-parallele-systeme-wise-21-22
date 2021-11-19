@@ -23,8 +23,10 @@ async function scrapeAll(browserInstance) {
             const cArray = await pageScraper.scraper(browser, `${toBeScrapedURLs[i]}?l=c`);
             const cPlusPlusArray = await pageScraper.scraper(browser, `${toBeScrapedURLs[i]}?l=c%2B%2B`);
 
-            // concat all arrays
-            scrapedData[`${category}`] = fortranArray.concat(cArray, cPlusPlusArray)
+            if (typeof fortranArray != "undefined" && typeof cArray != "undefined" && typeof cPlusPlusArray!= "undefined") {
+                // concat all arrays
+                scrapedData[`${category}`] = fortranArray.concat(cArray, cPlusPlusArray)
+            }
         }
 
         // close browser
