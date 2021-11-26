@@ -1,17 +1,25 @@
 const codeScraper = require('./codeScraper');
+const allowedFileExtensions = require('./variables/allowedFileExtensions');
 
 const repositoryScraper = {
+    /**
+     * Third top most level logic of the scraper.
+     * Responsible for creating a list of only relevant files which will then be passed to the codeScraper for examining
+     * the code.
+     *
+     * @param browser
+     * @param url
+     * @returns {Promise<{}>}
+     */
     async scrapeRepository(browser, url) {
         // new tab which opens
         let page = await browser.newPage();
 
+        // data which will be passed back to topicScraper
+        let data = {};
+
         // Navigate to the selected page
         await page.goto(url);
-
-        // list of allowed data types which we want to further inspect
-        const allowedDataTypes = [
-            '.sh'
-        ]
 
         // Wait for the required DOM to be rendered
         await page.waitForSelector('div.repository-content');
@@ -19,15 +27,19 @@ const repositoryScraper = {
         // do actual scraping if repository fulfills requirements
         if (await checkIfRepositoryIsRelevant() === true) {
             // TODO logic scraping until relevant code is reached -> call codeScraper() then
-
             let urlTypes = await getInnerURLRepositoriesType();
             let urlHrefs = await getInnerURLRepositoriesHrefs();
-
             let relevantURLs = await getRelevantURLs(urlTypes, urlHrefs);
 
-            console.log(relevantURLs);
+            await scrapeRepositorySubPage();
         }
 
+        /**
+         * Checks if a given repository is relevant by filtering it out based on predefined criteria such as:
+         * stars-count, forks-count, latest-commit-date, commits-count, contributors-count.
+         * These thresholds can be edited inside of the function.
+         * @returns {Promise<boolean>}
+         */
         async function checkIfRepositoryIsRelevant() {
             let repositoryStarsCount = await page.$$eval('.social-count', (elements) => {
                 return Number(elements[0].innerText);
@@ -62,6 +74,10 @@ const repositoryScraper = {
             return false;
         }
 
+        /**
+         * Gets the type of the data inside the repository.
+         * @returns {Promise<*>}
+         */
         async function getInnerURLRepositoriesType() {
             return await page.$$eval('.repository-content  .js-navigation-container [role="gridcell"] [aria-label]', (arialabels) => {
                 let types = [];
@@ -69,6 +85,11 @@ const repositoryScraper = {
                 return types;
             });
         }
+
+        /**
+         * Gets the hrefs of the data inside the repository.
+         * @returns {Promise<*>}
+         */
         async function getInnerURLRepositoriesHrefs() {
             // build list of repository contents
             return await page.$$eval('.repository-content  .js-navigation-container .Link--primary[href]', (primarylinks) => {
@@ -78,6 +99,12 @@ const repositoryScraper = {
             });
         }
 
+        /**
+         * Determines based on the hrefs and types from a repository which hrefs are relevant for further processing.
+         * @param urlTypes
+         * @param urlHrefs
+         * @returns {Promise<*[]>}
+         */
         async function getRelevantURLs(urlTypes, urlHrefs) {
             let filteredHrefs = [];
 
@@ -94,16 +121,27 @@ const repositoryScraper = {
                     // files are checked for relevance and added if relevant
                     if (types[i] === 'File') {
                         // iterate over allowedDataTypes array and check if file is relevant
-                        for (let j = 0; j < allowedDataTypes.length; j++) {
-                            if (hrefs[i].indexOf(allowedDataTypes[j]) > -1) {
+                        for (let j = 0; j < allowedFileExtensions.length; j++) {
+                            //TODO(evaluation needed if unnecessary code is checked through this decision) toLowerCase() href so less allowedFileExtensions need to be checked
+                            if (hrefs[i].toLowerCase().indexOf(allowedFileExtensions[j]) > -1) {
                                 filteredHrefs.push(hrefs[i]);
                             }
                         }
                     }
                 }
+            } else {
+                throw new Error("repository-inner-hrefs-and-types-count-mismatch")
             }
             return filteredHrefs;
         }
+
+        //TODO
+        async function scrapeRepositorySubPage() {
+
+        }
+
+        // return data to topicScraper
+        return data;
     }
 }
 

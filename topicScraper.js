@@ -1,6 +1,13 @@
 const repositoryScraper = require('./repositoryScraper');
 
 const scraperObject = {
+    /**
+     * Second top most level logic of the scraper.
+     * Responsible for creating a list of relevant repositories which are then passed to the repositoryScraper.
+     * @param browser
+     * @param url
+     * @returns {Promise<{}>}
+     */
     async scrapeTopics(browser, url) {
         // new tab which opens
         let page = await browser.newPage();
@@ -36,9 +43,9 @@ const scraperObject = {
         });
 
         // loop over all found repositories
-        // TODO change loop length
+        // TODO change loop length back to repositoryList.length
         for (let i = 0; i < 1; i++) {
-            await repositoryScraper.scrapeRepository(browser, repositoryList[i]);
+            var data = await repositoryScraper.scrapeRepository(browser, repositoryList[i]);
         }
 
         /*
@@ -96,11 +103,10 @@ const scraperObject = {
             await page.close();
             return scrapedData;
         }
-
-        let data = await scrapeCurrentPage();
+        */
         console.log(data);
+        // return data to pageController
         return data;
-         */
     }
 }
 
