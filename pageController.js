@@ -1,6 +1,12 @@
 const topicScraper = require('./topicScraper');
 const fs = require('fs');
 
+/**
+ * Top most level logic of scraper.
+ * Responsible for initiating the scraping of the different topics.
+ * @param browserInstance
+ * @returns {Promise<void>}
+ */
 async function scrapeAll(browserInstance) {
     let browser;
     try {
@@ -23,7 +29,7 @@ async function scrapeAll(browserInstance) {
             //TODO comment in const cArray = await topicScraper.scrapeTopics(browser, `${toBeScrapedURLs[i]}?l=c`);
             //TODO comment in const cPlusPlusArray = await topicScraper.scrapeTopics(browser, `${toBeScrapedURLs[i]}?l=c%2B%2B`);
 
-            if (typeof fortranArray != "undefined" && typeof cArray != "undefined" && typeof cPlusPlusArray!= "undefined") {
+            if (typeof fortranArray != "undefined" && typeof cArray != "undefined" && typeof cPlusPlusArray != "undefined") {
                 // concat all arrays
                 scrapedData[`${category}`] = fortranArray.concat(cArray, cPlusPlusArray)
             }
