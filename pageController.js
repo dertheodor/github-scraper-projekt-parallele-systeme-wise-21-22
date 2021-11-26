@@ -1,4 +1,4 @@
-const pageScraper = require('./pageScraper');
+const topicScraper = require('./topicScraper');
 const fs = require('fs');
 
 async function scrapeAll(browserInstance) {
@@ -19,9 +19,9 @@ async function scrapeAll(browserInstance) {
             let category = toBeScrapedURLs[i].match(/\/topics\/(.*)/)[1];
 
             // scraper call for all three programming languages
-            const fortranArray = await pageScraper.scrape(browser, `${toBeScrapedURLs[i]}?l=fortran`);
-            //TODO comment in const cArray = await pageScraper.scrape(browser, `${toBeScrapedURLs[i]}?l=c`);
-            //TODO comment in const cPlusPlusArray = await pageScraper.scrape(browser, `${toBeScrapedURLs[i]}?l=c%2B%2B`);
+            const fortranArray = await topicScraper.scrapeTopics(browser, `${toBeScrapedURLs[i]}?l=fortran`);
+            //TODO comment in const cArray = await topicScraper.scrapeTopics(browser, `${toBeScrapedURLs[i]}?l=c`);
+            //TODO comment in const cPlusPlusArray = await topicScraper.scrapeTopics(browser, `${toBeScrapedURLs[i]}?l=c%2B%2B`);
 
             if (typeof fortranArray != "undefined" && typeof cArray != "undefined" && typeof cPlusPlusArray!= "undefined") {
                 // concat all arrays

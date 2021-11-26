@@ -1,13 +1,13 @@
+const repositoryScraper = require('./repositoryScraper');
+
 const scraperObject = {
-    async scrape(browser, url) {
-        // passed URL
-        const currentURL = url;
+    async scrapeTopics(browser, url) {
         // new tab which opens
         let page = await browser.newPage();
-        console.log(`Navigating to ${currentURL}...`);
+        console.log(`Navigating to ${url}...`);
 
         // Navigate to the selected page
-        await page.goto(currentURL);
+        await page.goto(url);
 
         // Wait for the required DOM to be rendered
         await page.waitForSelector('#js-pjax-container');
@@ -28,104 +28,17 @@ const scraperObject = {
 
 
         // build list of relevant repositories
-        let repositoryList = await page.$$eval('#js-pjax-container div.col-md-8 > article > div.px-3 > div h3 > a.text-bold', (repositories) => {
+        let repositoryList = [];
+        repositoryList = await page.$$eval('#js-pjax-container div.col-md-8 > article > div.px-3 > div h3 > a.text-bold', (repositories) => {
             let hrefs = [];
             repositories.forEach(repository => hrefs.push(repository.href));
             return hrefs
         });
 
-        console.log(repositoryList)
-
-        // list of allowed data types which we want to further inspect
-        const allowedDataTypes = [
-            '.sh'
-        ]
-
-        let scrapedData = [];
-
-        await scrapeRepository();
-
-        // TODO here a loop is needed so we can iterate over all found repository URL's
-
-        async function scrapeRepository() {
-            // Navigate to the next repository from the repositoryList
-            await page.goto(repositoryList[0]);
-
-            // Wait for the required DOM to be rendered
-            await page.waitForSelector('#js-repo-pjax-container');
-
-            // do actual scraping if repository fulfills requirements
-            if (await checkIfRepositoryIsRelevant() === true) {
-
-                let innerURLs = await getInnerRepositoryURLs();
-                // TODO logic of scraping
-
-            }
-        }
-
-        async function getInnerRepositoryURLs() {
-            let innerRepositoryURLsType = await page.$$eval('.repository-content  .js-navigation-container [role="gridcell"] [aria-label]', (arialabels) => {
-                let types = [];
-                arialabels.forEach(arialabel => types.push(arialabel.attributes[0].value));
-                return types;
-            });
-
-
-            // build list of repository contents
-            let relevantInnerRepositoryURLsList = await page.$$eval('.repository-content  .js-navigation-container .Link--primary[href]', (primarylinks) => {
-                let hrefs = [];
-
-                // iterate over all links and check their relevance
-                for (let i = 0; i < primarylinks.length; i++) {
-                    // directories are directly added to the hrefs list
-                    if (innerRepositoryURLsType[i] === 'Directory') {
-                        hrefs.push(primarylinks[i].href);
-                    }
-                    // files are checked for relevance and added if relevant
-                    if (innerRepositoryURLsType[i] === 'File') {
-                        // TODO filter primarylinks[i].href file ending for relevance and push into hrefs array if relevant
-                    }
-                }
-
-                return hrefs
-            });
-
-            return relevantInnerRepositoryURLsList;
-        }
-
-
-        async function checkIfRepositoryIsRelevant () {
-            let repositoryStarsCount = await page.$$eval('.social-count', (elements) => {
-                return Number(elements[0].innerText);
-            })
-
-            let repositoryForksCount = await page.$$eval('.social-count', (elements) => {
-                return Number(elements[1].innerText);
-            })
-
-            let repositoryLatestCommitDate = await page.$eval('relative-time[datetime]', (element) => {
-                return element.attributes.datetime.value;
-            })
-
-            let repositoryCommitsCount = await page.$eval('.repository-content .Box-header .ml-0.ml-md-3 span > strong', (element) => {
-                return Number(element.innerText)
-            })
-
-            let repositoryContributorsCount = await page.$$eval('.repository-content .h4.mb-3 > a', (elements) => {
-                for (let i = 0; i < elements.length; i++) {
-                    // check for correct element
-                    if (elements[i].href.indexOf('contributors') > -1) {
-                        return Number(elements[i].children[0].innerText);
-                    }
-                }
-            })
-
-            // TODO modify here to filter irrelevant repositories
-            if (repositoryStarsCount > 0 && repositoryForksCount > 0 && repositoryLatestCommitDate > "0"
-                && repositoryCommitsCount > 0 && repositoryContributorsCount > 0) {
-                return true
-            }
-            return false;
+        // loop over all found repositories
+        // TODO change loop length
+        for (let i = 0; i < 1; i++) {
+            await repositoryScraper.scrapeRepository(browser, repositoryList[i]);
         }
 
         /*
