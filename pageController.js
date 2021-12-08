@@ -29,6 +29,7 @@ async function scrapeAll(browserInstance) {
             //TODO comment in const cArray = await topicScraper.scrapeTopics(browser, `${toBeScrapedURLs[i]}?l=c`);
             //TODO comment in const cPlusPlusArray = await topicScraper.scrapeTopics(browser, `${toBeScrapedURLs[i]}?l=c%2B%2B`);
 
+            // TODO change if condition
             if (typeof fortranArray != "undefined" && typeof cArray != "undefined" && typeof cPlusPlusArray != "undefined") {
                 // concat all arrays
                 scrapedData[`${category}`] = fortranArray.concat(cArray, cPlusPlusArray)
@@ -38,6 +39,7 @@ async function scrapeAll(browserInstance) {
         // close browser
         await browser.close();
 
+        // TODO save each topic as own JSON instead of saving all topics in one
         // write scraped content to JSON file
         fs.writeFile("data.json", JSON.stringify(scrapedData), 'utf8', function (err) {
             if (err) {
