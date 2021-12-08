@@ -1,7 +1,7 @@
 const openMPDirectives = require('./variables/openMPDirectives');
 
 const codeScraper = {
-    async scrapeCode() {
+    async scrapeCode(browser, url) {
         // data which will be passed back to repositoryScraper
         let data = {};
 
