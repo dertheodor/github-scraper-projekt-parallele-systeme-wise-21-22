@@ -14,13 +14,17 @@ const codeScraper = {
         await page.goto(url);
 
         // Wait for the required DOM to be rendered
-        await page.waitForSelector('#repo-content-pjax-container');
+        await page.waitForSelector('.Box-body[itemprop="text"]');
 
         // TODO logic
-        let repositoryCode = await page.$$eval('.blob-code-content .highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file > tbody > tr', (elements) => {
-           console.log(elements);
-            return elements.forEach();
+        let fileCode = await page.$eval('.blob-code-content .highlight.tab-size > tbody', (element) => {
+            return element.innerText.replaceAll('\n', '').replaceAll('\t', '');
         })
+
+        // iterate over all directives and search for them in fileCode
+        for (let i = 0; i < openMPDirectives.length; i++) {
+            // TODO
+        }
 
         // return data to repositoryScraper
         return data;
