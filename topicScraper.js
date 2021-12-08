@@ -49,7 +49,8 @@ const scraperObject = {
         // loop over all found repositories
         // TODO change loop length back to repositoryList.length
         for (let i = 0; i < 1; i++) {
-            data = await repositoryScraper.scrapeRepository(browser, repositoryList[i]);
+            // TODO maybe use repo-1, repo-2 ... instead of hrefs for key name
+            data[`${repositoryList[i]}`] = await repositoryScraper.scrapeRepository(browser, repositoryList[i]);
         }
 
         // return data to pageController
