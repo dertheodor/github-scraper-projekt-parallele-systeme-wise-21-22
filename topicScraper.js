@@ -9,12 +9,13 @@ const scraperObject = {
      * @returns {Promise<{}>}
      */
     async scrapeTopics(browser, url) {
-        // new tab which opens
-        let page = await browser.newPage();
-        console.log(`Navigating to ${url}...`);
 
         // data which will be passed back to pageController
         let data = {};
+
+        // new tab which opens
+        let page = await browser.newPage();
+        console.log(`Navigating to ${url}...`);
 
         // Navigate to the selected page
         await page.goto(url);

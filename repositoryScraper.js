@@ -12,11 +12,12 @@ const repositoryScraper = {
      * @returns {Promise<{}>}
      */
     async scrapeRepository(browser, url) {
-        // new tab which opens
-        let page = await browser.newPage();
 
         // data which will be passed back to topicScraper
         let data = {};
+
+        // new tab which opens
+        let page = await browser.newPage();
 
         // navigate initially to repo
         await navigate(url);
@@ -27,6 +28,7 @@ const repositoryScraper = {
 
         // do actual scraping if repository fulfills requirements
         if (await checkIfRepositoryIsRelevant() === true) {
+
             await filterRepoURLs();
 
             if (relevantDirectoryURLs[0]) {
@@ -40,16 +42,6 @@ const repositoryScraper = {
         // return if checkIfRepositoryIsRelevant is false
         else {
             return data;
-        }
-
-        /**
-         * Called when a level of a repo is checked to filter out folders and relevant files.
-         * @returns {Promise<void>}
-         */
-        async function filterRepoURLs() {
-            let urlTypes = await getInnerURLRepositoriesType();
-            let urlHrefs = await getInnerURLRepositoriesHrefs();
-            await getRelevantURLs(urlTypes, urlHrefs);
         }
 
         /**
@@ -103,6 +95,16 @@ const repositoryScraper = {
                 return true
             }
             return false;
+        }
+
+        /**
+         * Called when a level of a repo is checked to filter out folders and relevant files.
+         * @returns {Promise<void>}
+         */
+        async function filterRepoURLs() {
+            let urlTypes = await getInnerURLRepositoriesType();
+            let urlHrefs = await getInnerURLRepositoriesHrefs();
+            await getRelevantURLs(urlTypes, urlHrefs);
         }
 
         /**
@@ -194,7 +196,7 @@ const repositoryScraper = {
          */
         async function callCodeScraper() {
             // iterate over all relevant file URLs
-            // TODO change loop length back to repositoryList.length
+            // TODO change loop length back to relevantFileURLs.length
             for (let i = 0; i < 1; i++) {
                 data = await codeScraper.scrapeCode(browser, relevantFileURLs[i]);
             }
