@@ -16,6 +16,9 @@ const repositoryScraper = {
         // data which will be passed back to topicScraper
         let data = {};
 
+        // fileData which will be further processed before saving it to data
+        let fileData = {};
+
         // new tab which opens
         let page = await browser.newPage();
 
@@ -198,9 +201,11 @@ const repositoryScraper = {
             // iterate over all relevant file URLs
             // TODO change loop length back to relevantFileURLs.length
             for (let i = 0; i < 1; i++) {
-                data = await codeScraper.scrapeCode(browser, relevantFileURLs[i]);
+                fileData[`file-${i}`] = await codeScraper.scrapeCode(browser, relevantFileURLs[i]);
             }
         }
+
+        //TODO count together directives from all files and occurrences (fileData) -> afterwards return data obj
 
         // return data to topicScraper
         return data;
