@@ -18,20 +18,51 @@ const repositoryScraper = {
         // data which will be passed back to topicScraper
         let data = {};
 
-        // Navigate to the selected page
-        await page.goto(url);
+        // navigate initially to repo
+        await navigate(url);
 
-        // Wait for the required DOM to be rendered
-        await page.waitForSelector('div.repository-content');
+        // Arrays used for folders and files lists
+        var relevantDirectoryURLs = [];
+        var relevantFileURLs = [];
 
         // do actual scraping if repository fulfills requirements
         if (await checkIfRepositoryIsRelevant() === true) {
-            // TODO logic scraping until relevant code is reached -> call codeScraper() then
+            await filterRepoURLs();
+
+            if (relevantDirectoryURLs[0]) {
+                // go level deeper and open next directory
+                await scrapeRepositorySubPage();
+            }
+
+            // call codeScraper
+            await callCodeScraper();
+        }
+        // return if checkIfRepositoryIsRelevant is false
+        else {
+            return data;
+        }
+
+        /**
+         * Called when a level of a repo is checked to filter out folders and relevant files.
+         * @returns {Promise<void>}
+         */
+        async function filterRepoURLs() {
             let urlTypes = await getInnerURLRepositoriesType();
             let urlHrefs = await getInnerURLRepositoriesHrefs();
-            let relevantURLs = await getRelevantURLs(urlTypes, urlHrefs);
+            await getRelevantURLs(urlTypes, urlHrefs);
+        }
 
-            await scrapeRepositorySubPage();
+        /**
+         * Triggers a navigation for the next deeper level of a repository.
+         * @param url
+         * @returns {Promise<void>}
+         */
+        async function navigate(url) {
+            // Navigate to the selected page
+            await page.goto(url);
+
+            // Wait for the required DOM to be rendered
+            await page.waitForSelector('div.repository-content');
         }
 
         /**
@@ -106,8 +137,6 @@ const repositoryScraper = {
          * @returns {Promise<*[]>}
          */
         async function getRelevantURLs(urlTypes, urlHrefs) {
-            let filteredHrefs = [];
-
             let types = urlTypes;
             let hrefs = urlHrefs;
 
@@ -116,15 +145,15 @@ const repositoryScraper = {
                 for (let i = 0; i < types.length; i++) {
                     // directories are directly added to the hrefs list
                     if (types[i] === 'Directory') {
-                        filteredHrefs.push(hrefs[i]);
+                        relevantDirectoryURLs.push(hrefs[i]);
                     }
                     // files are checked for relevance and added if relevant
                     if (types[i] === 'File') {
                         // iterate over allowedDataTypes array and check if file is relevant
                         for (let j = 0; j < allowedFileExtensions.length; j++) {
                             //TODO(evaluation needed if unnecessary code is checked through this decision) toLowerCase() href so less allowedFileExtensions need to be checked
-                            if (hrefs[i].toLowerCase().indexOf(allowedFileExtensions[j]) > -1) {
-                                filteredHrefs.push(hrefs[i]);
+                            if (hrefs[i].substr(18).toLowerCase().match(allowedFileExtensions[j])) {
+                                relevantFileURLs.push(hrefs[i]);
                             }
                         }
                     }
@@ -132,12 +161,43 @@ const repositoryScraper = {
             } else {
                 throw new Error("repository-inner-hrefs-and-types-count-mismatch")
             }
-            return filteredHrefs;
         }
 
-        //TODO
+        /**
+         * Recursively scrapes all repository pages and adds relevant files to the globals lists.
+         * Terminates when all folders have been checked.
+         * @returns {Promise<void>}
+         */
         async function scrapeRepositorySubPage() {
+            let currentURL = relevantDirectoryURLs[0];
 
+            // Navigate to subfolder
+            await navigate(currentURL);
+
+            await filterRepoURLs();
+
+            // remove first URL (pop from stack)
+            relevantDirectoryURLs.shift();
+
+            // termination condition for recursive call
+            if (!relevantDirectoryURLs[0]) {
+                return;
+            }
+
+            // recursion
+            await scrapeRepositorySubPage();
+        }
+
+        /**
+         * Calls codeScraper with every relevant file to check its contents for directives.
+         * @returns {Promise<void>}
+         */
+        async function callCodeScraper() {
+            // iterate over all relevant file URLs
+            // TODO change loop length back to repositoryList.length
+            for (let i = 0; i < 1; i++) {
+                data = await codeScraper.scrapeCode(browser, relevantFileURLs[i]);
+            }
         }
 
         // return data to topicScraper
