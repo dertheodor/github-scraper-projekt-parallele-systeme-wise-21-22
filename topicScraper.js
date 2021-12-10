@@ -53,6 +53,9 @@ const scraperObject = {
             data[`${repositoryList[i]}`] = await repositoryScraper.scrapeRepository(browser, repositoryList[i]);
         }
 
+        // close tab
+        await page.close();
+
         // return data to pageController
         return data;
     }
