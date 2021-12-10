@@ -26,12 +26,12 @@ async function scrapeAll(browserInstance) {
 
             // scraper call for all three programming languages
             const fortranObject = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=fortran`);
-            //TODO comment in const cObject = await topicScraper.scrapeTopics(browser, `${toBeScrapedURLs[i]}?l=c`);
-            //TODO comment in const cPlusPlusObject = await topicScraper.scrapeTopics(browser, `${toBeScrapedURLs[i]}?l=c%2B%2B`);
+            //TODO comment in const cObject = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=c`);
+            //TODO comment in const cPlusPlusObject = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=c%2B%2B`);
 
             scrapedData['fortran'] = fortranObject;
-            scrapedData['c'] = cObject;
-            scrapedData['c++'] = cPlusPlusObject;
+            //TODO comment in scrapedData['c'] = cObject;
+            //TODO comment in scrapedData['c++'] = cPlusPlusObject;
 
             await saveFile(scrapedData, category);
             scrapedData = {};
@@ -48,7 +48,7 @@ async function scrapeAll(browserInstance) {
                 if (err) {
                     return console.log(err);
                 }
-                console.log("The data has been scraped and saved successfully! View it at './data.json'");
+                console.log(`The data has been scraped and saved successfully! View it at './${category}.json`);
             });
         }
 
