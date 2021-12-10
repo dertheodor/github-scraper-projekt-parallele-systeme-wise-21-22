@@ -1,5 +1,6 @@
 const codeScraper = require('./codeScraper');
 const allowedFileExtensions = require('./variables/allowedFileExtensions');
+const openMPDirectives = require('./variables/openMPDirectives');
 
 const repositoryScraper = {
     /**
@@ -41,6 +42,9 @@ const repositoryScraper = {
 
             // call codeScraper
             await callCodeScraper();
+
+            // beautify directives
+            await buildBeautifiedData();
         }
         // return if checkIfRepositoryIsRelevant is false
         else {
@@ -95,6 +99,7 @@ const repositoryScraper = {
             // TODO modify here to filter irrelevant repositories
             if (repositoryStarsCount > 0 && repositoryForksCount > 0 && repositoryLatestCommitDate > "0"
                 && repositoryCommitsCount > 0 && repositoryContributorsCount > 0) {
+                // TODO add relevance related infos to data[]
                 return true
             }
             return false;
@@ -156,8 +161,7 @@ const repositoryScraper = {
                     if (types[i] === 'File') {
                         // iterate over allowedDataTypes array and check if file is relevant
                         for (let j = 0; j < allowedFileExtensions.length; j++) {
-                            //TODO(evaluation needed if unnecessary code is checked through this decision) toLowerCase() href so less allowedFileExtensions need to be checked
-                            if (hrefs[i].substr(18).toLowerCase().match(allowedFileExtensions[j])) {
+                            if (hrefs[i].substr(18).match(allowedFileExtensions[j])) {
                                 relevantFileURLs.push(hrefs[i]);
                             }
                         }
@@ -199,13 +203,52 @@ const repositoryScraper = {
          */
         async function callCodeScraper() {
             // iterate over all relevant file URLs
-            // TODO change loop length back to relevantFileURLs.length
-            for (let i = 0; i < 1; i++) {
+            for (let i = 0; i < relevantFileURLs.length; i++) {
                 fileData[`file-${i}`] = await codeScraper.scrapeCode(browser, relevantFileURLs[i]);
             }
         }
 
-        //TODO count together directives from all files and occurrences (fileData) -> afterwards return data obj
+        /**
+         *
+         * @returns {Promise<void>}
+         */
+        async function buildBeautifiedData() {
+            let JSONContents = JSON.stringify(fileData);
+
+            // fortran code
+            if (JSONContents.match(/!\\\\\$omp/i)) {
+                await countDirectives(openMPDirectives.openMPDirectivesFortran);
+            }
+
+            // c/c++ code
+            if (JSONContents.match(/#pragma omp/i)) {
+                await countDirectives(openMPDirectives.openMPDirectivesC);
+            }
+        }
+
+        /**
+         *
+         * @param languageDirectivesArray
+         * @returns {Promise<void>}
+         */
+        async function countDirectives(languageDirectivesArray) {
+            // iterate over all directives
+            for (let i = 0; i < languageDirectivesArray.length; i++) {
+                // iterate over every JSON entry (file)
+                for (let j = 0; j < Object.keys(fileData).length; j++) {
+                    if (fileData[`file-${j}`][languageDirectivesArray[i]]) {
+                        // number has not been initialized yet
+                        if (typeof data[languageDirectivesArray[i].source.replace('\\','')] === 'undefined') {
+                            data[languageDirectivesArray[i].source.replace('\\','')] = 0;
+                        }
+                        data[languageDirectivesArray[i].source.replace('\\','')] += fileData[`file-${j}`][languageDirectivesArray[i]]
+                    }
+                }
+            }
+        }
+
+        // close tab
+        await page.close();
 
         // return data to topicScraper
         return data;
