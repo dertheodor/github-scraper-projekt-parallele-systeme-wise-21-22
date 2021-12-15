@@ -22,9 +22,11 @@ const codeScraper = {
         // Wait for the required DOM to be rendered
         await page.waitForSelector('.Box-body[itemprop="text"]');
 
-        let fileCode = await page.$eval('.blob-code-content .highlight.tab-size > tbody', (element) => {
-            return element.innerText.replaceAll('\n', '').replaceAll('\t', '');
-        })
+        if ((await page.$('.blob-code-content .highlight.tab-size > tbody')) !== null) {
+            var fileCode = await page.$eval('.blob-code-content .highlight.tab-size > tbody', (element) => {
+                return element.innerText.replaceAll('\n', '').replaceAll('\t', '');
+            })
+        }
 
         if (fileCode) {
             // fortran code
@@ -36,6 +38,10 @@ const codeScraper = {
             if (fileCode.match(/#pragma omp/i)) {
                 await analyzeCode(openMPDirectives.openMPDirectivesC)
             }
+        }
+        // if there is no code return
+        else {
+            return data;
         }
 
         /**
