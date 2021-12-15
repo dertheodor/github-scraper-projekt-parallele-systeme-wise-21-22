@@ -1,3 +1,4 @@
+const config = require('./config');
 const codeScraper = require('./codeScraper');
 const allowedFileExtensions = require('./variables/allowedFileExtensions');
 const openMPDirectives = require('./variables/openMPDirectives');
@@ -96,9 +97,11 @@ const repositoryScraper = {
                 }
             })
 
-            // TODO modify here to filter irrelevant repositories
-            if (repositoryStarsCount > 0 && repositoryForksCount > 0 && repositoryLatestCommitDate > "0"
-                && repositoryCommitsCount > 0 && repositoryContributorsCount > 0) {
+            if (repositoryStarsCount >= config.repositoryStarsCount &&
+                repositoryForksCount >= config.repositoryForksCount &&
+                repositoryLatestCommitDate >= config.repositoryLatestCommitDate &&
+                repositoryCommitsCount >= config.repositoryCommitsCount &&
+                repositoryContributorsCount >= config.repositoryContributorsCount) {
                 // TODO add relevance related infos to data[]
                 return true
             }
@@ -120,7 +123,7 @@ const repositoryScraper = {
          * @returns {Promise<*>}
          */
         async function getInnerURLRepositoriesType() {
-            return await page.$$eval('.repository-content  .js-navigation-container [role="gridcell"] [aria-label]', (arialabels) => {
+            return await page.$$eval('.repository-content  .js-navigation-container [role=gridcell] [aria-label]', (arialabels) => {
                 let types = [];
                 arialabels.forEach(arialabel => types.push(arialabel.attributes[0].value));
                 return types;
@@ -133,7 +136,7 @@ const repositoryScraper = {
          */
         async function getInnerURLRepositoriesHrefs() {
             // build list of repository contents
-            return await page.$$eval('.repository-content  .js-navigation-container .Link--primary[href]', (primarylinks) => {
+            return await page.$$eval('.repository-content  .js-navigation-container .js-navigation-item div[role=rowheader] > span a[href]', (primarylinks) => {
                 let hrefs = [];
                 primarylinks.forEach(primarylink => hrefs.push(primarylink.href));
                 return hrefs;
