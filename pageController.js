@@ -1,3 +1,4 @@
+const config = require('./config');
 const topicScraper = require('./topicScraper');
 const fs = require('fs');
 
@@ -15,9 +16,7 @@ async function scrapeAll(browserInstance) {
         let scrapedData = {};
 
         // these category URLs will be scraped (respectively for ?l params of fortran, c and  c++)
-        let toBeScrapedTopicURLs = [
-            'https://github.com/topics/science'
-        ];
+        let toBeScrapedTopicURLs = config.toBeScrapedTopicURLs;
 
         // call the scraper for the URLs
         for (let i = 0; i < toBeScrapedTopicURLs.length; i++) {
@@ -26,12 +25,16 @@ async function scrapeAll(browserInstance) {
 
             // scraper call for all three programming languages
             const fortranObject = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=fortran`);
-            //TODO comment in const cObject = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=c`);
-            //TODO comment in const cPlusPlusObject = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=c%2B%2B`);
-
             scrapedData['fortran'] = fortranObject;
-            //TODO comment in scrapedData['c'] = cObject;
-            //TODO comment in scrapedData['c++'] = cPlusPlusObject;
+            await saveFile(scrapedData, category);
+
+            const cObject = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=c`);
+            scrapedData['c'] = cObject;
+            await saveFile(scrapedData, category);
+
+            const cPlusPlusObject = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=c%2B%2B`);
+            scrapedData['c++'] = cPlusPlusObject;
+            await saveFile(scrapedData, category);
 
             await saveFile(scrapedData, category);
             scrapedData = {};
