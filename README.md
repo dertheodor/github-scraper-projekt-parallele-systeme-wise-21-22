@@ -13,8 +13,13 @@ Install the dependencies.
 npm install
 ```
 
+Optional:
+- Open the top level file config.js
+- Make adjustments to the given flags
+
+
 Start the scraper.
 
 ```sh
-npm run start
+npm run scrape
 ```
