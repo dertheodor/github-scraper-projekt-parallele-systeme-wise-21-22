@@ -34,9 +34,8 @@ const scraperObject = {
             return data;
         }
 
-        // press load more... button on the bottom of the page as long as its available
-        // TODO retry pressing 'button.ajax-pagination-btn' until it can be found so all repos of a topic are on one site
-
+        // press load more... button on the bottom of the page as long as it's available
+        await retryButtonPress();
 
         // build list of relevant repositories
         let repositoryList = [];
@@ -47,10 +46,24 @@ const scraperObject = {
         });
 
         // loop over all found repositories
-        // TODO change loop length back to repositoryList.length
-        for (let i = 0; i < 1; i++) {
+        for (let i = 0; i < repositoryList.length; i++) {
             // TODO maybe use repo-1, repo-2 ... instead of hrefs for key name
             data[`${repositoryList[i]}`] = await repositoryScraper.scrapeRepository(browser, repositoryList[i]);
+        }
+
+        /**
+         * Retries pressing the Load more... button until it's not available anymore.
+         * @returns {Promise<void>}
+         */
+        async function retryButtonPress() {
+            if ((await page.$('button.ajax-pagination-btn')) !== null) {
+                await page.$eval('button.ajax-pagination-btn', button => button.click());
+                // TODO potentially use waitForResponse as we can detect when a request is finished instead of 10sec rule
+                await page.waitForTimeout(10000);
+                await retryButtonPress();
+            } else {
+                return;
+            }
         }
 
         // close tab
