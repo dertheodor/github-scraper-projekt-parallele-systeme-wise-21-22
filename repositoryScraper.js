@@ -209,6 +209,7 @@ const repositoryScraper = {
         }
 
         /**
+         *Check the Used File Language to count the Directives for that Language
          *
          * @returns {Promise<void>}
          */
@@ -227,6 +228,7 @@ const repositoryScraper = {
         }
 
         /**
+         * Count the used Compiler Directives from different files in a Repository together
          *
          * @param languageDirectivesArray
          * @returns {Promise<void>}

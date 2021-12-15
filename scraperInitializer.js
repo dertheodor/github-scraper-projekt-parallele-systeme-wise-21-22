@@ -6,3 +6,4 @@ let browserInstance = browserObject.startBrowser();
 
 // Pass the browser instance to the scraper controller
 pageControllerObject.scrapeAll(browserInstance)
+
