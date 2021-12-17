@@ -2,10 +2,10 @@
   "name": "git-scraper",
   "version": "1.0.0",
   "description": "git-scraper for git scraping",
-  "main": "index.js",
+  "main": "scraperInitializer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "scrape": "node scraperInitializer.js"
   },
   "author": "",
   "license": "ISC",
