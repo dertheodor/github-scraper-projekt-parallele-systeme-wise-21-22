@@ -179,7 +179,8 @@ const repositoryScraper = {
                     }
                 }
             } else {
-                throw new Error("repository-inner-hrefs-and-types-count-mismatch")
+                console.log("Error: On URL " + ${url} + " unequal-length " + "types: " + ${types.length} + " hrefs: " + ${hrefs.length} + ".")
+                return;
             }
         }
 
