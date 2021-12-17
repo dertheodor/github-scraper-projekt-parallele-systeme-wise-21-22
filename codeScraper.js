@@ -1,3 +1,4 @@
+const config = require('./config');
 const openMPDirectives = require('./variables/openMPDirectives');
 
 const codeScraper = {
@@ -15,6 +16,9 @@ const codeScraper = {
         // new tab which opens
         let page = await browser.newPage();
         console.log(`Navigating to ${url}...`);
+
+        // Wait
+        await page.waitForTimeout(config.antiAbuseDetectionTimeout);
 
         // Navigate to the selected page
         await page.goto(url);
@@ -41,6 +45,8 @@ const codeScraper = {
         }
         // if there is no code return
         else {
+            // close tab
+            await page.close();
             return data;
         }
 

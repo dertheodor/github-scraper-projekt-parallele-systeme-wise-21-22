@@ -49,6 +49,8 @@ const repositoryScraper = {
         }
         // return if checkIfRepositoryIsRelevant is false
         else {
+            // close tab
+            await page.close();
             return data;
         }
 
@@ -58,11 +60,14 @@ const repositoryScraper = {
          * @returns {Promise<void>}
          */
         async function navigate(url) {
+            // Wait
+            await page.waitForTimeout(config.antiAbuseDetectionTimeout);
+
             // Navigate to the selected page
             await page.goto(url);
 
             // Wait for the required DOM to be rendered
-            await page.waitForSelector('div.repository-content');
+            await page.waitForSelector('div.application-main');
         }
 
         /**
@@ -72,12 +77,15 @@ const repositoryScraper = {
          * @returns {Promise<boolean>}
          */
         async function checkIfRepositoryIsRelevant() {
-            let repositoryStarsCount = await page.$$eval('.social-count', (elements) => {
-                return Number(elements[0].innerText);
+            // Wait as sometimes not all the needed information is inside the HTML
+            await page.waitForTimeout(config.antiAbuseDetectionTimeout);
+
+            let repositoryStarsCount = await page.$eval('#repo-stars-counter-star', (element) => {
+                return Number(element.innerText);
             })
 
-            let repositoryForksCount = await page.$$eval('.social-count', (elements) => {
-                return Number(elements[1].innerText);
+            let repositoryForksCount = await page.$eval('#repo-network-counter', (elements) => {
+                return Number(elements.innerText);
             })
 
             let repositoryLatestCommitDate = await page.$eval('relative-time[datetime]', (element) => {
@@ -205,6 +213,8 @@ const repositoryScraper = {
          * @returns {Promise<void>}
          */
         async function callCodeScraper() {
+            // close tab
+            await page.close();
             // iterate over all relevant file URLs
             for (let i = 0; i < relevantFileURLs.length; i++) {
                 fileData[`file-${i}`] = await codeScraper.scrapeCode(browser, relevantFileURLs[i]);
@@ -252,9 +262,6 @@ const repositoryScraper = {
                 }
             }
         }
-
-        // close tab
-        await page.close();
 
         // return data to topicScraper
         return data;

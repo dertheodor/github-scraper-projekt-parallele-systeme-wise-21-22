@@ -1,3 +1,4 @@
+const config = require('./config');
 const repositoryScraper = require('./repositoryScraper');
 
 const scraperObject = {
@@ -17,6 +18,9 @@ const scraperObject = {
         let page = await browser.newPage();
         console.log(`Navigating to ${url}...`);
 
+        // Wait
+        await page.waitForTimeout(config.antiAbuseDetectionTimeout);
+
         // Navigate to the selected page
         await page.goto(url);
 
@@ -31,6 +35,8 @@ const scraperObject = {
             return false;
         })
         if (pageHasNoRepositories) {
+            // close tab
+            await page.close();
             return data;
         }
 
@@ -44,6 +50,9 @@ const scraperObject = {
             repositories.forEach(repository => hrefs.push(repository.href));
             return hrefs
         });
+
+        // close tab
+        await page.close();
 
         // loop over all found repositories
         for (let i = 0; i < repositoryList.length; i++) {
@@ -65,9 +74,6 @@ const scraperObject = {
                 return;
             }
         }
-
-        // close tab
-        await page.close();
 
         // return data to pageController
         return data;
