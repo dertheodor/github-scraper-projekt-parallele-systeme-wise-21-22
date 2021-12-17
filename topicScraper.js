@@ -75,6 +75,18 @@ const scraperObject = {
             }
         }
 
+        // memorize overall count of repositories per language
+        data['quantityOfRepositories'] = repositoryList.length;
+
+        // memorize overall count of repositories per language containing OpenMP directives
+        data['quantityOfRepositoriesWithOpenMP'] = 0;
+
+        for (let i = 0; i < repositoryList.length; i++) {
+            if (Object.keys(data[`${repositoryList[i]}`]).length >= 1) {
+                data['quantityOfRepositoriesWithOpenMP'] ++;
+            }
+        }
+
         // return data to pageController
         return data;
     }
