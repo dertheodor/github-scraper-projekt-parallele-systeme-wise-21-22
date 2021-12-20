@@ -179,7 +179,7 @@ const repositoryScraper = {
                     }
                 }
             } else {
-                console.log("Error: On URL " + ${url} + " unequal-length " + "types: " + ${types.length} + " hrefs: " + ${hrefs.length} + ".")
+                console.log("Error: unequal-length repo types and hrefs.")
                 return;
             }
         }
