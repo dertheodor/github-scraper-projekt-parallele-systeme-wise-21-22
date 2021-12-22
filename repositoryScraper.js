@@ -81,26 +81,26 @@ const repositoryScraper = {
             await page.waitForTimeout(config.antiAbuseDetectionTimeout);
 
             let repositoryStarsCount = await page.$eval('#repo-stars-counter-star', (element) => {
-                return Number(element.innerText);
+                return Number(element.attributes["aria-label"].value.match(/\d+/)[0]);
             })
 
             let repositoryForksCount = await page.$eval('#repo-network-counter', (elements) => {
-                return Number(elements.innerText);
+                return Number(elements.attributes["title"].value.replace(',', ''));
             })
 
-            let repositoryLatestCommitDate = await page.$eval('relative-time[datetime]', (element) => {
+            let repositoryLatestCommitDate = await page.$eval('.Layout-main relative-time[datetime]', (element) => {
                 return element.attributes.datetime.value;
             })
 
             let repositoryCommitsCount = await page.$eval('.repository-content .Box-header .ml-0.ml-md-3 span > strong', (element) => {
-                return Number(element.innerText)
+                return Number(element.innerText.replace(',', ''));
             })
 
             let repositoryContributorsCount = await page.$$eval('.repository-content .h4.mb-3 > a', (elements) => {
                 for (let i = 0; i < elements.length; i++) {
                     // check for correct element
                     if (elements[i].href.indexOf('contributors') > -1) {
-                        return Number(elements[i].children[0].innerText);
+                        return Number(elements[i].children[0].attributes["title"].value.replace(',', ''));
                     }
                 }
             })
@@ -133,7 +133,7 @@ const repositoryScraper = {
         async function getInnerURLRepositoriesType() {
             return await page.$$eval('.repository-content  .js-navigation-container [role=gridcell] [aria-label]', (arialabels) => {
                 let types = [];
-                arialabels.forEach(arialabel => types.push(arialabel.attributes[0].value));
+                arialabels.forEach(arialabel => types.push(arialabel.attributes["aria-label"].value));
                 return types;
             });
         }
@@ -179,7 +179,8 @@ const repositoryScraper = {
                     }
                 }
             } else {
-                throw new Error("repository-inner-hrefs-and-types-count-mismatch")
+                console.log(`Error: On URL ${url} unequal-length types: ${types.length} hrefs: ${hrefs.length}.`)
+                return;
             }
         }
 
