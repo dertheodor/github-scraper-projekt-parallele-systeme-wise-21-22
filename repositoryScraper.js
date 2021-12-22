@@ -264,6 +264,12 @@ const repositoryScraper = {
             }
         }
 
+        // memorize overall count of files per repository
+        data['quantityOfFiles'] = relevantFileURLs.length;
+
+        // memorize overall count of files per repository containing OpenMP directives
+        data['quantityOfFilesWithOpenMP'] = Object.keys(fileData).length;
+
         // return data to topicScraper
         return data;
     }
