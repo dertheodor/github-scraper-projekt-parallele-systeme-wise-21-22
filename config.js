@@ -3,7 +3,9 @@
  * @type {string[]}
  */
 const toBeScrapedTopicURLs = [
-    'https://github.com/topics/multiphysics'
+    'https://github.com/topics/biology',
+    'https://github.com/topics/astrophysics',
+    'https://github.com/topics/geography'
 ]
 
 /**
@@ -16,7 +18,7 @@ const antiAbuseDetectionTimeout = Math.random() * (1000 - 500) + 500;
  * Minimum stars count of a repository.
  * @type {number}
  */
-const repositoryStarsCount = 50;
+const repositoryStarsCount = 20;
 
 /**
  * Minimum forks count of a repository.
@@ -29,19 +31,19 @@ const repositoryForksCount = 1;
  * e.g.: '2021-10-14T13:27:45Z'
  * @type {string}
  */
-const repositoryLatestCommitDate = "2021-01-01T00:00:00Z";
+const repositoryLatestCommitDate = "2018-01-01T00:00:00Z";
 
 /**
  * Minimum commits count of a repository.
  * @type {number}
  */
-const repositoryCommitsCount = 20;
+const repositoryCommitsCount = 6;
 
 /**
  * Minimum contributors count of a repository.
  * @type {number}
  */
-const repositoryContributorsCount = 5;
+const repositoryContributorsCount = 3;
 
 // TODO add count of files checked, count together on different levels
 
