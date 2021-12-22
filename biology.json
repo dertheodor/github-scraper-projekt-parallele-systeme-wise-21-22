@@ -1,0 +1,102 @@
+{
+  "fortran": {
+    "https://github.com/sbudaev/AHA-R1": {},
+    "quantityOfRepositories": 1,
+    "quantityOfRepositoriesWithOpenMP": 0
+  },
+  "c": {
+    "https://github.com/lmdu/pyfastx": {
+      "quantityOfFiles": 24,
+      "quantityOfFilesWithOpenMP": 24
+    },
+    "https://github.com/BigDataBiology/macrel": {
+      "quantityOfFiles": 16,
+      "quantityOfFilesWithOpenMP": 16
+    },
+    "https://github.com/PaulKlinger/freeform-virus-blinky": {},
+    "https://github.com/bernardosulzbach/self-organizing-tree-models": {},
+    "https://github.com/kaserashi/Parallelization-of-Smith-Waterman-Algorithm": {},
+    "https://github.com/Bader-Research/BioPerf": {},
+    "https://github.com/Bader-Research/GRAPPA": {},
+    "https://github.com/Androp0v/AndroMolecules": {},
+    "https://github.com/Bader-Research/pasqual": {},
+    "https://github.com/Bader-Research/ExactMP": {},
+    "https://github.com/TravisWheelerLab/hsi": {},
+    "https://github.com/hirklab/euglenalab": {},
+    "https://github.com/cole8888/Gene2Pic": {},
+    "https://github.com/daveh19/PCPlasticity": {},
+    "https://github.com/wnfldchen/peaks": {},
+    "https://github.com/LauchieHarvey/DNA_to_Amino_Acid_converter": {},
+    "quantityOfRepositories": 16,
+    "quantityOfRepositoriesWithOpenMP": 2
+  },
+  "c++": {
+    "https://github.com/BioDynaMo/biodynamo": {
+      "#pragma omp parallel": 62,
+      "#pragma omp single ": 1,
+      "#pragma omp for ": 8,
+      "#pragma omp simd ": 29,
+      "#pragma omp parallel for": 33,
+      "#pragma omp master": 1,
+      "#pragma omp critical": 13,
+      "#pragma omp barrier": 6,
+      "#pragma omp atomic": 1,
+      "quantityOfFiles": 364,
+      "quantityOfFilesWithOpenMP": 364
+    },
+    "https://github.com/jonnew/cyclops": {
+      "quantityOfFiles": 2,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    "https://github.com/UCLOrengoGroup/cath-tools": {
+      "quantityOfFiles": 1424,
+      "quantityOfFilesWithOpenMP": 1424
+    },
+    "https://github.com/AdaptiveParticles/LibAPR": {
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/gletort/PhysiBoSS": {
+      "#pragma omp parallel": 19,
+      "#pragma omp parallel for": 19,
+      "#pragma omp critical": 11,
+      "quantityOfFiles": 95,
+      "quantityOfFilesWithOpenMP": 95
+    },
+    "https://github.com/rcedgar/muscle": {},
+    "https://github.com/mertyildiran/Plexus": {},
+    "https://github.com/flintproject/Flint": {},
+    "https://github.com/intron-prediction-capstone/intron-utility": {},
+    "https://github.com/qPCR4vir/ThDySec": {},
+    "https://github.com/UnkindPartition/bamcc": {},
+    "https://github.com/schmidt73/guidescan-cli": {},
+    "https://github.com/richelbilderbeek/pbdmms": {},
+    "https://github.com/kernelshreyak/livmach": {},
+    "https://github.com/KamilSJaron/Conjunction": {},
+    "https://github.com/levifussell/MicroEvo": {},
+    "https://github.com/Axelwickm/NeuroCorrelation": {},
+    "https://github.com/Rashaad-Washington/ProjectX": {},
+    "https://github.com/JosephPB/Protein": {},
+    "https://github.com/Zedtho/Iterated-Prisoner-s-Dilemma": {},
+    "https://github.com/jjbivona/LOSTwheel": {},
+    "https://github.com/BooneAndrewsLab/segmentation": {},
+    "https://github.com/yoana19/DNA-Model": {},
+    "https://github.com/larcc-group/Prophet": {},
+    "https://github.com/fede379/biotec": {},
+    "https://github.com/rcedgar/newick": {},
+    "https://github.com/rouzbeh/Modigliani": {},
+    "https://github.com/alecstem/ant-lsystem": {},
+    "https://github.com/mike-bionic/eye-ledblynk": {},
+    "https://github.com/zcolburn/Bioi": {},
+    "https://github.com/gitmee/FindGeneSequences": {},
+    "https://github.com/kroener/SeqFileProcessing2D": {},
+    "https://github.com/Godrigos/otlsearch": {},
+    "https://github.com/mahowa/CellProfilingHPC": {},
+    "https://github.com/exTerEX/libfasta": {},
+    "https://github.com/MatejGomboc/Evolution-Simulation": {},
+    "https://github.com/Bader-Research/gtfold": {},
+    "https://github.com/QBioLab/Light-Pulse": {},
+    "quantityOfRepositories": 38,
+    "quantityOfRepositoriesWithOpenMP": 5
+  }
+}
