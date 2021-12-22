@@ -45,8 +45,6 @@ const repositoryCommitsCount = 6;
  */
 const repositoryContributorsCount = 3;
 
-// TODO add count of files checked, count together on different levels
-
 module.exports = {
     toBeScrapedTopicURLs,
     antiAbuseDetectionTimeout,
