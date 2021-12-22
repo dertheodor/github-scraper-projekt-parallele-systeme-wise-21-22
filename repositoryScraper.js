@@ -64,7 +64,7 @@ const repositoryScraper = {
             await page.waitForTimeout(config.antiAbuseDetectionTimeout);
 
             // Navigate to the selected page
-            await page.goto(url);
+            await page.goto(url, {timeout:0});
 
             // Wait for the required DOM to be rendered
             await page.waitForSelector('div.application-main');
@@ -263,6 +263,12 @@ const repositoryScraper = {
                 }
             }
         }
+
+        // memorize overall count of files per repository
+        data['quantityOfFiles'] = relevantFileURLs.length;
+
+        // memorize overall count of files per repository containing OpenMP directives
+        data['quantityOfFilesWithOpenMP'] = Object.keys(fileData).length;
 
         // return data to topicScraper
         return data;
