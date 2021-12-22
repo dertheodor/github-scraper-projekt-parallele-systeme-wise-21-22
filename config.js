@@ -3,23 +3,20 @@
  * @type {string[]}
  */
 const toBeScrapedTopicURLs = [
-    'https://github.com/topics/chemistry'
+    'https://github.com/topics/multiphysics'
 ]
 
 /**
  * Time in milliseconds which the scraper wait before navigation to a new URL.
  * @type {number}
  */
-const antiAbuseDetectionTimeout = 1000;
-// TODO maybe change to less than 1000 as with 1000 we are not getting blocked anymore even after hours of scraping
-// TODO perhaps use Math.random() * (1000 - 500) + 500; //random number between 500 and 1000 milliseconds
-// TODO if we keep getting blocked build a method which checks for selectors only available on the error pages and build retry logic
+const antiAbuseDetectionTimeout = Math.random() * (1000 - 500) + 500;
 
 /**
  * Minimum stars count of a repository.
  * @type {number}
  */
-const repositoryStarsCount = 20;
+const repositoryStarsCount = 50;
 
 /**
  * Minimum forks count of a repository.
@@ -38,13 +35,13 @@ const repositoryLatestCommitDate = "2021-01-01T00:00:00Z";
  * Minimum commits count of a repository.
  * @type {number}
  */
-const repositoryCommitsCount = 10;
+const repositoryCommitsCount = 20;
 
 /**
  * Minimum contributors count of a repository.
  * @type {number}
  */
-const repositoryContributorsCount = 2;
+const repositoryContributorsCount = 5;
 
 // TODO add count of files checked, count together on different levels
 
