@@ -47,7 +47,7 @@ async function scrapeAll(browserInstance) {
          */
         function saveFile(data, category) {
             // write scraped content to JSON file
-            fs.writeFile(`${category}.json`, JSON.stringify(data), 'utf8', function (err) {
+            fs.writeFile(`./results/${category}.json`, JSON.stringify(data), 'utf8', function (err) {
                 if (err) {
                     return console.log(err);
                 }
