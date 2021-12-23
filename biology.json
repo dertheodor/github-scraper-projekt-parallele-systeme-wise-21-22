@@ -7,11 +7,11 @@
   "c": {
     "https://github.com/lmdu/pyfastx": {
       "quantityOfFiles": 24,
-      "quantityOfFilesWithOpenMP": 24
+      "quantityOfFilesWithOpenMP": 0
     },
     "https://github.com/BigDataBiology/macrel": {
       "quantityOfFiles": 16,
-      "quantityOfFilesWithOpenMP": 16
+      "quantityOfFilesWithOpenMP": 0
     },
     "https://github.com/PaulKlinger/freeform-virus-blinky": {},
     "https://github.com/bernardosulzbach/self-organizing-tree-models": {},
@@ -42,15 +42,15 @@
       "#pragma omp barrier": 6,
       "#pragma omp atomic": 1,
       "quantityOfFiles": 364,
-      "quantityOfFilesWithOpenMP": 364
+      "quantityOfFilesWithOpenMP": 36
     },
     "https://github.com/jonnew/cyclops": {
       "quantityOfFiles": 2,
-      "quantityOfFilesWithOpenMP": 2
+      "quantityOfFilesWithOpenMP": 0
     },
     "https://github.com/UCLOrengoGroup/cath-tools": {
       "quantityOfFiles": 1424,
-      "quantityOfFilesWithOpenMP": 1424
+      "quantityOfFilesWithOpenMP": 0
     },
     "https://github.com/AdaptiveParticles/LibAPR": {
       "quantityOfFiles": 0,
@@ -61,7 +61,7 @@
       "#pragma omp parallel for": 19,
       "#pragma omp critical": 11,
       "quantityOfFiles": 95,
-      "quantityOfFilesWithOpenMP": 95
+      "quantityOfFilesWithOpenMP": 7
     },
     "https://github.com/rcedgar/muscle": {},
     "https://github.com/mertyildiran/Plexus": {},
@@ -91,10 +91,10 @@
     "https://github.com/gitmee/FindGeneSequences": {},
     "https://github.com/kroener/SeqFileProcessing2D": {},
     "https://github.com/Godrigos/otlsearch": {},
-    "https://github.com/mahowa/CellProfilingHPC": {},
-    "https://github.com/exTerEX/libfasta": {},
     "https://github.com/MatejGomboc/Evolution-Simulation": {},
     "https://github.com/Bader-Research/gtfold": {},
+    "https://github.com/mahowa/CellProfilingHPC": {},
+    "https://github.com/exTerEX/libfasta": {},
     "https://github.com/QBioLab/Light-Pulse": {},
     "quantityOfRepositories": 38,
     "quantityOfRepositoriesWithOpenMP": 5
