@@ -268,7 +268,13 @@ const repositoryScraper = {
         data['quantityOfFiles'] = relevantFileURLs.length;
 
         // memorize overall count of files per repository containing OpenMP directives
-        data['quantityOfFilesWithOpenMP'] = Object.keys(fileData).length;
+        data['quantityOfFilesWithOpenMP'] = 0;
+
+        for (let i = 0; i < Object.keys(fileData).length; i++) {
+            if (Object.keys(fileData[`file-${i}`]).length >= 1) {
+                data['quantityOfFilesWithOpenMP'] ++;
+            }
+        }
 
         // return data to topicScraper
         return data;
