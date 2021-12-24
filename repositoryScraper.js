@@ -23,6 +23,7 @@ const repositoryScraper = {
 
         // new tab which opens
         let page = await browser.newPage();
+        console.log(`Navigating to ${url}...`);
 
         // navigate initially to repo
         await navigate(url);
@@ -65,6 +66,7 @@ const repositoryScraper = {
 
             // Navigate to the selected page
             await page.goto(url, {timeout:0});
+            console.log(`Navigating to ${url}...`);
 
             // Wait for the required DOM to be rendered
             await page.waitForSelector('div.application-main');
