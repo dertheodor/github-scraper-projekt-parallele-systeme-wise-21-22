@@ -1,0 +1,17 @@
+{
+  "fortran": {},
+  "c": {
+    "https://github.com/dpmagill/iphys-toolbox": {},
+    "quantityOfRepositories": 1,
+    "quantityOfRepositoriesWithOpenMP": 0
+  },
+  "c++": {
+    "https://github.com/moothyknight/HEG_Arduino": {},
+    "https://github.com/nompelis/INPK": {},
+    "https://github.com/YoukaiCat/QtCBM": {},
+    "https://github.com/lemonsprite/Psyterm": {},
+    "https://github.com/vivekhsridhar/LoomStimulus": {},
+    "quantityOfRepositories": 5,
+    "quantityOfRepositoriesWithOpenMP": 0
+  }
+}

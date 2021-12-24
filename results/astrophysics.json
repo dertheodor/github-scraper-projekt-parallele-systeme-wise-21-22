@@ -11,7 +11,7 @@
       "!$omp flush": 1,
       "!$omp threadprivate": 7,
       "quantityOfFiles": 383,
-      "quantityOfFilesWithOpenMP": 383
+      "quantityOfFilesWithOpenMP": 44
     },
     "https://github.com/danieljprice/splash": {
       "!$omp parallel": 30,
@@ -21,7 +21,7 @@
       "!$omp atomic": 52,
       "!$omp threadprivate": 1,
       "quantityOfFiles": 167,
-      "quantityOfFilesWithOpenMP": 167
+      "quantityOfFilesWithOpenMP": 12
     },
     "https://github.com/AMReX-Astro/MAESTRO": {
       "!$omp parallel": 457,
@@ -32,12 +32,12 @@
       "!$omp flush": 2,
       "!$omp threadprivate": 1,
       "quantityOfFiles": 394,
-      "quantityOfFilesWithOpenMP": 394
+      "quantityOfFilesWithOpenMP": 70
     },
     "https://github.com/js1019/NormalModes": {
       "!$omp parallel": 1,
       "quantityOfFiles": 13,
-      "quantityOfFilesWithOpenMP": 13
+      "quantityOfFilesWithOpenMP": 1
     },
     "https://github.com/uclchem/UCLCHEM": {},
     "https://github.com/galacticusorg/galacticus": {},
@@ -50,7 +50,7 @@
     "https://github.com/shu-yusa/universe-age": {},
     "https://github.com/jnareb/piernik": {},
     "https://github.com/rsnemmen/riaf-sed": {},
-    "https://github.com/astro-kris/galaxy-sim": {},
+    "https://github.com/kriswalker/galaxy-sim": {},
     "https://github.com/gabraganca/quickstar": {},
     "https://github.com/flgomezc/beta-voids": {},
     "https://github.com/ninjab3381/WagonerBBNCode": {},
@@ -69,17 +69,17 @@
       "#pragma omp parallel for": 52,
       "#pragma omp critical": 2,
       "quantityOfFiles": 106,
-      "quantityOfFilesWithOpenMP": 106
+      "quantityOfFilesWithOpenMP": 13
     },
     "https://github.com/manodeep/Corrfunc": {
       "#pragma omp parallel": 1,
       "#pragma omp barrier": 2,
       "quantityOfFiles": 71,
-      "quantityOfFilesWithOpenMP": 71
+      "quantityOfFilesWithOpenMP": 1
     },
     "https://github.com/esheldon/fitsio": {
       "quantityOfFiles": 123,
-      "quantityOfFilesWithOpenMP": 123
+      "quantityOfFilesWithOpenMP": 0
     },
     "https://github.com/harrism/mini-nbody": {},
     "https://github.com/SWIFTSIM/swiftsim": {
@@ -88,7 +88,7 @@
     },
     "https://github.com/jobovy/mwdust": {
       "quantityOfFiles": 13,
-      "quantityOfFilesWithOpenMP": 13
+      "quantityOfFilesWithOpenMP": 0
     },
     "https://github.com/danieljprice/giza": {},
     "https://github.com/larrylart/Unimap": {},
@@ -96,23 +96,23 @@
     "https://github.com/thomascarreau/NSEoS": {},
     "https://github.com/pnp-software/cordetfw": {},
     "https://github.com/annehutter/grid-model": {},
+    "https://github.com/lazzati-astro/MCRaT": {},
     "https://github.com/glenco/lensed": {},
     "https://github.com/boada/astLib": {},
     "https://github.com/ckm3/Py-PDM": {},
-    "https://github.com/lazzati-astro/MCRaT": {},
     "https://github.com/vheesen/Spinnaker": {},
     "https://github.com/Deyht/CIANNA": {},
+    "https://github.com/astro-informatics/src_flag": {},
     "https://github.com/annehutter/astraeus": {},
     "https://github.com/Kushaalkumar-pothula/NSimX": {},
-    "https://github.com/astro-informatics/src_flag": {},
     "https://github.com/dutta-alankar/cooling-flow-model": {},
     "https://github.com/EGPAerospace/LambertCalculator": {},
     "https://github.com/louis925/Linear-Polarization-Magnetic-Field": {},
     "https://github.com/aaorsi/LyaRT": {},
     "https://github.com/konnononko/TeVSkyPlotter": {},
     "https://github.com/arunkannawadi/princeton-astro-coffee": {},
-    "https://github.com/annehutter/pcf": {},
     "https://github.com/galacticusorg/rockstar2galacticus": {},
+    "https://github.com/annehutter/pcf": {},
     "quantityOfRepositories": 29,
     "quantityOfRepositoriesWithOpenMP": 5
   },
@@ -124,17 +124,17 @@
       "#pragma omp critical": 1,
       "#pragma omp barrier": 6,
       "quantityOfFiles": 455,
-      "quantityOfFilesWithOpenMP": 455
+      "quantityOfFilesWithOpenMP": 42
     },
     "https://github.com/bluescarni/heyoka": {},
     "https://github.com/onekiloparsec/SwiftAA": {
       "quantityOfFiles": 292,
-      "quantityOfFilesWithOpenMP": 292
+      "quantityOfFilesWithOpenMP": 0
     },
     "https://github.com/pkestene/ramsesGPU": {},
     "https://github.com/STEllAR-GROUP/octotiger": {
       "quantityOfFiles": 200,
-      "quantityOfFilesWithOpenMP": 200
+      "quantityOfFilesWithOpenMP": 0
     },
     "https://github.com/perwin/imfit": {},
     "https://github.com/Kambrian/HBTplus": {},
@@ -152,10 +152,10 @@
     "https://github.com/evrenimre/HeRD": {},
     "https://github.com/AGILESCIENCE/agilesci1": {},
     "https://github.com/maxwelltsai/h5nb6xx": {},
+    "https://github.com/jagoosw/Gravitational-N-Body-Simulation": {},
     "https://github.com/AdvaitDhingra/TheUniverse": {},
     "https://github.com/dh4gan/oberon": {},
     "https://github.com/oliverzh2000/parallel-barnes-hut": {},
-    "https://github.com/jagoosw/Gravitational-N-Body-Simulation": {},
     "https://github.com/deni64k/the": {},
     "https://github.com/azurite/AST-245-N-Body": {},
     "https://github.com/AJChalmers/CMD_FileMaker": {},
