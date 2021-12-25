@@ -106,5 +106,151 @@
     "https://github.com/seatonullberg/chemfiles-cli": {},
     "quantityOfRepositories": 22,
     "quantityOfRepositoriesWithOpenMP": 5
+  },
+  "c++": {
+    "https://github.com/psi4/psi4": {
+      "#pragma omp parallel": 1103,
+      "#pragma omp single ": 1,
+      "#pragma omp for ": 63,
+      "#pragma omp simd ": 10,
+      "#pragma omp parallel for": 1035,
+      "#pragma omp parallel for simd": 4,
+      "#pragma omp critical": 21,
+      "#pragma omp atomic": 46,
+      "quantityOfFiles": 1521,
+      "quantityOfFilesWithOpenMP": 91
+    },
+    "https://github.com/openbabel/openbabel": {
+      "#pragma omp parallel": 7,
+      "#pragma omp parallel for": 7,
+      "quantityOfFiles": 622,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    "https://github.com/ITensor/ITensor": {
+      "#pragma omp parallel": 2,
+      "#pragma omp for ": 1,
+      "#pragma omp parallel for": 1,
+      "quantityOfFiles": 241,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    "https://github.com/OpenChemistry/avogadrolibs": {
+      "quantityOfFiles": 678,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/epam/Indigo": {
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/chemfiles/chemfiles": {
+      "quantityOfFiles": 458,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/OpenChemistry/avogadroapp": {
+      "quantityOfFiles": 18,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/khavernathy/mcmd": {},
+    "https://github.com/schrodinger/gpusimilarity": {
+      "quantityOfFiles": 11,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/mlund/faunus": {
+      "#pragma omp parallel": 10,
+      "#pragma omp for ": 1,
+      "#pragma omp declare simd": 1,
+      "#pragma omp parallel for": 7,
+      "#pragma omp critical": 3,
+      "quantityOfFiles": 88,
+      "quantityOfFilesWithOpenMP": 3
+    },
+    "https://github.com/Avogadro/avogadro": {},
+    "https://github.com/mnucci32/aither": {},
+    "https://github.com/chopralab/lemon": {
+      "quantityOfFiles": 61,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/qcscine/sparrow": {},
+    "https://github.com/evangelistalab/forte": {
+      "#pragma omp parallel": 74,
+      "#pragma omp parallel for": 50,
+      "#pragma omp critical": 39,
+      "#pragma omp barrier": 1,
+      "#pragma omp atomic": 44,
+      "quantityOfFiles": 288,
+      "quantityOfFilesWithOpenMP": 17
+    },
+    "https://github.com/blttkgl/DLBFoam-1.0": {},
+    "https://github.com/JoshuaSBrown/QC_Tools": {
+      "quantityOfFiles": 71,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/MRChemSoft/mrchem": {
+      "#pragma omp parallel": 6,
+      "#pragma omp for ": 1,
+      "#pragma omp parallel for": 5,
+      "#pragma omp critical": 2,
+      "#pragma omp atomic": 3,
+      "#pragma omp flush": 1,
+      "quantityOfFiles": 211,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    "https://github.com/libantioch/antioch": {},
+    "https://github.com/bryanherger/xdrawchem": {},
+    "https://github.com/VespucciProject/Vespucci": {},
+    "https://github.com/qcscine/molassembler": {},
+    "https://github.com/qcscine/qcmaquis": {},
+    "https://github.com/qcserenity/serenity": {},
+    "https://github.com/justinmeiners/molecule-viewer": {},
+    "https://github.com/lich-uct/molpher-lib": {},
+    "https://github.com/RMeli/irc": {},
+    "https://github.com/molovol/MoloVol": {},
+    "https://github.com/qcscine/readuct": {},
+    "https://github.com/gayverjr/opencap": {},
+    "https://github.com/semodi/libnxc": {},
+    "https://github.com/xuguodong1999/COCR": {},
+    "https://github.com/mlund/coulombgalore": {},
+    "https://github.com/RasmusRendal/crnsimul": {},
+    "https://github.com/sbednarz/chemical-kinetics-simulator": {},
+    "https://github.com/sevenTMers/celfies": {},
+    "https://github.com/qcscine/core": {},
+    "https://github.com/stigrs/chemapps": {},
+    "https://github.com/conradhuebler/SupraFit": {},
+    "https://github.com/nicocvn/emDNA": {},
+    "https://github.com/DrGrafil/NISTConst": {},
+    "https://github.com/xuguodong1999/ChemInk": {},
+    "https://github.com/crdrisko/drychem": {},
+    "https://github.com/romankempt/hetbuilder": {},
+    "https://github.com/ludlows/BALL": {},
+    "https://github.com/a-stickan/Chemical-Equation-Autobalancer": {},
+    "https://github.com/Iarfen/MagickScience": {},
+    "https://github.com/massimofrassetto/SpeAr": {},
+    "https://github.com/prs-group/make_projections": {},
+    "https://github.com/diveshuttam/VSEPR-Models": {},
+    "https://github.com/ekuester/GTK-Periodic-Table-Molecular-Formula": {},
+    "https://github.com/NonOrganicCreature/chem": {},
+    "https://github.com/shrey27tri01/Chemistry-dictionary": {},
+    "https://github.com/darnoceloc/jdftx": {},
+    "https://github.com/estineali/Elementary": {},
+    "https://github.com/lnw/nano-tori": {},
+    "https://github.com/CrimsonHemlock/Simple-Visual-Molecular-Dynamics": {},
+    "https://github.com/AdityaMitra5102/Titrator": {},
+    "https://github.com/bharatmazire/EducationalApplication": {},
+    "https://github.com/TheOdd/Chemistry": {},
+    "https://github.com/stigrs/lctoxy": {},
+    "https://github.com/tackyunicorn/PeriodicTable": {},
+    "https://github.com/UkrRobot/Lazer": {},
+    "https://github.com/dleidert/gnome-chemistry-utils.import": {},
+    "https://github.com/Zahner-elektrik/Thales-Remote-Cpp": {},
+    "https://github.com/melimat/Titrator_firmware": {},
+    "https://github.com/dleidert/gnome-chemistry-utils": {},
+    "https://github.com/0x6470/tools": {},
+    "https://github.com/MisterMjir/pTable": {},
+    "https://github.com/davidjtoomer/RetroCHEM": {},
+    "https://github.com/qcscine/utilities": {},
+    "https://github.com/alexzagu/Coloreaction": {},
+    "https://github.com/ekuester/Periodic-Table-Molecular-Formula": {},
+    "https://github.com/2AUK/CQCPP": {},
+    "quantityOfRepositories": 74,
+    "quantityOfRepositoriesWithOpenMP": 13
   }
 }
