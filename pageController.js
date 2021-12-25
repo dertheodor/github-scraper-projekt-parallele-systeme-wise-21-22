@@ -24,19 +24,15 @@ async function scrapeAll(browserInstance) {
             let category = toBeScrapedTopicURLs[i].match(/\/topics\/(.*)/)[1];
 
             // scraper call for all three programming languages
-            const fortranObject = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=fortran`);
-            scrapedData['fortran'] = fortranObject;
+            scrapedData['fortran'] = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=fortran`);
             await saveFile(scrapedData, category);
 
-            const cObject = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=c`);
-            scrapedData['c'] = cObject;
+            scrapedData['c'] = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=c`);
             await saveFile(scrapedData, category);
 
-            const cPlusPlusObject = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=c%2B%2B`);
-            scrapedData['c++'] = cPlusPlusObject;
+            scrapedData['c++'] = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=c%2B%2B`);
             await saveFile(scrapedData, category);
 
-            await saveFile(scrapedData, category);
             scrapedData = {};
         }
 
