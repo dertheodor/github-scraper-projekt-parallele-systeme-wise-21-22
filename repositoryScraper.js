@@ -23,7 +23,6 @@ const repositoryScraper = {
 
         // new tab which opens
         let page = await browser.newPage();
-        console.log(`Navigating to ${url}...`);
 
         // navigate initially to repo
         await navigate(url);
@@ -80,30 +79,39 @@ const repositoryScraper = {
          */
         async function checkIfRepositoryIsRelevant() {
             // Wait as sometimes not all the needed information is inside the HTML
-            await page.waitForTimeout(config.antiAbuseDetectionTimeout);
+            await page.waitForTimeout(config.antiAbuseDetectionTimeout * 10);
 
-            let repositoryStarsCount = await page.$eval('#repo-stars-counter-star', (element) => {
-                return Number(element.attributes["aria-label"].value.match(/\d+/)[0]);
+            let repositoryStarsCount = await page.evaluate(() => {
+                let element = document.querySelector('#repo-stars-counter-star');
+                return element ? Number(element.attributes["aria-label"].value.match(/\d+/)[0]) : 0;
             })
 
-            let repositoryForksCount = await page.$eval('#repo-network-counter', (elements) => {
-                return Number(elements.attributes["title"].value.replace(',', ''));
+            let repositoryForksCount = await page.evaluate(() => {
+                let element = document.querySelector('#repo-network-counter');
+                return element ? Number(element.attributes["title"].value.replace(',', '')) : 0;
             })
 
-            let repositoryLatestCommitDate = await page.$eval('.Layout-main relative-time[datetime]', (element) => {
-                return element.attributes.datetime.value;
+            let repositoryLatestCommitDate = await page.evaluate(() => {
+                let element = document.querySelector('.Layout-main relative-time[datetime]');
+                return element ? element.attributes.datetime.value : "";
             })
 
-            let repositoryCommitsCount = await page.$eval('.repository-content .Box-header .ml-0.ml-md-3 span > strong', (element) => {
-                return Number(element.innerText.replace(',', ''));
+            let repositoryCommitsCount = await page.evaluate(() => {
+                let element = document.querySelector('.repository-content .Box-header .ml-0.ml-md-3 span > strong');
+                return element ? Number(element.innerText.replace(',', '')) : 0;
             })
 
-            let repositoryContributorsCount = await page.$$eval('.repository-content .h4.mb-3 > a', (elements) => {
-                for (let i = 0; i < elements.length; i++) {
-                    // check for correct element
-                    if (elements[i].href.indexOf('contributors') > -1) {
-                        return Number(elements[i].children[0].attributes["title"].value.replace(',', ''));
+            let repositoryContributorsCount = await page.evaluate(() => {
+                let elements = document.querySelectorAll('.repository-content .h4.mb-3 > a');
+                if (elements.length !== 0) {
+                    for (let i = 0; i < elements.length; i++) {
+                        // check for correct element
+                        if (elements[i].href.indexOf('contributors') > -1) {
+                            return Number(elements[i].children[0].attributes["title"].value.replace(',', ''));
+                        }
                     }
+                } else {
+                    return 0;
                 }
             })
 
