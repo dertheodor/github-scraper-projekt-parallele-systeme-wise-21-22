@@ -3,9 +3,8 @@
  * @type {string[]}
  */
 const toBeScrapedTopicURLs = [
-    'https://github.com/topics/biology',
-    'https://github.com/topics/astrophysics',
-    'https://github.com/topics/geography'
+    'https://github.com/topics/physics',
+    'https://github.com/topics/geophysics'
 ]
 
 /**
