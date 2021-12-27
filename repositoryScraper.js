@@ -2,6 +2,7 @@ const config = require('./config');
 const codeScraper = require('./codeScraper');
 const allowedFileExtensions = require('./variables/allowedFileExtensions');
 const openMPDirectives = require('./variables/openMPDirectives');
+const fs = require("fs");
 
 const repositoryScraper = {
     /**
@@ -28,7 +29,10 @@ const repositoryScraper = {
             // navigate initially to repo
             await navigate(url);
         } catch (error) {
-            console.log(error);
+            // write error to logs folder
+            fs.writeFile(`./logs/${new Date().getTime()}.log`, String(error), 'utf8', () => {
+                console.log(`Error logged`);
+            });
             return data;
         }
 
@@ -211,7 +215,10 @@ const repositoryScraper = {
                 // Navigate to subfolder
                 await navigate(currentURL);
             } catch (error) {
-                console.log(error);
+                // write error to logs folder
+                fs.writeFile(`./logs/${new Date().getTime()}.log`, String(error), 'utf8', () => {
+                    console.log(`Error logged`);
+                });
                 return;
             }
 
