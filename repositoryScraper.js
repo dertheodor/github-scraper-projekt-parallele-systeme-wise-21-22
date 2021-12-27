@@ -64,7 +64,7 @@ const repositoryScraper = {
             await page.waitForTimeout(config.antiAbuseDetectionTimeout);
 
             // Navigate to the selected page
-            await page.goto(url, {timeout:0});
+            await page.goto(url, {timeout:0, waitUntil: 'domcontentloaded'});
             console.log(`Navigating to ${url}...`);
 
             // Wait for the required DOM to be rendered

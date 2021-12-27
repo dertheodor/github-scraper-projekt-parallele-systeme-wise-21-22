@@ -21,16 +21,12 @@ const codeScraper = {
         await page.waitForTimeout(config.antiAbuseDetectionTimeout);
 
         // Navigate to the selected page
-        await page.goto(url, {timeout:0});
+        await page.goto(url, {timeout:0, waitUntil: 'domcontentloaded'});
 
-        // Wait for the required DOM to be rendered
-        await page.waitForSelector('.Box-body[itemprop="text"]');
-
-        if ((await page.$('.blob-code-content .highlight.tab-size > tbody')) !== null) {
-            var fileCode = await page.$eval('.blob-code-content .highlight.tab-size > tbody', (element) => {
-                return element.innerText.replaceAll('\n', '').replaceAll('\t', '');
-            })
-        }
+        let fileCode = await page.evaluate(() => {
+            let element = document.querySelector('.blob-code-content .highlight.tab-size > tbody');
+            return element ? element.innerText.replaceAll('\n', '').replaceAll('\t', '') : null;
+        })
 
         if (fileCode) {
             // fortran code
