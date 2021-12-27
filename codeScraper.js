@@ -20,8 +20,13 @@ const codeScraper = {
         // Wait
         await page.waitForTimeout(config.antiAbuseDetectionTimeout);
 
-        // Navigate to the selected page
-        await page.goto(url, {timeout:0, waitUntil: 'domcontentloaded'});
+        try {
+            // Navigate to the selected page
+            await page.goto(url, {timeout:0, waitUntil: 'domcontentloaded'});
+        } catch (error) {
+            console.log(error);
+            return data;
+        }
 
         let fileCode = await page.evaluate(() => {
             let element = document.querySelector('.blob-code-content .highlight.tab-size > tbody');

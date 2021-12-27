@@ -21,8 +21,13 @@ const scraperObject = {
         // Wait
         await page.waitForTimeout(config.antiAbuseDetectionTimeout);
 
-        // Navigate to the selected page
-        await page.goto(url, {timeout:0, waitUntil: 'domcontentloaded'});
+        try {
+            // Navigate to the selected page
+            await page.goto(url, {timeout:0, waitUntil: 'domcontentloaded'});
+        } catch (error) {
+            console.log(error);
+            return data;
+        }
 
         // Wait for the required DOM to be rendered
         await page.waitForSelector('#js-pjax-container');

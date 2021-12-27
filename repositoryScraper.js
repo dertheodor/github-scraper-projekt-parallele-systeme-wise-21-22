@@ -24,8 +24,13 @@ const repositoryScraper = {
         // new tab which opens
         let page = await browser.newPage();
 
-        // navigate initially to repo
-        await navigate(url);
+        try {
+            // navigate initially to repo
+            await navigate(url);
+        } catch (error) {
+            console.log(error);
+            return data;
+        }
 
         // Arrays used for folders and files lists
         var relevantDirectoryURLs = [];
@@ -202,8 +207,13 @@ const repositoryScraper = {
         async function scrapeRepositorySubPage() {
             let currentURL = relevantDirectoryURLs[0];
 
-            // Navigate to subfolder
-            await navigate(currentURL);
+            try {
+                // Navigate to subfolder
+                await navigate(currentURL);
+            } catch (error) {
+                console.log(error);
+                return;
+            }
 
             await filterRepoURLs();
 
