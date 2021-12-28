@@ -1,6 +1,6 @@
 const config = require('./config');
 const repositoryScraper = require('./repositoryScraper');
-const fs = require("fs");
+const errorLogger = require("./variables/errorLogger");
 
 const scraperObject = {
     /**
@@ -27,9 +27,7 @@ const scraperObject = {
             await page.goto(url, {timeout:0, waitUntil: 'domcontentloaded'});
         } catch (error) {
             // write error to logs folder
-            fs.writeFile(`./logs/${new Date().getTime()}.log`, String(error), 'utf8', () => {
-                console.log(`Error logged`);
-            });
+            errorLogger(error, url);
             return data;
         }
 
