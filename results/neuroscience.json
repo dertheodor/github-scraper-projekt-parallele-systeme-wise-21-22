@@ -1,0 +1,176 @@
+{
+  "fortran": {},
+  "c": {
+    "https://github.com/ColeLab/ColeAnticevicNetPartition": {
+      "quantityOfFiles": 2,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/gllmflndn/gifti": {},
+    "https://github.com/GNB-UAM/RTHybrid": {},
+    "https://github.com/arnav-gudibande/NeuroRobotControl": {},
+    "https://github.com/NIST-MNI/minc2-simple": {},
+    "https://github.com/feathercode/LDAS": {},
+    "https://github.com/ludyna/lu_brain": {},
+    "https://github.com/bothlab/labrstim": {},
+    "https://github.com/pitt-rnel/central_utilities": {},
+    "https://github.com/richstoner/wasmworm": {},
+    "https://github.com/open-ephys/liboni": {},
+    "quantityOfRepositories": 11,
+    "quantityOfRepositoriesWithOpenMP": 1
+  },
+  "c++": {
+    "https://github.com/brainflow-dev/brainflow": {
+      "#pragma omp parallel": 3,
+      "#pragma omp parallel for": 2,
+      "#pragma omp atomic": 1,
+      "quantityOfFiles": 837,
+      "quantityOfFilesWithOpenMP": 4
+    },
+    "https://github.com/rordenlab/dcm2niix": {
+      "quantityOfFiles": 46,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/BlueBrain/Brayns": {
+      "#pragma omp parallel": 11,
+      "#pragma omp parallel for": 11,
+      "quantityOfFiles": 657,
+      "quantityOfFilesWithOpenMP": 8
+    },
+    "https://github.com/neuronsimulator/nrn": {
+      "#pragma omp parallel": 1,
+      "quantityOfFiles": 829,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    "https://github.com/mne-tools/mne-cpp": {
+      "#pragma omp parallel": 5,
+      "#pragma omp for ": 3,
+      "#pragma omp parallel for": 1,
+      "#pragma omp atomic": 1,
+      "quantityOfFiles": 1476,
+      "quantityOfFilesWithOpenMP": 5
+    },
+    "https://github.com/seung-lab/euclidean-distance-transform-3d": {},
+    "https://github.com/htm-community/htm.core": {},
+    "https://github.com/Washington-University/workbench": {
+      "#pragma omp parallel": 1,
+      "#pragma omp critical": 34,
+      "#pragma omp atomic": 1,
+      "quantityOfFiles": 3731,
+      "quantityOfFilesWithOpenMP": 17
+    },
+    "https://github.com/BlueBrain/CoreNeuron": {
+      "#pragma omp parallel": 3,
+      "#pragma omp parallel for": 2,
+      "#pragma omp critical": 1,
+      "quantityOfFiles": 159,
+      "quantityOfFilesWithOpenMP": 4
+    },
+    "https://github.com/arbor-sim/arbor": {
+      "quantityOfFiles": 568,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/G-Node/nix": {
+      "quantityOfFiles": 283,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/knossos-project/knossos": {
+      "quantityOfFiles": 151,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/jonnew/Oat": {
+      "quantityOfFiles": 154,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/BlueBrain/eFEL": {
+      "quantityOfFiles": 26,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/BioDynaMo/biodynamo": {
+      "#pragma omp parallel": 62,
+      "#pragma omp single ": 1,
+      "#pragma omp for ": 8,
+      "#pragma omp simd ": 29,
+      "#pragma omp parallel for": 33,
+      "#pragma omp master": 1,
+      "#pragma omp critical": 13,
+      "#pragma omp barrier": 6,
+      "#pragma omp atomic": 1,
+      "quantityOfFiles": 364,
+      "quantityOfFilesWithOpenMP": 36
+    },
+    "https://github.com/jonnew/cyclops": {
+      "quantityOfFiles": 2,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/dashesy/CereLink": {
+      "quantityOfFiles": 66,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/BlueBrain/nmodl": {
+      "#pragma omp task": 1,
+      "#pragma omp atomic": 1,
+      "quantityOfFiles": 215,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    "https://github.com/BlueBrain/RTNeuron": {
+      "#pragma omp parallel": 15,
+      "#pragma omp parallel for": 15,
+      "#pragma omp critical": 1,
+      "#pragma omp atomic": 3,
+      "quantityOfFiles": 356,
+      "quantityOfFilesWithOpenMP": 9
+    },
+    "https://github.com/InsightSoftwareConsortium/ITKTubeTK": {
+      "quantityOfFiles": 493,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/BrainDynamicsUSYD/nftsim": {
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/BhallaLab/moose": {
+      "#pragma omp parallel": 1,
+      "#pragma omp parallel for": 1,
+      "#pragma omp critical": 1,
+      "quantityOfFiles": 605,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    "https://github.com/Mentalab-hub/explorepy": {},
+    "https://github.com/gbook/nidb": {},
+    "https://github.com/moothyknight/HEG_Arduino": {},
+    "https://github.com/jewellsean/FastLZeroSpikeInference": {},
+    "https://github.com/bothlab/syntalos": {},
+    "https://github.com/bothlab/pomidaq": {},
+    "https://github.com/chenxinfeng4/ArControl": {},
+    "https://github.com/SENeC-Initiative/DeNSE": {},
+    "https://github.com/glasgowneuro/usbdux": {},
+    "https://github.com/Karpova-Lab/cerebro": {},
+    "https://github.com/YttriLab/Joystick": {},
+    "https://github.com/jonnew/twister3": {},
+    "https://github.com/joeyo/spk": {},
+    "https://github.com/Karpova-Lab/cerebro_DBS": {},
+    "https://github.com/chegerland/Spike": {},
+    "https://github.com/Sussex-Neuroscience/voltage-amplifier": {},
+    "https://github.com/Ziaeemehr/itng_nest": {},
+    "https://github.com/tanselbaran/yaniklab_ephys": {},
+    "https://github.com/neurogadgets/Syntheta": {},
+    "https://github.com/JaneliaSciComp/VVDViewer": {},
+    "https://github.com/kostasl/synapticMemory": {},
+    "https://github.com/murych/bitronics": {},
+    "https://github.com/sensorimotorgroupdpz/MaCaQuE": {},
+    "https://github.com/kostasl/spikingMBONtriad": {},
+    "https://github.com/PromodRathod/Umwelt": {},
+    "https://github.com/shixnya/transfer-entropy-toolbox": {},
+    "https://github.com/Karpova-Lab/audio_teensy": {},
+    "https://github.com/jakobtroidl/Barrio": {},
+    "https://github.com/wachtlerlab/iris": {},
+    "https://github.com/rouzbeh/Modigliani": {},
+    "https://github.com/nathantspencer/AfterTrace": {},
+    "https://github.com/JoseGuzman/stimfit": {},
+    "https://github.com/neurobio-hiroshima/WRAQ": {},
+    "https://github.com/dani3/NeuralViz": {},
+    "https://github.com/LeonardoLupori/arduinoProjects": {},
+    "quantityOfRepositories": 57,
+    "quantityOfRepositoriesWithOpenMP": 20
+  }
+}

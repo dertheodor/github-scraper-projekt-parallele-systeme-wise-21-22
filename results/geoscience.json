@@ -1,0 +1,31 @@
+{
+  "fortran": {
+    "https://github.com/space-physics/grwave": {},
+    "https://github.com/space-physics/LWPC": {},
+    "https://github.com/space-physics/transcar": {},
+    "https://github.com/scivision/FClimDex": {},
+    "quantityOfRepositories": 4,
+    "quantityOfRepositoriesWithOpenMP": 0
+  },
+  "c": {
+    "https://github.com/scivision/robust-optical-flow": {},
+    "https://github.com/scivision/barron-optflow": {},
+    "https://github.com/MGK-Lab/tiger": {},
+    "quantityOfRepositories": 3,
+    "quantityOfRepositoriesWithOpenMP": 0
+  },
+  "c++": {
+    "https://github.com/ringmesh/RINGMesh": {
+      "#pragma omp parallel": 90,
+      "#pragma omp parallel for": 88,
+      "#pragma omp critical": 19,
+      "#pragma omp atomic": 5,
+      "quantityOfFiles": 1805,
+      "quantityOfFilesWithOpenMP": 15
+    },
+    "https://github.com/scivision/Andor-sCMOS-examples": {},
+    "https://github.com/asadahmedde/advanced-project-2": {},
+    "quantityOfRepositories": 3,
+    "quantityOfRepositoriesWithOpenMP": 1
+  }
+}

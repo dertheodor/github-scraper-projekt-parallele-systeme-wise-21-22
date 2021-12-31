@@ -1,0 +1,92 @@
+{
+  "fortran": {
+    "https://github.com/aarondotter/iso": {},
+    "https://github.com/sbudaev/AHA-R1": {},
+    "quantityOfRepositories": 2,
+    "quantityOfRepositoriesWithOpenMP": 0
+  },
+  "c": {
+    "https://github.com/connor-brooks/ecosim": {
+      "quantityOfFiles": 14,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/stephaneguindon/phyml": {
+      "quantityOfFiles": 90,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/ropensci/phylocomr": {},
+    "https://github.com/cobilab/smash": {},
+    "https://github.com/tversteeg/neat-o": {},
+    "https://github.com/ChrisCreevey/crann": {},
+    "https://github.com/mehdisadeghi/evolution-composer-rtl": {},
+    "https://github.com/DubiousCactus/GeneticPainter": {},
+    "https://github.com/bradduthie/Inbreeding": {},
+    "https://github.com/TurkeyMcMac/evi": {},
+    "https://github.com/viniciusarruda/cellular-automata": {},
+    "https://github.com/lynnporu/genevo": {},
+    "https://github.com/pdturney/evolutionary-versatility": {},
+    "https://github.com/PatrickOtero/My-coding-journey-": {},
+    "https://github.com/fimbaz/shrub": {},
+    "https://github.com/phaubertin/critters": {},
+    "https://github.com/TurkeyMcMac/circle-collide": {},
+    "https://github.com/qixinbo/phenix": {},
+    "quantityOfRepositories": 18,
+    "quantityOfRepositoriesWithOpenMP": 2
+  },
+  "c++": {
+    "https://github.com/tlemo/darwin": {},
+    "https://github.com/traitecoevo/plant": {
+      "quantityOfFiles": 80,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/travisdesell/exact": {
+      "quantityOfFiles": 158,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/mmore500/dishtiny": {
+      "quantityOfFiles": 6,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/tanghaibao/mcscan": {},
+    "https://github.com/MarkZH/Genetic_Chess": {},
+    "https://github.com/mims-harvard/life-tree": {},
+    "https://github.com/charlesrocabert/Evo2Sim": {},
+    "https://github.com/vbertone/apfelxx": {},
+    "https://github.com/cybiosphere/Source": {},
+    "https://github.com/YannDubs/simulationPopulationGenetics": {},
+    "https://github.com/IceFreez3r/Evolution": {},
+    "https://github.com/StanIsAdmin/Coop": {},
+    "https://github.com/cylindricalcow/dna_evolve": {},
+    "https://github.com/Aktyn/Genetic-Algorithm": {},
+    "https://github.com/TurkeyMcMac/bouncers": {},
+    "https://github.com/grassking100/messenger": {},
+    "https://github.com/MagnusChase03/Ecosystem": {},
+    "https://github.com/SebastianMilosz/OpenFlatland": {},
+    "https://github.com/arashout/BlobCombatSimulator": {},
+    "https://github.com/kodo-pp/evolution-neural": {},
+    "https://github.com/mmore500/cse-845-project-software": {},
+    "https://github.com/franpog859/darwin": {},
+    "https://github.com/pfgherardini/superpose3D": {},
+    "https://github.com/ASLeonard/polyomino_core": {},
+    "https://github.com/Lung-Yu/evolution_research": {},
+    "https://github.com/pmrv/gevo": {},
+    "https://github.com/imnetcat/ecosystem": {},
+    "https://github.com/qiaohj/ees_3d": {},
+    "https://github.com/MatejGomboc/Evolution-Simulation": {},
+    "https://github.com/cnyaw/coineater": {},
+    "https://github.com/seijihariki/Tree_evol": {},
+    "https://github.com/FergusonAJ/ResearchCode": {},
+    "https://github.com/OliverMD/mpev": {},
+    "https://github.com/eldonb/evolution_diploid_population": {},
+    "https://github.com/WProjects11/ProjectZero": {},
+    "https://github.com/charlesrocabert/Simple-Evolvability-Model": {},
+    "https://github.com/charlesrocabert/SigmaFGM": {},
+    "https://github.com/ttohin/komorki_old": {},
+    "https://github.com/takado8/Evolution_project": {},
+    "https://github.com/pbentkowski/MHC_Evolution": {},
+    "https://github.com/artofimagination/game-of-evolution": {},
+    "https://github.com/LArbaszewski/Neural-Evolution-Simulator": {},
+    "quantityOfRepositories": 43,
+    "quantityOfRepositoriesWithOpenMP": 3
+  }
+}
