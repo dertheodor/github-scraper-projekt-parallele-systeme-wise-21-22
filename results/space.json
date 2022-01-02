@@ -1,0 +1,49 @@
+{
+  "fortran": {
+    "https://github.com/spacepy/spacepy": {
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/Space-Systems/neptune": {},
+    "https://github.com/Space-Systems/libslam": {},
+    "quantityOfRepositories": 3,
+    "quantityOfRepositoriesWithOpenMP": 1
+  },
+  "c": {
+    "https://github.com/csete/gpredict": {
+      "quantityOfFiles": 190,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/naev/naev": {
+      "quantityOfFiles": 367,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    "https://github.com/UAVCAN/libuavcan": {},
+    "https://github.com/amcajal/8_bit_hubble": {},
+    "https://github.com/superzazu/invaders": {},
+    "https://github.com/pnp-software/cordetfw": {},
+    "https://github.com/Gizmoscope/black-hole": {},
+    "https://github.com/mesbahamin/star-sim": {},
+    "https://github.com/0c370t/spaceapps2021": {},
+    "https://github.com/semissioncontrol/cli": {},
+    "https://github.com/valentinpi/cheap-google-earth": {},
+    "https://github.com/gamemann/AF_XDP-Test": {},
+    "https://github.com/GoranTopic/Terminal-Space-Adventure": {},
+    "https://github.com/nonbinaryprogrammer/SeniorDesign": {},
+    "https://github.com/kmenezes/ARO-Tracking-Software": {},
+    "https://github.com/ostef/cubemap-generator": {},
+    "https://github.com/vankxr/qo-100-tools": {},
+    "https://github.com/ZoussCity/sofa-sys": {},
+    "https://github.com/jicehel/Invaders-for-espLGE": {},
+    "https://github.com/FS-make-simple/cutedf": {},
+    "https://github.com/alexheinrich/Intel8080": {},
+    "https://github.com/KilianCM/SpaceUP": {},
+    "https://github.com/leojaimesson/space": {},
+    "https://github.com/cpilipis/BeanJumper": {},
+    "https://github.com/nmancus1/big-bang": {},
+    "https://github.com/rnsavinelli/swbss": {},
+    "https://github.com/loicttn/barnes-hut": {},
+    "quantityOfRepositories": 27,
+    "quantityOfRepositoriesWithOpenMP": 2
+  }
+}
