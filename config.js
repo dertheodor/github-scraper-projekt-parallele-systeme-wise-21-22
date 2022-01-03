@@ -3,16 +3,26 @@
  * @type {string[]}
  */
 const toBeScrapedTopicURLs = [
-    'https://github.com/topics/astronomy',
-    'https://github.com/topics/cheminformatics',
-    'https://github.com/topics/evolution',
-    'https://github.com/topics/geoscience',
-    'https://github.com/topics/medical',
-    'https://github.com/topics/multiphysics',
-    'https://github.com/topics/neuroscience',
-    'https://github.com/topics/simulation',
-    'https://github.com/topics/space',
-    'https://github.com/topics/quantum-chemistry'
+    'https://github.com/topics/quantum-chemistry',
+    'https://github.com/topics/physics-simulation',
+    'https://github.com/topics/physics-engine',
+    'https://github.com/topics/computational-physics',
+    'https://github.com/topics/particle-physics',
+    'https://github.com/topics/physics-2d',
+    'https://github.com/topics/high-energy-physics',
+    'https://github.com/topics/bullet-physics',
+    'https://github.com/topics/nuclear-physics',
+    'https://github.com/topics/radio-astronomy',
+    'https://github.com/topics/computational-biology',
+    'https://github.com/topics/bioinformatics',
+    'https://github.com/topics/systems-biology',
+    'https://github.com/topics/synthetic-biology',
+    'https://github.com/topics/structural-biology',
+    'https://github.com/topics/computational-chemistry',
+    'https://github.com/topics/gis',
+    'https://github.com/topics/mathematics',
+    'https://github.com/topics/discrete-mathematics',
+    'https://github.com/topics/applied-mathematics'
 ]
 
 /**
