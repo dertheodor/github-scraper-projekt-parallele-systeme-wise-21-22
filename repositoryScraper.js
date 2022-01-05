@@ -19,6 +19,9 @@ const repositoryScraper = {
         // data which will be passed back to topicScraper
         let data = {};
 
+        // memorize overall count of files per repository
+        data['url'] = url;
+
         // fileData which will be further processed before saving it to data
         let fileData = {};
 
