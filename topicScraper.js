@@ -13,7 +13,7 @@ const scraperObject = {
     async scrapeTopics(browser, url) {
 
         // data which will be passed back to pageController
-        let data = {};
+        let data =[];
 
         // new tab which opens
         let page = await browser.newPage();
@@ -64,7 +64,7 @@ const scraperObject = {
         // loop over all found repositories
         for (let i = 0; i < repositoryList.length; i++) {
             // TODO maybe use repo-1, repo-2 ... instead of hrefs for key name
-            data[`${repositoryList[i]}`] = await repositoryScraper.scrapeRepository(browser, repositoryList[i]);
+            data.push(await repositoryScraper.scrapeRepository(browser, repositoryList[i]));
         }
 
         /**
@@ -82,26 +82,31 @@ const scraperObject = {
             }
         }
 
+        let metrics = {}
+
         // memorize overall count of repositories per language
-        data['quantityOfRepositories'] = repositoryList.length;
+        metrics['quantityOfRepositories'] = repositoryList.length;
 
         // memorize overall count of relevant repos
-        data['quantityOfRelevantRepositories'] = 0;
+        metrics['quantityOfRelevantRepositories'] = 0;
 
         // memorize overall count of repositories per language containing OpenMP directives
-        data['quantityOfRepositoriesWithOpenMP'] = 0;
+        metrics['quantityOfRepositoriesWithOpenMP'] = 0;
 
-        for (let i = 0; i < repositoryList.length; i++) {
-            if (Object.keys(data[`${repositoryList[i]}`]).length >= 2) {
-                data['quantityOfRelevantRepositories'] ++;
+        for (let i = 0; i < data.length; i++) {
+            if (Object.keys(data[i]).length >= 3) {
+                metrics['quantityOfRelevantRepositories'] ++;
             }
         }
 
-        for (let i = 0; i < repositoryList.length; i++) {
-            if (Object.keys(data[`${repositoryList[i]}`]).length >= 3) {
-                data['quantityOfRepositoriesWithOpenMP'] ++;
+        for (let i = 0; i < data.length; i++) {
+            if (Object.keys(data[i]).length >= 4) {
+                metrics['quantityOfRepositoriesWithOpenMP'] ++;
             }
         }
+
+        // add metrics to language array as object at the end
+        data.push(metrics);
 
         // return data to pageController
         return data;
