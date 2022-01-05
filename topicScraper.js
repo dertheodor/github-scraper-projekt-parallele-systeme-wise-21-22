@@ -91,7 +91,7 @@ const scraperObject = {
         metrics['quantityOfRelevantRepositories'] = 0;
 
         // memorize overall count of repositories per language containing OpenMP directives
-        metrics['quantityOfRepositoriesWithOpenMP'] = 0;
+        metrics['quantityOfRelevantRepositoriesWithOpenMP'] = 0;
 
         for (let i = 0; i < data.length; i++) {
             if (Object.keys(data[i]).length >= 3) {
@@ -101,7 +101,7 @@ const scraperObject = {
 
         for (let i = 0; i < data.length; i++) {
             if (Object.keys(data[i]).length >= 4) {
-                metrics['quantityOfRepositoriesWithOpenMP'] ++;
+                metrics['quantityOfRelevantRepositoriesWithOpenMP'] ++;
             }
         }
 
