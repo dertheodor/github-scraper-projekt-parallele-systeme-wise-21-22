@@ -1,25 +1,59 @@
 {
-  "fortran": {},
-  "c": {
-    "https://github.com/nils-hamel/eratosthene-suite": {},
-    "https://github.com/hrefhref/elixir-geos": {},
-    "https://github.com/nwfsc-fram/cGeographicLib": {},
-    "https://github.com/nils-hamel/liberatosthene": {},
-    "quantityOfRepositories": 4,
-    "quantityOfRepositoriesWithOpenMP": 0
-  },
-  "c++": {
-    "https://github.com/vahancho/erkir": {},
-    "https://github.com/tombh/total-viewsheds": {},
-    "https://github.com/Noctem/pogeo": {},
-    "https://github.com/hrefhref/erlang-s2geometry": {},
-    "https://github.com/tndev/geolib": {},
-    "https://github.com/shmibblez/geocomb-cpp": {},
-    "https://github.com/fjacomme/sico": {},
-    "https://github.com/gaspardle/mssql-clrgeo": {},
-    "https://github.com/y60/bmi_viewer": {},
-    "https://github.com/smeagolthellama/rivergen": {},
-    "quantityOfRepositories": 10,
-    "quantityOfRepositoriesWithOpenMP": 0
-  }
+  "fortran": [],
+  "c": [
+    {
+      "url": "https://github.com/nils-hamel/eratosthene-suite"
+    },
+    {
+      "url": "https://github.com/hrefhref/elixir-geos"
+    },
+    {
+      "url": "https://github.com/nwfsc-fram/cGeographicLib"
+    },
+    {
+      "url": "https://github.com/nils-hamel/liberatosthene"
+    },
+    {
+      "quantityOfRepositories": 4,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/vahancho/erkir"
+    },
+    {
+      "url": "https://github.com/tombh/total-viewsheds"
+    },
+    {
+      "url": "https://github.com/hrefhref/erlang-s2geometry"
+    },
+    {
+      "url": "https://github.com/Noctem/pogeo"
+    },
+    {
+      "url": "https://github.com/tndev/geolib"
+    },
+    {
+      "url": "https://github.com/shmibblez/geocomb-cpp"
+    },
+    {
+      "url": "https://github.com/fjacomme/sico"
+    },
+    {
+      "url": "https://github.com/gaspardle/mssql-clrgeo"
+    },
+    {
+      "url": "https://github.com/y60/bmi_viewer"
+    },
+    {
+      "url": "https://github.com/smeagolthellama/rivergen"
+    },
+    {
+      "quantityOfRepositories": 10,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
 }
