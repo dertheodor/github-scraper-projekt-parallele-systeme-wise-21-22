@@ -1,0 +1,341 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/RMeli/Hartree-Fock"
+    },
+    {
+      "url": "https://github.com/QEF/SternheimerGW"
+    },
+    {
+      "url": "https://github.com/wcota/dynSIS"
+    },
+    {
+      "url": "https://github.com/StellaContrail/wave-function"
+    },
+    {
+      "url": "https://github.com/nholmber/cp2k-cdft-dev"
+    },
+    {
+      "url": "https://github.com/m414rkie/Polymers"
+    },
+    {
+      "url": "https://github.com/ucyang/nbody"
+    },
+    {
+      "url": "https://github.com/spyderkam/CR3BP"
+    },
+    {
+      "url": "https://github.com/fernandezfran/fiscomp"
+    },
+    {
+      "url": "https://github.com/msleigh/snes"
+    },
+    {
+      "url": "https://github.com/wcota/dynSIS-GA"
+    },
+    {
+      "quantityOfRepositories": 11,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/mohuangrui/ArtraCFD"
+    },
+    {
+      "url": "https://github.com/CubbyFlow/RenderFlow"
+    },
+    {
+      "url": "https://github.com/akaliutau/phy-engine"
+    },
+    {
+      "url": "https://github.com/fernandezfran/tiny_md"
+    },
+    {
+      "url": "https://github.com/dutta-alankar/cooling-flow-model"
+    },
+    {
+      "url": "https://github.com/ryuikaneko/mvmc_spin_jastrow"
+    },
+    {
+      "url": "https://github.com/paras-lehana/newton_raphson-cpp"
+    },
+    {
+      "url": "https://github.com/ryuikaneko/spin_wave_approximation"
+    },
+    {
+      "url": "https://github.com/syrel/Computational-Physics"
+    },
+    {
+      "url": "https://github.com/ryuikaneko/codes_for_my_publications"
+    },
+    {
+      "url": "https://github.com/ryuikaneko/classical_monte_carlo"
+    },
+    {
+      "url": "https://github.com/vacendak/Celullar-Automata"
+    },
+    {
+      "url": "https://github.com/americocunhajr/CRFlowLib"
+    },
+    {
+      "url": "https://github.com/MaxBraeuer/NSE_Programming"
+    },
+    {
+      "quantityOfRepositories": 14,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/doyubkim/fluid-engine-dev",
+      "#pragma omp parallel": 1,
+      "#pragma omp parallel for": 1,
+      "quantityOfFiles": 948,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/CubbyFlow/CubbyFlow",
+      "#pragma omp parallel": 1,
+      "#pragma omp parallel for": 1,
+      "quantityOfFiles": 865,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/glotzerlab/freud",
+      "quantityOfFiles": 85,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/boutproject/BOUT-dev",
+      "#pragma omp parallel": 26,
+      "#pragma omp for ": 2,
+      "#pragma omp parallel for": 24,
+      "#pragma omp critical": 2,
+      "quantityOfFiles": 495,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/utilForever/CubbyFlow-v1",
+      "#pragma omp parallel": 1,
+      "#pragma omp parallel for": 1,
+      "quantityOfFiles": 945,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/PHAREHUB/PHARE",
+      "quantityOfFiles": 263,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/aromanro/LatticeBoltzmann"
+    },
+    {
+      "url": "https://github.com/aromanro/SolarSystem"
+    },
+    {
+      "url": "https://github.com/aromanro/HartreeFock"
+    },
+    {
+      "url": "https://github.com/feltor-dev/feltor",
+      "#pragma omp parallel": 10,
+      "#pragma omp for ": 9,
+      "#pragma omp simd ": 2,
+      "#pragma omp for simd": 3,
+      "#pragma omp parallel for": 5,
+      "#pragma omp barrier": 1,
+      "quantityOfFiles": 196,
+      "quantityOfFilesWithOpenMP": 8
+    },
+    {
+      "url": "https://github.com/celeritas-project/celeritas"
+    },
+    {
+      "url": "https://github.com/aromanro/IsingMonteCarlo"
+    },
+    {
+      "url": "https://github.com/fbuessen/SpinParser"
+    },
+    {
+      "url": "https://github.com/aromanro/EventMolecularDynamics"
+    },
+    {
+      "url": "https://github.com/aromanro/nrg"
+    },
+    {
+      "url": "https://github.com/lohedges/vmmc"
+    },
+    {
+      "url": "https://github.com/aromanro/DFTAtom"
+    },
+    {
+      "url": "https://github.com/aromanro/DFTQuantumDot"
+    },
+    {
+      "url": "https://github.com/yangfengzzz/fluid-engine-OpenVDB"
+    },
+    {
+      "url": "https://github.com/RMeli/irc"
+    },
+    {
+      "url": "https://github.com/aromanro/NMRI"
+    },
+    {
+      "url": "https://github.com/aromanro/KKR"
+    },
+    {
+      "url": "https://github.com/aromanro/ElectricField"
+    },
+    {
+      "url": "https://github.com/aromanro/TEBD"
+    },
+    {
+      "url": "https://github.com/aromanro/dmrg"
+    },
+    {
+      "url": "https://github.com/valenpe7/laser_bcs"
+    },
+    {
+      "url": "https://github.com/valenpe7/2d_fluid_solver"
+    },
+    {
+      "url": "https://github.com/aromanro/Scattering"
+    },
+    {
+      "url": "https://github.com/aromanro/TightBinding"
+    },
+    {
+      "url": "https://github.com/aromanro/APW"
+    },
+    {
+      "url": "https://github.com/aromanro/Poisson"
+    },
+    {
+      "url": "https://github.com/valenpe7/godunov_method"
+    },
+    {
+      "url": "https://github.com/kaaja/ComputationalPhysics"
+    },
+    {
+      "url": "https://github.com/henrywatkins/PARAMAGNET"
+    },
+    {
+      "url": "https://github.com/aromanro/VQMCMolecule"
+    },
+    {
+      "url": "https://github.com/aromanro/EmpiricalPseudopotential"
+    },
+    {
+      "url": "https://github.com/yangfengzzz/DigitalArche2"
+    },
+    {
+      "url": "https://github.com/originalsouth/libmd"
+    },
+    {
+      "url": "https://github.com/DrGrafil/NISTConst"
+    },
+    {
+      "url": "https://github.com/Neumann-A/StochasticPhysics"
+    },
+    {
+      "url": "https://github.com/bineet-dash/swedsen-wang-2d-ising"
+    },
+    {
+      "url": "https://github.com/evenmn/VMaChine"
+    },
+    {
+      "url": "https://github.com/paramphy/C_codes_for_Numerical_analysis"
+    },
+    {
+      "url": "https://github.com/vkbo/libTardis"
+    },
+    {
+      "url": "https://github.com/dmharrington03/physics"
+    },
+    {
+      "url": "https://github.com/sachu92/hard-sphere-mc"
+    },
+    {
+      "url": "https://github.com/danieljsharpe/metadynamics"
+    },
+    {
+      "url": "https://github.com/ryuikaneko/ssd_dmrg_by_itensor"
+    },
+    {
+      "url": "https://github.com/ejhusom/FYS3150"
+    },
+    {
+      "url": "https://github.com/alexpapados/2-D-Compressible-Euler-Equations-FVM"
+    },
+    {
+      "url": "https://github.com/ivarhaugerud/FYS3150"
+    },
+    {
+      "url": "https://github.com/Vodkacannon/general-physics"
+    },
+    {
+      "url": "https://github.com/susilehtola/clusterdec"
+    },
+    {
+      "url": "https://github.com/AliAkbarBadri/NA-homework"
+    },
+    {
+      "url": "https://github.com/rgjha/susy_qm"
+    },
+    {
+      "url": "https://github.com/aidinattar/PendoloDoppio"
+    },
+    {
+      "url": "https://github.com/sachu92/gray-scott-rd"
+    },
+    {
+      "url": "https://github.com/yoongun/schrodinger"
+    },
+    {
+      "url": "https://github.com/jfrech14/Electron-Neutral-Atom-Scattering"
+    },
+    {
+      "url": "https://github.com/CMHAS/RealtimeSolver"
+    },
+    {
+      "url": "https://github.com/Alejandro-Garcia-Uceda/Simulation-of-oxide-growth-on-metal-plates-by-Self-Avoiding-Simulation-SAW-"
+    },
+    {
+      "url": "https://github.com/jfrech14/Electron-Neutral-Atom-Scattering"
+    },
+    {
+      "url": "https://github.com/CMHAS/RealtimeSolver"
+    },
+    {
+      "url": "https://github.com/aidinattar/Equazione_di_Poisson_2D"
+    },
+    {
+      "url": "https://github.com/jmsevillam/Seminar-2018-I"
+    },
+    {
+      "url": "https://github.com/DiegoHerrera262/PhysicsSimulationsUNAL"
+    },
+    {
+      "url": "https://github.com/BAlexandros/openFDTD"
+    },
+    {
+      "url": "https://github.com/sanjeev309/runge_kutta_4th_order"
+    },
+    {
+      "url": "https://github.com/jelkuweiss/Runge-Kutta-in-cpp"
+    },
+    {
+      "url": "https://github.com/rezarastak/CppConstitutive"
+    },
+    {
+      "url": "https://github.com/smroccuzzo/UltraCold"
+    },
+    {
+      "quantityOfRepositories": 71,
+      "quantityOfRelevantRepositories": 7,
+      "quantityOfRelevantRepositoriesWithOpenMP": 5
+    }
+  ]
+}

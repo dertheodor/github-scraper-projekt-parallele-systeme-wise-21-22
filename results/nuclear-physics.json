@@ -1,0 +1,113 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/imronuke/ADPRES"
+    },
+    {
+      "url": "https://github.com/imronuke/KOMODO"
+    },
+    {
+      "url": "https://github.com/padsley/KVICodes"
+    },
+    {
+      "url": "https://github.com/abhijitb498/BPP"
+    },
+    {
+      "url": "https://github.com/sebastianvromero/NUC123"
+    },
+    {
+      "quantityOfRepositories": 5,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/R3BRootGroup/R3BRoot"
+    },
+    {
+      "url": "https://github.com/thomascarreau/NSEoS"
+    },
+    {
+      "url": "https://github.com/carmeloevoli/XS4GCR"
+    },
+    {
+      "url": "https://github.com/R3BRootGroup/frs"
+    },
+    {
+      "url": "https://github.com/Whoneon/BetheBloch"
+    },
+    {
+      "url": "https://github.com/K-Raymond/ill-data-processing"
+    },
+    {
+      "quantityOfRepositories": 6,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/MUSIC-fluid/MUSIC"
+    },
+    {
+      "url": "https://github.com/vlvovch/Thermal-FIST"
+    },
+    {
+      "url": "https://github.com/martukas/nuclei"
+    },
+    {
+      "url": "https://github.com/jsmallcombe/jRootAnalysisTools"
+    },
+    {
+      "url": "https://github.com/xiallc/pixie_sdk"
+    },
+    {
+      "url": "https://github.com/php1ic/inch"
+    },
+    {
+      "url": "https://github.com/benroberts999/periodicTable"
+    },
+    {
+      "url": "https://github.com/joshhooker/EnergyLossClass"
+    },
+    {
+      "url": "https://github.com/mlomnitz/eSTARlight"
+    },
+    {
+      "url": "https://github.com/e-j-w/G4TIP"
+    },
+    {
+      "url": "https://github.com/duanebyer/sidis"
+    },
+    {
+      "url": "https://github.com/Spectator-matter-group-INR-RAS/AAMCC"
+    },
+    {
+      "url": "https://github.com/php1ic/nuclear-data-reader"
+    },
+    {
+      "url": "https://github.com/vsandul/MAPClust"
+    },
+    {
+      "url": "https://github.com/proio-org/cpp-proio"
+    },
+    {
+      "url": "https://github.com/tylern4/hipopy"
+    },
+    {
+      "url": "https://github.com/alexfoglia1/NuclearFissionSimulator"
+    },
+    {
+      "url": "https://github.com/spaulaus/paass"
+    },
+    {
+      "url": "https://github.com/carmeloevoli/G4XSECS"
+    },
+    {
+      "quantityOfRepositories": 19,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
+}

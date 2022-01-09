@@ -1,0 +1,172 @@
+{
+  "fortran": [],
+  "c": [
+    {
+      "url": "https://github.com/tcwphy/FaSE_GLoBES"
+    },
+    {
+      "url": "https://github.com/sbysiak/jets-tagging-xgboost"
+    },
+    {
+      "url": "https://github.com/conan-hep/conan-gm2calc"
+    },
+    {
+      "url": "https://github.com/Carmigna/darknet"
+    },
+    {
+      "url": "https://github.com/lobis/geometry-browser"
+    },
+    {
+      "url": "https://github.com/virajthakkar/MachineLearning_HEP_ALICEdataCERN"
+    },
+    {
+      "quantityOfRepositories": 6,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/MultithreadCorner/Hydra",
+      "#pragma omp parallel": 3,
+      "#pragma omp parallel for": 1,
+      "#pragma omp barrier": 4,
+      "quantityOfFiles": 1224,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    {
+      "url": "https://github.com/UCATLAS/xAODAnaHelpers",
+      "quantityOfFiles": 149,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/HSF/prmon",
+      "quantityOfFiles": 35,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/eos/eos",
+      "quantityOfFiles": 429,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/MultithreadCorner/TCode"
+    },
+    {
+      "url": "https://github.com/KLFitter/KLFitter"
+    },
+    {
+      "url": "https://github.com/andrewfowlie/thermal_funcs"
+    },
+    {
+      "url": "https://github.com/lukedeo/jet-generation"
+    },
+    {
+      "url": "https://github.com/EdoPro98/SimSiPM"
+    },
+    {
+      "url": "https://github.com/Himalaya-Library/Himalaya"
+    },
+    {
+      "url": "https://github.com/sangaline/pidrix"
+    },
+    {
+      "url": "https://github.com/GM2Calc/GM2Calc"
+    },
+    {
+      "url": "https://github.com/DavidMStraub/rundec-python"
+    },
+    {
+      "url": "https://github.com/gnafit/gna"
+    },
+    {
+      "url": "https://github.com/tpgillam/mt2"
+    },
+    {
+      "url": "https://github.com/mieskolainen/graniitti"
+    },
+    {
+      "url": "https://github.com/sbysiak/HBT_correlations"
+    },
+    {
+      "url": "https://github.com/DQM4hep/DQM4hep"
+    },
+    {
+      "url": "https://github.com/MATHUSLA/Mu-Simulation"
+    },
+    {
+      "url": "https://github.com/hectorhep/hector2"
+    },
+    {
+      "url": "https://github.com/mieskolainen/DeepEfficiency"
+    },
+    {
+      "url": "https://github.com/JoseEliel/VevaciousPlusPlus"
+    },
+    {
+      "url": "https://github.com/nburmaso/upcgen"
+    },
+    {
+      "url": "https://github.com/mieskolainen/Superstatistics"
+    },
+    {
+      "url": "https://github.com/souvik1982/HbbHbb_Run2"
+    },
+    {
+      "url": "https://github.com/GNiendorf/ldmx-sw"
+    },
+    {
+      "url": "https://github.com/diogenes1991/Madisqe"
+    },
+    {
+      "url": "https://github.com/vishu-byte/Simulating-pp-collisions-with-Pythia"
+    },
+    {
+      "url": "https://github.com/alexstoken/monoHiggsZZ4L"
+    },
+    {
+      "url": "https://github.com/smaeland/ML-2HDM"
+    },
+    {
+      "url": "https://github.com/mieskolainen/Diffractive-Combinatorics"
+    },
+    {
+      "url": "https://github.com/andrey-popov/multijet-jec"
+    },
+    {
+      "url": "https://github.com/jwd5602/fmssim"
+    },
+    {
+      "url": "https://github.com/mieskolainen/DREM-PID"
+    },
+    {
+      "url": "https://github.com/proio-org/cpp-proio"
+    },
+    {
+      "url": "https://github.com/andrey-popov/multijet-jec-fit"
+    },
+    {
+      "url": "https://github.com/moiseslz/HEP-IP"
+    },
+    {
+      "url": "https://github.com/DQM4hep/dqm4hep-core"
+    },
+    {
+      "url": "https://github.com/pohsun/Xb_frame"
+    },
+    {
+      "url": "https://github.com/conan-hep/conan-himalaya"
+    },
+    {
+      "url": "https://github.com/mieskolainen/Diffractive-Combinatorics-GRID"
+    },
+    {
+      "url": "https://github.com/rete/LCEve"
+    },
+    {
+      "quantityOfRepositories": 42,
+      "quantityOfRelevantRepositories": 4,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ]
+}

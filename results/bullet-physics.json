@@ -1,0 +1,249 @@
+{
+  "fortran": [],
+  "c": [
+    {
+      "url": "https://github.com/chriscamacho/bulletCapi"
+    },
+    {
+      "url": "https://github.com/lokesh-sharma/GameEngine"
+    },
+    {
+      "url": "https://github.com/kezada94/BattleCarRoyale"
+    },
+    {
+      "url": "https://github.com/nyers33/minimal_glfw_bullet"
+    },
+    {
+      "url": "https://github.com/PlaybackDevs/fury-engine"
+    },
+    {
+      "url": "https://github.com/TREYWANGCQU/Blender_Reaticle"
+    },
+    {
+      "url": "https://github.com/12games/snowy-january"
+    },
+    {
+      "url": "https://github.com/Riordan-DC/Beon"
+    },
+    {
+      "quantityOfRepositories": 8,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/turanszkij/WickedEngine",
+      "#pragma omp parallel": 9,
+      "#pragma omp parallel for": 9,
+      "quantityOfFiles": 869,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/PanosK92/SpartanEngine",
+      "#pragma omp parallel": 2,
+      "#pragma omp parallel for": 2,
+      "quantityOfFiles": 1329,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/stuntrally/stuntrally",
+      "quantityOfFiles": 445,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/Shervanator/Engine",
+      "quantityOfFiles": 93,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/caelan/pybullet-planning",
+      "quantityOfFiles": 9,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/sdslabs/Rootex",
+      "#pragma omp parallel": 3,
+      "#pragma omp parallel for": 3,
+      "quantityOfFiles": 3853,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    {
+      "url": "https://github.com/NickHardeman/ofxBullet",
+      "quantityOfFiles": 792,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/uji-ros-pkg/underwater_simulation",
+      "quantityOfFiles": 93,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/mosra/magnum-integration",
+      "quantityOfFiles": 67,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/MissingBitStudios/igneous",
+      "quantityOfFiles": 79,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/fabsgc/TweedeFrameworkRedux"
+    },
+    {
+      "url": "https://github.com/stephengold/Libbulletjme"
+    },
+    {
+      "url": "https://github.com/HRI-EU/Rcs",
+      "quantityOfFiles": 361,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/dyanikoglu/source-sdk-bullet-physics"
+    },
+    {
+      "url": "https://github.com/tweakoz/orkid"
+    },
+    {
+      "url": "https://github.com/Ybalrid/BtOgre2"
+    },
+    {
+      "url": "https://github.com/antopilo/Nuake"
+    },
+    {
+      "url": "https://github.com/GuillaumeBouchetEpitech/geneticAlgorithm_experiment"
+    },
+    {
+      "url": "https://github.com/OGRECave/btogre"
+    },
+    {
+      "url": "https://github.com/VSS-SDK/VSS-Simulator"
+    },
+    {
+      "url": "https://github.com/riperjack/stunts_remake"
+    },
+    {
+      "url": "https://github.com/kitsune-ONE-team/KITSUNETSUKI-SDK"
+    },
+    {
+      "url": "https://github.com/asuka-mio/KAIMyEntitySaba"
+    },
+    {
+      "url": "https://github.com/ov-studio/vEngine"
+    },
+    {
+      "url": "https://github.com/KillerAery/MazeDemo"
+    },
+    {
+      "url": "https://github.com/malhotraprateek/bullet-visualization"
+    },
+    {
+      "url": "https://github.com/CheezBoiger/Recluse-Game"
+    },
+    {
+      "url": "https://github.com/alexsaalberg/fortress_engine"
+    },
+    {
+      "url": "https://github.com/sariug/box_shooter"
+    },
+    {
+      "url": "https://github.com/yangfengzzz/Sisy"
+    },
+    {
+      "url": "https://github.com/Manicqin/AutoMages"
+    },
+    {
+      "url": "https://github.com/SleepinWei/CG-project"
+    },
+    {
+      "url": "https://github.com/jonsim/collision-domain"
+    },
+    {
+      "url": "https://github.com/eslingsby/EntityXGame"
+    },
+    {
+      "url": "https://github.com/node-3d/deps-bullet-raub"
+    },
+    {
+      "url": "https://github.com/notcamecase/MyFirstFPSGame"
+    },
+    {
+      "url": "https://github.com/lanquemar/Murakami"
+    },
+    {
+      "url": "https://github.com/JanNitschke/Elementaryengine"
+    },
+    {
+      "url": "https://github.com/RichardHancock/Game-Engine-Programming"
+    },
+    {
+      "url": "https://github.com/a-day-old-bagel/at3"
+    },
+    {
+      "url": "https://github.com/gusenov/physics-examples"
+    },
+    {
+      "url": "https://github.com/Maximilian-Winter/SimpleGameEngine"
+    },
+    {
+      "url": "https://github.com/mkulagowski/snAIk"
+    },
+    {
+      "url": "https://github.com/gusenov/third-party-source-code"
+    },
+    {
+      "url": "https://github.com/James-Walsh121/Jenga"
+    },
+    {
+      "url": "https://github.com/BugCatcherNate/opengl"
+    },
+    {
+      "url": "https://github.com/prabinrath/BallStick"
+    },
+    {
+      "url": "https://github.com/tprrt/tetrabot"
+    },
+    {
+      "url": "https://github.com/alexander-koch/3D-Game-Engine"
+    },
+    {
+      "url": "https://github.com/sansajn/bullet-physics-starter"
+    },
+    {
+      "url": "https://github.com/shehabattia96/poof_arm"
+    },
+    {
+      "url": "https://github.com/Sheph/af3d"
+    },
+    {
+      "url": "https://github.com/JustJokerX/AIRS"
+    },
+    {
+      "url": "https://github.com/12games/bulletphysics"
+    },
+    {
+      "url": "https://github.com/Cimera42/BlockHop"
+    },
+    {
+      "url": "https://github.com/ShantnuS/COMP3214"
+    },
+    {
+      "url": "https://github.com/Yossari4n/MarsRover"
+    },
+    {
+      "url": "https://github.com/Alavy/Shooter"
+    },
+    {
+      "url": "https://github.com/joeaoregan/LIT-Yr4-GamePhysics"
+    },
+    {
+      "url": "https://github.com/sansajn/gravity_gun"
+    },
+    {
+      "quantityOfRepositories": 60,
+      "quantityOfRelevantRepositories": 11,
+      "quantityOfRelevantRepositoriesWithOpenMP": 3
+    }
+  ]
+}

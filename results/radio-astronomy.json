@@ -1,0 +1,82 @@
+{
+  "fortran": [],
+  "c": [
+    {
+      "url": "https://github.com/danieljprice/giza"
+    },
+    {
+      "url": "https://github.com/SoFiA-Admin/SoFiA-2"
+    },
+    {
+      "url": "https://github.com/jvo203/fits_web_ql"
+    },
+    {
+      "url": "https://github.com/nlesc-dirac/sagecal"
+    },
+    {
+      "url": "https://github.com/UPennEoR/radionopy"
+    },
+    {
+      "url": "https://github.com/louis925/Linear-Polarization-Magnetic-Field"
+    },
+    {
+      "url": "https://github.com/jvo203/FITSWEBQLSE"
+    },
+    {
+      "url": "https://github.com/federatedcloud/modulation_index"
+    },
+    {
+      "url": "https://github.com/jvo203/FITSWebQL"
+    },
+    {
+      "url": "https://github.com/lwa-project/psrfits_utils"
+    },
+    {
+      "url": "https://github.com/sorgenskammer/w-projection"
+    },
+    {
+      "quantityOfRepositories": 11,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/indilib/indi-3rdparty",
+      "quantityOfFiles": 745,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/SoFiA-Admin/SoFiA",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/AstroAccelerateOrg/astro-accelerate",
+      "#pragma omp parallel": 7,
+      "#pragma omp parallel for": 5,
+      "quantityOfFiles": 221,
+      "quantityOfFilesWithOpenMP": 3
+    },
+    {
+      "url": "https://github.com/mariocannistra/rtl-power-fftw"
+    },
+    {
+      "url": "https://github.com/TRASAL/RFIm"
+    },
+    {
+      "url": "https://github.com/SoFiA-Admin/BusyFit"
+    },
+    {
+      "url": "https://github.com/lspestrip/striptease"
+    },
+    {
+      "url": "https://github.com/liweitianux/radio-fg-simu-tools"
+    },
+    {
+      "quantityOfRepositories": 8,
+      "quantityOfRelevantRepositories": 3,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ]
+}

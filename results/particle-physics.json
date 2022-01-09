@@ -1,0 +1,275 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/PolyChord/PolyChordLite",
+      "quantityOfFiles": 50,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/dc-fukuoka/mps"
+    },
+    {
+      "url": "https://github.com/vbfnlo/vbfnlo"
+    },
+    {
+      "url": "https://github.com/tanner-trickle/EXCEED-DM"
+    },
+    {
+      "url": "https://github.com/JP-Ellis/SPheno"
+    },
+    {
+      "url": "https://github.com/alexander-lind/H1jet"
+    },
+    {
+      "url": "https://github.com/oozdal/LRSM"
+    },
+    {
+      "url": "https://github.com/oozdal/SecludedUMSSM"
+    },
+    {
+      "url": "https://github.com/oozdal/NonUMSSM"
+    },
+    {
+      "quantityOfRepositories": 9,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/gemc/source"
+    },
+    {
+      "url": "https://github.com/12Me21/powder-game-1"
+    },
+    {
+      "url": "https://github.com/OltersdorfTechnology/CudaParticals"
+    },
+    {
+      "url": "https://github.com/statius/RunningCouplings"
+    },
+    {
+      "url": "https://github.com/Arc676/The-Standard-Model"
+    },
+    {
+      "url": "https://github.com/rospix/rospix"
+    },
+    {
+      "url": "https://github.com/vrbouza/ttHAnalysis"
+    },
+    {
+      "url": "https://github.com/zuqini/melon-watch"
+    },
+    {
+      "url": "https://github.com/rest-for-physics/tracklib"
+    },
+    {
+      "url": "https://github.com/virajthakkar/MachineLearning_HEP_ALICEdataCERN"
+    },
+    {
+      "url": "https://github.com/spatel10/sbndPRISM"
+    },
+    {
+      "url": "https://github.com/marcodeltutto/UBAna"
+    },
+    {
+      "url": "https://github.com/IVAN-DPP/DataAnalysisROOTBEER"
+    },
+    {
+      "url": "https://github.com/YigitGunduc/particle-simulation"
+    },
+    {
+      "quantityOfRepositories": 14,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/gszauer/GamePhysicsCookbook"
+    },
+    {
+      "url": "https://github.com/MultithreadCorner/Hydra",
+      "#pragma omp parallel": 3,
+      "#pragma omp parallel for": 1,
+      "#pragma omp barrier": 4,
+      "quantityOfFiles": 1224,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    {
+      "url": "https://github.com/MarkMoHR/OpenglGame"
+    },
+    {
+      "url": "https://github.com/KATRIN-Experiment/Kassiopeia",
+      "quantityOfFiles": 2546,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/grinisrit/noa"
+    },
+    {
+      "url": "https://github.com/matheusportela/Poiesis"
+    },
+    {
+      "url": "https://github.com/NNPDF/nnpdf"
+    },
+    {
+      "url": "https://github.com/mashephe/AmpTools"
+    },
+    {
+      "url": "https://github.com/alexsr/vup"
+    },
+    {
+      "url": "https://github.com/MultithreadCorner/TCode"
+    },
+    {
+      "url": "https://github.com/KLFitter/KLFitter"
+    },
+    {
+      "url": "https://github.com/open-radiation-sources/parametric-plasma-source"
+    },
+    {
+      "url": "https://github.com/cms-ttH/BoostedTTH"
+    },
+    {
+      "url": "https://github.com/EdoPro98/SimSiPM"
+    },
+    {
+      "url": "https://github.com/temken/DaMaSCUS"
+    },
+    {
+      "url": "https://github.com/temken/DaMaSCUS-CRUST"
+    },
+    {
+      "url": "https://github.com/sangaline/pidrix"
+    },
+    {
+      "url": "https://github.com/marcodeltutto/UBXSec"
+    },
+    {
+      "url": "https://github.com/DavidMStraub/rundec-python"
+    },
+    {
+      "url": "https://github.com/gale93/phell"
+    },
+    {
+      "url": "https://github.com/jojelen/2HDME"
+    },
+    {
+      "url": "https://github.com/gnikit/Cloud-Chamber-particle-tracking"
+    },
+    {
+      "url": "https://github.com/hyzor/BachelorsThesis"
+    },
+    {
+      "url": "https://github.com/matthewfeickert/Pythia-Python"
+    },
+    {
+      "url": "https://github.com/ndrearu/1d_pimc"
+    },
+    {
+      "url": "https://github.com/cms-opendata-analyses/HiggsToBBNtupleProducerTool"
+    },
+    {
+      "url": "https://github.com/marcodeltutto/Collider"
+    },
+    {
+      "url": "https://github.com/jackanth/bethe-faster"
+    },
+    {
+      "url": "https://github.com/hectorhep/hector2"
+    },
+    {
+      "url": "https://github.com/lmcoy/mypowheg"
+    },
+    {
+      "url": "https://github.com/britzger/LinearTemplateFit"
+    },
+    {
+      "url": "https://github.com/rest-for-physics/detectorlib"
+    },
+    {
+      "url": "https://github.com/rest-for-physics/geant4lib"
+    },
+    {
+      "url": "https://github.com/souvik1982/HbbHbb_Run2"
+    },
+    {
+      "url": "https://github.com/a1ex90/Leaven"
+    },
+    {
+      "url": "https://github.com/bernhardrieder/Particle-based-Physics-Engine"
+    },
+    {
+      "url": "https://github.com/JoseEliel/VevaciousPlusPlus"
+    },
+    {
+      "url": "https://github.com/nadrino/gundam"
+    },
+    {
+      "url": "https://github.com/DMarke99/particle-sim"
+    },
+    {
+      "url": "https://github.com/rustom/particle-dynamics"
+    },
+    {
+      "url": "https://github.com/elias-fauser/RigidSolver"
+    },
+    {
+      "url": "https://github.com/marcodeltutto/UBXSecAna"
+    },
+    {
+      "url": "https://github.com/dmarkh/PHTpcTracker"
+    },
+    {
+      "url": "https://github.com/nkaush/particle-dynamics"
+    },
+    {
+      "url": "https://github.com/Gustav-Lindberg/FeynmanDiagramEditor"
+    },
+    {
+      "url": "https://github.com/marcodeltutto/HitCosmicTag"
+    },
+    {
+      "url": "https://github.com/maciacco/vertexer"
+    },
+    {
+      "url": "https://github.com/jwd5602/fmssim"
+    },
+    {
+      "url": "https://github.com/aviafelix/Pythia8"
+    },
+    {
+      "url": "https://github.com/diazona/SOLO"
+    },
+    {
+      "url": "https://github.com/mckinziebrandon/Jet-Analysis"
+    },
+    {
+      "url": "https://github.com/cp3-llbb/Framework"
+    },
+    {
+      "url": "https://github.com/douglasdavis/xTRTFrame"
+    },
+    {
+      "url": "https://github.com/fionn/sigma"
+    },
+    {
+      "url": "https://github.com/wkeilsohn/Particle_Fire_Project"
+    },
+    {
+      "url": "https://github.com/moiseslz/HEP-IP"
+    },
+    {
+      "url": "https://github.com/aslanyan13/Particle-System"
+    },
+    {
+      "url": "https://github.com/kuhlmannmarkus/BESIIITopoMgr"
+    },
+    {
+      "quantityOfRepositories": 58,
+      "quantityOfRelevantRepositories": 2,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ]
+}

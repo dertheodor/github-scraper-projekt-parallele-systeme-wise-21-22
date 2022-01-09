@@ -1,0 +1,376 @@
+{
+  "fortran": [],
+  "c": [
+    {
+      "url": "https://github.com/victorfisac/Physac",
+      "quantityOfFiles": 6,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/roshanpoudyal/3D_interactive_graphics_rendering_engine"
+    },
+    {
+      "url": "https://github.com/Srekel/phyxed-2d"
+    },
+    {
+      "url": "https://github.com/c-krit/ferox"
+    },
+    {
+      "url": "https://github.com/8bitslime/Viscosity"
+    },
+    {
+      "url": "https://github.com/granj2020/Cirobb"
+    },
+    {
+      "url": "https://github.com/recp/phy"
+    },
+    {
+      "url": "https://github.com/everfor/Frankenstein"
+    },
+    {
+      "url": "https://github.com/Another-Ghost/3D-Collision-Detection-and-Resolution-Using-GJK-and-EPA"
+    },
+    {
+      "url": "https://github.com/twinbee/evacSim"
+    },
+    {
+      "url": "https://github.com/fakufaku/moteur"
+    },
+    {
+      "url": "https://github.com/rakete/cute3d"
+    },
+    {
+      "url": "https://github.com/CubbyFlow/RenderFlow"
+    },
+    {
+      "url": "https://github.com/KiyaKandar/GameEngine_Public"
+    },
+    {
+      "url": "https://github.com/fazildgr8/VR_communication_mujoco200"
+    },
+    {
+      "url": "https://github.com/klukasiuk/Phx"
+    },
+    {
+      "url": "https://github.com/Olivier-Daire/Physic-Engine-IMAC"
+    },
+    {
+      "url": "https://github.com/Darker1300/Physics_2017"
+    },
+    {
+      "url": "https://github.com/Dani-24/2DPhysicsEngine"
+    },
+    {
+      "url": "https://github.com/fareanor3/World-of-goo"
+    },
+    {
+      "quantityOfRepositories": 20,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/chrxh/alien",
+      "quantityOfFiles": 151,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/simbody/simbody",
+      "quantityOfFiles": 933,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/cyberbotics/webots",
+      "quantityOfFiles": 1634,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/doyubkim/fluid-engine-dev",
+      "#pragma omp parallel": 1,
+      "#pragma omp parallel for": 1,
+      "quantityOfFiles": 948,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/DanielChappuis/reactphysics3d",
+      "quantityOfFiles": 320,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/Rythe-Interactive/Legion-Engine",
+      "quantityOfFiles": 1054,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/xissburg/edyn",
+      "quantityOfFiles": 288,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/nimblephysics/nimblephysics",
+      "quantityOfFiles": 1288,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/CubbyFlow/CubbyFlow",
+      "#pragma omp parallel": 1,
+      "#pragma omp parallel for": 1,
+      "quantityOfFiles": 865,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/IntelRealSense/hand_tracking_samples"
+    },
+    {
+      "url": "https://github.com/ThePhysicsGuys/Physics3D",
+      "quantityOfFiles": 485,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/utilForever/CubbyFlow-v1",
+      "#pragma omp parallel": 1,
+      "#pragma omp parallel for": 1,
+      "quantityOfFiles": 945,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/mmaldacker/Vortex2D"
+    },
+    {
+      "url": "https://github.com/louis-langholtz/PlayRho",
+      "quantityOfFiles": 374,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/mtsamis/box2d-optimized",
+      "quantityOfFiles": 241,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/irlanrobson/bounce"
+    },
+    {
+      "url": "https://github.com/YiYiXia/Flame",
+      "quantityOfFiles": 57,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/Synodic-Software/Soul-Engine"
+    },
+    {
+      "url": "https://github.com/igorski/kosm"
+    },
+    {
+      "url": "https://github.com/ignitionrobotics/ign-physics",
+      "quantityOfFiles": 298,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/roshanpoudyal/Fluid-Simulation-and-Physics-Based-Animation"
+    },
+    {
+      "url": "https://github.com/irlanrobson/bounce_softbody"
+    },
+    {
+      "url": "https://github.com/dyanikoglu/source-sdk-bullet-physics"
+    },
+    {
+      "url": "https://github.com/louis-langholtz/Box2D"
+    },
+    {
+      "url": "https://github.com/vaiorabbit/rigidbox"
+    },
+    {
+      "url": "https://github.com/AngryAccelerated/Physics2D"
+    },
+    {
+      "url": "https://github.com/siavashserver/Tokamak"
+    },
+    {
+      "url": "https://github.com/yangfengzzz/fluid-engine-OpenVDB"
+    },
+    {
+      "url": "https://github.com/gabyx/GRSFramework"
+    },
+    {
+      "url": "https://github.com/Godlike/Pegasus"
+    },
+    {
+      "url": "https://github.com/MHesham/engiX"
+    },
+    {
+      "url": "https://github.com/Xayahp/HinaPE"
+    },
+    {
+      "url": "https://github.com/zzef/yape"
+    },
+    {
+      "url": "https://github.com/WohlSoft/MiniPhysics-By-38A"
+    },
+    {
+      "url": "https://github.com/mieskolainen/graniitti"
+    },
+    {
+      "url": "https://github.com/yangfengzzz/DigitalArche2"
+    },
+    {
+      "url": "https://github.com/JmirY/Playground"
+    },
+    {
+      "url": "https://github.com/Quantum-Fringe-Entertainment/Physics-Simulations-Box2D"
+    },
+    {
+      "url": "https://github.com/bgsa/openml"
+    },
+    {
+      "url": "https://github.com/KevinMcGin/Simulation"
+    },
+    {
+      "url": "https://github.com/sigmaco/havok-2013"
+    },
+    {
+      "url": "https://github.com/jamesdolan/MiniPhysX"
+    },
+    {
+      "url": "https://github.com/jadnohra/World-Of-Football"
+    },
+    {
+      "url": "https://github.com/Physicc/Light"
+    },
+    {
+      "url": "https://github.com/harlexkhal/CrunchMath"
+    },
+    {
+      "url": "https://github.com/fLindahl/vortex"
+    },
+    {
+      "url": "https://github.com/jsonpark/softphys"
+    },
+    {
+      "url": "https://github.com/satisfiedghost/simulator"
+    },
+    {
+      "url": "https://github.com/SparkPlug-Development/SparkPlug"
+    },
+    {
+      "url": "https://github.com/ChrisKing340/GeometryKing"
+    },
+    {
+      "url": "https://github.com/wwilliamcook/Brazen"
+    },
+    {
+      "url": "https://github.com/bernhardrieder/Particle-based-Physics-Engine"
+    },
+    {
+      "url": "https://github.com/mlhoutel/Simulatio"
+    },
+    {
+      "url": "https://github.com/mecanicascience/WaterDropEngine"
+    },
+    {
+      "url": "https://github.com/rishit-singh/Graphysics"
+    },
+    {
+      "url": "https://github.com/ucpp/gina"
+    },
+    {
+      "url": "https://github.com/filipi/smallPhysics"
+    },
+    {
+      "url": "https://github.com/kaktusas2598/Vigilant"
+    },
+    {
+      "url": "https://github.com/AdamWallberg/RigorPhysics"
+    },
+    {
+      "url": "https://github.com/shawnlong636/PhysicsEngine"
+    },
+    {
+      "url": "https://github.com/bonnal-enzo/gpong"
+    },
+    {
+      "url": "https://github.com/charlierobin/cinder-with-reactphysics3d"
+    },
+    {
+      "url": "https://github.com/SuperColliders/2DSimulation"
+    },
+    {
+      "url": "https://github.com/Rikora/Shark"
+    },
+    {
+      "url": "https://github.com/ccoverstreet/Jablko3D"
+    },
+    {
+      "url": "https://github.com/jdelezenne/Sonata"
+    },
+    {
+      "url": "https://github.com/werasaimon/realphysics4d"
+    },
+    {
+      "url": "https://github.com/doreiss/BAM"
+    },
+    {
+      "url": "https://github.com/freire-guido/particular"
+    },
+    {
+      "url": "https://github.com/NewYaroslav/ode_air"
+    },
+    {
+      "url": "https://github.com/RedE01/RedPhysics3d"
+    },
+    {
+      "url": "https://github.com/nightknight94/Physicpp"
+    },
+    {
+      "url": "https://github.com/Suraj-Yadav/PhysicsEngine2D"
+    },
+    {
+      "url": "https://github.com/CavaniNicolas/MathsPhysiqueJV"
+    },
+    {
+      "url": "https://github.com/Superseth794/Maze"
+    },
+    {
+      "url": "https://github.com/sigmaco/newton-v236"
+    },
+    {
+      "url": "https://github.com/HaydenMarshalla/CPhysics"
+    },
+    {
+      "url": "https://github.com/ShoYamanishi/makena"
+    },
+    {
+      "url": "https://github.com/parisd1992/PongEngine"
+    },
+    {
+      "url": "https://github.com/Serkan-Atay/PhysicsEngine"
+    },
+    {
+      "url": "https://github.com/GyutaeLee/Game-Physics-Engine"
+    },
+    {
+      "url": "https://github.com/Baneo/PHYSICS"
+    },
+    {
+      "url": "https://github.com/Kejoko/Juniper"
+    },
+    {
+      "url": "https://github.com/Shadorc/Entropy"
+    },
+    {
+      "url": "https://github.com/Eichenherz/PhyzX---Project"
+    },
+    {
+      "url": "https://github.com/MarcKami/PhysicsEngine"
+    },
+    {
+      "url": "https://github.com/OS-M/physics-engine"
+    },
+    {
+      "quantityOfRepositories": 87,
+      "quantityOfRelevantRepositories": 15,
+      "quantityOfRelevantRepositoriesWithOpenMP": 3
+    }
+  ]
+}

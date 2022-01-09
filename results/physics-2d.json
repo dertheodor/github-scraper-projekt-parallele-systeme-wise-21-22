@@ -1,0 +1,162 @@
+{
+  "fortran": [],
+  "c": [
+    {
+      "url": "https://github.com/Srekel/phyxed-2d"
+    },
+    {
+      "url": "https://github.com/c-krit/ferox"
+    },
+    {
+      "url": "https://github.com/Rabios/c99-game-template"
+    },
+    {
+      "url": "https://github.com/britzl/chipmunk2d-defold"
+    },
+    {
+      "url": "https://github.com/Donorhan/PhysicEngine"
+    },
+    {
+      "url": "https://github.com/Aniruddha-Deb/CPhysicsEngine"
+    },
+    {
+      "url": "https://github.com/madmann91/TheBox"
+    },
+    {
+      "url": "https://github.com/klukasiuk/Phx"
+    },
+    {
+      "url": "https://github.com/saykind/brane"
+    },
+    {
+      "url": "https://github.com/TheNumber5/electric-field-2d"
+    },
+    {
+      "url": "https://github.com/Aniruddha-Deb/Pong"
+    },
+    {
+      "url": "https://github.com/ValtoLibraries/Box2D-Original"
+    },
+    {
+      "url": "https://github.com/Dani-24/2DPhysicsEngine"
+    },
+    {
+      "url": "https://github.com/oneforawe/phd-files"
+    },
+    {
+      "url": "https://github.com/TheNumber5/magnetic-induction-2d"
+    },
+    {
+      "quantityOfRepositories": 15,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/louis-langholtz/PlayRho",
+      "quantityOfFiles": 374,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/mtsamis/box2d-optimized",
+      "quantityOfFiles": 241,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/nepluno/apic2d"
+    },
+    {
+      "url": "https://github.com/louis-langholtz/Box2D"
+    },
+    {
+      "url": "https://github.com/AngryAccelerated/Physics2D"
+    },
+    {
+      "url": "https://github.com/egormkn/SDLXX"
+    },
+    {
+      "url": "https://github.com/wewanna/PhysicPhysics"
+    },
+    {
+      "url": "https://github.com/PrimerLi/Ising"
+    },
+    {
+      "url": "https://github.com/zzef/yape"
+    },
+    {
+      "url": "https://github.com/nickpisacane/wasm-experiment"
+    },
+    {
+      "url": "https://github.com/Quantum-Fringe-Entertainment/Physics-Simulations-Box2D"
+    },
+    {
+      "url": "https://github.com/dlatikaynen/blooDot"
+    },
+    {
+      "url": "https://github.com/DenGagn/phdm"
+    },
+    {
+      "url": "https://github.com/Henningson/Connect2"
+    },
+    {
+      "url": "https://github.com/SeanJxie/CirclePhysics"
+    },
+    {
+      "url": "https://github.com/ucpp/gina"
+    },
+    {
+      "url": "https://github.com/ssootube/2Dphysics_simulation_using_SFML"
+    },
+    {
+      "url": "https://github.com/Code-Log/Fitch"
+    },
+    {
+      "url": "https://github.com/EliotVonEcklie/project-sg"
+    },
+    {
+      "url": "https://github.com/twinksy1/bouncing-balls"
+    },
+    {
+      "url": "https://github.com/ValtoLibraries/Box2D-OOP"
+    },
+    {
+      "url": "https://github.com/KamilKohoutek/sfml-box2d-simple-example"
+    },
+    {
+      "url": "https://github.com/Cheburum/bubbly"
+    },
+    {
+      "url": "https://github.com/stelmaszyk-adam/AtomsMovingSymulation"
+    },
+    {
+      "url": "https://github.com/Rikora/Shark"
+    },
+    {
+      "url": "https://github.com/UkrRobot/Lazer"
+    },
+    {
+      "url": "https://github.com/nightknight94/Physicpp"
+    },
+    {
+      "url": "https://github.com/PoetryInCode/simple-rigid-sim"
+    },
+    {
+      "url": "https://github.com/Meta-chan/P6"
+    },
+    {
+      "url": "https://github.com/GabLinares/Saved-by-the-Entropy"
+    },
+    {
+      "url": "https://github.com/Shadorc/Entropy"
+    },
+    {
+      "url": "https://github.com/fpuma/Physics2dModule"
+    },
+    {
+      "quantityOfRepositories": 32,
+      "quantityOfRelevantRepositories": 2,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
+}
