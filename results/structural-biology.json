@@ -1,0 +1,71 @@
+{
+  "fortran": [],
+  "c": [
+    {
+      "url": "https://github.com/lightdock/lightdock",
+      "quantityOfFiles": 41,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/mittinatten/freesasa",
+      "quantityOfFiles": 46,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/fadnywg/chooch"
+    },
+    {
+      "url": "https://github.com/Niels-Bohr-Institute-XNS-StructBiophys/CaPP"
+    },
+    {
+      "url": "https://github.com/geekysuavo/ibp-ng"
+    },
+    {
+      "quantityOfRepositories": 5,
+      "quantityOfRelevantRepositories": 2,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/project-gemmi/gemmi",
+      "quantityOfFiles": 360,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/BALL-Project/ball",
+      "quantityOfFiles": 834,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/salilab/imp",
+      "quantityOfFiles": 31,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/chopralab/lemon",
+      "quantityOfFiles": 61,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/salilab/rmf"
+    },
+    {
+      "url": "https://github.com/pfgherardini/superpose3D"
+    },
+    {
+      "url": "https://github.com/mikolajfeliks/MEAD"
+    },
+    {
+      "url": "https://github.com/kad-ecoli/PDBParser"
+    },
+    {
+      "url": "https://github.com/yamule/TM-align_mass"
+    },
+    {
+      "quantityOfRepositories": 9,
+      "quantityOfRelevantRepositories": 4,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
+}

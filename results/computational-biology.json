@@ -1,0 +1,164 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/PeterDeWeirdt/MTL_JULIA"
+    },
+    {
+      "quantityOfRepositories": 1,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/aquaskyline/SOAPdenovo2",
+      "quantityOfFiles": 165,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/ucscGenomeBrowser/kent",
+      "quantityOfFiles": 3424,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/aquaskyline/LRSIM",
+      "quantityOfFiles": 177,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/aquaskyline/SOAP3-dp",
+      "quantityOfFiles": 205,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/aquaskyline/SOAPdenovo-Trans"
+    },
+    {
+      "url": "https://github.com/Bohdan-Khomtchouk/HeatmapGenerator",
+      "quantityOfFiles": 3,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/rasbt/Hbind"
+    },
+    {
+      "url": "https://github.com/cobilab/geco2"
+    },
+    {
+      "url": "https://github.com/aquaskyline/MICA-aligner"
+    },
+    {
+      "url": "https://github.com/TimoLassmann/tagdust"
+    },
+    {
+      "url": "https://github.com/nvanriel/ADAPT"
+    },
+    {
+      "url": "https://github.com/Bohdan-Khomtchouk/Triglav"
+    },
+    {
+      "url": "https://github.com/biosimulators/Biosimulators_LibSBMLSim"
+    },
+    {
+      "url": "https://github.com/pnpnpn/gimsan-py"
+    },
+    {
+      "url": "https://github.com/rvosa/bio-phylo-xs"
+    },
+    {
+      "url": "https://github.com/okadalabipr/Chiang2020"
+    },
+    {
+      "url": "https://github.com/ph-u/agalony"
+    },
+    {
+      "url": "https://github.com/eOnofri04/BaseComputationalBiology"
+    },
+    {
+      "quantityOfRepositories": 18,
+      "quantityOfRelevantRepositories": 5,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/seq-lang/seq",
+      "#pragma omp parallel": 1,
+      "quantityOfFiles": 118,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/opensim-org/opensim-core",
+      "#pragma omp parallel": 8,
+      "#pragma omp for ": 1,
+      "#pragma omp parallel for": 2,
+      "#pragma omp barrier": 2,
+      "quantityOfFiles": 1231,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    {
+      "url": "https://github.com/fbrundu/pymrmr",
+      "#pragma omp parallel": 2,
+      "#pragma omp parallel for": 1,
+      "quantityOfFiles": 7,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/Chaste/Chaste",
+      "quantityOfFiles": 1736,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/BALL-Project/ball",
+      "quantityOfFiles": 1777,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/medvedevgroup/vargeno"
+    },
+    {
+      "url": "https://github.com/jordanlab/STing"
+    },
+    {
+      "url": "https://github.com/tachidok/scicellxx"
+    },
+    {
+      "url": "https://github.com/schmidt73/guidescan-cli"
+    },
+    {
+      "url": "https://github.com/neurogadgets/Syntheta"
+    },
+    {
+      "url": "https://github.com/ludlows/BALL"
+    },
+    {
+      "url": "https://github.com/vsukhor/MosaicSC"
+    },
+    {
+      "url": "https://github.com/vsukhor/mitoSim"
+    },
+    {
+      "url": "https://github.com/Schre/Read-Mapping"
+    },
+    {
+      "url": "https://github.com/thierry3000/green_function_method"
+    },
+    {
+      "url": "https://github.com/JDRomano2/gexpro"
+    },
+    {
+      "url": "https://github.com/t-neumann/sff-adaptersplitter"
+    },
+    {
+      "url": "https://github.com/H2CO3/Hindmarsh-Rose"
+    },
+    {
+      "url": "https://github.com/amiraa25/pythagoras"
+    },
+    {
+      "quantityOfRepositories": 19,
+      "quantityOfRelevantRepositories": 5,
+      "quantityOfRelevantRepositoriesWithOpenMP": 3
+    }
+  ]
+}

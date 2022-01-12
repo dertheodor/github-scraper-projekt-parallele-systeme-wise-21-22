@@ -1,0 +1,18 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/OSGeo/MOSS"
+    },
+    {
+      "url": "https://github.com/nc5ng/nadcon5-ng"
+    },
+    {
+      "url": "https://github.com/mauroalberti/glace"
+    },
+    {
+      "quantityOfRepositories": 3,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
+}

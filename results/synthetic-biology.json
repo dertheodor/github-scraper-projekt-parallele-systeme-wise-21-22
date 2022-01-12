@@ -1,0 +1,26 @@
+{
+  "fortran": [],
+  "c": [
+    {
+      "url": "https://github.com/kmaeda16/libRCGA"
+    },
+    {
+      "quantityOfRepositories": 1,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/CamelCaseCam/CadBerry"
+    },
+    {
+      "url": "https://github.com/kentavv/bionetsim"
+    },
+    {
+      "quantityOfRepositories": 2,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/nwchemgit/nwchem",
+      "!$omp parallel": 91,
+      "!$omp teams": 32,
+      "!$omp sections": 4,
+      "!$omp single ": 65,
+      "!$omp do": 632,
+      "!$omp simd": 24,
+      "!$omp task": 5,
+      "!$omp target data": 5,
+      "!$omp target enter data": 3,
+      "!$omp target exit data": 3,
+      "!$omp target": 45,
+      "!$omp parallel do": 64,
+      "!$omp target teams": 2,
+      "!$omp target teams distribute": 1,
+      "!$omp target teams distribute parallel do": 1,
+      "!$omp master": 603,
+      "!$omp critical": 78,
+      "!$omp barrier": 487,
+      "quantityOfFiles": 15611,
+      "quantityOfFilesWithOpenMP": 158
+    },
+    {
+      "url": "https://github.com/grimme-lab/xtb",
+      "!$omp parallel": 92,
+      "!$omp do": 24,
+      "!$omp simd": 1,
+      "!$omp parallel do": 72,
+      "!$omp master": 1,
+      "!$omp critical": 19,
+      "#pragma omp parallel": 1,
+      "#pragma omp parallel for": 1,
+      "#pragma omp critical": 1,
+      "quantityOfFiles": 338,
+      "quantityOfFilesWithOpenMP": 40
+    },
+    {
+      "url": "https://github.com/grimme-lab/crest",
+      "!$omp parallel": 38,
+      "!$omp single ": 15,
+      "!$omp do": 16,
+      "!$omp task": 30,
+      "!$omp parallel do": 1,
+      "!$omp critical": 27,
+      "#pragma omp parallel": 1,
+      "#pragma omp parallel for": 1,
+      "#pragma omp critical": 1,
+      "quantityOfFiles": 96,
+      "quantityOfFilesWithOpenMP": 18
+    },
+    {
+      "url": "https://github.com/hande-qmc/hande",
+      "!$omp parallel": 12,
+      "!$omp do": 5,
+      "!$omp parallel do": 8,
+      "!$omp master": 2,
+      "!$omp critical": 3,
+      "!$omp barrier": 1,
+      "quantityOfFiles": 213,
+      "quantityOfFilesWithOpenMP": 9
+    },
+    {
+      "url": "https://github.com/LCPQ/quantum_package",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/QuantumPackage/qp2",
+      "!$omp parallel": 119,
+      "!$omp single ": 5,
+      "!$omp do": 62,
+      "!$omp task": 10,
+      "!$omp parallel do": 55,
+      "!$omp master": 4,
+      "!$omp critical": 32,
+      "!$omp barrier": 8,
+      "!$omp atomic": 6,
+      "quantityOfFiles": 333,
+      "quantityOfFilesWithOpenMP": 62
+    },
+    {
+      "url": "https://github.com/qcxms/QCxMS"
+    },
+    {
+      "url": "https://github.com/qusers/Q6"
+    },
+    {
+      "url": "https://github.com/RMeli/Hartree-Fock"
+    },
+    {
+      "url": "https://github.com/grimme-lab/stda"
+    },
+    {
+      "url": "https://github.com/hokru/xopt"
+    },
+    {
+      "url": "https://github.com/grimme-lab/xtb4stda"
+    },
+    {
+      "url": "https://github.com/grimme-lab/mctc-lib"
+    },
+    {
+      "url": "https://github.com/qcscine/nevpt2"
+    },
+    {
+      "url": "https://github.com/grimme-lab/numsa"
+    },
+    {
+      "url": "https://github.com/grimme-lab/mstore"
+    },
+    {
+      "url": "https://github.com/aphirst/BandFTN"
+    },
+    {
+      "url": "https://github.com/grimme-lab/gcp"
+    },
+    {
+      "url": "https://github.com/grimme-lab/multicharge"
+    },
+    {
+      "url": "https://github.com/IgorGayday/SpectrumSDT"
+    },
+    {
+      "url": "https://github.com/nholmber/cp2k-cdft-dev"
+    },
+    {
+      "url": "https://github.com/chrinide/paragauss-gpl"
+    },
+    {
+      "url": "https://github.com/flavianowilliams/HICOLM3"
+    },
+    {
+      "url": "https://github.com/DEBARGHYA4469/computational-chemistry"
+    },
+    {
+      "url": "https://github.com/hokru/BrnoFF"
+    },
+    {
+      "url": "https://github.com/dupuislab/CP2K"
+    },
+    {
+      "quantityOfRepositories": 26,
+      "quantityOfRelevantRepositories": 6,
+      "quantityOfRelevantRepositoriesWithOpenMP": 5
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/merzlab/QUICK",
+      "quantityOfFiles": 1201,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/briling/v"
+    },
+    {
+      "url": "https://github.com/Devansh-Maurya/Sem-4-Lab-Assignments"
+    },
+    {
+      "url": "https://github.com/seatonullberg/chemfiles-cli"
+    },
+    {
+      "url": "https://github.com/briling/aepm"
+    },
+    {
+      "quantityOfRepositories": 5,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/psi4/psi4",
+      "quantityOfFiles": 27,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/gnina/gnina",
+      "#pragma omp parallel": 2,
+      "#pragma omp parallel for": 1,
+      "#pragma omp atomic": 1,
+      "quantityOfFiles": 717,
+      "quantityOfFilesWithOpenMP": 3
+    },
+    {
+      "url": "https://github.com/OpenChemistry/avogadrolibs",
+      "quantityOfFiles": 678,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/glotzerlab/freud",
+      "quantityOfFiles": 85,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/chemfiles/chemfiles",
+      "quantityOfFiles": 458,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/GrossfieldLab/loos",
+      "quantityOfFiles": 318,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/chopralab/lemon",
+      "quantityOfFiles": 61,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/qcscine/sparrow"
+    },
+    {
+      "url": "https://github.com/aromanro/HartreeFock"
+    },
+    {
+      "url": "https://github.com/duartegroup/molfunc"
+    },
+    {
+      "url": "https://github.com/MRChemSoft/mrchem",
+      "#pragma omp parallel": 6,
+      "#pragma omp for ": 1,
+      "#pragma omp parallel for": 5,
+      "#pragma omp critical": 2,
+      "#pragma omp atomic": 3,
+      "#pragma omp flush": 1,
+      "quantityOfFiles": 211,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    {
+      "url": "https://github.com/qcscine/qcmaquis"
+    },
+    {
+      "url": "https://github.com/FoleyLab/MolecularDynamics"
+    },
+    {
+      "url": "https://github.com/qcserenity/serenity"
+    },
+    {
+      "url": "https://github.com/RMeli/irc"
+    },
+    {
+      "url": "https://github.com/qcscine/readuct"
+    },
+    {
+      "url": "https://github.com/rk-lindsey/chimes_calculator"
+    },
+    {
+      "url": "https://github.com/stcmz/jdock"
+    },
+    {
+      "url": "https://github.com/Sumner-Group/SD-QHD"
+    },
+    {
+      "url": "https://github.com/ves-code/plumed2-ves"
+    },
+    {
+      "url": "https://github.com/poinco-gogo/md_water"
+    },
+    {
+      "url": "https://github.com/qcscine/core"
+    },
+    {
+      "url": "https://github.com/dancsi/OrthoCCTools"
+    },
+    {
+      "url": "https://github.com/stcmz/pdbm"
+    },
+    {
+      "url": "https://github.com/steinraf/MDAtom"
+    },
+    {
+      "url": "https://github.com/poinco-gogo/md_analysis"
+    },
+    {
+      "url": "https://github.com/stcmz/gpcrn"
+    },
+    {
+      "url": "https://github.com/ryanmrichard/ForceManII"
+    },
+    {
+      "url": "https://github.com/poinco-gogo/md_alad"
+    },
+    {
+      "url": "https://github.com/susilehtola/clusterdec"
+    },
+    {
+      "url": "https://github.com/stcmz/pdbqtf"
+    },
+    {
+      "url": "https://github.com/prs-group/make_projections"
+    },
+    {
+      "url": "https://github.com/danieljsharpe/metadynamics"
+    },
+    {
+      "url": "https://github.com/2AUK/CQCPP"
+    },
+    {
+      "url": "https://github.com/lopesth/MoleKing_util"
+    },
+    {
+      "url": "https://github.com/matthew-hennefarth/CPET"
+    },
+    {
+      "url": "https://github.com/shoubhikraj/water-order"
+    },
+    {
+      "url": "https://github.com/qcscine/utilities"
+    },
+    {
+      "url": "https://github.com/mikolajfeliks/MEAD"
+    },
+    {
+      "url": "https://github.com/BenTho-Uni/libqqc"
+    },
+    {
+      "url": "https://github.com/abdulrashidiii/Chem359_programming_project"
+    },
+    {
+      "url": "https://github.com/Sumner-Group/dijkstra-water-wire"
+    },
+    {
+      "url": "https://github.com/piotrfutymski/Hartree-Fock-App-Linux"
+    },
+    {
+      "quantityOfRepositories": 43,
+      "quantityOfRelevantRepositories": 8,
+      "quantityOfRelevantRepositoriesWithOpenMP": 2
+    }
+  ]
+}

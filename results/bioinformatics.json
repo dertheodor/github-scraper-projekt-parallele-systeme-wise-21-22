@@ -1,0 +1,1884 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/NKI-CCB/DISCOVER"
+    },
+    {
+      "url": "https://github.com/icaoberg/GeNT"
+    },
+    {
+      "quantityOfRepositories": 2,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/lh3/minimap2",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/lh3/bwa",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/lh3/seqtk",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/soedinglab/MMseqs2",
+      "#pragma omp parallel": 147,
+      "#pragma omp single ": 5,
+      "#pragma omp for ": 87,
+      "#pragma omp simd ": 6,
+      "#pragma omp task": 8,
+      "#pragma omp parallel for": 43,
+      "#pragma omp critical": 7,
+      "#pragma omp barrier": 5,
+      "quantityOfFiles": 860,
+      "quantityOfFilesWithOpenMP": 80
+    },
+    {
+      "url": "https://github.com/samtools/htslib",
+      "quantityOfFiles": 127,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/lh3/bioawk"
+    },
+    {
+      "url": "https://github.com/soedinglab/hh-suite",
+      "#pragma omp parallel": 16,
+      "#pragma omp for ": 3,
+      "#pragma omp simd ": 6,
+      "#pragma omp parallel for": 13,
+      "#pragma omp critical": 9,
+      "quantityOfFiles": 446,
+      "quantityOfFilesWithOpenMP": 15
+    },
+    {
+      "url": "https://github.com/lh3/minigraph"
+    },
+    {
+      "url": "https://github.com/bedops/bedops",
+      "quantityOfFiles": 106,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/genometools/genometools",
+      "quantityOfFiles": 2032,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/lh3/wgsim"
+    },
+    {
+      "url": "https://github.com/bioinformatics-centre/kaiju",
+      "quantityOfFiles": 118,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/aquaskyline/SOAPdenovo2",
+      "quantityOfFiles": 165,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/sanger-pathogens/snp-sites",
+      "quantityOfFiles": 19,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/NBISweden/MrBayes",
+      "quantityOfFiles": 20,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/ucscGenomeBrowser/kent",
+      "quantityOfFiles": 557,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/lh3/biofast",
+      "quantityOfFiles": 6,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/lh3/readfq",
+      "quantityOfFiles": 2,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/OpenGene/MutScan",
+      "quantityOfFiles": 53,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/alastair-droop/fqtools",
+      "quantityOfFiles": 32,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/lh3/cgranges"
+    },
+    {
+      "url": "https://github.com/lh3/gfatools"
+    },
+    {
+      "url": "https://github.com/lmdu/pyfastx",
+      "quantityOfFiles": 24,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/lh3/bedtk",
+      "quantityOfFiles": 6,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/dpryan79/MethylDackel",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/lh3/psmc"
+    },
+    {
+      "url": "https://github.com/lh3/ksw2"
+    },
+    {
+      "url": "https://github.com/soedinglab/metaeuk",
+      "#pragma omp parallel": 157,
+      "#pragma omp single ": 5,
+      "#pragma omp for ": 94,
+      "#pragma omp simd ": 6,
+      "#pragma omp task": 8,
+      "#pragma omp parallel for": 46,
+      "#pragma omp critical": 6,
+      "#pragma omp barrier": 5,
+      "quantityOfFiles": 867,
+      "quantityOfFilesWithOpenMP": 85
+    },
+    {
+      "url": "https://github.com/soedinglab/plass",
+      "#pragma omp parallel": 158,
+      "#pragma omp single ": 5,
+      "#pragma omp for ": 95,
+      "#pragma omp simd ": 6,
+      "#pragma omp task": 8,
+      "#pragma omp parallel for": 46,
+      "#pragma omp critical": 6,
+      "#pragma omp barrier": 5,
+      "quantityOfFiles": 878,
+      "quantityOfFilesWithOpenMP": 86
+    },
+    {
+      "url": "https://github.com/OpenGene/GeneFuse"
+    },
+    {
+      "url": "https://github.com/lh3/bgt"
+    },
+    {
+      "url": "https://github.com/lightdock/lightdock",
+      "quantityOfFiles": 41,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/lh3/hickit"
+    },
+    {
+      "url": "https://github.com/lh3/unimap"
+    },
+    {
+      "url": "https://github.com/lh3/fermi"
+    },
+    {
+      "url": "https://github.com/TimoLassmann/kalign",
+      "#pragma omp parallel": 9,
+      "#pragma omp single ": 3,
+      "#pragma omp task": 15,
+      "#pragma omp parallel for": 6,
+      "quantityOfFiles": 70,
+      "quantityOfFilesWithOpenMP": 4
+    },
+    {
+      "url": "https://github.com/slowkow/pytabix"
+    },
+    {
+      "url": "https://github.com/lh3/fermi-lite"
+    },
+    {
+      "url": "https://github.com/lh3/dna-nn"
+    },
+    {
+      "url": "https://github.com/lh3/yak"
+    },
+    {
+      "url": "https://github.com/4dn-dcic/pairix",
+      "quantityOfFiles": 18,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/dpryan79/libBigWig",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/mittinatten/freesasa",
+      "quantityOfFiles": 46,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/alexpreynolds/sample"
+    },
+    {
+      "url": "https://github.com/zhou-lab/biscuit",
+      "quantityOfFiles": 57,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/ToniWestbrook/paladin",
+      "quantityOfFiles": 40,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/aquaskyline/LRSIM",
+      "quantityOfFiles": 177,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/PaulKlinger/mrna_vaccine_badge"
+    },
+    {
+      "url": "https://github.com/lh3/htsbox"
+    },
+    {
+      "url": "https://github.com/lh3/etrf"
+    },
+    {
+      "url": "https://github.com/lh3/partig"
+    },
+    {
+      "url": "https://github.com/OpenGene/UniqueKMER"
+    },
+    {
+      "url": "https://github.com/EvolBioInf/andi",
+      "#pragma omp critical": 1,
+      "#pragma omp atomic": 3,
+      "quantityOfFiles": 23,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    {
+      "url": "https://github.com/BigDataBiology/macrel",
+      "quantityOfFiles": 16,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/soedinglab/spacepharer",
+      "#pragma omp parallel": 157,
+      "#pragma omp single ": 4,
+      "#pragma omp for ": 98,
+      "#pragma omp simd ": 6,
+      "#pragma omp task": 6,
+      "#pragma omp parallel for": 43,
+      "#pragma omp critical": 8,
+      "#pragma omp barrier": 5,
+      "quantityOfFiles": 873,
+      "quantityOfFilesWithOpenMP": 87
+    },
+    {
+      "url": "https://github.com/aquaskyline/SOAP3-dp",
+      "quantityOfFiles": 205,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/lh3/fermi2",
+      "quantityOfFiles": 28,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/aquaskyline/SOAPdenovo-Trans"
+    },
+    {
+      "url": "https://github.com/lh3/sdust"
+    },
+    {
+      "url": "https://github.com/Electrostatics/apbs",
+      "#pragma omp parallel": 21,
+      "#pragma omp parallel for": 21,
+      "#pragma omp atomic": 1,
+      "quantityOfFiles": 393,
+      "quantityOfFilesWithOpenMP": 8
+    },
+    {
+      "url": "https://github.com/cancerit/cgpBigWig",
+      "quantityOfFiles": 15,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/wtsi-hpag/Scaff10X",
+      "quantityOfFiles": 39,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/wtsi-hpag/scanPAV"
+    },
+    {
+      "url": "https://github.com/kyu999/ssw_aligner"
+    },
+    {
+      "url": "https://github.com/prashnts/metaRNA"
+    },
+    {
+      "url": "https://github.com/arshajii/lava"
+    },
+    {
+      "url": "https://github.com/kloetzl/libdna"
+    },
+    {
+      "url": "https://github.com/mpieva/mapping-iterative-assembler"
+    },
+    {
+      "url": "https://github.com/zhengxwen/gdsfmt"
+    },
+    {
+      "url": "https://github.com/nvictus/pybbi"
+    },
+    {
+      "url": "https://github.com/TravisWheelerLab/AvxWindowFmIndex"
+    },
+    {
+      "url": "https://github.com/mklarqvist/libflagstats"
+    },
+    {
+      "url": "https://github.com/mjoppich/bioGUI"
+    },
+    {
+      "url": "https://github.com/rasbt/Hbind"
+    },
+    {
+      "url": "https://github.com/hanyue36/nanoplexer"
+    },
+    {
+      "url": "https://github.com/kloetzl/pfasta"
+    },
+    {
+      "url": "https://github.com/Boyle-Lab/SEMpl"
+    },
+    {
+      "url": "https://github.com/TimoLassmann/samstat"
+    },
+    {
+      "url": "https://github.com/masyagin1998/bio-alignment"
+    },
+    {
+      "url": "https://github.com/ChrisCreevey/clann"
+    },
+    {
+      "url": "https://github.com/deeptools/py2bit"
+    },
+    {
+      "url": "https://github.com/institut-de-genomique/HAPO-G"
+    },
+    {
+      "url": "https://github.com/lindenb/rbcf"
+    },
+    {
+      "url": "https://github.com/tomkurowski/tersect"
+    },
+    {
+      "url": "https://github.com/shadowk29/CUSUM"
+    },
+    {
+      "url": "https://github.com/ChrisCreevey/catsequences"
+    },
+    {
+      "url": "https://github.com/ctSkennerton/bioawk"
+    },
+    {
+      "url": "https://github.com/rikuu/kermit"
+    },
+    {
+      "url": "https://github.com/PaulKlinger/freeform-virus-blinky"
+    },
+    {
+      "url": "https://github.com/4dn-dcic/Rpairix"
+    },
+    {
+      "url": "https://github.com/cielavenir/7bgzf"
+    },
+    {
+      "url": "https://github.com/oboes/gotoh"
+    },
+    {
+      "url": "https://github.com/wtsi-npg/bambi"
+    },
+    {
+      "url": "https://github.com/Reconfigurable-Computing-CalPoly-Pomona/Reconfigurable-BLAST-N"
+    },
+    {
+      "url": "https://github.com/sandialabs/TIGER"
+    },
+    {
+      "url": "https://github.com/aquaskyline/MICA-aligner"
+    },
+    {
+      "url": "https://github.com/OpenGene/pecheck"
+    },
+    {
+      "url": "https://github.com/EdmundKorley/text2DNA"
+    },
+    {
+      "url": "https://github.com/ruanjue/psort"
+    },
+    {
+      "url": "https://github.com/eblancoga/seqcode"
+    },
+    {
+      "url": "https://github.com/TimoLassmann/tagdust"
+    },
+    {
+      "url": "https://github.com/icebert/pblat-cluster"
+    },
+    {
+      "url": "https://github.com/TuBieJun/C_tools"
+    },
+    {
+      "url": "https://github.com/labgem/pangenomeNEM"
+    },
+    {
+      "url": "https://github.com/dpryan79/lib2bit"
+    },
+    {
+      "url": "https://github.com/jia-zhuang/mapper"
+    },
+    {
+      "url": "https://github.com/pmenzel/stranded-coverage"
+    },
+    {
+      "url": "https://github.com/nahmedraja/GASE"
+    },
+    {
+      "url": "https://github.com/ChrisCreevey/crann"
+    },
+    {
+      "url": "https://github.com/mooreryan/eigengenomes"
+    },
+    {
+      "url": "https://github.com/lindenb/bcfselectgt"
+    },
+    {
+      "url": "https://github.com/wtsi-hpag/scaffHiC"
+    },
+    {
+      "url": "https://github.com/smsaladi/codonw-slim"
+    },
+    {
+      "url": "https://github.com/quadram-institute-bioscience/tatajuba"
+    },
+    {
+      "url": "https://github.com/jaudoux/makepipe"
+    },
+    {
+      "url": "https://github.com/achacond/gem-cutter"
+    },
+    {
+      "url": "https://github.com/JacobLondon/Blastn"
+    },
+    {
+      "url": "https://github.com/nahmedraja/GASAL"
+    },
+    {
+      "url": "https://github.com/Bohdan-Khomtchouk/Triglav"
+    },
+    {
+      "url": "https://github.com/r3fang/TaFuCo"
+    },
+    {
+      "url": "https://github.com/alexpreynolds/byte-store"
+    },
+    {
+      "url": "https://github.com/MatthewATaylor/CppMol"
+    },
+    {
+      "url": "https://github.com/deeptools/deeptools_intervals"
+    },
+    {
+      "url": "https://github.com/daissi/thesias"
+    },
+    {
+      "url": "https://github.com/linsalrob/primer-trimming"
+    },
+    {
+      "url": "https://github.com/sagnikbanerjee15/Abridge"
+    },
+    {
+      "url": "https://github.com/odb9402/KS-Evol"
+    },
+    {
+      "url": "https://github.com/douglas444/aco-2dhp"
+    },
+    {
+      "url": "https://github.com/djhshih/mlat"
+    },
+    {
+      "url": "https://github.com/YoannPa/Django_for_Prediction_of_Proteins_PPII"
+    },
+    {
+      "url": "https://github.com/sam217pa/prokgc"
+    },
+    {
+      "url": "https://github.com/douglas444/pso-2dhp"
+    },
+    {
+      "url": "https://github.com/TuBieJun/fqcheck"
+    },
+    {
+      "url": "https://github.com/ionCRAM/ionCRAM"
+    },
+    {
+      "url": "https://github.com/djhshih/primer3-v2.3.7"
+    },
+    {
+      "url": "https://github.com/thecodingdoc/SwarmTCR"
+    },
+    {
+      "url": "https://github.com/bionitio-team/bionitio-c"
+    },
+    {
+      "url": "https://github.com/slw287r/gtc"
+    },
+    {
+      "url": "https://github.com/ednilsonlomazi/SeqrepC"
+    },
+    {
+      "url": "https://github.com/dcasella/carrillo-lipman"
+    },
+    {
+      "url": "https://github.com/maehler/vcfsubsample"
+    },
+    {
+      "url": "https://github.com/lindenb/htsplusplus"
+    },
+    {
+      "url": "https://github.com/TravisWheelerLab/FastaVector"
+    },
+    {
+      "url": "https://github.com/wnfldchen/agent"
+    },
+    {
+      "url": "https://github.com/pradyumnasagar/TaBSAP"
+    },
+    {
+      "url": "https://github.com/mooreryan/derep_seqs"
+    },
+    {
+      "url": "https://github.com/Bader-Research/BioPerf"
+    },
+    {
+      "url": "https://github.com/arnikz/netclust"
+    },
+    {
+      "url": "https://github.com/cmiranda16PonceHealthSciencesUniversity/Evaluation-Output-Control-Security-BioMotion-Control-Telemetry-System"
+    },
+    {
+      "url": "https://github.com/ctSkennerton/fx_tools"
+    },
+    {
+      "url": "https://github.com/ryantkoehler/vertools"
+    },
+    {
+      "url": "https://github.com/cdarby/qtl-exe"
+    },
+    {
+      "url": "https://github.com/weinstockj/htslibr"
+    },
+    {
+      "url": "https://github.com/sjaenick/bamstats"
+    },
+    {
+      "url": "https://github.com/EvolBioInf/midRoot"
+    },
+    {
+      "url": "https://github.com/gdefazio/SplitFastq"
+    },
+    {
+      "url": "https://github.com/rvosa/bio-phylo-xs"
+    },
+    {
+      "url": "https://github.com/julienfumey/popsim"
+    },
+    {
+      "url": "https://github.com/PSNAppz/Needleman-Wunsch"
+    },
+    {
+      "url": "https://github.com/RTH-tools/risearch"
+    },
+    {
+      "url": "https://github.com/qPCR4vir/primer3-ori"
+    },
+    {
+      "url": "https://github.com/t170815518/Nucleicacid-Sequence-Searching-Algorithms"
+    },
+    {
+      "url": "https://github.com/ruby-on-bioc/bio-twobit"
+    },
+    {
+      "url": "https://github.com/mfansler/zinba"
+    },
+    {
+      "url": "https://github.com/im-mou/gpu-kmer-counter"
+    },
+    {
+      "url": "https://github.com/hamalcij/pfamannot"
+    },
+    {
+      "url": "https://github.com/moozeq/Neuron_Simulation"
+    },
+    {
+      "url": "https://github.com/ericniso/hague"
+    },
+    {
+      "url": "https://github.com/mfansler/hmmcov"
+    },
+    {
+      "url": "https://github.com/degnbol/PhosTF"
+    },
+    {
+      "url": "https://github.com/pnpnpn/gimsan-py"
+    },
+    {
+      "url": "https://github.com/wnfldchen/peaks"
+    },
+    {
+      "url": "https://github.com/illumos-bio/bwa"
+    },
+    {
+      "url": "https://github.com/smsaladi/promals"
+    },
+    {
+      "url": "https://github.com/SANBI-SA-archive/s_bvc_pipeline"
+    },
+    {
+      "url": "https://github.com/jflopezfernandez/bioinformatics-tools"
+    },
+    {
+      "url": "https://github.com/zxjsdp/NodeFinderC"
+    },
+    {
+      "url": "https://github.com/mesh12/Sequence-Alignment"
+    },
+    {
+      "url": "https://github.com/dieterich-lab/siteblast"
+    },
+    {
+      "url": "https://github.com/ressy/pear"
+    },
+    {
+      "url": "https://github.com/TravisWheelerLab/hsi"
+    },
+    {
+      "url": "https://github.com/Boboassa/rosalind"
+    },
+    {
+      "url": "https://github.com/fncnt/librna-sys"
+    },
+    {
+      "url": "https://github.com/kasrakn/MPA"
+    },
+    {
+      "url": "https://github.com/alexcoppe/number_of_fasta_seqs"
+    },
+    {
+      "quantityOfRepositories": 185,
+      "quantityOfRelevantRepositories": 38,
+      "quantityOfRelevantRepositoriesWithOpenMP": 8
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/OpenGene/fastp",
+      "quantityOfFiles": 71,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/google/nucleus",
+      "quantityOfFiles": 94,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/seq-lang/seq",
+      "#pragma omp parallel": 1,
+      "quantityOfFiles": 196,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/COMBINE-lab/salmon",
+      "#pragma omp parallel": 7,
+      "#pragma omp parallel for": 6,
+      "#pragma omp atomic": 1,
+      "quantityOfFiles": 683,
+      "quantityOfFilesWithOpenMP": 4
+    },
+    {
+      "url": "https://github.com/torognes/vsearch",
+      "quantityOfFiles": 110,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/bwa-mem2/bwa-mem2",
+      "#pragma omp parallel": 31,
+      "#pragma omp for ": 25,
+      "#pragma omp parallel for": 1,
+      "quantityOfFiles": 48,
+      "quantityOfFilesWithOpenMP": 6
+    },
+    {
+      "url": "https://github.com/BenLangmead/bowtie2",
+      "quantityOfFiles": 132,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/jts/nanopolish",
+      "#pragma omp parallel": 9,
+      "#pragma omp parallel for": 9,
+      "#pragma omp critical": 23,
+      "#pragma omp atomic": 4,
+      "quantityOfFiles": 123,
+      "quantityOfFilesWithOpenMP": 13
+    },
+    {
+      "url": "https://github.com/voutcn/megahit",
+      "#pragma omp parallel": 32,
+      "#pragma omp parallel for": 31,
+      "quantityOfFiles": 126,
+      "quantityOfFilesWithOpenMP": 14
+    },
+    {
+      "url": "https://github.com/Martinsos/edlib",
+      "quantityOfFiles": 6,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/Illumina/manta",
+      "quantityOfFiles": 487,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/fritzsedlazeck/Sniffles",
+      "#pragma omp parallel": 2,
+      "#pragma omp sections": 2,
+      "quantityOfFiles": 363,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    {
+      "url": "https://github.com/Illumina/hap.py",
+      "quantityOfFiles": 138,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/Illumina/strelka",
+      "quantityOfFiles": 623,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/luntergroup/octopus",
+      "#pragma omp parallel": 1,
+      "#pragma omp critical": 1,
+      "quantityOfFiles": 634,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/seqan/seqan3",
+      "#pragma omp parallel": 2,
+      "#pragma omp parallel for": 2,
+      "quantityOfFiles": 1424,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/bcgsc/abyss",
+      "#pragma omp parallel": 38,
+      "#pragma omp task": 5,
+      "#pragma omp parallel for": 12,
+      "#pragma omp critical": 96,
+      "#pragma omp atomic": 57,
+      "quantityOfFiles": 813,
+      "quantityOfFilesWithOpenMP": 28
+    },
+    {
+      "url": "https://github.com/amkozlov/raxml-ng",
+      "quantityOfFiles": 85,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/BenLangmead/bowtie",
+      "quantityOfFiles": 95,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/chhylp123/hifiasm",
+      "quantityOfFiles": 49,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/fritzsedlazeck/SURVIVOR",
+      "quantityOfFiles": 85,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/Boyle-Lab/Blacklist"
+    },
+    {
+      "url": "https://github.com/fbreitwieser/krakenuniq",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/lh3/kmer-cnt"
+    },
+    {
+      "url": "https://github.com/ugeneunipro/ugene",
+      "quantityOfFiles": 5733,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/PacificBiosciences/blasr",
+      "quantityOfFiles": 34,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/biocore/sortmerna",
+      "quantityOfFiles": 187,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/DecodeGenetics/graphtyper"
+    },
+    {
+      "url": "https://github.com/mlin/GenomicSQLite"
+    },
+    {
+      "url": "https://github.com/labsquare/FastQt",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/torognes/swarm",
+      "quantityOfFiles": 34,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/medvedevgroup/SibeliaZ"
+    },
+    {
+      "url": "https://github.com/cslarsen/arv"
+    },
+    {
+      "url": "https://github.com/OpenGene/fastv"
+    },
+    {
+      "url": "https://github.com/getzlab/rnaseqc",
+      "quantityOfFiles": 15,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/haowenz/chromap",
+      "#pragma omp parallel": 2,
+      "#pragma omp single ": 2,
+      "#pragma omp task": 9,
+      "#pragma omp taskloop": 3,
+      "#pragma omp threadprivate": 2,
+      "quantityOfFiles": 33,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/OpenGene/gencore"
+    },
+    {
+      "url": "https://github.com/hahnlab/CAFE",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/iqbal-lab-org/gramtools",
+      "#pragma omp parallel": 1,
+      "#pragma omp parallel for": 1,
+      "#pragma omp critical": 1,
+      "#pragma omp atomic": 7,
+      "quantityOfFiles": 138,
+      "quantityOfFilesWithOpenMP": 4
+    },
+    {
+      "url": "https://github.com/sanger-pathogens/assembly-stats",
+      "quantityOfFiles": 116,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/bcgsc/arcs",
+      "#pragma omp parallel": 3,
+      "#pragma omp parallel for": 2,
+      "#pragma omp critical": 2,
+      "#pragma omp atomic": 13,
+      "quantityOfFiles": 77,
+      "quantityOfFilesWithOpenMP": 3
+    },
+    {
+      "url": "https://github.com/MathCancer/PhysiCell",
+      "#pragma omp parallel": 27,
+      "#pragma omp parallel for": 27,
+      "#pragma omp critical": 12,
+      "quantityOfFiles": 150,
+      "quantityOfFilesWithOpenMP": 13
+    },
+    {
+      "url": "https://github.com/vpc-ccg/haslr"
+    },
+    {
+      "url": "https://github.com/zhengxwen/SNPRelate",
+      "quantityOfFiles": 20,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/bcgsc/ntHash",
+      "#pragma omp parallel": 3,
+      "#pragma omp parallel for": 1,
+      "#pragma omp critical": 2,
+      "#pragma omp atomic": 7,
+      "quantityOfFiles": 17,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    {
+      "url": "https://github.com/chaibio/chaipcr",
+      "quantityOfFiles": 841,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/seqan/lambda",
+      "#pragma omp critical": 1,
+      "#pragma omp atomic": 1,
+      "quantityOfFiles": 15,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    {
+      "url": "https://github.com/dnbaker/bonsai",
+      "#pragma omp parallel": 3,
+      "#pragma omp parallel for": 3,
+      "quantityOfFiles": 98,
+      "quantityOfFilesWithOpenMP": 3
+    },
+    {
+      "url": "https://github.com/GATB/gatb-core",
+      "quantityOfFiles": 2105,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/OpenHero/gblastn",
+      "quantityOfFiles": 2590,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/Pbdas/epa-ng"
+    },
+    {
+      "url": "https://github.com/hahnlab/CAFE5",
+      "#pragma omp parallel": 8,
+      "#pragma omp parallel for": 8,
+      "quantityOfFiles": 47,
+      "quantityOfFilesWithOpenMP": 4
+    },
+    {
+      "url": "https://github.com/karel-brinda/ococo"
+    },
+    {
+      "url": "https://github.com/gwjensen/SnakeStrike"
+    },
+    {
+      "url": "https://github.com/bcgsc/tigmint",
+      "#pragma omp parallel": 2,
+      "#pragma omp parallel for": 2,
+      "quantityOfFiles": 20,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    {
+      "url": "https://github.com/FertigLab/CoGAPS",
+      "#pragma omp parallel": 32,
+      "#pragma omp parallel for": 32,
+      "#pragma omp critical": 1,
+      "#pragma omp atomic": 8,
+      "quantityOfFiles": 5081,
+      "quantityOfFilesWithOpenMP": 7
+    },
+    {
+      "url": "https://github.com/edawson/rkmh"
+    },
+    {
+      "url": "https://github.com/muellan/metacache",
+      "quantityOfFiles": 64,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/TileDB-Inc/TileDB-VCF",
+      "quantityOfFiles": 87,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/medvedevgroup/TwoPaCo",
+      "quantityOfFiles": 63,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/ITBE-Lab/MA"
+    },
+    {
+      "url": "https://github.com/s4hts/HTStream",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/UCLOrengoGroup/cath-tools",
+      "quantityOfFiles": 1424,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/mklarqvist/tomahawk"
+    },
+    {
+      "url": "https://github.com/zhengxwen/SeqArray",
+      "quantityOfFiles": 20,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/zhaoxiaofei/bindash"
+    },
+    {
+      "url": "https://github.com/comprna/RATTLE",
+      "quantityOfFiles": 14,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/epruesse/SINA"
+    },
+    {
+      "url": "https://github.com/telatin/covtobed"
+    },
+    {
+      "url": "https://github.com/GATB/MindTheGap",
+      "quantityOfFiles": 23,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/labsquare/CuteVCF"
+    },
+    {
+      "url": "https://github.com/lmrodriguezr/nonpareil",
+      "quantityOfFiles": 26,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/slowkow/snpsea"
+    },
+    {
+      "url": "https://github.com/ctSkennerton/crass"
+    },
+    {
+      "url": "https://github.com/BioGenies/tidysq",
+      "quantityOfFiles": 82,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/rcedgar/muscle"
+    },
+    {
+      "url": "https://github.com/BioinformaticsToolsmith/MeShClust"
+    },
+    {
+      "url": "https://github.com/arshajii/ema",
+      "#pragma omp parallel": 2,
+      "#pragma omp parallel for": 1,
+      "#pragma omp threadprivate": 4,
+      "quantityOfFiles": 27,
+      "quantityOfFilesWithOpenMP": 3
+    },
+    {
+      "url": "https://github.com/GreenleafLab/motifmatchr"
+    },
+    {
+      "url": "https://github.com/BenLangmead/qtip"
+    },
+    {
+      "url": "https://github.com/ksahlin/StrobeAlign"
+    },
+    {
+      "url": "https://github.com/cbg-ethz/haploclique",
+      "quantityOfFiles": 66,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/blengerich/GenAMap",
+      "quantityOfFiles": 177,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/akiyamalab/MEGADOCK",
+      "#pragma omp parallel": 5,
+      "#pragma omp for ": 3,
+      "#pragma omp critical": 1,
+      "quantityOfFiles": 25,
+      "quantityOfFilesWithOpenMP": 3
+    },
+    {
+      "url": "https://github.com/Martinsos/opal"
+    },
+    {
+      "url": "https://github.com/xqwen/fastenloc",
+      "#pragma omp parallel": 2,
+      "#pragma omp parallel for": 2,
+      "#pragma omp critical": 2,
+      "quantityOfFiles": 10,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    {
+      "url": "https://github.com/fritzsedlazeck/SVCollector"
+    },
+    {
+      "url": "https://github.com/lightdock/lightdock-python2.7",
+      "quantityOfFiles": 28,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/mklarqvist/tachyon"
+    },
+    {
+      "url": "https://github.com/AutoFlowResearch/SmartPeak"
+    },
+    {
+      "url": "https://github.com/poke1024/pyalign"
+    },
+    {
+      "url": "https://github.com/EvolBioInf/phylonium"
+    },
+    {
+      "url": "https://github.com/VespucciProject/Vespucci"
+    },
+    {
+      "url": "https://github.com/medvedevgroup/vargeno"
+    },
+    {
+      "url": "https://github.com/alexpreynolds/kmer-counter"
+    },
+    {
+      "url": "https://github.com/google/fast-simple-lcsk"
+    },
+    {
+      "url": "https://github.com/pFindStudio/pLink2"
+    },
+    {
+      "url": "https://github.com/zhengxwen/HIBAG"
+    },
+    {
+      "url": "https://github.com/AlgoLab/shark"
+    },
+    {
+      "url": "https://github.com/wiedenhoeft/HaMMLET"
+    },
+    {
+      "url": "https://github.com/lutteropp/QuartetScores"
+    },
+    {
+      "url": "https://github.com/aritra90/TeraPCA"
+    },
+    {
+      "url": "https://github.com/chernouhov/CBioInfCpp-0-"
+    },
+    {
+      "url": "https://github.com/BioinformaticsToolsmith/MeShClust2"
+    },
+    {
+      "url": "https://github.com/slowikj/seqR"
+    },
+    {
+      "url": "https://github.com/MrAlexSee/sopang"
+    },
+    {
+      "url": "https://github.com/rikuu/Gap2Seq"
+    },
+    {
+      "url": "https://github.com/dfguan/deSPI"
+    },
+    {
+      "url": "https://github.com/Colelyman/kleuren"
+    },
+    {
+      "url": "https://github.com/soedinglab/BaMMmotif2"
+    },
+    {
+      "url": "https://github.com/bailey-lab/SeekDeep"
+    },
+    {
+      "url": "https://github.com/uio-bmi/compairr"
+    },
+    {
+      "url": "https://github.com/carushi/ParasoR"
+    },
+    {
+      "url": "https://github.com/WeirauchLab/RELI"
+    },
+    {
+      "url": "https://github.com/pblischak/polyploid-genotyping"
+    },
+    {
+      "url": "https://github.com/Zilong-Li/PCAone"
+    },
+    {
+      "url": "https://github.com/morispi/LRez"
+    },
+    {
+      "url": "https://github.com/TravisWheelerLab/ULTRA"
+    },
+    {
+      "url": "https://github.com/soedinglab/PEnG-motif"
+    },
+    {
+      "url": "https://github.com/arendsee/synder"
+    },
+    {
+      "url": "https://github.com/AlgoLab/malva"
+    },
+    {
+      "url": "https://github.com/kliment-olechnovic/voronota"
+    },
+    {
+      "url": "https://github.com/rmtheis/mummergpu"
+    },
+    {
+      "url": "https://github.com/bcgsc/btllib"
+    },
+    {
+      "url": "https://github.com/vpc-ccg/circminer"
+    },
+    {
+      "url": "https://github.com/camillescott/goetia"
+    },
+    {
+      "url": "https://github.com/lindenb/htsfuse"
+    },
+    {
+      "url": "https://github.com/OkkeVanEck/prospr"
+    },
+    {
+      "url": "https://github.com/alok123t/HyINDEL"
+    },
+    {
+      "url": "https://github.com/BNext-IQT/GEMstone"
+    },
+    {
+      "url": "https://github.com/rtahmasbi/GeneEvolve"
+    },
+    {
+      "url": "https://github.com/slowkow/mhg"
+    },
+    {
+      "url": "https://github.com/cBioLab/BiORAM-SGX"
+    },
+    {
+      "url": "https://github.com/fungs/taxator-tk"
+    },
+    {
+      "url": "https://github.com/rcorcs/SeqALib"
+    },
+    {
+      "url": "https://github.com/novak-jiri/cyclobranch"
+    },
+    {
+      "url": "https://github.com/j-andrews7/pytfmpval"
+    },
+    {
+      "url": "https://github.com/getzlab/scrinvex"
+    },
+    {
+      "url": "https://github.com/ctSkennerton/fxtract"
+    },
+    {
+      "url": "https://github.com/tsnorri/founder-sequences"
+    },
+    {
+      "url": "https://github.com/jnalanko/VOMM"
+    },
+    {
+      "url": "https://github.com/anuradhawick/seq2vec"
+    },
+    {
+      "url": "https://github.com/guilledufort/EnanoFASTQ"
+    },
+    {
+      "url": "https://github.com/bsc-dd/hecuba"
+    },
+    {
+      "url": "https://github.com/kloetzl/pangenomesim"
+    },
+    {
+      "url": "https://github.com/hspitia/GenomAMf"
+    },
+    {
+      "url": "https://github.com/lindenb/x11hts"
+    },
+    {
+      "url": "https://github.com/jmatak/CuckooFilter"
+    },
+    {
+      "url": "https://github.com/ms609/Quartet"
+    },
+    {
+      "url": "https://github.com/intron-prediction-capstone/intron-utility"
+    },
+    {
+      "url": "https://github.com/bmds-lab/Crackling"
+    },
+    {
+      "url": "https://github.com/BioinformaticsToolsmith/Alignment-Free-Kmer-Statistics"
+    },
+    {
+      "url": "https://github.com/simpsonlab/preqclr"
+    },
+    {
+      "url": "https://github.com/Vivianstats/scINSIGHT"
+    },
+    {
+      "url": "https://github.com/kagami-c/Xolik"
+    },
+    {
+      "url": "https://github.com/insilico/inbix"
+    },
+    {
+      "url": "https://github.com/mary060196/CISC5001_Research_Project_Implementing_TRed_Efficiently"
+    },
+    {
+      "url": "https://github.com/qPCR4vir/ThDySec"
+    },
+    {
+      "url": "https://github.com/YannDubs/simulationPopulationGenetics"
+    },
+    {
+      "url": "https://github.com/dlaperriere/FastaReader"
+    },
+    {
+      "url": "https://github.com/BioinformaticsToolsmith/FASTCAR"
+    },
+    {
+      "url": "https://github.com/UnkindPartition/bamcc"
+    },
+    {
+      "url": "https://github.com/0x462e41/SS3D"
+    },
+    {
+      "url": "https://github.com/MattCzajkowski/GenCoF"
+    },
+    {
+      "url": "https://github.com/seqan/lara"
+    },
+    {
+      "url": "https://github.com/beyondpie/GIFT"
+    },
+    {
+      "url": "https://github.com/grabear/guidance"
+    },
+    {
+      "url": "https://github.com/r3fang/CRESTseq"
+    },
+    {
+      "url": "https://github.com/Mangul-Lab-USC/benchmarking-transcriptomics-deconvolution"
+    },
+    {
+      "url": "https://github.com/kit4b/kit4b"
+    },
+    {
+      "url": "https://github.com/sequinstandards/Anaquin"
+    },
+    {
+      "url": "https://github.com/schmidt73/guidescan-cli"
+    },
+    {
+      "url": "https://github.com/EvolBioInf/mattools"
+    },
+    {
+      "url": "https://github.com/Seanst98/SeqALib"
+    },
+    {
+      "url": "https://github.com/cnettel/cnF2freq"
+    },
+    {
+      "url": "https://github.com/crclark/optnetaligncpp"
+    },
+    {
+      "url": "https://github.com/kagami-c/PPData"
+    },
+    {
+      "url": "https://github.com/LucaMarconato/mirna_target_prediction"
+    },
+    {
+      "url": "https://github.com/mr-eyes/genoFreq"
+    },
+    {
+      "url": "https://github.com/UDC-GAC/mpi3snp"
+    },
+    {
+      "url": "https://github.com/islamazhar/GapProber"
+    },
+    {
+      "url": "https://github.com/tsnorri/vcf2multialign"
+    },
+    {
+      "url": "https://github.com/nextco/dna-sequence-comparison"
+    },
+    {
+      "url": "https://github.com/tsnorri/libbio"
+    },
+    {
+      "url": "https://github.com/ADDALemos/RBN"
+    },
+    {
+      "url": "https://github.com/pmenzel/RILogo"
+    },
+    {
+      "url": "https://github.com/IFB-ElixirFr/GFLS_SNiPlay"
+    },
+    {
+      "url": "https://github.com/panda5176/biocpp"
+    },
+    {
+      "url": "https://github.com/adamjorr/kbbq"
+    },
+    {
+      "url": "https://github.com/compbiolab/acgtn"
+    },
+    {
+      "url": "https://github.com/thealifaisal/Longest-Common-Subsequence"
+    },
+    {
+      "url": "https://github.com/UdeM-LBIT/SuperReconciliation"
+    },
+    {
+      "url": "https://github.com/odenas/indexed_ms"
+    },
+    {
+      "url": "https://github.com/ludlows/BALL"
+    },
+    {
+      "url": "https://github.com/masakistan/kcollections"
+    },
+    {
+      "url": "https://github.com/titansarus/Bioinformatics-Algorithms"
+    },
+    {
+      "url": "https://github.com/tbrekalo/fast"
+    },
+    {
+      "url": "https://github.com/kagami-c/MzLoader"
+    },
+    {
+      "url": "https://github.com/willeccles/gtf-cpp"
+    },
+    {
+      "url": "https://github.com/bjpop/HiTIME-CPP"
+    },
+    {
+      "url": "https://github.com/sepehrmn/nest-simulator"
+    },
+    {
+      "url": "https://github.com/pfgherardini/superpose3D"
+    },
+    {
+      "url": "https://github.com/zjurelinac/fer.LCP-BWT"
+    },
+    {
+      "url": "https://github.com/MislavJaksic/Bioinformatics-Finding-Mutations"
+    },
+    {
+      "url": "https://github.com/bishoyh/soft2hard"
+    },
+    {
+      "url": "https://github.com/marekrydlewski/dna-izohybrid"
+    },
+    {
+      "url": "https://github.com/kubawajs/Motif-Searcher"
+    },
+    {
+      "url": "https://github.com/A-Alaa/rosalind-cpp"
+    },
+    {
+      "url": "https://github.com/gf712/ProStruct"
+    },
+    {
+      "url": "https://github.com/jhuapl-bio/pathogenesis-gene-ontology"
+    },
+    {
+      "url": "https://github.com/hexhead/inbix"
+    },
+    {
+      "url": "https://github.com/staverm/hifimap"
+    },
+    {
+      "url": "https://github.com/imminfo/ymir"
+    },
+    {
+      "url": "https://github.com/cmkumar87/FM_Index"
+    },
+    {
+      "url": "https://github.com/HGSC-NGSI/xatlas"
+    },
+    {
+      "url": "https://github.com/aleksandarkiridzic/dna-sequence-aligner"
+    },
+    {
+      "url": "https://github.com/raydzast/rosalind"
+    },
+    {
+      "url": "https://github.com/collaborativebioinformatics/DSVifier"
+    },
+    {
+      "url": "https://github.com/SaraaSameer/Pairwise-Sequence-Alignment"
+    },
+    {
+      "url": "https://github.com/arendsee/zwc"
+    },
+    {
+      "url": "https://github.com/bionitio-team/bionitio-cpp"
+    },
+    {
+      "url": "https://github.com/mutalyzer/extractor-core"
+    },
+    {
+      "url": "https://github.com/isaurabhkr/PluriTool"
+    },
+    {
+      "url": "https://github.com/pentalpha/alenhador"
+    },
+    {
+      "url": "https://github.com/Erezinho/TheAnalyzer"
+    },
+    {
+      "url": "https://github.com/zwets/kcst"
+    },
+    {
+      "url": "https://github.com/hamalcij/biotool"
+    },
+    {
+      "url": "https://github.com/anuradhawick/seq2covvec"
+    },
+    {
+      "url": "https://github.com/Federico77z/aScan"
+    },
+    {
+      "url": "https://github.com/lsscecilia/SequenceAligner"
+    },
+    {
+      "url": "https://github.com/mttmartin/splice_detection"
+    },
+    {
+      "url": "https://github.com/sudeepsahadevan/gtf_parser"
+    },
+    {
+      "url": "https://github.com/toshihr/mtrap"
+    },
+    {
+      "url": "https://github.com/mcgml/RemoveAmpliconDuplicates"
+    },
+    {
+      "url": "https://github.com/alexpreynolds/kmer-boolean"
+    },
+    {
+      "url": "https://github.com/josipgrgic/Bioinformatics-MutationDetection"
+    },
+    {
+      "url": "https://github.com/jflopezfernandez/GeneParser"
+    },
+    {
+      "url": "https://github.com/jacobjmarks/SPK-counter"
+    },
+    {
+      "url": "https://github.com/alexpreynolds/kmer-counter-abseil"
+    },
+    {
+      "url": "https://github.com/alexpreynolds/kmer-counter-boost"
+    },
+    {
+      "url": "https://github.com/revl/vcf_scanner"
+    },
+    {
+      "url": "https://github.com/smufin/smufin-core"
+    },
+    {
+      "url": "https://github.com/IvanovicM/hmm-bio-prediction"
+    },
+    {
+      "url": "https://github.com/mpieva/func"
+    },
+    {
+      "url": "https://github.com/sergioramalli/cogs"
+    },
+    {
+      "url": "https://github.com/gitmee/FindGeneSequences"
+    },
+    {
+      "url": "https://github.com/tumpeccet/BDT2020"
+    },
+    {
+      "url": "https://github.com/eriksjolund/abi2xml"
+    },
+    {
+      "url": "https://github.com/RJPenic/OSALG"
+    },
+    {
+      "url": "https://github.com/dzif/kd-tree-overlapper"
+    },
+    {
+      "url": "https://github.com/fpopic/bioinf"
+    },
+    {
+      "url": "https://github.com/mschilli87/microSNPscore"
+    },
+    {
+      "url": "https://github.com/shidhu/Others"
+    },
+    {
+      "url": "https://github.com/alexpreynolds/kmer-counter-ska"
+    },
+    {
+      "url": "https://github.com/ac005sheekar/Biometric-sensors-interfacing-with-Arduino-and-Firmware"
+    },
+    {
+      "url": "https://github.com/conorbros/kmer-signatures"
+    },
+    {
+      "url": "https://github.com/parthian-sterlet/sitega"
+    },
+    {
+      "url": "https://github.com/Mil-m/FASTA"
+    },
+    {
+      "url": "https://github.com/kloetzl/mugsy"
+    },
+    {
+      "url": "https://github.com/nandomaciel/Bioinformatics"
+    },
+    {
+      "url": "https://github.com/arkinjo/lgm_mc"
+    },
+    {
+      "url": "https://github.com/DavidB256/ProtKit"
+    },
+    {
+      "url": "https://github.com/iyak/RNAlogo"
+    },
+    {
+      "url": "https://github.com/alexpreynolds/kmer-counter-emilib"
+    },
+    {
+      "url": "https://github.com/seanlaidlaw/GRu-Mo"
+    },
+    {
+      "url": "https://github.com/jflopezfernandez/Nucleotyping"
+    },
+    {
+      "url": "https://github.com/diwata11/BiORAM-SGX"
+    },
+    {
+      "url": "https://github.com/moozeq/DD_Redun"
+    },
+    {
+      "url": "https://github.com/t-neumann/sff-adaptersplitter"
+    },
+    {
+      "url": "https://github.com/javifreemind/bioinformatic"
+    },
+    {
+      "url": "https://github.com/nandomaciel/Bioinformatics"
+    },
+    {
+      "url": "https://github.com/arkinjo/lgm_mc"
+    },
+    {
+      "url": "https://github.com/uHappyLogic/isbh"
+    },
+    {
+      "url": "https://github.com/nextco/sorting-by-reversals"
+    },
+    {
+      "url": "https://github.com/labsquare/QVcf"
+    },
+    {
+      "url": "https://github.com/dogabaris/bioinformatics-global-alignment"
+    },
+    {
+      "url": "https://github.com/msbanos/core"
+    },
+    {
+      "url": "https://github.com/Xu-Kai/XBLESS"
+    },
+    {
+      "url": "https://github.com/tsnorri/vcfdistances"
+    },
+    {
+      "url": "https://github.com/alexpreynolds/kmer-counter-unordmap"
+    },
+    {
+      "url": "https://github.com/amiraa25/pythagoras"
+    },
+    {
+      "url": "https://github.com/t-neumann/sff-adaptersplitter"
+    },
+    {
+      "url": "https://github.com/javifreemind/bioinformatic"
+    },
+    {
+      "url": "https://github.com/lin-justin/cbio"
+    },
+    {
+      "url": "https://github.com/davidcastells/bpc"
+    },
+    {
+      "url": "https://github.com/exTerEX/libfasta"
+    },
+    {
+      "url": "https://github.com/WillyBruhn/VARUS"
+    },
+    {
+      "url": "https://github.com/kubawajs/AdjointGraph-Converter"
+    },
+    {
+      "url": "https://github.com/no-materials/SeqAnRef"
+    },
+    {
+      "url": "https://github.com/AntoineHo/COCOA"
+    },
+    {
+      "url": "https://github.com/alpha74/ROSALIND_Bioinformatics"
+    },
+    {
+      "url": "https://github.com/lisakmalins/popcorn"
+    },
+    {
+      "url": "https://github.com/Hareski/ConsensusOrdres"
+    },
+    {
+      "url": "https://github.com/yamule/TM-align_mass"
+    },
+    {
+      "url": "https://github.com/at-cg/MMC"
+    },
+    {
+      "url": "https://github.com/qPCR4vir/seqan3"
+    },
+    {
+      "url": "https://github.com/jmjuanes/covertools"
+    },
+    {
+      "url": "https://github.com/brendane/seq_view"
+    },
+    {
+      "url": "https://github.com/spriggsy83/spriggsy-seq-tools"
+    },
+    {
+      "url": "https://github.com/alexpreynolds/kmer-counter-sparse"
+    },
+    {
+      "url": "https://github.com/joao-conde/fer-bio"
+    },
+    {
+      "url": "https://github.com/weinstockj/alpha_satellite_counter"
+    },
+    {
+      "url": "https://github.com/jacobbierstedt/fastqc-summary"
+    },
+    {
+      "url": "https://github.com/kad-ecoli/PDBParser"
+    },
+    {
+      "url": "https://github.com/fg6/forACT"
+    },
+    {
+      "url": "https://github.com/scchess/Art"
+    },
+    {
+      "url": "https://github.com/kubawajs/Mapper"
+    },
+    {
+      "url": "https://github.com/wajeehmisbahkhan/UBIT"
+    },
+    {
+      "url": "https://github.com/Waterpine/EM_Predict_RNA"
+    },
+    {
+      "url": "https://github.com/sudeepsahadevan/tfKernel"
+    },
+    {
+      "url": "https://github.com/ovaltriangle/fingerprint-aligner"
+    },
+    {
+      "url": "https://github.com/alecstem/gcgr"
+    },
+    {
+      "url": "https://github.com/altairwei/bioutils"
+    },
+    {
+      "url": "https://github.com/YannDubs/modellingBacterias"
+    },
+    {
+      "url": "https://github.com/dogabaris/bioinformatics-msa-star-algorithm"
+    },
+    {
+      "url": "https://github.com/ShreyasChikkabilathiHarisha/Fusion-Detection-using-Pufferfish"
+    },
+    {
+      "url": "https://github.com/matteo-rizzo/LIPsPredictor"
+    },
+    {
+      "url": "https://github.com/akcorut/BioAlgorithms"
+    },
+    {
+      "url": "https://github.com/RapidsAtHKUST/manymap"
+    },
+    {
+      "url": "https://github.com/rcedgar/newick"
+    },
+    {
+      "url": "https://github.com/aanastasiou/fanmod-cmd"
+    },
+    {
+      "url": "https://github.com/iyak/RNAelem"
+    },
+    {
+      "url": "https://github.com/pentalpha/sickle"
+    },
+    {
+      "url": "https://github.com/riccardo-nigrelli/DynaDBG"
+    },
+    {
+      "url": "https://github.com/jacobjmarks/cvtree-parallel"
+    },
+    {
+      "url": "https://github.com/VJ-INSPIRE/Open-Bio-Ventilation-system"
+    },
+    {
+      "url": "https://github.com/brendane/bltools"
+    },
+    {
+      "url": "https://github.com/hassan11196/Chou-Fasman"
+    },
+    {
+      "url": "https://github.com/RolandFaure/QuickDeconvolution"
+    },
+    {
+      "url": "https://github.com/pentalpha/luthien"
+    },
+    {
+      "url": "https://github.com/eugen-vusak/finding-mutations-using-3th-gen-sequencing"
+    },
+    {
+      "quantityOfRepositories": 331,
+      "quantityOfRelevantRepositories": 60,
+      "quantityOfRelevantRepositoriesWithOpenMP": 22
+    }
+  ]
+}

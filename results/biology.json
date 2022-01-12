@@ -67,5 +67,151 @@
       "quantityOfRelevantRepositories": 2,
       "quantityOfRelevantRepositoriesWithOpenMP": 0
     }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/BioDynaMo/biodynamo",
+      "#pragma omp parallel": 62,
+      "#pragma omp single ": 1,
+      "#pragma omp for ": 8,
+      "#pragma omp simd ": 29,
+      "#pragma omp parallel for": 33,
+      "#pragma omp master": 1,
+      "#pragma omp critical": 13,
+      "#pragma omp barrier": 6,
+      "#pragma omp atomic": 1,
+      "quantityOfFiles": 364,
+      "quantityOfFilesWithOpenMP": 36
+    },
+    {
+      "url": "https://github.com/jonnew/cyclops",
+      "quantityOfFiles": 2,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/UCLOrengoGroup/cath-tools",
+      "quantityOfFiles": 1424,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/AdaptiveParticles/LibAPR",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/rcedgar/muscle"
+    },
+    {
+      "url": "https://github.com/gletort/PhysiBoSS",
+      "#pragma omp parallel": 19,
+      "#pragma omp parallel for": 19,
+      "#pragma omp critical": 11,
+      "quantityOfFiles": 95,
+      "quantityOfFilesWithOpenMP": 7
+    },
+    {
+      "url": "https://github.com/mertyildiran/Plexus"
+    },
+    {
+      "url": "https://github.com/flintproject/Flint"
+    },
+    {
+      "url": "https://github.com/intron-prediction-capstone/intron-utility"
+    },
+    {
+      "url": "https://github.com/qPCR4vir/ThDySec"
+    },
+    {
+      "url": "https://github.com/UnkindPartition/bamcc"
+    },
+    {
+      "url": "https://github.com/schmidt73/guidescan-cli"
+    },
+    {
+      "url": "https://github.com/richelbilderbeek/pbdmms"
+    },
+    {
+      "url": "https://github.com/levifussell/MicroEvo"
+    },
+    {
+      "url": "https://github.com/kernelshreyak/livmach"
+    },
+    {
+      "url": "https://github.com/KamilSJaron/Conjunction"
+    },
+    {
+      "url": "https://github.com/Axelwickm/NeuroCorrelation"
+    },
+    {
+      "url": "https://github.com/Rashaad-Washington/ProjectX"
+    },
+    {
+      "url": "https://github.com/JosephPB/Protein"
+    },
+    {
+      "url": "https://github.com/Zedtho/Iterated-Prisoner-s-Dilemma"
+    },
+    {
+      "url": "https://github.com/jjbivona/LOSTwheel"
+    },
+    {
+      "url": "https://github.com/BooneAndrewsLab/segmentation"
+    },
+    {
+      "url": "https://github.com/yoana19/DNA-Model"
+    },
+    {
+      "url": "https://github.com/larcc-group/Prophet"
+    },
+    {
+      "url": "https://github.com/zcolburn/Bioi"
+    },
+    {
+      "url": "https://github.com/mike-bionic/eye-ledblynk"
+    },
+    {
+      "url": "https://github.com/fede379/biotec"
+    },
+    {
+      "url": "https://github.com/rcedgar/newick"
+    },
+    {
+      "url": "https://github.com/rouzbeh/Modigliani"
+    },
+    {
+      "url": "https://github.com/alecstem/ant-lsystem"
+    },
+    {
+      "url": "https://github.com/Jimmy-Manley/TuCoralCam"
+    },
+    {
+      "url": "https://github.com/mahowa/CellProfilingHPC"
+    },
+    {
+      "url": "https://github.com/exTerEX/libfasta"
+    },
+    {
+      "url": "https://github.com/MatejGomboc/Evolution-Simulation"
+    },
+    {
+      "url": "https://github.com/Bader-Research/gtfold"
+    },
+    {
+      "url": "https://github.com/gitmee/FindGeneSequences"
+    },
+    {
+      "url": "https://github.com/kroener/SeqFileProcessing2D"
+    },
+    {
+      "url": "https://github.com/Godrigos/otlsearch"
+    },
+    {
+      "url": "https://github.com/QBioLab/Light-Pulse"
+    },
+    {
+      "quantityOfRepositories": 39,
+      "quantityOfRelevantRepositories": 5,
+      "quantityOfRelevantRepositoriesWithOpenMP": 2
+    }
   ]
 }

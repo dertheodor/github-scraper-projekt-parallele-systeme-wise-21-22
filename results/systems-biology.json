@@ -1,0 +1,88 @@
+{
+  "fortran": [],
+  "c": [
+    {
+      "url": "https://github.com/lingfeiwang/findr"
+    },
+    {
+      "url": "https://github.com/libsbmlsim/libsbmlsim"
+    },
+    {
+      "url": "https://github.com/hclimente/gin"
+    },
+    {
+      "url": "https://github.com/nvanriel/ADAPT"
+    },
+    {
+      "url": "https://github.com/hclimente/Rgin"
+    },
+    {
+      "url": "https://github.com/okadalabipr/Chiang2020"
+    },
+    {
+      "url": "https://github.com/biosimulators/Biosimulators_LibSBMLSim"
+    },
+    {
+      "url": "https://github.com/gustavoem/SimpleCVODEWrapper"
+    },
+    {
+      "url": "https://github.com/kmaeda16/libRCGA"
+    },
+    {
+      "url": "https://github.com/meyer-lab/AXLdiffEQ"
+    },
+    {
+      "quantityOfRepositories": 10,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/ecell/ecell4_base",
+      "quantityOfFiles": 296,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/ICB-DCM/parPE"
+    },
+    {
+      "url": "https://github.com/sbmlteam/libsbml"
+    },
+    {
+      "url": "https://github.com/Nico-Curti/SysDyn"
+    },
+    {
+      "url": "https://github.com/spatial-model-editor/spatial-model-editor"
+    },
+    {
+      "url": "https://github.com/spatialsimulator/Spatial_Simulator"
+    },
+    {
+      "url": "https://github.com/birtwistlelab/SPARCED"
+    },
+    {
+      "url": "https://github.com/sbmlteam/deviser"
+    },
+    {
+      "url": "https://github.com/tanlabcode/OptiCon"
+    },
+    {
+      "url": "https://github.com/kernelshreyak/livmach"
+    },
+    {
+      "url": "https://github.com/hexhead/inbix"
+    },
+    {
+      "url": "https://github.com/mythosil/odeint-mapk"
+    },
+    {
+      "url": "https://github.com/jamesjcai/SBEToolbox_lite"
+    },
+    {
+      "quantityOfRepositories": 13,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
+}
