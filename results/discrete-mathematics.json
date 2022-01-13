@@ -1,0 +1,207 @@
+{
+  "fortran": [],
+  "c": [
+    {
+      "url": "https://github.com/jmcph4/jcrl"
+    },
+    {
+      "url": "https://github.com/ErkinAbuzarli/Odevler"
+    },
+    {
+      "url": "https://github.com/LBeghini/Relations"
+    },
+    {
+      "url": "https://github.com/LBeghini/Algebra-of-Sets"
+    },
+    {
+      "url": "https://github.com/maheshabburi4/IITH-BTECH-Courses"
+    },
+    {
+      "url": "https://github.com/aszylow/Topics-using-C"
+    },
+    {
+      "url": "https://github.com/Vaibhav-27-06/Relations-in-Discrete-Mathematics"
+    },
+    {
+      "url": "https://github.com/acanofsloth/CSE-2315"
+    },
+    {
+      "url": "https://github.com/aditeyabaral/DML-Assignment-UE18CS205"
+    },
+    {
+      "url": "https://github.com/thedhruvrawat/disco"
+    },
+    {
+      "url": "https://github.com/jmcph4/projecteuler"
+    },
+    {
+      "url": "https://github.com/heckerfr0d/DS"
+    },
+    {
+      "url": "https://github.com/FiryanulRizky/ProgramAlgoritma-MatematikaDiskrit"
+    },
+    {
+      "url": "https://github.com/osvalr/ed"
+    },
+    {
+      "quantityOfRepositories": 14,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/DGtal-team/DGtal",
+      "#pragma omp parallel": 6,
+      "#pragma omp parallel for": 1,
+      "quantityOfFiles": 1114,
+      "quantityOfFilesWithOpenMP": 3
+    },
+    {
+      "url": "https://github.com/SourangshuGhosh/Reverse-Cuthill-McKee-Ordering-in-C"
+    },
+    {
+      "url": "https://github.com/BSCPE-1A-CPE-122-TERM-2-S-Y-19-20/ANASCO"
+    },
+    {
+      "url": "https://github.com/Vitaliy-Grigoriev/FrobeniusNumber"
+    },
+    {
+      "url": "https://github.com/Zakuta/dijkstra-steiner-algo"
+    },
+    {
+      "url": "https://github.com/damminhtien/c_ds_algo"
+    },
+    {
+      "url": "https://github.com/OluwaseunOjeleye/School-Projects"
+    },
+    {
+      "url": "https://github.com/B-O-O-P/itmo-dm-labs"
+    },
+    {
+      "url": "https://github.com/valentinvstoyanov/fmi"
+    },
+    {
+      "url": "https://github.com/tschijnmo/libcanon"
+    },
+    {
+      "url": "https://github.com/samarth-p/Euler-and-Hamiltonian-Path"
+    },
+    {
+      "url": "https://github.com/josefkoller/ambient_image_processor"
+    },
+    {
+      "url": "https://github.com/aemulare/Eulerian"
+    },
+    {
+      "url": "https://github.com/LovelyBuggies/Cplusplus_GraphTheory_Experiments"
+    },
+    {
+      "url": "https://github.com/Wonz5130/Discrete-Mathematics"
+    },
+    {
+      "url": "https://github.com/bnw/Chip-Design_Dijkstra-Steiner-Algorithm"
+    },
+    {
+      "url": "https://github.com/victor-korotchenya/StandardAlgorithms"
+    },
+    {
+      "url": "https://github.com/Oreofreakshake/basedBinary"
+    },
+    {
+      "url": "https://github.com/iskorotkov/chromatic-polynomials"
+    },
+    {
+      "url": "https://github.com/cilegann/ExpertSystem"
+    },
+    {
+      "url": "https://github.com/KuzmichevaKsenia/qt-prims-algorithm"
+    },
+    {
+      "url": "https://github.com/puffupuff/bridge_summer_2020"
+    },
+    {
+      "url": "https://github.com/farkoo/discrete-well-formed-formula-implementation"
+    },
+    {
+      "url": "https://github.com/ykray/NYU-Tandon-Bridge-2021"
+    },
+    {
+      "url": "https://github.com/tvrda34/Discrete-Mathematics"
+    },
+    {
+      "url": "https://github.com/meysam81/A-simple-Karnaugh-map-implementation"
+    },
+    {
+      "url": "https://github.com/BSCPE-1A-CPE-122-TERM-2-S-Y-19-20/GESITE"
+    },
+    {
+      "url": "https://github.com/mmalinova/Discrete_structures"
+    },
+    {
+      "url": "https://github.com/AlexeyShik/Discrete-Math"
+    },
+    {
+      "url": "https://github.com/katelo731/DM_FinalProject"
+    },
+    {
+      "url": "https://github.com/rng70/Course-Assignments"
+    },
+    {
+      "url": "https://github.com/mndxpnsn/letter-combo"
+    },
+    {
+      "url": "https://github.com/bnw/Combinatorial-Optimization"
+    },
+    {
+      "url": "https://github.com/akulagrawal/Cryptology-ISI-Problems"
+    },
+    {
+      "url": "https://github.com/his9989/Hongik_univ"
+    },
+    {
+      "url": "https://github.com/Zakuta/cardinality-matching-algo"
+    },
+    {
+      "url": "https://github.com/reiame/propositional-logic-calculating"
+    },
+    {
+      "url": "https://github.com/khaitranquang/Discrete-Mathrmatics"
+    },
+    {
+      "url": "https://github.com/sajed-zarrinpour/Number-Partitioning"
+    },
+    {
+      "url": "https://github.com/RodrigoAGM/Monopoly_UPC"
+    },
+    {
+      "url": "https://github.com/sanjaygidwani/algorithmic_library"
+    },
+    {
+      "url": "https://github.com/Bocampagni/Beecrowd"
+    },
+    {
+      "url": "https://github.com/cannor147/itmo-dm"
+    },
+    {
+      "url": "https://github.com/akifev/discrete-mathematics"
+    },
+    {
+      "url": "https://github.com/salazaru/Discrete_Structures"
+    },
+    {
+      "url": "https://github.com/elvircrn/DM"
+    },
+    {
+      "url": "https://github.com/kongzii/GraphCpp"
+    },
+    {
+      "url": "https://github.com/benfogg/CS_236"
+    },
+    {
+      "quantityOfRepositories": 48,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ]
+}

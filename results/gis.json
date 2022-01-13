@@ -14,5 +14,363 @@
       "quantityOfRelevantRepositories": 0,
       "quantityOfRelevantRepositoriesWithOpenMP": 0
     }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/retroplasma/earth-reverse-engineering",
+      "quantityOfFiles": 18,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/OSGeo/grass",
+      "#pragma omp parallel": 103,
+      "#pragma omp single ": 19,
+      "#pragma omp for ": 67,
+      "#pragma omp parallel for": 45,
+      "#pragma omp critical": 3,
+      "#pragma omp atomic": 1,
+      "quantityOfFiles": 3355,
+      "quantityOfFilesWithOpenMP": 29
+    },
+    {
+      "url": "https://github.com/propublica/simple-tiles",
+      "quantityOfFiles": 43,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/lcp0578/book-note"
+    },
+    {
+      "url": "https://github.com/3DGISKing/QGlobe"
+    },
+    {
+      "url": "https://github.com/mrihtar/GeoCoordinateConverter"
+    },
+    {
+      "url": "https://github.com/nils-hamel/eratosthene-suite"
+    },
+    {
+      "url": "https://github.com/Prograf-UFF/urban-chronicles"
+    },
+    {
+      "url": "https://github.com/Dushistov/libspatialite"
+    },
+    {
+      "url": "https://github.com/qbazd/geodesicd"
+    },
+    {
+      "url": "https://github.com/hrefhref/elixir-geos"
+    },
+    {
+      "url": "https://github.com/raalkml/gpx2tiles"
+    },
+    {
+      "url": "https://github.com/bigopensky/gis-se-snippet"
+    },
+    {
+      "url": "https://github.com/romancardenas/Group_E_Simulation_Lifecycle"
+    },
+    {
+      "url": "https://github.com/jamesmcclain/StreetLevel"
+    },
+    {
+      "url": "https://github.com/HuidaeCho/r.accumulate-iterative"
+    },
+    {
+      "url": "https://github.com/HuidaeCho/grass"
+    },
+    {
+      "url": "https://github.com/HuidaeCho/r.accumulate.lessmem"
+    },
+    {
+      "url": "https://github.com/sommergis/netxpert"
+    },
+    {
+      "url": "https://github.com/jnoortheen/GRASS-GIS-module-v.vol.idw"
+    },
+    {
+      "url": "https://github.com/nils-hamel/liberatosthene"
+    },
+    {
+      "url": "https://github.com/arirepo/gethsemane"
+    },
+    {
+      "url": "https://github.com/mgemeny/KMLpathMerge"
+    },
+    {
+      "url": "https://github.com/vzvca/mbtiles-offline-viewer"
+    },
+    {
+      "quantityOfRepositories": 24,
+      "quantityOfRelevantRepositories": 3,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/mapnik/mapnik",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/google/earthenterprise",
+      "quantityOfFiles": 1679,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/gwaldron/osgearth",
+      "quantityOfFiles": 741,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/mousebird-consulting-inc/WhirlyGlobe",
+      "#pragma omp parallel": 2,
+      "#pragma omp parallel for": 1,
+      "#pragma omp atomic": 1,
+      "quantityOfFiles": 1535,
+      "quantityOfFilesWithOpenMP": 3
+    },
+    {
+      "url": "https://github.com/cyang-kth/fmm",
+      "#pragma omp parallel": 7,
+      "#pragma omp for ": 2,
+      "#pragma omp parallel for": 5,
+      "#pragma omp critical": 9,
+      "quantityOfFiles": 185,
+      "quantityOfFilesWithOpenMP": 8
+    },
+    {
+      "url": "https://github.com/naturalatlas/node-gdal",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/tudelft3d/3dfier",
+      "quantityOfFiles": 30,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/lutraconsulting/input",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/isciences/exactextractr",
+      "quantityOfFiles": 75,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/arctern-io/arctern",
+      "quantityOfFiles": 161,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/tqjxlm/Atlas"
+    },
+    {
+      "url": "https://github.com/isciences/exactextract"
+    },
+    {
+      "url": "https://github.com/tudelft3d/val3dity",
+      "quantityOfFiles": 64,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/remotesensinginfo/rsgislib",
+      "quantityOfFiles": 450,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/melowntech/vts-browser-cpp",
+      "quantityOfFiles": 208,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/UIDO/UMapControl"
+    },
+    {
+      "url": "https://github.com/geops/batyr"
+    },
+    {
+      "url": "https://github.com/Esri/pyprt",
+      "quantityOfFiles": 24,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/dronemapper-io/aruco-geobits"
+    },
+    {
+      "url": "https://github.com/nmandery/batyr",
+      "quantityOfFiles": 66,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/kadas-albireo/kadas-albireo",
+      "quantityOfFiles": 951,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/TerraMA2/terrama2",
+      "quantityOfFiles": 526,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/ilongio/ilong"
+    },
+    {
+      "url": "https://github.com/mogasw/rasterix"
+    },
+    {
+      "url": "https://github.com/AaltoUrbanWater/GisToSWMM5"
+    },
+    {
+      "url": "https://github.com/SymbolixAU/spatialwidget"
+    },
+    {
+      "url": "https://github.com/fiftysevendegreesofrad/sdna_open"
+    },
+    {
+      "url": "https://github.com/tombh/total-viewsheds"
+    },
+    {
+      "url": "https://github.com/go-spatial/go-mbgl"
+    },
+    {
+      "url": "https://github.com/dronemapper-io/dji-dewarp"
+    },
+    {
+      "url": "https://github.com/laas/fire-rs-saop"
+    },
+    {
+      "url": "https://github.com/Gaia3D/-Deprecated-F4DConverter"
+    },
+    {
+      "url": "https://github.com/adonmo/meos"
+    },
+    {
+      "url": "https://github.com/hauke96/image2tiles"
+    },
+    {
+      "url": "https://github.com/trailcode/webAsmPlay"
+    },
+    {
+      "url": "https://github.com/lutraconsulting/qgis-quick-demo-app"
+    },
+    {
+      "url": "https://github.com/Esri/puma"
+    },
+    {
+      "url": "https://github.com/frett27/jfgdb"
+    },
+    {
+      "url": "https://github.com/SymbolixAU/boostgeometry"
+    },
+    {
+      "url": "https://github.com/munterfi/flexpolyline"
+    },
+    {
+      "url": "https://github.com/sajadblog/GeoViewer---QGIS-example"
+    },
+    {
+      "url": "https://github.com/jcaraban/map"
+    },
+    {
+      "url": "https://github.com/Lecrapouille/SimTaDyn"
+    },
+    {
+      "url": "https://github.com/ademirtug/digital_globe"
+    },
+    {
+      "url": "https://github.com/sguimmara/atlas"
+    },
+    {
+      "url": "https://github.com/terranum-ch/ToolMap"
+    },
+    {
+      "url": "https://github.com/shepard-liu/tile-map-parallel-builder"
+    },
+    {
+      "url": "https://github.com/KangLin/RabbitGIS"
+    },
+    {
+      "url": "https://github.com/zy6p/GisL"
+    },
+    {
+      "url": "https://github.com/Mappy/un-serveur-metier-en-python-cpp"
+    },
+    {
+      "url": "https://github.com/grisu48/geoJson"
+    },
+    {
+      "url": "https://github.com/iisys-hof/map-matching-2"
+    },
+    {
+      "url": "https://github.com/yanjiulab/QSSA"
+    },
+    {
+      "url": "https://github.com/andredebuisne/AIS"
+    },
+    {
+      "url": "https://github.com/am2222/pydggrid"
+    },
+    {
+      "url": "https://github.com/darioajr/shapeview"
+    },
+    {
+      "url": "https://github.com/zhengyuan-liu/OGR-Geometry-Classlib"
+    },
+    {
+      "url": "https://github.com/nickmcummins/VirtualTerrainProject"
+    },
+    {
+      "url": "https://github.com/codyben/php7-gdal"
+    },
+    {
+      "url": "https://github.com/AsPJT/YollotlEngine"
+    },
+    {
+      "url": "https://github.com/sgrieve/concavity"
+    },
+    {
+      "url": "https://github.com/Mappy/mapbox-gl-native"
+    },
+    {
+      "url": "https://github.com/alex-mathew/Swatch-Bharath-Smart-Dustbin"
+    },
+    {
+      "url": "https://github.com/brotherdust/qrap"
+    },
+    {
+      "url": "https://github.com/vissarion/spatial_trajectories_BG"
+    },
+    {
+      "url": "https://github.com/hyq5436/QGIS"
+    },
+    {
+      "url": "https://github.com/wsu-wacs/sumor"
+    },
+    {
+      "url": "https://github.com/RobinTheSprite/breadcrumbs"
+    },
+    {
+      "url": "https://github.com/jdmonin/osm-history-renderer"
+    },
+    {
+      "url": "https://github.com/sunshineYin/CppProgrammingAssignments"
+    },
+    {
+      "url": "https://github.com/gaspardle/mssql-clrgeo"
+    },
+    {
+      "url": "https://github.com/mborne/cgal-decorate-point-with-data"
+    },
+    {
+      "url": "https://github.com/ExploreWilder/qmapshack"
+    },
+    {
+      "quantityOfRepositories": 73,
+      "quantityOfRelevantRepositories": 17,
+      "quantityOfRelevantRepositoriesWithOpenMP": 2
+    }
   ]
 }

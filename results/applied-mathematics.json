@@ -1,0 +1,50 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/akshay23sept/Mesh-Generation-Framework"
+    },
+    {
+      "url": "https://github.com/mrtkp9993/Numerical-Methods-in-Fortran"
+    },
+    {
+      "quantityOfRepositories": 2,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/JackKeogh/AFA"
+    },
+    {
+      "quantityOfRepositories": 1,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/dialkforkaushik/DECAGT"
+    },
+    {
+      "url": "https://github.com/hifirworks/hifir"
+    },
+    {
+      "url": "https://github.com/Raffaello/discOpt"
+    },
+    {
+      "url": "https://github.com/baranyikt/zeta"
+    },
+    {
+      "url": "https://github.com/vinayak-gholap1993/Dealii-Project"
+    },
+    {
+      "url": "https://github.com/baranyikt/nn-class-for-mnist"
+    },
+    {
+      "quantityOfRepositories": 6,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
+}
