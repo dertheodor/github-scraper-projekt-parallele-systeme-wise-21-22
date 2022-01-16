@@ -152,6 +152,8 @@ const openMPDirectivesCString = [
     "#pragma omp teams",
     "#pragma omp sections",
     "#pragma omp single ",
+    // manually added
+    "#pragma omp workshare ",
     "#pragma omp for ",
     "#pragma omp simd ",
     "#pragma omp for simd",
@@ -176,6 +178,8 @@ const openMPDirectivesCString = [
     "#pragma omp parallel for",
     "#pragma omp parallel loop",
     "#pragma omp parallel sections",
+    // manually added
+    "#pragma omp parallel workshare",
     "#pragma omp parallel for simd",
     "#pragma omp parallel master",
     "#pragma omp master taskloop",
