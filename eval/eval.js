@@ -106,5 +106,6 @@ function evaluateTopic(science, jsonFileName) {
     });
 }
 
+
 evaluateTopic('chemistry', 'chemistry');
 
