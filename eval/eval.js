@@ -27,6 +27,7 @@
  */
 
 const fs = require('fs')
+const openMPDirectives = require('../variables/openMPDirectives');
 
 /**
  *
@@ -36,8 +37,10 @@ const fs = require('fs')
 function evaluateTopic(science, jsonFileName) {
     var evaluatedTopic = {};
     var jsonContent = require(`../results/base-results/${science}/${jsonFileName}.json`);
-
     var languages = ["fortran", "c", "c++"]
+
+
+    // Count files and Repositories
     var quantityOfFiles = 0;
     var quantityOfFilesWithOpenMP = 0;
     var quantityOfRepositories = 0;
@@ -52,7 +55,7 @@ function evaluateTopic(science, jsonFileName) {
                 quantityOfFilesWithOpenMP += jsonContent[languages[i]][j]["quantityOfFilesWithOpenMP"];
             }
 
-            // repos
+            // quantityOfRepositories, quantityOfRelevantRepositories and quantityOfRelevantRepositoriesWithOpenMP
             if (jsonContent[languages[i]][j]["quantityOfRepositories"]) {
                 quantityOfRepositories += jsonContent[languages[i]][j]["quantityOfRepositories"];
                 quantityOfRelevantRepositories += jsonContent[languages[i]][j]["quantityOfRelevantRepositories"];
@@ -67,9 +70,31 @@ function evaluateTopic(science, jsonFileName) {
     evaluatedTopic['quantityOfRelevantRepositories'] = quantityOfRelevantRepositories;
     evaluatedTopic['quantityOfRelevantRepositoriesWithOpenMP'] = quantityOfRelevantRepositoriesWithOpenMP;
 
+    // Count Directives
+    var openMPDirectivesAll = openMPDirectives.openMPDirectivesAll;
+    var openMPDirectivesC = openMPDirectives.openMPDirectivesCString;
+    var openMPDirectivesFortran = openMPDirectives.openMPDirectivesFortranString;
 
-
-
+    for (let h = 0; h < openMPDirectivesAll.length; h++) {
+        for (let i = 0; i < languages.length; i++) {
+            for (let j = 0; j < jsonContent[languages[i]].length; j++) {
+                // Check Directives C/C++
+                if (jsonContent[languages[i]][j][openMPDirectivesC[h]]) {
+                    if (typeof evaluatedTopic[openMPDirectivesAll[h]] === 'undefined') {
+                        evaluatedTopic[openMPDirectivesAll[h]] = 0;
+                    }
+                    evaluatedTopic[openMPDirectivesAll[h]] += jsonContent[languages[i]][j][openMPDirectivesC[h]];
+                }
+                // Check Directives Fortran
+                if (jsonContent[languages[i]][j][openMPDirectivesFortran[h]]) {
+                    if (typeof evaluatedTopic[openMPDirectivesAll[h]] === 'undefined') {
+                        evaluatedTopic[openMPDirectivesAll[h]] = 0;
+                    }
+                    evaluatedTopic[openMPDirectivesAll[h]] += jsonContent[languages[i]][j][openMPDirectivesFortran[h]];
+                }
+            }
+        }
+    }
 
 
     // write evaluated contents to new json
@@ -81,5 +106,5 @@ function evaluateTopic(science, jsonFileName) {
     });
 }
 
-evaluateTopic('physics', 'physics');
+evaluateTopic('chemistry', 'chemistry');
 
