@@ -79,6 +79,7 @@ function evaluateTopic(science, jsonFileName) {
         for (let i = 0; i < languages.length; i++) {
             for (let j = 0; j < jsonContent[languages[i]].length; j++) {
                 // Check Directives C/C++
+                // Object.keys(jsonContent[languages[i]][j]).includes(openMPDirectivesAll[h])-> Regex in klammern
                 if (jsonContent[languages[i]][j][openMPDirectivesC[h]]) {
                     if (typeof evaluatedTopic[openMPDirectivesAll[h]] === 'undefined') {
                         evaluatedTopic[openMPDirectivesAll[h]] = 0;
