@@ -3,5 +3,14 @@
   "quantityOfFilesWithOpenMP": 43,
   "quantityOfRepositories": 56,
   "quantityOfRelevantRepositories": 7,
-  "quantityOfRelevantRepositoriesWithOpenMP": 2
+  "quantityOfRelevantRepositoriesWithOpenMP": 2,
+  "parallel": 81,
+  "single ": 1,
+  "do": 8,
+  "simd": 29,
+  "parallel do": 52,
+  "master": 1,
+  "critical": 24,
+  "barrier": 6,
+  "atomic": 1
 }
