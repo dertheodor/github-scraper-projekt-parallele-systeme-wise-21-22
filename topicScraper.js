@@ -1,7 +1,7 @@
 const config = require('./config');
 const repositoryScraper = require('./repositoryScraper');
 const errorLogger = require("./variables/errorLogger");
-const shell = require('shelljs')
+const shell = require('shelljs');
 
 const scraperObject = {
     /**
@@ -63,15 +63,15 @@ const scraperObject = {
         await page.close();
 
         // TODO different logic for git cloning all repos and the searching with grep locally
-        const path  = 'C:\\Users\\Theo\\IdeaProjects\\wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen\\test';
-        shell.cd(path);
+        const path  = 'C:\\Users\\Theo\\IdeaProjects\\wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen\\test\\testfile.txt';
+
+        //shell.exec(`git clone https://github.com/nwchemgit/nwchem`);
+        console.log(shell.grep('!\\$omp', path).stdout);
+
+
         // loop over all found repositories
         // TODO change back to repositoryList.length
         for (let i = 0; i < 1; i++) {
-
-            shell.exec(`git clone https://github.com/nwchemgit/nwchem`);
-            //shell.chmod('744', 'C:\\Users\\Theo\\IdeaProjects\\wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen\\test\\atomsk');
-            //shell.grep('!$omp critical', 'C:\\Users\\Theo\\IdeaProjects\\wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen\\test\\atomsk')
             //data.push(await repositoryScraper.scrapeRepository(browser, repositoryList[i]));
         }
 
