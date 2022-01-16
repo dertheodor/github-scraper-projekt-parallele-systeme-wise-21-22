@@ -4,8 +4,8 @@
   "description": "git-scraper for git scraping",
   "main": "scraperInitializer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scrape": "node scraperInitializer.js"
+    "scrape": "node scraperInitializer.js",
+    "eval": "node eval/eval.js"
   },
   "author": "",
   "license": "ISC",
