@@ -2,6 +2,7 @@
  * Lists of OpenMP directives which we will search for inside the code
  * @type {RegExp[]}
  */
+// 67 Directives (Fortran)
 const openMPDirectivesAll = [
    "metadirective",
    "declare variant ",
@@ -73,6 +74,7 @@ const openMPDirectivesAll = [
    "declare mapper",
 ]
 
+// 67 Fortran Directives
 const openMPDirectivesFortranString = [
     "!$omp metadirective",
     "!$omp declare variant ",
@@ -144,6 +146,7 @@ const openMPDirectivesFortranString = [
     "!$omp declare mapper",
 ]
 
+// 65 C/C++ Directives + two manually added space holders into the right position for the workshare/parallel workshare in Fortran
 const openMPDirectivesCString = [
     "#pragma omp metadirective",
     "#pragma omp declare variant",
@@ -153,7 +156,7 @@ const openMPDirectivesCString = [
     "#pragma omp sections",
     "#pragma omp single ",
     // manually added
-    "#pragma omp workshare ",
+    "space holder",
     "#pragma omp for ",
     "#pragma omp simd ",
     "#pragma omp for simd",
@@ -179,7 +182,7 @@ const openMPDirectivesCString = [
     "#pragma omp parallel loop",
     "#pragma omp parallel sections",
     // manually added
-    "#pragma omp parallel workshare",
+    "space holder 2",
     "#pragma omp parallel for simd",
     "#pragma omp parallel master",
     "#pragma omp master taskloop",

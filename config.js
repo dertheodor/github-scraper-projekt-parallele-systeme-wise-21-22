@@ -3,7 +3,32 @@
  * @type {string[]}
  */
 const toBeScrapedTopicURLs = [
-    'https://github.com/topics/cheminformatics',
+    'https://github.com/topics/astro',
+    'https://github.com/topics/astrology',
+    'https://github.com/topics/cosmology',
+    'https://github.com/topics/biophysics',
+    'https://github.com/topics/genetics',
+    'https://github.com/topics/ecology',
+    'https://github.com/topics/microbiology',
+    'https://github.com/topics/geographical-information-system',
+    'https://github.com/topics/geology',
+    'https://github.com/topics/geoscience',
+    'https://github.com/topics/geophysics',
+    'https://github.com/topics/hydrology',
+    'https://github.com/topics/meteorology',
+    'https://github.com/topics/mathematical-modelling',
+    'https://github.com/topics/mathematical-programming',
+    'https://github.com/topics/mathematical-expressions',
+    'https://github.com/topics/math',
+    'https://github.com/topics/maths',
+    'https://github.com/topics/math-library',
+    'https://github.com/topics/geometry',
+    'https://github.com/topics/stochastic',
+    'https://github.com/topics/stochastic-processes',
+    'https://github.com/topics/linear-algebra',
+    'https://github.com/topics/algebra',
+    'https://github.com/topics/topology',
+    'https://github.com/topics/space'
 ]
 
 /**

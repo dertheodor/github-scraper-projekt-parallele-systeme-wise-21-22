@@ -79,20 +79,27 @@ function evaluateTopic(science, jsonFileName) {
     for (let h = 0; h < openMPDirectivesAll.length; h++) {
         for (let i = 0; i < languages.length; i++) {
             for (let j = 0; j < jsonContent[languages[i]].length; j++) {
-                // Check Directives C/C++
-                if (jsonContent[languages[i]][j][openMPDirectivesC[h]]) {
-                    if (typeof evaluatedTopic[openMPDirectivesAll[h]] === 'undefined') {
-                        evaluatedTopic[openMPDirectivesAll[h]] = 0;
-                    }
-                    evaluatedTopic[openMPDirectivesAll[h]] += jsonContent[languages[i]][j][openMPDirectivesC[h]];
-                }
                 // Check Directives Fortran
-                if (jsonContent[languages[i]][j][openMPDirectivesFortran[h]]) {
-                    if (typeof evaluatedTopic[openMPDirectivesAll[h]] === 'undefined') {
-                        evaluatedTopic[openMPDirectivesAll[h]] = 0;
+                // Zusätzliche if abfrage für sprache
+                if (languages[i] === 'fortran') {
+                    if (jsonContent[languages[i]][j][openMPDirectivesFortran[h]]) {
+                        if (typeof evaluatedTopic[openMPDirectivesAll[h]] === 'undefined') {
+                            evaluatedTopic[openMPDirectivesAll[h]] = 0;
+                        }
+                        evaluatedTopic[openMPDirectivesAll[h]] += jsonContent[languages[i]][j][openMPDirectivesFortran[h]];
                     }
-                    evaluatedTopic[openMPDirectivesAll[h]] += jsonContent[languages[i]][j][openMPDirectivesFortran[h]];
                 }
+                // Check Directives C/C++
+                // Object.keys(jsonContent[languages[i]][j]).includes(openMPDirectivesAll[h])-> Regex in klammern
+                if (languages[i] === 'c' ||  languages[i] === 'c++') {
+                    if (jsonContent[languages[i]][j][openMPDirectivesC[h]]) {
+                        if (typeof evaluatedTopic[openMPDirectivesAll[h]] === 'undefined') {
+                            evaluatedTopic[openMPDirectivesAll[h]] = 0;
+                        }
+                        evaluatedTopic[openMPDirectivesAll[h]] += jsonContent[languages[i]][j][openMPDirectivesC[h]];
+                    }
+                }
+
             }
         }
     }
