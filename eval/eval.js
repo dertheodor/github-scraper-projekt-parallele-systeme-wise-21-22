@@ -54,7 +54,7 @@ function evaluateResults() {
     }
 
 
-
+    // eval Sciences
     //var evaluatedTopicResults = shell.ls(resultsPath + '\\evaluated-topic-results');
     var evaluatedTopicResults = shell.ls(resultsPath + 'XXXX/evaluated-topic-results');
 
@@ -72,6 +72,7 @@ function evaluateResults() {
         }
     }
 
+    // eval Final Results
     //var evaluatedScienceResults = shell.ls(resultsPath + '\\evaluated-science-results');
     var evaluatedScienceResults = shell.ls(resultsPath + '/evaluated-science-results');
 
@@ -84,6 +85,7 @@ function evaluateResults() {
                 evaluateFinal(evaluatedScienceResults[i], evaluatedScience);
             }
     }
+    console.log(`The Final Result has been successfully evaluated.`);
 
 }
 
@@ -210,7 +212,6 @@ function evaluateFinal(science, jsonFileName) {
             if (err) {
                 return console.log(err);
             }
-            console.log(`The Final Result has been successfully evaluated.`);
         });
     }
 }
