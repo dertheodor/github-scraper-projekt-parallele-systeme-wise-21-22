@@ -25,6 +25,7 @@
 // Dateiname z.B.: chemistryAggregation.json
 // Gleicher Inhalt wie oben, nun aber nicht mehr aufgeteilt auf Sprachen, sondern über alle Sprachen hinweg zusammengerechnet
  */
+const resultsPath = 'C:\\Users\\theod\\IdeaProjects\\wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen\\results\\base-results'
 
 const fs = require('fs')
 const openMPDirectives = require('../variables/openMPDirectives');
@@ -115,12 +116,12 @@ function evaluateTopic(science, jsonFileName) {
 }
 
 
-var sciences = shell.ls('C:\\Users\\Theo\\IdeaProjects\\wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen\\results\\base-results');
+var sciences = shell.ls(resultsPath);
 
 
 for (let i = 0; i < sciences.length; i++) {
     if (typeof sciences[i] === "string") {
-        var topics = shell.ls(`C:\\Users\\Theo\\IdeaProjects\\wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen\\results\\base-results\\${sciences[i]}`);
+        var topics = shell.ls(`${resultsPath}\\${sciences[i]}`);
 
         for (let j =0; j < topics.length; j++) {
             if (typeof topics[j] === "string") {

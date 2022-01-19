@@ -3,6 +3,7 @@
  * @type {RegExp[]}
  */
 // 67 Directives (Fortran)
+// do and for are just saved as do (as fortran and c use different directive names for the same directive)
 const openMPDirectivesAll = [
    "metadirective",
    "declare variant ",
