@@ -25,7 +25,8 @@
 // Dateiname z.B.: chemistryAggregation.json
 // Gleicher Inhalt wie oben, nun aber nicht mehr aufgeteilt auf Sprachen, sondern über alle Sprachen hinweg zusammengerechnet
  */
-const resultsPath = 'C:\\Users\\theod\\IdeaProjects\\wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen\\results'
+//const resultsPath = 'C:\\Users\\theod\\IdeaProjects\\wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen\\results'
+const resultsPath = '/Users/janisru/intellij-workspace/wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen/results'
 
 const fs = require('fs')
 const openMPDirectives = require('../variables/openMPDirectives');
@@ -34,13 +35,15 @@ const shell = require('shelljs');
 /**
  * Initializes the counting of all topics.
  */
-function evaluateFiles() {
+function evaluateResults() {
     // eval topics
-    var baseResults = shell.ls(resultsPath + '\\base-results');
+    //var baseResults = shell.ls(resultsPath + '\\base-results');
+    var baseResults = shell.ls(resultsPath + 'XXXX/base-results');
 
     for (let i = 0; i < baseResults.length; i++) {
         if (typeof baseResults[i] === "string") {
-            var topics = shell.ls(`${resultsPath}\\base-results\\${baseResults[i]}`);
+           // var topics = shell.ls(`${resultsPath}\\base-results\\${baseResults[i]}`);
+           var topics = shell.ls(`${resultsPath}/base-results/${baseResults[i]}`);
 
             for (let j =0; j < topics.length; j++) {
                 if (typeof topics[j] === "string") {
@@ -50,19 +53,38 @@ function evaluateFiles() {
         }
     }
 
-    var evaluatedResults = shell.ls(resultsPath + '\\evaluated-topic-results');
 
-    for (let i = 0; i < evaluatedResults.length; i++) {
-        if (typeof evaluatedResults[i] === "string") {
-            var evaluatedTopics = shell.ls(`${resultsPath}\\evaluated-topic-results\\${evaluatedResults[i]}`);
+
+    //var evaluatedTopicResults = shell.ls(resultsPath + '\\evaluated-topic-results');
+    var evaluatedTopicResults = shell.ls(resultsPath + 'XXXX/evaluated-topic-results');
+
+    for (let i = 0; i < evaluatedTopicResults.length; i++) {
+
+        if (typeof evaluatedTopicResults[i] === "string") {
+        //    var evaluatedTopics = shell.ls(`${resultsPath}\\evaluated-topic-results\\${evaluatedTopicResults[i]}`);
+            var evaluatedTopics = shell.ls(`${resultsPath}/evaluated-topic-results/${evaluatedTopicResults[i]}`);
 
             for (let j =0; j < evaluatedTopics.length; j++) {
                 if (typeof evaluatedTopics[j] === "string") {
-                    evaluateScience(evaluatedResults[i], evaluatedTopics[j]);
+                  evaluateScience(evaluatedTopicResults[i], evaluatedTopics[j]);
                 }
             }
         }
     }
+
+    //var evaluatedScienceResults = shell.ls(resultsPath + '\\evaluated-science-results');
+    var evaluatedScienceResults = shell.ls(resultsPath + '/evaluated-science-results');
+
+    for (let i = 0; i < evaluatedScienceResults.length; i++) {
+
+        if (typeof evaluatedScienceResults[i] === "string") {
+            //    var evaluatedTopics = shell.ls(`${resultsPath}\\evaluated-science-results\\${evaluatedScienceResults[i]}`);
+            var evaluatedScience = shell.ls(`${resultsPath}/evaluated-science-results/${evaluatedScienceResults[i]}`);
+
+                evaluateFinal(evaluatedScienceResults[i], evaluatedScience);
+            }
+    }
+
 }
 
 /**
@@ -145,7 +167,7 @@ function evaluateTopic(science, jsonFileName) {
         if (err) {
             return console.log(err);
         }
-        console.log(`The data has been successfully evaluated.`);
+        console.log(`The topics has been successfully evaluated.`);
     });
 }
 
@@ -168,6 +190,31 @@ function evaluateScience(science, jsonFileName) {
     }
 }
 
+/**
+ *
+ * @param science
+ * @param jsonFileName
+ */
+function evaluateFinal(science, jsonFileName) {
+    var jsonContent = require(`../results/evaluated-science-results/${science}/${jsonFileName}`);
+
+    for (let [key, value] of Object.entries(jsonContent)) {
+        var evaluatedAllSciences = require(`../results/final-results/final`);
+
+        if (!evaluatedAllSciences[key]) {
+            evaluatedAllSciences[key] = 0;
+        }
+        evaluatedAllSciences[key] += value;
+
+        fs.writeFile(`./results/final-results/final.json`, JSON.stringify(evaluatedAllSciences), 'utf8', function (err) {
+            if (err) {
+                return console.log(err);
+            }
+            console.log(`The Final Result has been successfully evaluated.`);
+        });
+    }
+}
+
 function saveFile(science, data) {
     // write evaluated contents to new json
     fs.writeFile(`./results/evaluated-science-results/${science}/${science}.json`, JSON.stringify(data), 'utf8', function (err) {
@@ -178,4 +225,4 @@ function saveFile(science, data) {
     });
 }
 
-evaluateFiles();
+evaluateResults();
