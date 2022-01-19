@@ -1,0 +1,96 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/AquaticEcoDynamics/libaed2"
+    },
+    {
+      "url": "https://github.com/cclaualc/nullnest"
+    },
+    {
+      "url": "https://github.com/lgloege/MITgcm-Lake-Michigan-tracer"
+    },
+    {
+      "url": "https://github.com/sbudaev/AHA-R1"
+    },
+    {
+      "url": "https://github.com/bluegreen-labs/rsofun"
+    },
+    {
+      "url": "https://github.com/baudenam/FireMed-Baudena-et-al-2019-New-Phytologist"
+    },
+    {
+      "quantityOfRepositories": 6,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/AquaticEcoDynamics/GLM",
+      "!$omp do": 4,
+      "quantityOfFiles": 61,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    {
+      "url": "https://github.com/ropensci/phylocomr"
+    },
+    {
+      "url": "https://github.com/guhjy/eco"
+    },
+    {
+      "url": "https://github.com/SealHAT/SealHAT_firmware"
+    },
+    {
+      "url": "https://github.com/SealHAT/SealHAT"
+    },
+    {
+      "quantityOfRepositories": 5,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/traitecoevo/plant",
+      "quantityOfFiles": 80,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/mooch443/trex"
+    },
+    {
+      "url": "https://github.com/seananderson/glmmfields",
+      "quantityOfFiles": 4,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/cybiosphere/Source"
+    },
+    {
+      "url": "https://github.com/ioki9/EcoBaseBy"
+    },
+    {
+      "url": "https://github.com/Becheler/quetzal-EGGS"
+    },
+    {
+      "url": "https://github.com/pbentkowski/MHC_Evolution"
+    },
+    {
+      "url": "https://github.com/TurkeyMcMac/intergrid"
+    },
+    {
+      "url": "https://github.com/emilydolson/eco-ea-box"
+    },
+    {
+      "url": "https://github.com/FelixMay/confettiRbasic"
+    },
+    {
+      "url": "https://github.com/qiaohj/ees_3d"
+    },
+    {
+      "quantityOfRepositories": 11,
+      "quantityOfRelevantRepositories": 2,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
+}

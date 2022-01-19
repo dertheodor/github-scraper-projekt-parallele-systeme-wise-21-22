@@ -1,0 +1,75 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/wcota/dynSIS"
+    },
+    {
+      "url": "https://github.com/wcota/dynSIS-GA"
+    },
+    {
+      "quantityOfRepositories": 2,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/lewlin/Stochastic-multidimensional-LV"
+    },
+    {
+      "url": "https://github.com/jamesrday/LevyAlphaStableDistribution"
+    },
+    {
+      "url": "https://github.com/inuritdino/Dinamica"
+    },
+    {
+      "quantityOfRepositories": 3,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/quinoacomputing/quinoa",
+      "#pragma omp simd ": 4,
+      "#pragma omp declare simd": 10,
+      "quantityOfFiles": 527,
+      "quantityOfFilesWithOpenMP": 6
+    },
+    {
+      "url": "https://github.com/danieljsharpe/DISCOTRESS"
+    },
+    {
+      "url": "https://github.com/kevinbird61/stochastic-calculus-and-probability-model"
+    },
+    {
+      "url": "https://github.com/dgulotta/paintlines"
+    },
+    {
+      "url": "https://github.com/VictorSeven/NMEpidemy"
+    },
+    {
+      "url": "https://github.com/xnd-r/BlackScholesOptionPricingModel"
+    },
+    {
+      "url": "https://github.com/hhatefi/imca"
+    },
+    {
+      "url": "https://github.com/JackHunt/GPLib"
+    },
+    {
+      "url": "https://github.com/SK8gh/HestonPricer"
+    },
+    {
+      "url": "https://github.com/pornosaur/stochastic-image-denoising"
+    },
+    {
+      "url": "https://github.com/JeS24/RandomWalk"
+    },
+    {
+      "quantityOfRepositories": 11,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ]
+}

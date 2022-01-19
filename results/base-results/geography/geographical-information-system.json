@@ -1,0 +1,29 @@
+{
+  "fortran": [],
+  "c": [
+    {
+      "url": "https://github.com/jose-m-marrero/TerritoroYRiesgos"
+    },
+    {
+      "quantityOfRepositories": 1,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/fiftysevendegreesofrad/sdna_open"
+    },
+    {
+      "url": "https://github.com/rok4/rok4"
+    },
+    {
+      "url": "https://github.com/ali64Mon/GeographicalLocalityContentDistribution"
+    },
+    {
+      "quantityOfRepositories": 3,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
+}

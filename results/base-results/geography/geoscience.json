@@ -1,0 +1,59 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/space-physics/grwave"
+    },
+    {
+      "url": "https://github.com/space-physics/LWPC"
+    },
+    {
+      "url": "https://github.com/space-physics/transcar"
+    },
+    {
+      "url": "https://github.com/scivision/FClimDex"
+    },
+    {
+      "quantityOfRepositories": 4,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/scivision/robust-optical-flow"
+    },
+    {
+      "url": "https://github.com/scivision/barron-optflow"
+    },
+    {
+      "url": "https://github.com/MGK-Lab/tiger"
+    },
+    {
+      "quantityOfRepositories": 3,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/ringmesh/RINGMesh",
+      "#pragma omp parallel": 90,
+      "#pragma omp parallel for": 88,
+      "#pragma omp critical": 19,
+      "#pragma omp atomic": 5,
+      "quantityOfFiles": 1805,
+      "quantityOfFilesWithOpenMP": 15
+    },
+    {
+      "url": "https://github.com/scivision/Andor-sCMOS-examples"
+    },
+    {
+      "url": "https://github.com/asadahmedde/advanced-project-2"
+    },
+    {
+      "quantityOfRepositories": 3,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ]
+}

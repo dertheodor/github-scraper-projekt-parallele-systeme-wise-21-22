@@ -1,0 +1,218 @@
+{
+  "fortran": [],
+  "c": [
+    {
+      "url": "https://github.com/shibatch/sleef",
+      "#pragma omp parallel": 7,
+      "#pragma omp parallel for": 6,
+      "#pragma omp critical": 1,
+      "quantityOfFiles": 106,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    {
+      "url": "https://github.com/JuliaMath/openlibm",
+      "quantityOfFiles": 367,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/Zuzu-Typ/PyGLM",
+      "quantityOfFiles": 203,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/dagostinelli/hypatia"
+    },
+    {
+      "url": "https://github.com/ScientificC/cmathl",
+      "quantityOfFiles": 195,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/dangmoody/HLML"
+    },
+    {
+      "url": "https://github.com/Chris00/ocaml-crlibm"
+    },
+    {
+      "url": "https://github.com/monolifed/vmath"
+    },
+    {
+      "url": "https://github.com/moe123/macadam"
+    },
+    {
+      "url": "https://github.com/zhuangsc/cholesky"
+    },
+    {
+      "url": "https://github.com/SaiRakshithS/Owl"
+    },
+    {
+      "url": "https://github.com/jcarrano/fixed_point_arith"
+    },
+    {
+      "url": "https://github.com/netromdk/math"
+    },
+    {
+      "url": "https://github.com/unikraft/lib-dnnl"
+    },
+    {
+      "url": "https://github.com/zhuangsc/Plasma-ompss1"
+    },
+    {
+      "url": "https://github.com/zhuangsc/Linompss"
+    },
+    {
+      "url": "https://github.com/koallen/gemm-optimization"
+    },
+    {
+      "url": "https://github.com/zhuangsc/IFCG"
+    },
+    {
+      "url": "https://github.com/zhuangsc/jacobi"
+    },
+    {
+      "quantityOfRepositories": 19,
+      "quantityOfRelevantRepositories": 4,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/redorav/hlslpp",
+      "quantityOfFiles": 61,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/glampert/vectormath"
+    },
+    {
+      "url": "https://github.com/polymonster/maths",
+      "quantityOfFiles": 8,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/godefv/math"
+    },
+    {
+      "url": "https://github.com/devatrun/slimcpplib"
+    },
+    {
+      "url": "https://github.com/BrutPitt/vgMath"
+    },
+    {
+      "url": "https://github.com/glampert/angles"
+    },
+    {
+      "url": "https://github.com/ThePirate42/EUL"
+    },
+    {
+      "url": "https://github.com/mattiaisgro/uroboro"
+    },
+    {
+      "url": "https://github.com/kerberjg/lib-mathutils"
+    },
+    {
+      "url": "https://github.com/Trick-17/FMath"
+    },
+    {
+      "url": "https://github.com/sergcpp/math"
+    },
+    {
+      "url": "https://github.com/jordi-adell/wipp"
+    },
+    {
+      "url": "https://github.com/jcs090218/JCSCC_Engine"
+    },
+    {
+      "url": "https://github.com/bgsa/openml"
+    },
+    {
+      "url": "https://github.com/dyeo/dym"
+    },
+    {
+      "url": "https://github.com/BaseMax/SquareRoot"
+    },
+    {
+      "url": "https://github.com/Possseidon/dang-lib"
+    },
+    {
+      "url": "https://github.com/PrismTower/BigInteger"
+    },
+    {
+      "url": "https://github.com/Mregussek/MARMaths"
+    },
+    {
+      "url": "https://github.com/pent0/FRSML"
+    },
+    {
+      "url": "https://github.com/fedorinanutshell/nautlib"
+    },
+    {
+      "url": "https://github.com/salihselimsekerci/AciBulma"
+    },
+    {
+      "url": "https://github.com/ChrisKing340/GeometryKing"
+    },
+    {
+      "url": "https://github.com/Kiper220/RedTextFramework"
+    },
+    {
+      "url": "https://github.com/KabalMcBlade/Nix"
+    },
+    {
+      "url": "https://github.com/Baleg00/RBLibs"
+    },
+    {
+      "url": "https://github.com/manageryzy/ac_types_plus"
+    },
+    {
+      "url": "https://github.com/KrakenEngine/hydra"
+    },
+    {
+      "url": "https://github.com/reimeytal/gml"
+    },
+    {
+      "url": "https://github.com/adwitiya/OpenGL-_1.1"
+    },
+    {
+      "url": "https://github.com/andrei-punko/math-library"
+    },
+    {
+      "url": "https://github.com/mrc-tech/AutoMat"
+    },
+    {
+      "url": "https://github.com/rolando95/DM4th"
+    },
+    {
+      "url": "https://github.com/ChristianPanov/mtlx"
+    },
+    {
+      "url": "https://github.com/8infy/SML"
+    },
+    {
+      "url": "https://github.com/05st/linear-algebra"
+    },
+    {
+      "url": "https://github.com/hu-ry/MathOMP"
+    },
+    {
+      "url": "https://github.com/cwesson/bigint"
+    },
+    {
+      "url": "https://github.com/jcayzac/iphone-math"
+    },
+    {
+      "url": "https://github.com/Luminiscental/mth"
+    },
+    {
+      "url": "https://github.com/torresflo/Simple-Math-Library"
+    },
+    {
+      "url": "https://github.com/Sibras/ShiftLib"
+    },
+    {
+      "quantityOfRepositories": 43,
+      "quantityOfRelevantRepositories": 2,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
+}

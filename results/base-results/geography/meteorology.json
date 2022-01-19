@@ -1,0 +1,127 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/WRF-CMake/wrf"
+    },
+    {
+      "url": "https://github.com/TEB-model/teb"
+    },
+    {
+      "url": "https://github.com/ECCC-ASTD-MRD/librmn"
+    },
+    {
+      "url": "https://github.com/WRF-CMake/wps"
+    },
+    {
+      "url": "https://github.com/ECCC-ASTD-MRD/gem"
+    },
+    {
+      "url": "https://github.com/ARPA-SIMC/prodsim"
+    },
+    {
+      "url": "https://github.com/ARPA-SIMC/libsim"
+    },
+    {
+      "url": "https://github.com/TEB-model/wrf-teb"
+    },
+    {
+      "url": "https://github.com/dongli/qconswm"
+    },
+    {
+      "url": "https://github.com/jlpscampos/Blocking_Index2d"
+    },
+    {
+      "quantityOfRepositories": 10,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/ecmwf/eccodes",
+      "#pragma omp parallel": 6,
+      "#pragma omp parallel for": 6,
+      "quantityOfFiles": 793,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/Unidata/gempak",
+      "quantityOfFiles": 10341,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/slcs-jsc/mptrac"
+    },
+    {
+      "url": "https://github.com/ARPA-SIMC/arkimet"
+    },
+    {
+      "url": "https://github.com/eengl/grib2io"
+    },
+    {
+      "url": "https://github.com/slcs-jsc/jurassic"
+    },
+    {
+      "url": "https://github.com/Unidata/awips2-gemlibs"
+    },
+    {
+      "url": "https://github.com/davidcawork/cSEDA-Project"
+    },
+    {
+      "url": "https://github.com/sgrams/imgwmon"
+    },
+    {
+      "url": "https://github.com/rahra/windf"
+    },
+    {
+      "quantityOfRepositories": 10,
+      "quantityOfRelevantRepositories": 2,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/opengribs/XyGrib",
+      "quantityOfFiles": 164,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/ARPA-SIMC/dballe"
+    },
+    {
+      "url": "https://github.com/nnaumenko/metaf"
+    },
+    {
+      "url": "https://github.com/ARPA-SIMC/wreport"
+    },
+    {
+      "url": "https://github.com/ARPA-SIMC/meteosatlib"
+    },
+    {
+      "url": "https://github.com/alex-anp/alexgyver_meteo_clock"
+    },
+    {
+      "url": "https://github.com/nnaumenko/metafjson"
+    },
+    {
+      "url": "https://github.com/danielg7/FireWeatherExplorer"
+    },
+    {
+      "url": "https://github.com/ARPA-SIMC/PRAGA"
+    },
+    {
+      "url": "https://github.com/dogabaris/Meteoroloji_Istasyonu"
+    },
+    {
+      "url": "https://github.com/sgrams/meteodata"
+    },
+    {
+      "url": "https://github.com/Quba1/ParcelSimulator1D"
+    },
+    {
+      "quantityOfRepositories": 12,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
+}

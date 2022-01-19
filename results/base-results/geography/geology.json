@@ -1,0 +1,61 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/lanl/LaGriT",
+      "quantityOfFiles": 681,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "quantityOfRepositories": 1,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/geozor-network/GeoMet01"
+    },
+    {
+      "quantityOfRepositories": 1,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/ringmesh/RINGMesh",
+      "#pragma omp parallel": 90,
+      "#pragma omp parallel for": 88,
+      "#pragma omp critical": 19,
+      "#pragma omp atomic": 5,
+      "quantityOfFiles": 1805,
+      "quantityOfFilesWithOpenMP": 15
+    },
+    {
+      "url": "https://github.com/intrepid-geophysics/geomodeller.examples"
+    },
+    {
+      "url": "https://github.com/msahamed/dynearthsol3d_energy"
+    },
+    {
+      "url": "https://github.com/terranum-ch/ToolMap"
+    },
+    {
+      "url": "https://github.com/mauroalberti/InterpDensity3D"
+    },
+    {
+      "url": "https://github.com/japetrus/DIIS"
+    },
+    {
+      "url": "https://github.com/baharev/SG2PS_Qt_GUI"
+    },
+    {
+      "url": "https://github.com/luca-penasa/vombat"
+    },
+    {
+      "quantityOfRepositories": 8,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ]
+}

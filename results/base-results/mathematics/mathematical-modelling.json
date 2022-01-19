@@ -1,0 +1,145 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/phydev/SPiCCAto"
+    },
+    {
+      "url": "https://github.com/mrtkp9993/Numerical-Methods-in-Fortran"
+    },
+    {
+      "url": "https://github.com/Papelbon/math-modeling"
+    },
+    {
+      "url": "https://github.com/tobiasbaldauf/PeakClust3D"
+    },
+    {
+      "quantityOfRepositories": 4,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/mingodad/GLPK"
+    },
+    {
+      "url": "https://github.com/mcytu/timothy"
+    },
+    {
+      "url": "https://github.com/markcmiller86/SAF"
+    },
+    {
+      "url": "https://github.com/NewAlexandria/knotscap"
+    },
+    {
+      "url": "https://github.com/nowisesys/libchemgps"
+    },
+    {
+      "url": "https://github.com/nowisesys/chemgps-sqp2"
+    },
+    {
+      "url": "https://github.com/sednabcn/Simulation-Articles"
+    },
+    {
+      "url": "https://github.com/daveh19/PCPlasticity"
+    },
+    {
+      "url": "https://github.com/sachinkavindaa/IM-Level_1-Project"
+    },
+    {
+      "url": "https://github.com/biosimulators/Biosimulators_LibSBMLSim"
+    },
+    {
+      "quantityOfRepositories": 10,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/Chaste/Chaste",
+      "quantityOfFiles": 1736,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/JohnDTill/ContinuumRobotExamples"
+    },
+    {
+      "url": "https://github.com/RobinSchmidt/RS-MET"
+    },
+    {
+      "url": "https://github.com/iamAkshayrao/LQR-BalanceBot"
+    },
+    {
+      "url": "https://github.com/alandefreitas/sympp"
+    },
+    {
+      "url": "https://github.com/valenpe7/godunov_method"
+    },
+    {
+      "url": "https://github.com/Chaste/ApPredict"
+    },
+    {
+      "url": "https://github.com/KaldarrostaJazz/pandemic_models"
+    },
+    {
+      "url": "https://github.com/samiBendou/MathToolKitCPP"
+    },
+    {
+      "url": "https://github.com/hsloot/rmo"
+    },
+    {
+      "url": "https://github.com/dlatikaynen/blooDot"
+    },
+    {
+      "url": "https://github.com/glauberss2007/modern-nutrition"
+    },
+    {
+      "url": "https://github.com/boorlakov/chm_lab1"
+    },
+    {
+      "url": "https://github.com/ffernandoalves/NumSim"
+    },
+    {
+      "url": "https://github.com/kjkartikey/BrainTumorDrugDelivery"
+    },
+    {
+      "url": "https://github.com/BrainStone/TruncateablePrimes"
+    },
+    {
+      "url": "https://github.com/glauberss2007/nutrition-1"
+    },
+    {
+      "url": "https://github.com/8nhuman8/nebular-automata-cpp"
+    },
+    {
+      "url": "https://github.com/brunodema/OR2LaTeX"
+    },
+    {
+      "url": "https://github.com/JiangWenPL/GA"
+    },
+    {
+      "url": "https://github.com/TakashiNord/KinematicsMachines"
+    },
+    {
+      "url": "https://github.com/papadeiv/PlotiPhy2D"
+    },
+    {
+      "url": "https://github.com/hilaliya/branch-and-bound"
+    },
+    {
+      "url": "https://github.com/farazkh80/Snake-Game"
+    },
+    {
+      "url": "https://github.com/NiloGregginz33/Seperating-kids-from-fighting-in-group-size-N"
+    },
+    {
+      "url": "https://github.com/YourFavoriteCode/DeformationModel2"
+    },
+    {
+      "quantityOfRepositories": 26,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
+}

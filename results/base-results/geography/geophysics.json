@@ -1,0 +1,185 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/miili/pysurf96"
+    },
+    {
+      "url": "https://github.com/danielpeter/teaching-computational-geophysics"
+    },
+    {
+      "url": "https://github.com/js1019/NormalModes",
+      "!$omp parallel": 1,
+      "quantityOfFiles": 13,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/insarlab/PySolid"
+    },
+    {
+      "url": "https://github.com/paudetseis/PyRaysum"
+    },
+    {
+      "url": "https://github.com/krober10nd/FMesh"
+    },
+    {
+      "url": "https://github.com/wangliang1989/sacio_Fortran"
+    },
+    {
+      "url": "https://github.com/nicholasmr/specfab"
+    },
+    {
+      "url": "https://github.com/RUseismology/Recfunk21"
+    },
+    {
+      "url": "https://github.com/wangliang1989/gfmf"
+    },
+    {
+      "url": "https://github.com/inverseproblem/KronLinInv"
+    },
+    {
+      "url": "https://github.com/ofmla/seiscope_opt_toolbox_w_ctypes"
+    },
+    {
+      "url": "https://github.com/danielpeter/specfem3d_globe"
+    },
+    {
+      "url": "https://github.com/gavargas22/Gravity-modeling-in-fortran"
+    },
+    {
+      "quantityOfRepositories": 14,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/GenericMappingTools/gmt",
+      "#pragma omp parallel": 64,
+      "#pragma omp parallel for": 64,
+      "quantityOfFiles": 372,
+      "quantityOfFilesWithOpenMP": 16
+    },
+    {
+      "url": "https://github.com/VirtualPlanetaryLaboratory/vplanet",
+      "#pragma omp parallel": 4,
+      "#pragma omp parallel for": 4,
+      "quantityOfFiles": 49,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/JanThorbecke/OpenSource",
+      "#pragma omp parallel": 56,
+      "#pragma omp single ": 2,
+      "#pragma omp for ": 438,
+      "#pragma omp parallel for": 26,
+      "#pragma omp master": 17,
+      "#pragma omp critical": 10,
+      "#pragma omp barrier": 8,
+      "#pragma omp flush": 1,
+      "#pragma omp threadprivate": 1,
+      "quantityOfFiles": 583,
+      "quantityOfFilesWithOpenMP": 64
+    },
+    {
+      "url": "https://github.com/leouieda/tesseroids"
+    },
+    {
+      "url": "https://github.com/swag-kaust/ASOFI3D"
+    },
+    {
+      "url": "https://github.com/wangliang1989/oh-my-cap"
+    },
+    {
+      "url": "https://github.com/Dirack/vfsa"
+    },
+    {
+      "url": "https://github.com/Parera-Portell/H-k-stacking"
+    },
+    {
+      "url": "https://github.com/hunterakins/RMT-Acquisition"
+    },
+    {
+      "url": "https://github.com/Dirack/creGatherStack"
+    },
+    {
+      "url": "https://github.com/Dirack/creVelocityInversion"
+    },
+    {
+      "url": "https://github.com/dpgraham4401/libseis"
+    },
+    {
+      "url": "https://github.com/cacaudomal/Geop"
+    },
+    {
+      "quantityOfRepositories": 13,
+      "quantityOfRelevantRepositories": 3,
+      "quantityOfRelevantRepositoriesWithOpenMP": 3
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/gimli-org/gimli",
+      "quantityOfFiles": 124,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/gnudatalanguage/gdl",
+      "#pragma omp parallel": 770,
+      "#pragma omp for ": 34,
+      "#pragma omp task": 7,
+      "#pragma omp parallel for": 689,
+      "#pragma omp atomic": 2,
+      "quantityOfFiles": 414,
+      "quantityOfFilesWithOpenMP": 29
+    },
+    {
+      "url": "https://github.com/pism/pism",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/waynegm/OpendTect-Plugins"
+    },
+    {
+      "url": "https://github.com/zhong-yy/GraPly"
+    },
+    {
+      "url": "https://github.com/Pressio/SHAW"
+    },
+    {
+      "url": "https://github.com/christophersanborn/Radiative3D"
+    },
+    {
+      "url": "https://github.com/intrepid-geophysics/geomodeller.examples"
+    },
+    {
+      "url": "https://github.com/cmeessen/VeloDT"
+    },
+    {
+      "url": "https://github.com/AlexIII/GRAFEN"
+    },
+    {
+      "url": "https://github.com/KYHSGeekCode/Lava"
+    },
+    {
+      "url": "https://github.com/paceholder/wildcat"
+    },
+    {
+      "url": "https://github.com/juliusgarbe/pism"
+    },
+    {
+      "url": "https://github.com/ranto2012/inversion"
+    },
+    {
+      "url": "https://github.com/tierra-colada/Colada"
+    },
+    {
+      "url": "https://github.com/ElsevierSoftwareX/SOFTX-D-21-00123"
+    },
+    {
+      "quantityOfRepositories": 16,
+      "quantityOfRelevantRepositories": 3,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ]
+}

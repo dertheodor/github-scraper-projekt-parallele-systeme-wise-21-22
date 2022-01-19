@@ -1,0 +1,184 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/cmbant/CAMB",
+      "!$omp parallel": 41,
+      "!$omp parallel do": 37,
+      "!$omp parallel sections": 4,
+      "!$omp critical": 1,
+      "quantityOfFiles": 33,
+      "quantityOfFilesWithOpenMP": 9
+    },
+    {
+      "url": "https://github.com/PolyChord/PolyChordLite",
+      "quantityOfFiles": 50,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/garrelt/C2-Ray3Dm"
+    },
+    {
+      "url": "https://github.com/garrelt/C2-Ray3Dm1D_Helium"
+    },
+    {
+      "url": "https://github.com/dkhaz/bingo"
+    },
+    {
+      "url": "https://github.com/flgomezc/beta-voids"
+    },
+    {
+      "url": "https://github.com/tobiasbaldauf/PeakClust3D"
+    },
+    {
+      "url": "https://github.com/univalle-cosmology/cosmo-solver"
+    },
+    {
+      "url": "https://github.com/Christovis/ray-ramses"
+    },
+    {
+      "url": "https://github.com/Arhathsis/COSMOD_project"
+    },
+    {
+      "url": "https://github.com/sebastianvromero/NUC123"
+    },
+    {
+      "url": "https://github.com/tcollins-simulations/LSS"
+    },
+    {
+      "url": "https://github.com/ninjab3381/WagonerBBNCode"
+    },
+    {
+      "url": "https://github.com/Christovis/ecosmog-cvg"
+    },
+    {
+      "quantityOfRepositories": 14,
+      "quantityOfRelevantRepositories": 2,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/manodeep/Corrfunc",
+      "#pragma omp parallel": 1,
+      "#pragma omp barrier": 2,
+      "quantityOfFiles": 71,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/SWIFTSIM/swiftsim",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/NumCosmo/NumCosmo",
+      "!$omp parallel": 4,
+      "!$omp parallel do": 3,
+      "!$omp parallel sections": 1,
+      "#pragma omp parallel": 92,
+      "#pragma omp for ": 44,
+      "#pragma omp parallel for": 52,
+      "#pragma omp critical": 6,
+      "#pragma omp flush": 3,
+      "quantityOfFiles": 1033,
+      "quantityOfFilesWithOpenMP": 16
+    },
+    {
+      "url": "https://github.com/cheng-zhao/FCFC"
+    },
+    {
+      "url": "https://github.com/HAWinther/MG-PICOLA-PUBLIC"
+    },
+    {
+      "url": "https://github.com/Linc-tw/salmo"
+    },
+    {
+      "url": "https://github.com/cheng-zhao/powspec"
+    },
+    {
+      "url": "https://github.com/JCGoran/coffe"
+    },
+    {
+      "url": "https://github.com/bmoster/emerge"
+    },
+    {
+      "url": "https://github.com/rajeshmondal18/ReionYuga"
+    },
+    {
+      "url": "https://github.com/anirbandas89/CLASS_SInu"
+    },
+    {
+      "url": "https://github.com/rajeshmondal18/N-body"
+    },
+    {
+      "url": "https://github.com/boatx/ltbToolkit"
+    },
+    {
+      "url": "https://github.com/jmdana/gadget_snapshots"
+    },
+    {
+      "url": "https://github.com/rajeshmondal18/FoF-Halo-finder"
+    },
+    {
+      "url": "https://github.com/chervias/DustFilaments"
+    },
+    {
+      "url": "https://github.com/oleskiewicz/cocal"
+    },
+    {
+      "url": "https://github.com/msabogal/HDE-GO"
+    },
+    {
+      "url": "https://github.com/kabeleh/EoM"
+    },
+    {
+      "quantityOfRepositories": 19,
+      "quantityOfRelevantRepositories": 3,
+      "quantityOfRelevantRepositoriesWithOpenMP": 2
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/PWhiddy/Nbody-Gravity"
+    },
+    {
+      "url": "https://github.com/N-BodyShop/changa",
+      "quantityOfFiles": 121,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/lanl/VizAly-Foresight"
+    },
+    {
+      "url": "https://github.com/Kambrian/HBTplus"
+    },
+    {
+      "url": "https://github.com/abacusorg/zeldovich-PLT"
+    },
+    {
+      "url": "https://github.com/SinRas/AstroNumInt"
+    },
+    {
+      "url": "https://github.com/cheng-zhao/DIVE"
+    },
+    {
+      "url": "https://github.com/lanl/vizaly-helios"
+    },
+    {
+      "url": "https://github.com/dkaramit/MiMeS"
+    },
+    {
+      "url": "https://github.com/sully90/ParticleViewer"
+    },
+    {
+      "url": "https://github.com/egpbos/barcode"
+    },
+    {
+      "url": "https://github.com/Tomenol/evs-cosmic-structure-formation"
+    },
+    {
+      "quantityOfRepositories": 12,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
+}

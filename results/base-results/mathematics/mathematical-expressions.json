@@ -1,0 +1,94 @@
+{
+  "fortran": [],
+  "c": [
+    {
+      "url": "https://github.com/suyashphatak23/Complex-Calculator"
+    },
+    {
+      "url": "https://github.com/ariebovenberg/tinex"
+    },
+    {
+      "url": "https://github.com/argongs/terminal_calculator"
+    },
+    {
+      "url": "https://github.com/sudip-padhye/Runge-Kutta-Method"
+    },
+    {
+      "url": "https://github.com/alvrogd/delta"
+    },
+    {
+      "url": "https://github.com/ozansz/mathematical-expression-parser-derivator"
+    },
+    {
+      "url": "https://github.com/AleixMT/Calculadora"
+    },
+    {
+      "url": "https://github.com/linux4life798/expressions"
+    },
+    {
+      "url": "https://github.com/MexsonFernandes/Floyd_Warshall_Algorithm"
+    },
+    {
+      "url": "https://github.com/Stperrakis/ArmstrongNum"
+    },
+    {
+      "url": "https://github.com/filikos/INF3SS15"
+    },
+    {
+      "url": "https://github.com/gustavohime/flep"
+    },
+    {
+      "quantityOfRepositories": 12,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/heal-research/operon",
+      "quantityOfFiles": 113,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/newlawrence/Calculate"
+    },
+    {
+      "url": "https://github.com/Pramod-Devireddy/go-exprtk"
+    },
+    {
+      "url": "https://github.com/amirrastifarsad/Math-Expression-Evaluator"
+    },
+    {
+      "url": "https://github.com/eantcal/nuexpreval"
+    },
+    {
+      "url": "https://github.com/ilxl-ppr/restaurant-bill"
+    },
+    {
+      "url": "https://github.com/mayank-k-jha/Simple-Iteration-Method"
+    },
+    {
+      "url": "https://github.com/mayank-k-jha/Newton-Raphson-Method"
+    },
+    {
+      "url": "https://github.com/mayank-k-jha/Gauss-Seidal-Method"
+    },
+    {
+      "url": "https://github.com/Leonidius20/MathParser"
+    },
+    {
+      "url": "https://github.com/mayank-k-jha/Gauss-Elimination-Method"
+    },
+    {
+      "url": "https://github.com/evg-goncharenko/c-projects"
+    },
+    {
+      "url": "https://github.com/mayank-k-jha/Regular-Falsi-Method"
+    },
+    {
+      "quantityOfRepositories": 13,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
+}

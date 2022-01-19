@@ -1,0 +1,207 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/jinghuazhao/R"
+    },
+    {
+      "quantityOfRepositories": 1,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/QuantGen/BEDMatrix"
+    },
+    {
+      "url": "https://github.com/shiquan/bcfanno"
+    },
+    {
+      "url": "https://github.com/mklarqvist/libflagstats"
+    },
+    {
+      "url": "https://github.com/wacguy/Simple"
+    },
+    {
+      "url": "https://github.com/TimoLassmann/Phenoparser"
+    },
+    {
+      "url": "https://github.com/louisaslett/kalis"
+    },
+    {
+      "url": "https://github.com/wnfldchen/agent"
+    },
+    {
+      "url": "https://github.com/js1200/genelife"
+    },
+    {
+      "url": "https://github.com/fimbaz/shrub"
+    },
+    {
+      "url": "https://github.com/borkowsk/PatternBGI"
+    },
+    {
+      "url": "https://github.com/Soton-CompGen/LDMAP"
+    },
+    {
+      "url": "https://github.com/wnfldchen/peaks"
+    },
+    {
+      "url": "https://github.com/coregenomics/groHMM"
+    },
+    {
+      "quantityOfRepositories": 13,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/DecodeGenetics/graphtyper"
+    },
+    {
+      "url": "https://github.com/zhanxw/rvtests",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/mklarqvist/tomahawk"
+    },
+    {
+      "url": "https://github.com/smehringer/SViper",
+      "#pragma omp parallel": 1,
+      "#pragma omp parallel for": 1,
+      "#pragma omp critical": 11,
+      "quantityOfFiles": 17,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    {
+      "url": "https://github.com/mklarqvist/tachyon"
+    },
+    {
+      "url": "https://github.com/aritra90/TeraPCA"
+    },
+    {
+      "url": "https://github.com/statgen/LDServer"
+    },
+    {
+      "url": "https://github.com/lorinanthony/BAKR"
+    },
+    {
+      "url": "https://github.com/karlnicholas/GeneDoc"
+    },
+    {
+      "url": "https://github.com/lorinanthony/MAPIT"
+    },
+    {
+      "url": "https://github.com/Becheler/quetzal-CoaTL"
+    },
+    {
+      "url": "https://github.com/wzhy2000/HiGWAS"
+    },
+    {
+      "url": "https://github.com/intron-prediction-capstone/intron-utility"
+    },
+    {
+      "url": "https://github.com/grabear/guidance"
+    },
+    {
+      "url": "https://github.com/r3fang/CRESTseq"
+    },
+    {
+      "url": "https://github.com/lingering/gene_HEll"
+    },
+    {
+      "url": "https://github.com/statgen/LASER"
+    },
+    {
+      "url": "https://github.com/BaseMax/N-QueenGenetic"
+    },
+    {
+      "url": "https://github.com/davidreis97/snake-genetic-algorithm"
+    },
+    {
+      "url": "https://github.com/wonilchung/CTPR"
+    },
+    {
+      "url": "https://github.com/hexhead/inbix"
+    },
+    {
+      "url": "https://github.com/rivas-lab/multisnpnet-Cox_gpu"
+    },
+    {
+      "url": "https://github.com/himamis/parse-vcf"
+    },
+    {
+      "url": "https://github.com/Mickdep/GeneticAlgorithmCPP"
+    },
+    {
+      "url": "https://github.com/Becheler/quetzal-EGGS"
+    },
+    {
+      "url": "https://github.com/SPauly/Genetic-Algorithm"
+    },
+    {
+      "url": "https://github.com/ginsbach/noise-free-cnv"
+    },
+    {
+      "url": "https://github.com/rmporsch/ksburden"
+    },
+    {
+      "url": "https://github.com/jvcanavarro/FAIR"
+    },
+    {
+      "url": "https://github.com/drhowey/RIA"
+    },
+    {
+      "url": "https://github.com/jvcanavarro/FAIR"
+    },
+    {
+      "url": "https://github.com/drhowey/RIA"
+    },
+    {
+      "url": "https://github.com/drhowey/PseudoCons"
+    },
+    {
+      "url": "https://github.com/MichkaDaCoder/cpp-hardy-weinberg"
+    },
+    {
+      "url": "https://github.com/mpieva/func"
+    },
+    {
+      "url": "https://github.com/drhowey/BayesNetty"
+    },
+    {
+      "url": "https://github.com/drhowey/CASSI"
+    },
+    {
+      "url": "https://github.com/Biometris/statgenIBD"
+    },
+    {
+      "url": "https://github.com/Hareski/ConsensusOrdres"
+    },
+    {
+      "url": "https://github.com/andreugallofre/Practica-Pro2-Genetica"
+    },
+    {
+      "url": "https://github.com/brendane/seq_view"
+    },
+    {
+      "url": "https://github.com/weinstockj/alpha_satellite_counter"
+    },
+    {
+      "url": "https://github.com/drhowey/MapThin"
+    },
+    {
+      "url": "https://github.com/brendane/bltools"
+    },
+    {
+      "url": "https://github.com/drhowey/SnipSnip"
+    },
+    {
+      "quantityOfRepositories": 45,
+      "quantityOfRelevantRepositories": 2,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ]
+}

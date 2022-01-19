@@ -1,0 +1,85 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/MJLMills/fepcat"
+    },
+    {
+      "quantityOfRepositories": 1,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/Electrostatics/apbs",
+      "#pragma omp parallel": 21,
+      "#pragma omp parallel for": 21,
+      "#pragma omp atomic": 1,
+      "quantityOfFiles": 393,
+      "quantityOfFilesWithOpenMP": 8
+    },
+    {
+      "url": "https://github.com/krzysztofmakuch/intro_C"
+    },
+    {
+      "url": "https://github.com/fullerjamesr/FastCat"
+    },
+    {
+      "url": "https://github.com/hirklab/euglenalab"
+    },
+    {
+      "quantityOfRepositories": 4,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/Nico-Curti/SysDyn"
+    },
+    {
+      "url": "https://github.com/moldyn/Clustering"
+    },
+    {
+      "url": "https://github.com/DavidEilenstein/ImageD"
+    },
+    {
+      "url": "https://github.com/Chaste/ApPredict"
+    },
+    {
+      "url": "https://github.com/Daniel-M/Hodgking-Huxley"
+    },
+    {
+      "url": "https://github.com/wenyan4work/aLENS"
+    },
+    {
+      "url": "https://github.com/mdscolour/ICPC"
+    },
+    {
+      "url": "https://github.com/nicocvn/emDNA"
+    },
+    {
+      "url": "https://github.com/moritzhoferer/lattice_membrane"
+    },
+    {
+      "url": "https://github.com/NoNo721/PFCXX"
+    },
+    {
+      "url": "https://github.com/ascalva/Coculture-With-Circular-Confinement"
+    },
+    {
+      "url": "https://github.com/kirch7/superboids2"
+    },
+    {
+      "url": "https://github.com/patherlkd/DFT-polymer-colloid"
+    },
+    {
+      "url": "https://github.com/danielmccusker/active-particle-jamming"
+    },
+    {
+      "quantityOfRepositories": 14,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
+}
