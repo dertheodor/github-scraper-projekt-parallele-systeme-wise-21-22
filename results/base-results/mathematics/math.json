@@ -1,0 +1,2301 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/noire0/RK4-Hermite"
+    },
+    {
+      "url": "https://github.com/PESchoenberg/fmath"
+    },
+    {
+      "url": "https://github.com/zoziha/forlab"
+    },
+    {
+      "url": "https://github.com/roh6608/STEM-Fortran"
+    },
+    {
+      "url": "https://github.com/wtdailey/commonTools"
+    },
+    {
+      "quantityOfRepositories": 5,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/RandyGaul/cute_headers",
+      "quantityOfFiles": 436,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/recp/cglm",
+      "quantityOfFiles": 201,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/zpl-c/zpl",
+      "quantityOfFiles": 128,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/HandmadeMath/Handmade-Math",
+      "quantityOfFiles": 21,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/felselva/mathc",
+      "quantityOfFiles": 2,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/libtom/libtommath",
+      "quantityOfFiles": 179,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/libtom/tomsfastmath",
+      "quantityOfFiles": 101,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/lcn2/calc",
+      "quantityOfFiles": 122,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/nigma/pywt"
+    },
+    {
+      "url": "https://github.com/mrDIMAS/DmitrysEngine"
+    },
+    {
+      "url": "https://github.com/creachadair/imath",
+      "quantityOfFiles": 27,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/Usbac/quich",
+      "quantityOfFiles": 13,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/ZenGo-X/class",
+      "#pragma omp parallel": 1,
+      "#pragma omp sections": 1,
+      "quantityOfFiles": 267,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/pmttavara/pt_math"
+    },
+    {
+      "url": "https://github.com/symengine/symengine.rb"
+    },
+    {
+      "url": "https://github.com/jonls/qsopt-ex"
+    },
+    {
+      "url": "https://github.com/SargisYonan/uLAPack"
+    },
+    {
+      "url": "https://github.com/dangmoody/HLML"
+    },
+    {
+      "url": "https://github.com/tsoding/bezier"
+    },
+    {
+      "url": "https://github.com/AfroDave/kj"
+    },
+    {
+      "url": "https://github.com/Wunkolo/qTriangle"
+    },
+    {
+      "url": "https://github.com/yatima1460/CGLMath"
+    },
+    {
+      "url": "https://github.com/Radvendii/MAR1D"
+    },
+    {
+      "url": "https://github.com/C0deH4cker/SuperCalc"
+    },
+    {
+      "url": "https://github.com/nilium/ruby-snowmath"
+    },
+    {
+      "url": "https://github.com/koreaneggroll/Arin-Virtual-Assistant"
+    },
+    {
+      "url": "https://github.com/renehorstmann/Mathc"
+    },
+    {
+      "url": "https://github.com/vaiorabbit/rmath3d"
+    },
+    {
+      "url": "https://github.com/Zeta611/polycalc"
+    },
+    {
+      "url": "https://github.com/Mini-Ware/Math-Quiz"
+    },
+    {
+      "url": "https://github.com/davxy/cry"
+    },
+    {
+      "url": "https://github.com/QuasarApp/QtBigInt"
+    },
+    {
+      "url": "https://github.com/bioniclambda/Eden"
+    },
+    {
+      "url": "https://github.com/8bitslime/MMath"
+    },
+    {
+      "url": "https://github.com/JulianThijssen/GDT"
+    },
+    {
+      "url": "https://github.com/pepsipu/ban"
+    },
+    {
+      "url": "https://github.com/juancarlospaco/nim-easings"
+    },
+    {
+      "url": "https://github.com/mlund/xmgr-resurrection"
+    },
+    {
+      "url": "https://github.com/ze/mat"
+    },
+    {
+      "url": "https://github.com/flying-yogurt/Lux"
+    },
+    {
+      "url": "https://github.com/vladkinoman/coding-challenges"
+    },
+    {
+      "url": "https://github.com/librity/weekendrt"
+    },
+    {
+      "url": "https://github.com/Rufflewind/lebedev_laikov"
+    },
+    {
+      "url": "https://github.com/aaryarajoju/JomaTech--Favorite-Interview-Question"
+    },
+    {
+      "url": "https://github.com/sinanislekdemir/ansic3d"
+    },
+    {
+      "url": "https://github.com/cxw42/fixedptc-fork"
+    },
+    {
+      "url": "https://github.com/alaxar/CircleEquationWithC"
+    },
+    {
+      "url": "https://github.com/Smart6502/beval"
+    },
+    {
+      "url": "https://github.com/brentp/kexpr-nim"
+    },
+    {
+      "url": "https://github.com/proghead00/Data-Structures-and-Algorithms-In-C-Cpp"
+    },
+    {
+      "url": "https://github.com/Kaushal1011/matrix-row-major"
+    },
+    {
+      "url": "https://github.com/erstan/ceval"
+    },
+    {
+      "url": "https://github.com/sinarazi/Large-Digit-Calculator"
+    },
+    {
+      "url": "https://github.com/ALEXMORF/mandelbrot-zoomer"
+    },
+    {
+      "url": "https://github.com/wyattwhiting/mandelbrot-generator"
+    },
+    {
+      "url": "https://github.com/christianbender/statistic"
+    },
+    {
+      "url": "https://github.com/yairchu/quartic"
+    },
+    {
+      "url": "https://github.com/strandfield/libmathxcore"
+    },
+    {
+      "url": "https://github.com/samyukthagopalsamy/Coding_programs_math_data_structures_algorithm"
+    },
+    {
+      "url": "https://github.com/generot/graphik-compiler-and-utilities"
+    },
+    {
+      "url": "https://github.com/GabsGear/binance-trader-bot"
+    },
+    {
+      "url": "https://github.com/Demonstrandum/crepl"
+    },
+    {
+      "url": "https://github.com/a-p-jo/MathHack"
+    },
+    {
+      "url": "https://github.com/marc-q/bignbr"
+    },
+    {
+      "url": "https://github.com/bkthomps/PassCrack"
+    },
+    {
+      "url": "https://github.com/huiscliu/itsol"
+    },
+    {
+      "url": "https://github.com/maihd/hlslmath"
+    },
+    {
+      "url": "https://github.com/TheNumbat/3D-Grapher"
+    },
+    {
+      "url": "https://github.com/Onula/PrimeNumbers-C-code"
+    },
+    {
+      "url": "https://github.com/aelfimow/ATmega-meets-FPU"
+    },
+    {
+      "url": "https://github.com/marceloboeira/euler"
+    },
+    {
+      "url": "https://github.com/quantumos-org/quantum-os"
+    },
+    {
+      "url": "https://github.com/mrharmonies/goalseek"
+    },
+    {
+      "url": "https://github.com/arkainoh/fixedpoint"
+    },
+    {
+      "url": "https://github.com/vincenzocorso/libvector"
+    },
+    {
+      "url": "https://github.com/philiparvidsson/Raytracing"
+    },
+    {
+      "url": "https://github.com/fennecdjay/soundpipe_expr"
+    },
+    {
+      "url": "https://github.com/PhilippHochmann/ccalc"
+    },
+    {
+      "url": "https://github.com/johnpayne-dev/Math3D"
+    },
+    {
+      "url": "https://github.com/DevManu-de/ceval"
+    },
+    {
+      "url": "https://github.com/programmingAthlete/Fast_Fourier_Transform"
+    },
+    {
+      "url": "https://github.com/plerros/helsing"
+    },
+    {
+      "url": "https://github.com/rjcostales/c"
+    },
+    {
+      "url": "https://github.com/renatomb/softwareNumericoComputacional"
+    },
+    {
+      "url": "https://github.com/aam29dc/cxmatrix"
+    },
+    {
+      "url": "https://github.com/Isarcus/zarksCPP"
+    },
+    {
+      "url": "https://github.com/Garbaz/bigprime26"
+    },
+    {
+      "url": "https://github.com/rattata2me/cuddly-calculator"
+    },
+    {
+      "url": "https://github.com/statslabs/rmath"
+    },
+    {
+      "url": "https://github.com/stdlib-js/math-base-napi-unary"
+    },
+    {
+      "url": "https://github.com/timosarkar/PiHopper"
+    },
+    {
+      "url": "https://github.com/ElianMariano/Math-Interpreter"
+    },
+    {
+      "url": "https://github.com/MrOnlineCoder/binarnic"
+    },
+    {
+      "url": "https://github.com/na-vural/yPrime"
+    },
+    {
+      "url": "https://github.com/shlomif/shift_divmod"
+    },
+    {
+      "url": "https://github.com/Anonymous883/stdtools"
+    },
+    {
+      "url": "https://github.com/koteitan/yaBMS"
+    },
+    {
+      "url": "https://github.com/HypeByte/Perfect-Rectangles"
+    },
+    {
+      "url": "https://github.com/cfnptr/cmmt"
+    },
+    {
+      "url": "https://github.com/Guruprasad-G/Linear-Regression-in-C"
+    },
+    {
+      "url": "https://github.com/TechPenguineer/kane"
+    },
+    {
+      "url": "https://github.com/414owen/pure-lambda"
+    },
+    {
+      "url": "https://github.com/nate2s/ppm"
+    },
+    {
+      "url": "https://github.com/jraleman/42_Fractol"
+    },
+    {
+      "url": "https://github.com/Morozov-5F/mathematical-modeling"
+    },
+    {
+      "url": "https://github.com/tshrwbl/ProjectEuler_solutions"
+    },
+    {
+      "url": "https://github.com/Kakalinn/list-of-primes"
+    },
+    {
+      "url": "https://github.com/netromdk/math"
+    },
+    {
+      "url": "https://github.com/malczak/SFExpression"
+    },
+    {
+      "url": "https://github.com/rshipp/math-c"
+    },
+    {
+      "url": "https://github.com/AdityaSawant21/3D-Rotating-Donut"
+    },
+    {
+      "url": "https://github.com/rozhuk-im/liblcb"
+    },
+    {
+      "url": "https://github.com/stdlib-js/random-base"
+    },
+    {
+      "url": "https://github.com/librg/zpl-math"
+    },
+    {
+      "url": "https://github.com/alleztous/ProjectEuler"
+    },
+    {
+      "url": "https://github.com/nompelis/MandelbrotSet"
+    },
+    {
+      "url": "https://github.com/bellcorreia/random-code"
+    },
+    {
+      "url": "https://github.com/bwesterb/010cc"
+    },
+    {
+      "url": "https://github.com/archshift/3yee"
+    },
+    {
+      "url": "https://github.com/jj1bdx/gonnet-math-accuracy"
+    },
+    {
+      "url": "https://github.com/HotBeaverGIT/C_LargeNum_Mult-add_-operations"
+    },
+    {
+      "url": "https://github.com/stdlib-js/math-base-napi-binary"
+    },
+    {
+      "url": "https://github.com/BSOD-Master/Pythagorean-Theorem-Solver"
+    },
+    {
+      "url": "https://github.com/non-compliant/Collatz-Conjecture"
+    },
+    {
+      "url": "https://github.com/edgardleal/lot"
+    },
+    {
+      "url": "https://github.com/quadroli/sequencer"
+    },
+    {
+      "url": "https://github.com/classAndrew/ccalc"
+    },
+    {
+      "url": "https://github.com/Suntrakanesh/Magical-Math"
+    },
+    {
+      "url": "https://github.com/AfaanBilal/math-tools-in-c"
+    },
+    {
+      "url": "https://github.com/IN0C3NC10/math_exercices"
+    },
+    {
+      "url": "https://github.com/berk76/do_math"
+    },
+    {
+      "url": "https://github.com/amrk000/Math-C-Extended-math-header-file"
+    },
+    {
+      "url": "https://github.com/acgaudette/slip"
+    },
+    {
+      "url": "https://github.com/kamilhan-karaismailoglu/Calculator"
+    },
+    {
+      "url": "https://github.com/abdnh/math-eval"
+    },
+    {
+      "url": "https://github.com/kikoqiu/libbf.js"
+    },
+    {
+      "url": "https://github.com/bztsrc/goldbach"
+    },
+    {
+      "url": "https://github.com/maciejspychala/hackerrank_c"
+    },
+    {
+      "url": "https://github.com/lpg2709/lpg3dmath"
+    },
+    {
+      "url": "https://github.com/KlaytonJr/Algoritmo-do-Menor-Caminho"
+    },
+    {
+      "url": "https://github.com/RazerMoon/roots-of-a-quadratic"
+    },
+    {
+      "url": "https://github.com/zvezdochiot/ccmath"
+    },
+    {
+      "url": "https://github.com/sofulle/UltraCoolDecoder"
+    },
+    {
+      "url": "https://github.com/acgaudette/alg"
+    },
+    {
+      "url": "https://github.com/Zambo-dev/big-number-toolbox-library"
+    },
+    {
+      "url": "https://github.com/AgentANAKIN/Math-Neural-Network-in-C"
+    },
+    {
+      "url": "https://github.com/apt-webdev/polins"
+    },
+    {
+      "url": "https://github.com/thomastay/threeSiblingProblem"
+    },
+    {
+      "url": "https://github.com/matheusroleal/math-package"
+    },
+    {
+      "url": "https://github.com/STEAKISAWAKE/TheBase"
+    },
+    {
+      "url": "https://github.com/Mori1310TM/Wave"
+    },
+    {
+      "url": "https://github.com/agkaminski/collatz"
+    },
+    {
+      "url": "https://github.com/EthanDRaymond/Statistical-Distribution-Calculator"
+    },
+    {
+      "url": "https://github.com/sudheer-g/CPrograms"
+    },
+    {
+      "url": "https://github.com/rishav-ish/MyHackerEarth"
+    },
+    {
+      "url": "https://github.com/manda5566/calculator"
+    },
+    {
+      "url": "https://github.com/Juangarcia8974/math-personal-project"
+    },
+    {
+      "url": "https://github.com/luverolla/vector.c"
+    },
+    {
+      "url": "https://github.com/bierTI-dev/cryptography-xor"
+    },
+    {
+      "url": "https://github.com/mgriebling/CDecNumber"
+    },
+    {
+      "url": "https://github.com/DevTae/InfinityCalculator"
+    },
+    {
+      "url": "https://github.com/cengizIO/sqrt-benchmark"
+    },
+    {
+      "url": "https://github.com/ccharrie/FdF"
+    },
+    {
+      "url": "https://github.com/claireboals/arith"
+    },
+    {
+      "url": "https://github.com/cengizIO/gmp-fibonacci"
+    },
+    {
+      "url": "https://github.com/theoden8/matcalc"
+    },
+    {
+      "url": "https://github.com/malkoil/mal"
+    },
+    {
+      "url": "https://github.com/nickdpz/Filtro-Digital-Ajustable-por-Ventaneo"
+    },
+    {
+      "url": "https://github.com/LinqLover/hpi-ai-teaching-linear-regression"
+    },
+    {
+      "url": "https://github.com/Gentil-N/arcade-toolkit"
+    },
+    {
+      "url": "https://github.com/36ddev/36ddev"
+    },
+    {
+      "url": "https://github.com/mansibisht22/C-Fundamentals-II"
+    },
+    {
+      "url": "https://github.com/Kindane/FuncGraphBuilder"
+    },
+    {
+      "url": "https://github.com/TheNumber5/complex-trig-power-c"
+    },
+    {
+      "url": "https://github.com/jonathanbuchanan/sl"
+    },
+    {
+      "url": "https://github.com/NickSettler/setcal"
+    },
+    {
+      "url": "https://github.com/taeseunglee/Project-Euler"
+    },
+    {
+      "url": "https://github.com/sakrist/gmpmini"
+    },
+    {
+      "url": "https://github.com/trecky/bezout-s_theorem-c"
+    },
+    {
+      "url": "https://github.com/iasebsil83/FFT"
+    },
+    {
+      "url": "https://github.com/LinqLover/hpi-ai-teaching-linear-regression"
+    },
+    {
+      "url": "https://github.com/Gentil-N/arcade-toolkit"
+    },
+    {
+      "url": "https://github.com/36ddev/36ddev"
+    },
+    {
+      "url": "https://github.com/mansibisht22/C-Fundamentals-II"
+    },
+    {
+      "url": "https://github.com/Kindane/FuncGraphBuilder"
+    },
+    {
+      "url": "https://github.com/TheNumber5/complex-trig-power-c"
+    },
+    {
+      "url": "https://github.com/jonathanbuchanan/sl"
+    },
+    {
+      "url": "https://github.com/NickSettler/setcal"
+    },
+    {
+      "url": "https://github.com/iasebsil83/Octave_simulator"
+    },
+    {
+      "url": "https://github.com/wendrul/miniRT"
+    },
+    {
+      "url": "https://github.com/nkhatsko/life-game"
+    },
+    {
+      "url": "https://github.com/scimusmn/mm-0116-dance-math"
+    },
+    {
+      "url": "https://github.com/luizgabriel/sl-lib"
+    },
+    {
+      "url": "https://github.com/mansibisht22/Preprocessor-Directives-in-C"
+    },
+    {
+      "url": "https://github.com/TheNumber5/complex-trig-multiply-c"
+    },
+    {
+      "url": "https://github.com/MannyPeterson/MersennePrime"
+    },
+    {
+      "url": "https://github.com/VineetVemula/GfG_Solutions"
+    },
+    {
+      "url": "https://github.com/Calebe94/Riemann_Sum_Pi"
+    },
+    {
+      "url": "https://github.com/adityapandey1998/LargeIntegers"
+    },
+    {
+      "url": "https://github.com/emesiqueira/Exercicios_em_C"
+    },
+    {
+      "url": "https://github.com/philiparvidsson/Quickhull-Algorithm"
+    },
+    {
+      "url": "https://github.com/1024Adam/powers"
+    },
+    {
+      "url": "https://github.com/UselessNinja/palindrome"
+    },
+    {
+      "url": "https://github.com/LucasLima337/2nd_Degree_Equations_Calculator"
+    },
+    {
+      "url": "https://github.com/FabianGabor/Gauss-Elimination"
+    },
+    {
+      "url": "https://github.com/PalindromoMeszaros/MiniRayTracer"
+    },
+    {
+      "url": "https://github.com/TheNumber5/trigonometric-power-c"
+    },
+    {
+      "url": "https://github.com/luverolla/matrix.c"
+    },
+    {
+      "url": "https://github.com/SabirKhanAkash/Competitive-Programming"
+    },
+    {
+      "url": "https://github.com/Dko1905/ccg"
+    },
+    {
+      "url": "https://github.com/chiragobhan/math-trick-using-c"
+    },
+    {
+      "url": "https://github.com/raywan/rw"
+    },
+    {
+      "url": "https://github.com/al20ov/3DSphereGenerator"
+    },
+    {
+      "url": "https://github.com/lmdsp/sleef"
+    },
+    {
+      "url": "https://github.com/curtisupshall/mandelbrot-ascii"
+    },
+    {
+      "url": "https://github.com/mariadaan/cub3d"
+    },
+    {
+      "url": "https://github.com/wadiim/ttgen"
+    },
+    {
+      "url": "https://github.com/MatiasCardullo/Calculadora-2.0"
+    },
+    {
+      "url": "https://github.com/prithvish111/agecalculator"
+    },
+    {
+      "url": "https://github.com/hrishitchaudhuri/line"
+    },
+    {
+      "url": "https://github.com/Connor-Frank/statistics-projects"
+    },
+    {
+      "url": "https://github.com/vamarina/math-expression-parser"
+    },
+    {
+      "url": "https://github.com/Garbaz/primetriangle"
+    },
+    {
+      "url": "https://github.com/DiegoRosas12/numerical_Methods_in_C"
+    },
+    {
+      "url": "https://github.com/lsonnino/math-unix-solver"
+    },
+    {
+      "url": "https://github.com/FLira2000/matrix_c"
+    },
+    {
+      "url": "https://github.com/stkptr/basename"
+    },
+    {
+      "url": "https://github.com/SerTayFu/DonutDancing"
+    },
+    {
+      "url": "https://github.com/philsupertramp/math-lib"
+    },
+    {
+      "url": "https://github.com/matthewgeorgy/mho"
+    },
+    {
+      "url": "https://github.com/maxmekiska/Numerical_Integration"
+    },
+    {
+      "quantityOfRepositories": 231,
+      "quantityOfRelevantRepositories": 11,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/maciejczyzewski/libchaos"
+    },
+    {
+      "url": "https://github.com/strasdat/Sophus",
+      "quantityOfFiles": 51,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/symengine/symengine",
+      "#pragma omp parallel": 4,
+      "#pragma omp parallel for": 4,
+      "quantityOfFiles": 359,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/kimwalisch/primesieve",
+      "quantityOfFiles": 91,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/stsievert/swix",
+      "quantityOfFiles": 218,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/gszauer/GamePhysicsCookbook"
+    },
+    {
+      "url": "https://github.com/stan-dev/math",
+      "#pragma omp parallel": 129,
+      "#pragma omp teams": 59,
+      "#pragma omp single ": 1,
+      "#pragma omp for ": 36,
+      "#pragma omp distribute": 1,
+      "#pragma omp distribute parallel for": 1,
+      "#pragma omp target": 59,
+      "#pragma omp parallel for": 91,
+      "#pragma omp teams distribute": 58,
+      "#pragma omp teams distribute parallel for": 32,
+      "#pragma omp critical": 6,
+      "#pragma omp atomic": 4,
+      "quantityOfFiles": 22554,
+      "quantityOfFilesWithOpenMP": 14
+    },
+    {
+      "url": "https://github.com/nfrechette/rtm",
+      "quantityOfFiles": 218,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/ArashPartow/exprtk"
+    },
+    {
+      "url": "https://github.com/kthohr/gcem",
+      "quantityOfFiles": 105,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/Erkaman/poisson_blend"
+    },
+    {
+      "url": "https://github.com/xaos-project/XaoS",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/redorav/hlslpp",
+      "quantityOfFiles": 61,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/kimwalisch/primecount"
+    },
+    {
+      "url": "https://github.com/Ubpa/UGM"
+    },
+    {
+      "url": "https://github.com/Le0nX/ModernRoboticsCpp",
+      "quantityOfFiles": 3,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/bluescarni/mppp",
+      "quantityOfFiles": 195,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/cruxrebels/InterviewBit",
+      "quantityOfFiles": 183,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/Erkaman/hole_fixer"
+    },
+    {
+      "url": "https://github.com/shashankch292/InterviewBit"
+    },
+    {
+      "url": "https://github.com/wavelab/wave_geometry"
+    },
+    {
+      "url": "https://github.com/IainWinter/IwEngine"
+    },
+    {
+      "url": "https://github.com/polymonster/maths",
+      "quantityOfFiles": 8,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/JohnDTill/YAWYSIWYGEE"
+    },
+    {
+      "url": "https://github.com/rdudhagra/Sand-Table"
+    },
+    {
+      "url": "https://github.com/crazylafo/AE_tl_math"
+    },
+    {
+      "url": "https://github.com/MGfoundation/mgcpp",
+      "quantityOfFiles": 192,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/kobalicek/mpsl"
+    },
+    {
+      "url": "https://github.com/igororlov/TrafficLight"
+    },
+    {
+      "url": "https://github.com/irlanrobson/bounce"
+    },
+    {
+      "url": "https://github.com/JamesYang007/FastAD"
+    },
+    {
+      "url": "https://github.com/AdelKS/ZeGrapher",
+      "quantityOfFiles": 129,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/fmutant/hlml"
+    },
+    {
+      "url": "https://github.com/bluescan/tacent"
+    },
+    {
+      "url": "https://github.com/ef-gy/topologic"
+    },
+    {
+      "url": "https://github.com/ALEXMORF/cray"
+    },
+    {
+      "url": "https://github.com/zmij/math"
+    },
+    {
+      "url": "https://github.com/egladysh/metamath"
+    },
+    {
+      "url": "https://github.com/iondune/ionEngine"
+    },
+    {
+      "url": "https://github.com/kimwalisch/primesum"
+    },
+    {
+      "url": "https://github.com/ignitionrobotics/ign-math",
+      "quantityOfFiles": 245,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/cslarsen/miller-rabin"
+    },
+    {
+      "url": "https://github.com/irlanrobson/bounce_softbody"
+    },
+    {
+      "url": "https://github.com/ron4fun/BigIntegerCPP"
+    },
+    {
+      "url": "https://github.com/wineee/mfcplot"
+    },
+    {
+      "url": "https://github.com/yahya-mohammed07/Kraken"
+    },
+    {
+      "url": "https://github.com/flarn2006/GraphCalc3DS"
+    },
+    {
+      "url": "https://github.com/williamchanrico/biginteger-cpp"
+    },
+    {
+      "url": "https://github.com/louisrubet/rpn"
+    },
+    {
+      "url": "https://github.com/mk43/Algorithm-Math"
+    },
+    {
+      "url": "https://github.com/staticbezier/ffd"
+    },
+    {
+      "url": "https://github.com/SuprDewd/asciimath"
+    },
+    {
+      "url": "https://github.com/SGSSGene/d_rive"
+    },
+    {
+      "url": "https://github.com/Expander/polylogarithm"
+    },
+    {
+      "url": "https://github.com/zenustech/zpc"
+    },
+    {
+      "url": "https://github.com/tivole/Numerary"
+    },
+    {
+      "url": "https://github.com/DanIsraelMalta/GLSL-CPP"
+    },
+    {
+      "url": "https://github.com/NTDLS/CMathParser"
+    },
+    {
+      "url": "https://github.com/VecPP/vecpp"
+    },
+    {
+      "url": "https://github.com/ROBOTIS-GIT/ROBOTIS-Math"
+    },
+    {
+      "url": "https://github.com/rohithasrk/ds-algos"
+    },
+    {
+      "url": "https://github.com/indiesoftby/defold-splitmix64"
+    },
+    {
+      "url": "https://github.com/loda-lang/loda-cpp"
+    },
+    {
+      "url": "https://github.com/PanagiotisPtr/Reverse-Mode-Automatic-Differentiation-Cpp"
+    },
+    {
+      "url": "https://github.com/BrutPitt/vgMath"
+    },
+    {
+      "url": "https://github.com/ron4fun/IntXLib4CPP"
+    },
+    {
+      "url": "https://github.com/aiekick/cTools"
+    },
+    {
+      "url": "https://github.com/geekymoose/3d-cpu-engine"
+    },
+    {
+      "url": "https://github.com/auto-lambda/kMath"
+    },
+    {
+      "url": "https://github.com/aeon-engine/libaeon"
+    },
+    {
+      "url": "https://github.com/lnsp/tmath"
+    },
+    {
+      "url": "https://github.com/dirkneuhaeuser/algorithms"
+    },
+    {
+      "url": "https://github.com/lincolncpp/competitive-programming"
+    },
+    {
+      "url": "https://github.com/Ddystopia/LL1parser"
+    },
+    {
+      "url": "https://github.com/UnrealEugene/math_parser"
+    },
+    {
+      "url": "https://github.com/pwwiur/Matrix"
+    },
+    {
+      "url": "https://github.com/luojilab/baseStone"
+    },
+    {
+      "url": "https://github.com/velnias75/rational"
+    },
+    {
+      "url": "https://github.com/DavDag/MathPlotter"
+    },
+    {
+      "url": "https://github.com/Wunkolo/qFib"
+    },
+    {
+      "url": "https://github.com/Vicky-Jha/Number-Theory"
+    },
+    {
+      "url": "https://github.com/aslze/asl-calculator"
+    },
+    {
+      "url": "https://github.com/ThePirate42/EUL"
+    },
+    {
+      "url": "https://github.com/InversePalindrome/InPal"
+    },
+    {
+      "url": "https://github.com/Mathesis-Software/Knots"
+    },
+    {
+      "url": "https://github.com/Dainerx/Competitive-programming"
+    },
+    {
+      "url": "https://github.com/PasaOpasen/Old_Math_Projects"
+    },
+    {
+      "url": "https://github.com/HaniAmmar/Qentem-Engine"
+    },
+    {
+      "url": "https://github.com/4rlenrey/equation_solver"
+    },
+    {
+      "url": "https://github.com/selevit/Simplex-Method"
+    },
+    {
+      "url": "https://github.com/bolderflight/eigen"
+    },
+    {
+      "url": "https://github.com/fintarin/Fintamath"
+    },
+    {
+      "url": "https://github.com/emsr/cxx_math_const"
+    },
+    {
+      "url": "https://github.com/mattiaisgro/uroboro"
+    },
+    {
+      "url": "https://github.com/GreatGameDota/CNN-in-Cpp"
+    },
+    {
+      "url": "https://github.com/Surajv311/myCforces"
+    },
+    {
+      "url": "https://github.com/omonimus1/interviewbitwise-topic"
+    },
+    {
+      "url": "https://github.com/imjohnzakkam/DSA-for-CP-"
+    },
+    {
+      "url": "https://github.com/lionkor/Vector2"
+    },
+    {
+      "url": "https://github.com/AdityaPrakash-26/CPP-Algorithms"
+    },
+    {
+      "url": "https://github.com/zer0main/problems"
+    },
+    {
+      "url": "https://github.com/Young-TW/zero-judge"
+    },
+    {
+      "url": "https://github.com/RobTillaart/Complex"
+    },
+    {
+      "url": "https://github.com/DonRumata710/Graphs"
+    },
+    {
+      "url": "https://github.com/ibilux/TurboTrig"
+    },
+    {
+      "url": "https://github.com/SeungoneKim/algorithms"
+    },
+    {
+      "url": "https://github.com/TheCodeAlpha26/Hackerrank-Demystified"
+    },
+    {
+      "url": "https://github.com/mayshukla/napkin"
+    },
+    {
+      "url": "https://github.com/DanIsraelMalta/NumericalPlusPlus"
+    },
+    {
+      "url": "https://github.com/emsr/cxx_hypot"
+    },
+    {
+      "url": "https://github.com/EdwardLiuyc/el_wheel"
+    },
+    {
+      "url": "https://github.com/cosmicray001/Online_judge_Solutions"
+    },
+    {
+      "url": "https://github.com/janhuenermann/quintic-spline-solver"
+    },
+    {
+      "url": "https://github.com/The-Last-Cookie/stringcalc"
+    },
+    {
+      "url": "https://github.com/vrodedanya/yesza"
+    },
+    {
+      "url": "https://github.com/KJ002/MathEvaluator"
+    },
+    {
+      "url": "https://github.com/ret2home/Library"
+    },
+    {
+      "url": "https://github.com/IhorVodko/Hackerrank_solutions"
+    },
+    {
+      "url": "https://github.com/de-cryptor/LeetCode"
+    },
+    {
+      "url": "https://github.com/Beyond-Engine/Core"
+    },
+    {
+      "url": "https://github.com/ASakrak/QuadraticFormula"
+    },
+    {
+      "url": "https://github.com/RobTillaart/infiniteAverage"
+    },
+    {
+      "url": "https://github.com/ohtorii/math_3d"
+    },
+    {
+      "url": "https://github.com/de-cryptor/LeetCode"
+    },
+    {
+      "url": "https://github.com/Beyond-Engine/Core"
+    },
+    {
+      "url": "https://github.com/dbetm/cp-history"
+    },
+    {
+      "url": "https://github.com/cdgiessen/cml"
+    },
+    {
+      "url": "https://github.com/Rellotscrewdriver/Math-Loop-Quiz-Program"
+    },
+    {
+      "url": "https://github.com/zettdaymond/zcm"
+    },
+    {
+      "url": "https://github.com/Yohrog/VecTooDee"
+    },
+    {
+      "url": "https://github.com/riyashah17/InterviewBit"
+    },
+    {
+      "url": "https://github.com/lackhole/Plotting-for-OpenCV"
+    },
+    {
+      "url": "https://github.com/Daninet/ginac-wasm"
+    },
+    {
+      "url": "https://github.com/eakeur/circle"
+    },
+    {
+      "url": "https://github.com/patterson-tom/Ellipse-Perimeter-Equation"
+    },
+    {
+      "url": "https://github.com/shixiongfei/math"
+    },
+    {
+      "url": "https://github.com/Possseidon/dang-lib"
+    },
+    {
+      "url": "https://github.com/hydroo/coding-and-math-exercises"
+    },
+    {
+      "url": "https://github.com/scimusmn/mm-0102-sensing-ratios-old"
+    },
+    {
+      "url": "https://github.com/Erdroy/VectorMath"
+    },
+    {
+      "url": "https://github.com/lecopivo/Interpolation"
+    },
+    {
+      "url": "https://github.com/fayssalchokri/linear-equation-solver"
+    },
+    {
+      "url": "https://github.com/AbdallahHemdan/Competitive-Programming"
+    },
+    {
+      "url": "https://github.com/ivan0sokin/IOMath"
+    },
+    {
+      "url": "https://github.com/larc/competitive_programming"
+    },
+    {
+      "url": "https://github.com/dyeo/dym"
+    },
+    {
+      "url": "https://github.com/MartinStokroos/fastCORDIC"
+    },
+    {
+      "url": "https://github.com/YumiZhan/OSL"
+    },
+    {
+      "url": "https://github.com/MartinStokroos/FFTA"
+    },
+    {
+      "url": "https://github.com/ichko/PantaRay"
+    },
+    {
+      "url": "https://github.com/openastro/sml"
+    },
+    {
+      "url": "https://github.com/JasperDre/Proton"
+    },
+    {
+      "url": "https://github.com/sunhang/MathKeyboard"
+    },
+    {
+      "url": "https://github.com/RobTillaart/Histogram"
+    },
+    {
+      "url": "https://github.com/ichko/PantaRay"
+    },
+    {
+      "url": "https://github.com/Rratic/Calculator"
+    },
+    {
+      "url": "https://github.com/0xmanjoos/libexpr"
+    },
+    {
+      "url": "https://github.com/BaseMax/SquareRoot"
+    },
+    {
+      "url": "https://github.com/Time0o/mpsym"
+    },
+    {
+      "url": "https://github.com/timstr/scorch"
+    },
+    {
+      "url": "https://github.com/RobTillaart/Correlation"
+    },
+    {
+      "url": "https://github.com/Defalt8/axl.math"
+    },
+    {
+      "url": "https://github.com/harlexkhal/CrunchMath"
+    },
+    {
+      "url": "https://github.com/sps1112/gmath"
+    },
+    {
+      "url": "https://github.com/Papich23691/Math"
+    },
+    {
+      "url": "https://github.com/mpolacek/goo"
+    },
+    {
+      "url": "https://github.com/dmilos/math"
+    },
+    {
+      "url": "https://github.com/StanLepunK/Math-Vector-template-class"
+    },
+    {
+      "url": "https://github.com/AdsGames/MathBlocks"
+    },
+    {
+      "url": "https://github.com/akarpovskii/Hooke-Jeeves-Cpp"
+    },
+    {
+      "url": "https://github.com/SStalnaya/polynomial"
+    },
+    {
+      "url": "https://github.com/Matt-London/graphing-calculator"
+    },
+    {
+      "url": "https://github.com/q8977452/numerical-analysis"
+    },
+    {
+      "url": "https://github.com/tell/ntl-unix"
+    },
+    {
+      "url": "https://github.com/idfumg/algorithms"
+    },
+    {
+      "url": "https://github.com/7princekumar/ds_algo"
+    },
+    {
+      "url": "https://github.com/KTheXIII/Mandelbrot_set"
+    },
+    {
+      "url": "https://github.com/Garbaz/nim"
+    },
+    {
+      "url": "https://github.com/Samuuuh/feup-mnum"
+    },
+    {
+      "url": "https://github.com/salihselimsekerci/AciBulma"
+    },
+    {
+      "url": "https://github.com/dmharrington03/physics"
+    },
+    {
+      "url": "https://github.com/MrBiscvit/yEngine"
+    },
+    {
+      "url": "https://github.com/XXXRef/BigInt"
+    },
+    {
+      "url": "https://github.com/harsh725/CodeChef"
+    },
+    {
+      "url": "https://github.com/boorlakov/chm_lab1"
+    },
+    {
+      "url": "https://github.com/Dharmendra444/InterviewBit-solution"
+    },
+    {
+      "url": "https://github.com/aamir4813/dayzzofCode"
+    },
+    {
+      "url": "https://github.com/AKASH-ALAM/Competitive-Programming"
+    },
+    {
+      "url": "https://github.com/dasfex/practice"
+    },
+    {
+      "url": "https://github.com/BrainStone/Fraction"
+    },
+    {
+      "url": "https://github.com/rvillegasm/NuMath"
+    },
+    {
+      "url": "https://github.com/fffelix-jan/DiffIntFactorTriplet-cpp"
+    },
+    {
+      "url": "https://github.com/NTDLS/Expression-Calculator"
+    },
+    {
+      "url": "https://github.com/KsGin/Math-Lib"
+    },
+    {
+      "url": "https://github.com/HorstBaerbel/approx"
+    },
+    {
+      "url": "https://github.com/sebastiandagostino/integral-calculator"
+    },
+    {
+      "url": "https://github.com/Mondonno/algorithms"
+    },
+    {
+      "url": "https://github.com/CaseyNelson314/Fibonacci"
+    },
+    {
+      "url": "https://github.com/mls-m5/matmath"
+    },
+    {
+      "url": "https://github.com/valentinvstoyanov/fmi"
+    },
+    {
+      "url": "https://github.com/Electron1997/Algorithms"
+    },
+    {
+      "url": "https://github.com/fedorinanutshell/nautlib"
+    },
+    {
+      "url": "https://github.com/wdeprez11/calculator"
+    },
+    {
+      "url": "https://github.com/jimmyberg/Vector3"
+    },
+    {
+      "url": "https://github.com/snandasena/cf-contests"
+    },
+    {
+      "url": "https://github.com/l0nl1f3/1-l0nl1f3-s-code-repo"
+    },
+    {
+      "url": "https://github.com/ThomasThelen/Logistic-Map"
+    },
+    {
+      "url": "https://github.com/Mregussek/MARMaths"
+    },
+    {
+      "url": "https://github.com/SingularityUrBrain/math-programming"
+    },
+    {
+      "url": "https://github.com/stelzo/GeoLib"
+    },
+    {
+      "url": "https://github.com/francoisbecker/fb-utils"
+    },
+    {
+      "url": "https://github.com/EllAyling/OrreyGL"
+    },
+    {
+      "url": "https://github.com/outama-othmane/mathCPP"
+    },
+    {
+      "url": "https://github.com/lisilin013/common"
+    },
+    {
+      "url": "https://github.com/WaleedYaser/nova"
+    },
+    {
+      "url": "https://github.com/RobTillaart/AverageAngle"
+    },
+    {
+      "url": "https://github.com/kbinani/constexpr_exp"
+    },
+    {
+      "url": "https://github.com/mkacz91/math"
+    },
+    {
+      "url": "https://github.com/andrekorol/ValorFinalMedidas"
+    },
+    {
+      "url": "https://github.com/charon25/ConsoleCurvePlotter"
+    },
+    {
+      "url": "https://github.com/drewthoennes/RPN-Calculator"
+    },
+    {
+      "url": "https://github.com/harith-alsafi/mcpp"
+    },
+    {
+      "url": "https://github.com/JmirY/YongMath"
+    },
+    {
+      "url": "https://github.com/ichiro-its/keisan"
+    },
+    {
+      "url": "https://github.com/Ahmed-alkharusi/Interesting-problems-"
+    },
+    {
+      "url": "https://github.com/Kexogg/Arduino-Calculator"
+    },
+    {
+      "url": "https://github.com/LoicKonan/4883-PT-Konan"
+    },
+    {
+      "url": "https://github.com/ranjithkumar007/symengine"
+    },
+    {
+      "url": "https://github.com/tell/latticechlgs"
+    },
+    {
+      "url": "https://github.com/FanchenBao/MATH_Miller-Rabin_Primality_Test"
+    },
+    {
+      "url": "https://github.com/adam-rumpf/mcnfli-trials"
+    },
+    {
+      "url": "https://github.com/kryvytskyidenys/gdm"
+    },
+    {
+      "url": "https://github.com/Davidson-Souza/CPP"
+    },
+    {
+      "url": "https://github.com/HassanRahim26/COMPETITIVE-PROGRAMMING"
+    },
+    {
+      "url": "https://github.com/adam-rumpf/social-transit-solver"
+    },
+    {
+      "url": "https://github.com/https123456789/CPP-Math"
+    },
+    {
+      "url": "https://github.com/math-x/mathx_repl"
+    },
+    {
+      "url": "https://github.com/Madophs/BigInteger"
+    },
+    {
+      "url": "https://github.com/Ahmed-alkharusi/Julia-sets"
+    },
+    {
+      "url": "https://github.com/JonasMuehlmann/ggmath"
+    },
+    {
+      "url": "https://github.com/andrekorol/ValorFinalMedidas"
+    },
+    {
+      "url": "https://github.com/charon25/ConsoleCurvePlotter"
+    },
+    {
+      "url": "https://github.com/RParkerE/GetTimes"
+    },
+    {
+      "url": "https://github.com/Iarfen/MagickScience"
+    },
+    {
+      "url": "https://github.com/math-x/mathx"
+    },
+    {
+      "url": "https://github.com/Gaurav-99/Codechef-DSA-Learning-Series"
+    },
+    {
+      "url": "https://github.com/vladimirrogozin/Fast-sqrt"
+    },
+    {
+      "url": "https://github.com/GHF/mays"
+    },
+    {
+      "url": "https://github.com/GabrielPTD/Expression-Evaluator"
+    },
+    {
+      "url": "https://github.com/NewbieeSaibot/Competitive-Programming-Training"
+    },
+    {
+      "url": "https://github.com/LU15W1R7H/lwirth-lib"
+    },
+    {
+      "url": "https://github.com/sergehog/tiny_autodf"
+    },
+    {
+      "url": "https://github.com/petiaccja/DSPBB"
+    },
+    {
+      "url": "https://github.com/avighnac/math_new"
+    },
+    {
+      "url": "https://github.com/NickG-Math/Symmetric_Polynomials"
+    },
+    {
+      "url": "https://github.com/madureira/math"
+    },
+    {
+      "url": "https://github.com/qzerrty/system_software"
+    },
+    {
+      "url": "https://github.com/k3ll3x/LAak-interpreter"
+    },
+    {
+      "url": "https://github.com/camieac/utilcpp-math"
+    },
+    {
+      "url": "https://github.com/NickG-Math/Mackey"
+    },
+    {
+      "url": "https://github.com/Phoenix1747/vmath"
+    },
+    {
+      "url": "https://github.com/LHolmberg/math"
+    },
+    {
+      "url": "https://github.com/ArthurDibe/Qt-Calculator"
+    },
+    {
+      "url": "https://github.com/philsupertramp/game-math"
+    },
+    {
+      "url": "https://github.com/CodingGardian/Cross-Engine"
+    },
+    {
+      "url": "https://github.com/Zyxrath/quick-math"
+    },
+    {
+      "url": "https://github.com/VecPP/cste_math"
+    },
+    {
+      "url": "https://github.com/teodor-hristov/University"
+    },
+    {
+      "url": "https://github.com/cyberdrk/projecteulersnippets"
+    },
+    {
+      "url": "https://github.com/glennlopez/ProjectEuler.Archive"
+    },
+    {
+      "url": "https://github.com/thiagoyeds/Algorithms"
+    },
+    {
+      "url": "https://github.com/hu-ry/MathOMP"
+    },
+    {
+      "url": "https://github.com/kerimkuscu/Cpp-Basic-Calculator-Example"
+    },
+    {
+      "url": "https://github.com/mateusfg7/Prime-Number"
+    },
+    {
+      "url": "https://github.com/ALK222/Bezout"
+    },
+    {
+      "url": "https://github.com/KaiGartenschlaeger/SfmlVectorMath"
+    },
+    {
+      "url": "https://github.com/suVrik/aabbox_benchmark"
+    },
+    {
+      "url": "https://github.com/Futureblur/collatz-conjecture"
+    },
+    {
+      "url": "https://github.com/uniqueimaginate/Coding"
+    },
+    {
+      "url": "https://github.com/evrhel/MatrixUtil"
+    },
+    {
+      "url": "https://github.com/Hasenpfote/hasenpfote"
+    },
+    {
+      "url": "https://github.com/anishmo99/Diversified-Programming"
+    },
+    {
+      "url": "https://github.com/smeetsmeister/Primefinder"
+    },
+    {
+      "url": "https://github.com/pm14kas/roll-of-wallpaper"
+    },
+    {
+      "url": "https://github.com/FanchenBao/MATH_continued_fraction"
+    },
+    {
+      "url": "https://github.com/matteougolotti/project-euler"
+    },
+    {
+      "url": "https://github.com/iskorotkov/math-fractions"
+    },
+    {
+      "url": "https://github.com/jacob-g/math303-continued-fraction-factorizer"
+    },
+    {
+      "url": "https://github.com/eyalsch/polynomial-function-from-3-points"
+    },
+    {
+      "url": "https://github.com/ObjectBoxPC/infinitable"
+    },
+    {
+      "url": "https://github.com/Ahmed-Elgohary1/codeforce-A.-problams-solution"
+    },
+    {
+      "url": "https://github.com/Ohjurot/3DMath"
+    },
+    {
+      "url": "https://github.com/igoswamik/cpp"
+    },
+    {
+      "url": "https://github.com/daninsky1/baby_math"
+    },
+    {
+      "url": "https://github.com/VaTTeRGeR/Math3D"
+    },
+    {
+      "url": "https://github.com/RoseLeBlood/aSTL"
+    },
+    {
+      "url": "https://github.com/callummarshall9/OneDimensionInterference"
+    },
+    {
+      "url": "https://github.com/meysam81/mathematic-set"
+    },
+    {
+      "url": "https://github.com/SStalnaya/Karatsuba"
+    },
+    {
+      "url": "https://github.com/VadimGush/Saku"
+    },
+    {
+      "url": "https://github.com/mfcecilia/cs1044_project01"
+    },
+    {
+      "url": "https://github.com/DavDag/Windows-Game-Engine"
+    },
+    {
+      "url": "https://github.com/toasti1973/TurboMath"
+    },
+    {
+      "url": "https://github.com/james-d12/Atomic"
+    },
+    {
+      "url": "https://github.com/navkagleb/knu-labs"
+    },
+    {
+      "url": "https://github.com/joshkol1/Project-Euler"
+    },
+    {
+      "url": "https://github.com/FaizanZaheerGit/simple-scientific-calculator-in-c"
+    },
+    {
+      "url": "https://github.com/VaTTeRGeR/Math3D"
+    },
+    {
+      "url": "https://github.com/RoseLeBlood/aSTL"
+    },
+    {
+      "url": "https://github.com/callummarshall9/OneDimensionInterference"
+    },
+    {
+      "url": "https://github.com/meysam81/mathematic-set"
+    },
+    {
+      "url": "https://github.com/SStalnaya/Karatsuba"
+    },
+    {
+      "url": "https://github.com/VadimGush/Saku"
+    },
+    {
+      "url": "https://github.com/hrkrshnn/thurston"
+    },
+    {
+      "url": "https://github.com/sarkarchandan/Francois"
+    },
+    {
+      "url": "https://github.com/shlublu/ShlubluLib"
+    },
+    {
+      "url": "https://github.com/Leonidius20/MathParser"
+    },
+    {
+      "url": "https://github.com/RobTillaart/Fraction"
+    },
+    {
+      "url": "https://github.com/mirdaki/mathswork"
+    },
+    {
+      "url": "https://github.com/Garbaz/primegen"
+    },
+    {
+      "url": "https://github.com/olkeencole/A-Study-In-Graphics"
+    },
+    {
+      "url": "https://github.com/izanbf1803/Mandelbrot-cpp"
+    },
+    {
+      "url": "https://github.com/aurora-fw-archive/app_tests_math"
+    },
+    {
+      "url": "https://github.com/Mohammad-Mahdi1999/Perfect-Number"
+    },
+    {
+      "url": "https://github.com/zeph7/Competitive_Programming"
+    },
+    {
+      "url": "https://github.com/tjgurwara99/EuclideanAlgorithm"
+    },
+    {
+      "url": "https://github.com/zibonbadi/roll"
+    },
+    {
+      "url": "https://github.com/DanielsKraus/Basics-of-C-"
+    },
+    {
+      "url": "https://github.com/Buerstenmacher/hyperprecision"
+    },
+    {
+      "url": "https://github.com/moddyz/GraphicsMath"
+    },
+    {
+      "url": "https://github.com/kokivanov/Physic-solver"
+    },
+    {
+      "url": "https://github.com/Danielxlr/AtCoder"
+    },
+    {
+      "url": "https://github.com/sps1112/stamatics-pbr"
+    },
+    {
+      "url": "https://github.com/antipixel1/continuedFractions"
+    },
+    {
+      "url": "https://github.com/aslanyan13/Game-of-life"
+    },
+    {
+      "url": "https://github.com/Copy05/Complic"
+    },
+    {
+      "url": "https://github.com/Staisha-N/Univariate-quadratic-function-calculator"
+    },
+    {
+      "url": "https://github.com/Mandarancio/Plotty"
+    },
+    {
+      "url": "https://github.com/isaacdarcilla/AreasCompute"
+    },
+    {
+      "url": "https://github.com/Mohammad-Mahdi1999/Prime-Number"
+    },
+    {
+      "url": "https://github.com/antuniooh/uri-resolutions"
+    },
+    {
+      "url": "https://github.com/olegfilimonov/math-logic-resolution"
+    },
+    {
+      "url": "https://github.com/d36u9/24Points"
+    },
+    {
+      "url": "https://github.com/vitasUV/raytracerqt"
+    },
+    {
+      "url": "https://github.com/TakashiNord/Calcs_tools"
+    },
+    {
+      "url": "https://github.com/1mahfuzz/Competitive-Programming-Resources"
+    },
+    {
+      "url": "https://github.com/KabalMcBlade/Prophet"
+    },
+    {
+      "url": "https://github.com/daviinacio/findper"
+    },
+    {
+      "url": "https://github.com/MrAwesomeRocks/RandCircleAreaCalculator"
+    },
+    {
+      "url": "https://github.com/vk1994/Complex"
+    },
+    {
+      "url": "https://github.com/Shayan925/MandelbrotExplorer"
+    },
+    {
+      "url": "https://github.com/MashukeAlam/OpenGLStack"
+    },
+    {
+      "url": "https://github.com/NiloGregginz33/Seperating-kids-from-fighting-in-group-size-N"
+    },
+    {
+      "url": "https://github.com/bright-composite/asd"
+    },
+    {
+      "url": "https://github.com/dan98/randomhex"
+    },
+    {
+      "url": "https://github.com/fazlerahmanejazi/UVa-Solutions"
+    },
+    {
+      "url": "https://github.com/Winnak/fractions"
+    },
+    {
+      "url": "https://github.com/christianbender/cosmos"
+    },
+    {
+      "url": "https://github.com/nlharri/VectorMatrixMath"
+    },
+    {
+      "url": "https://github.com/Mumsfilibaba/Math"
+    },
+    {
+      "url": "https://github.com/olegfilimonov/math-logic-resolution"
+    },
+    {
+      "url": "https://github.com/d36u9/24Points"
+    },
+    {
+      "url": "https://github.com/vitasUV/raytracerqt"
+    },
+    {
+      "url": "https://github.com/TakashiNord/Calcs_tools"
+    },
+    {
+      "url": "https://github.com/1mahfuzz/Competitive-Programming-Resources"
+    },
+    {
+      "url": "https://github.com/KabalMcBlade/Prophet"
+    },
+    {
+      "url": "https://github.com/daviinacio/findper"
+    },
+    {
+      "url": "https://github.com/MrAwesomeRocks/RandCircleAreaCalculator"
+    },
+    {
+      "url": "https://github.com/vk1994/Complex"
+    },
+    {
+      "url": "https://github.com/Shayan925/MandelbrotExplorer"
+    },
+    {
+      "url": "https://github.com/MashukeAlam/OpenGLStack"
+    },
+    {
+      "url": "https://github.com/NiloGregginz33/Seperating-kids-from-fighting-in-group-size-N"
+    },
+    {
+      "url": "https://github.com/bright-composite/asd"
+    },
+    {
+      "url": "https://github.com/dan98/randomhex"
+    },
+    {
+      "url": "https://github.com/fazlerahmanejazi/UVa-Solutions"
+    },
+    {
+      "url": "https://github.com/Winnak/fractions"
+    },
+    {
+      "url": "https://github.com/christianbender/cosmos"
+    },
+    {
+      "url": "https://github.com/nlharri/VectorMatrixMath"
+    },
+    {
+      "url": "https://github.com/Mumsfilibaba/Math"
+    },
+    {
+      "url": "https://github.com/NaoPross/libmm"
+    },
+    {
+      "url": "https://github.com/Gusgo99/Fourier_drawing"
+    },
+    {
+      "url": "https://github.com/abidanBrito/set-class"
+    },
+    {
+      "url": "https://github.com/yahya-mohammed07/longestConsecutiveStr"
+    },
+    {
+      "url": "https://github.com/lihogub/long-math"
+    },
+    {
+      "url": "https://github.com/8nhuman8/nebular-automata-cpp"
+    },
+    {
+      "url": "https://github.com/samuelohterion/AlgebraWithSTL"
+    },
+    {
+      "url": "https://github.com/antaalt/geometry"
+    },
+    {
+      "url": "https://github.com/DstoverVT/RayTracer"
+    },
+    {
+      "url": "https://github.com/tell/pbkz"
+    },
+    {
+      "url": "https://github.com/Vvitali/Advanced-calculator-of-expressions-with-variables"
+    },
+    {
+      "url": "https://github.com/evgeniivall/Expression"
+    },
+    {
+      "url": "https://github.com/CRefice/ssm"
+    },
+    {
+      "url": "https://github.com/shidhu/Number-Theory"
+    },
+    {
+      "url": "https://github.com/MetaNite64/pi-gen"
+    },
+    {
+      "url": "https://github.com/nguaki/CPP"
+    },
+    {
+      "url": "https://github.com/fancidev/euler"
+    },
+    {
+      "url": "https://github.com/bwilso1/Universal-Sink-Algorithm"
+    },
+    {
+      "url": "https://github.com/WilliamRatz/BWLib"
+    },
+    {
+      "url": "https://github.com/adam-rumpf/social-transit-solver-single"
+    },
+    {
+      "url": "https://github.com/Danleb/ArithmeticParser"
+    },
+    {
+      "url": "https://github.com/thomjlg/Volume-minimal"
+    },
+    {
+      "url": "https://github.com/Doubi88/Fraction"
+    },
+    {
+      "url": "https://github.com/ondesly/vectors"
+    },
+    {
+      "url": "https://github.com/Chaphlagical/CML"
+    },
+    {
+      "url": "https://github.com/hermantrym/CompetitiveProgramming"
+    },
+    {
+      "url": "https://github.com/Phoenix1747/prime-search"
+    },
+    {
+      "url": "https://github.com/mrc-tech/AutoMat"
+    },
+    {
+      "url": "https://github.com/Zermil/mathEval"
+    },
+    {
+      "url": "https://github.com/VueChu/Interactive_Multiplication"
+    },
+    {
+      "url": "https://github.com/andresbarroe/NumericalMethods"
+    },
+    {
+      "url": "https://github.com/reedHam/Powersets"
+    },
+    {
+      "url": "https://github.com/uwstudent123/Project-Euler-Solutions"
+    },
+    {
+      "url": "https://github.com/hweecat/project-euler"
+    },
+    {
+      "url": "https://github.com/frogi16/Graph-generator"
+    },
+    {
+      "url": "https://github.com/RParkerE/MagicLamp"
+    },
+    {
+      "url": "https://github.com/leogarret/Mesh-Computing"
+    },
+    {
+      "url": "https://github.com/isaf27/groebner_basis"
+    },
+    {
+      "url": "https://github.com/rp181135198/Math-and-Physics-Library-for-Game-Development"
+    },
+    {
+      "url": "https://github.com/iankury/CPP"
+    },
+    {
+      "url": "https://github.com/AritroSaha10/CPlusPlus-Math"
+    },
+    {
+      "url": "https://github.com/RobTillaart/FLE"
+    },
+    {
+      "url": "https://github.com/dioapw/codeforces"
+    },
+    {
+      "url": "https://github.com/ukrbublik/BigInt"
+    },
+    {
+      "url": "https://github.com/guangylegend/project-euler"
+    },
+    {
+      "url": "https://github.com/SriAstitva/project-mathemGL"
+    },
+    {
+      "url": "https://github.com/imRP26/Competitive-Coding"
+    },
+    {
+      "url": "https://github.com/homacs/math2d"
+    },
+    {
+      "url": "https://github.com/torresflo/Simple-Math-Library"
+    },
+    {
+      "url": "https://github.com/DavDag/WireWorld"
+    },
+    {
+      "url": "https://github.com/adam-rumpf/social-transit-trial-driver"
+    },
+    {
+      "url": "https://github.com/midannii/math_in_cpp"
+    },
+    {
+      "url": "https://github.com/skurmedel/pico_pytagoras"
+    },
+    {
+      "url": "https://github.com/dragonman164/My-Journey-of-Data-Structures-and-Algorithms"
+    },
+    {
+      "url": "https://github.com/RobTillaart/Angle"
+    },
+    {
+      "url": "https://github.com/vpenando/MatMath"
+    },
+    {
+      "url": "https://github.com/izanbf1803/Fraction"
+    },
+    {
+      "url": "https://github.com/ArsenArsen/prime_machine"
+    },
+    {
+      "url": "https://github.com/MamdouhRElNakeeb/Math_Library"
+    },
+    {
+      "url": "https://github.com/motoko88/CS-Math"
+    },
+    {
+      "url": "https://github.com/rcolomina/math_puzzles"
+    },
+    {
+      "url": "https://github.com/MrFibunacci/approximate-pi"
+    },
+    {
+      "url": "https://github.com/Nada-Nasser/Matrices-class"
+    },
+    {
+      "url": "https://github.com/Pilzschaf/PMath"
+    },
+    {
+      "url": "https://github.com/pouyakary/kary-tabesh-curve-proof"
+    },
+    {
+      "url": "https://github.com/UselessNinja/trade"
+    },
+    {
+      "url": "https://github.com/MishaVernik/Knapsack-0-1-Problem"
+    },
+    {
+      "url": "https://github.com/sorhanp/graphical-long-division"
+    },
+    {
+      "url": "https://github.com/maheshbansod/math"
+    },
+    {
+      "url": "https://github.com/AsherSeiling/New-pi-varification-test"
+    },
+    {
+      "url": "https://github.com/reimeytal/gml"
+    },
+    {
+      "url": "https://github.com/Ahmed-alkharusi/Sandpiles-Cpp"
+    },
+    {
+      "url": "https://github.com/Shirobachi/math-quiz"
+    },
+    {
+      "url": "https://github.com/PacoV3/congruential-cpp"
+    },
+    {
+      "url": "https://github.com/khanhvu207/project-euler"
+    },
+    {
+      "url": "https://github.com/elinx/immath"
+    },
+    {
+      "url": "https://github.com/Sh3B0/LAL"
+    },
+    {
+      "url": "https://github.com/natnqweb/SkyMap"
+    },
+    {
+      "url": "https://github.com/OS-M/numerical-matrix-eigenvalues-research"
+    },
+    {
+      "url": "https://github.com/JPZEBRA/floated-big-digit-32-cpp"
+    },
+    {
+      "url": "https://github.com/ayoubc/competitive-programming"
+    },
+    {
+      "url": "https://github.com/velnias75/expr2cf"
+    },
+    {
+      "url": "https://github.com/Garbaz-Graveyard/Infint"
+    },
+    {
+      "url": "https://github.com/ewliang/Sparse-Poly-Calculator-C-"
+    },
+    {
+      "url": "https://github.com/YoussefAwny/AsuMathLabG28"
+    },
+    {
+      "url": "https://github.com/Unsignia/ExtensiveCalculator"
+    },
+    {
+      "url": "https://github.com/claudiordgz/books_from-mathematics-to-generic-programming"
+    },
+    {
+      "url": "https://github.com/ngorden/Array-Sorter"
+    },
+    {
+      "url": "https://github.com/BlauHimmel/MathUtility"
+    },
+    {
+      "url": "https://github.com/sudhanshusks/InterviewBit"
+    },
+    {
+      "url": "https://github.com/guihaomin/Pi-Calculator"
+    },
+    {
+      "url": "https://github.com/FarruhShahidi/Math-Meets-Coding"
+    },
+    {
+      "url": "https://github.com/hazyuun/lemniscate"
+    },
+    {
+      "url": "https://github.com/classAndrew/cubicoid"
+    },
+    {
+      "url": "https://github.com/reimeytal/interpolation-noise"
+    },
+    {
+      "url": "https://github.com/shawnlong636/PhysicsEngine"
+    },
+    {
+      "url": "https://github.com/ve6ji-code/NewtonsMethod"
+    },
+    {
+      "url": "https://github.com/IkerGalardi/liblinalg"
+    },
+    {
+      "url": "https://github.com/SyrtcevVadim/Symbolic"
+    },
+    {
+      "url": "https://github.com/keegandonley/Roman-Numeral-Calculator"
+    },
+    {
+      "url": "https://github.com/denizbmech/MathInterpreter"
+    },
+    {
+      "url": "https://github.com/Geobot19/more_math"
+    },
+    {
+      "url": "https://github.com/oddcard2/codeforces"
+    },
+    {
+      "url": "https://github.com/Arccotangent/amath2"
+    },
+    {
+      "url": "https://github.com/jimmyberg/Matrix"
+    },
+    {
+      "url": "https://github.com/Leonidius20/ITP_S2_Lab3"
+    },
+    {
+      "url": "https://github.com/05st/linear-algebra"
+    },
+    {
+      "url": "https://github.com/ethanv2/Maths-Challenge-Quiz"
+    },
+    {
+      "url": "https://github.com/francBara/Matrix_Algebra"
+    },
+    {
+      "url": "https://github.com/tralf-strues/deriv-calc"
+    },
+    {
+      "url": "https://github.com/MoussaGerges9/Hanoi-game"
+    },
+    {
+      "url": "https://github.com/devika-02/Coding"
+    },
+    {
+      "url": "https://github.com/Mishkanian/math_tutor_cpp"
+    },
+    {
+      "url": "https://github.com/Khoronus/cmn-CmnUniverse"
+    },
+    {
+      "url": "https://github.com/NinthDesertDude/Math-Parser"
+    },
+    {
+      "url": "https://github.com/tobiasbriones/ep-numerical-differential-equations"
+    },
+    {
+      "url": "https://github.com/YassinEldeeb/TripleX"
+    },
+    {
+      "url": "https://github.com/OnurKader/OKmaval"
+    },
+    {
+      "url": "https://github.com/dmdmdm/ArbNum"
+    },
+    {
+      "url": "https://github.com/antlilja/simple_math"
+    },
+    {
+      "url": "https://github.com/vpiotr/jordie-scientific-arch"
+    },
+    {
+      "quantityOfRepositories": 500,
+      "quantityOfRelevantRepositories": 16,
+      "quantityOfRelevantRepositoriesWithOpenMP": 2
+    }
+  ]
+}

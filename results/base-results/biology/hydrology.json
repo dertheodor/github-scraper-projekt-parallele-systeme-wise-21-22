@@ -1,0 +1,150 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/ESCOMP/CTSM",
+      "!$omp parallel": 33,
+      "!$omp parallel do": 33,
+      "!$omp master": 1,
+      "quantityOfFiles": 378,
+      "quantityOfFilesWithOpenMP": 9
+    },
+    {
+      "url": "https://github.com/NCAR/wrf_hydro_nwm_public",
+      "quantityOfFiles": 243,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/lanl/LaGriT",
+      "quantityOfFiles": 681,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/ESCOMP/mizuRoute",
+      "!$omp parallel": 5,
+      "!$omp parallel do": 4,
+      "quantityOfFiles": 38,
+      "quantityOfFilesWithOpenMP": 5
+    },
+    {
+      "url": "https://github.com/ESMWG/NoahMP"
+    },
+    {
+      "url": "https://github.com/FluidMechanicsUNIPD/Meander-Centerline-Migration-Model"
+    },
+    {
+      "url": "https://github.com/TillF/WASA-SED"
+    },
+    {
+      "url": "https://github.com/HPSCTerrSys/eCLM"
+    },
+    {
+      "url": "https://github.com/IMMM-SFA/PRIMA_CLM4"
+    },
+    {
+      "url": "https://github.com/chrimerss/HydrologicModels"
+    },
+    {
+      "url": "https://github.com/raoulcollenteur/tuwmodel"
+    },
+    {
+      "url": "https://github.com/c-hydro/hmc-dev"
+    },
+    {
+      "quantityOfRepositories": 12,
+      "quantityOfRelevantRepositories": 4,
+      "quantityOfRelevantRepositoriesWithOpenMP": 2
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/UW-Hydro/VIC",
+      "#pragma omp parallel": 1,
+      "#pragma omp parallel for": 1,
+      "#pragma omp threadprivate": 3,
+      "quantityOfFiles": 218,
+      "quantityOfFilesWithOpenMP": 3
+    },
+    {
+      "url": "https://github.com/OpenWaterAnalytics/Stormwater-Management-Model"
+    },
+    {
+      "url": "https://github.com/NOAA-OWP/topmodel"
+    },
+    {
+      "url": "https://github.com/NOAA-OWP/cfe"
+    },
+    {
+      "url": "https://github.com/HuidaeCho/r.accumulate.lessmem"
+    },
+    {
+      "url": "https://github.com/HuidaeCho/r.accumulate-iterative"
+    },
+    {
+      "url": "https://github.com/madMatchstick/aorc"
+    },
+    {
+      "url": "https://github.com/jetuk/pypet"
+    },
+    {
+      "quantityOfRepositories": 8,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/weigert/SimpleHydrology"
+    },
+    {
+      "url": "https://github.com/r-barnes/richdem"
+    },
+    {
+      "url": "https://github.com/pcraster/pcraster",
+      "!$omp parallel": 5,
+      "!$omp do": 18,
+      "quantityOfFiles": 2766,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    {
+      "url": "https://github.com/weigert/SoilMachine"
+    },
+    {
+      "url": "https://github.com/philippkraft/cmf",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/lreis2415/SEIMS",
+      "#pragma omp parallel": 169,
+      "#pragma omp single ": 2,
+      "#pragma omp for ": 28,
+      "#pragma omp parallel for": 136,
+      "#pragma omp critical": 8,
+      "quantityOfFiles": 596,
+      "quantityOfFilesWithOpenMP": 64
+    },
+    {
+      "url": "https://github.com/AaltoUrbanWater/GisToSWMM5"
+    },
+    {
+      "url": "https://github.com/HEMLab/hipims"
+    },
+    {
+      "url": "https://github.com/SHUD-System/SHUD"
+    },
+    {
+      "url": "https://github.com/dsval/rsplash"
+    },
+    {
+      "url": "https://github.com/ThibHlln/smartcpp"
+    },
+    {
+      "url": "https://github.com/pnohs/pnohs"
+    },
+    {
+      "quantityOfRepositories": 12,
+      "quantityOfRelevantRepositories": 3,
+      "quantityOfRelevantRepositoriesWithOpenMP": 2
+    }
+  ]
+}

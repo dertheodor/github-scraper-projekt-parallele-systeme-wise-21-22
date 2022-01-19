@@ -1,0 +1,900 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/axothy/FortranDefinedOperators"
+    },
+    {
+      "url": "https://github.com/pachums/Computer_Aided_Geometric_Design"
+    },
+    {
+      "quantityOfRepositories": 2,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/colmap/colmap",
+      "#pragma omp parallel": 77,
+      "#pragma omp for ": 14,
+      "#pragma omp parallel for": 59,
+      "#pragma omp critical": 24,
+      "#pragma omp atomic": 5,
+      "quantityOfFiles": 630,
+      "quantityOfFilesWithOpenMP": 13
+    },
+    {
+      "url": "https://github.com/mapbox/earcut.hpp",
+      "quantityOfFiles": 67,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/Forceflow/trimesh2"
+    },
+    {
+      "url": "https://github.com/fritzo/jenn3d",
+      "quantityOfFiles": 26,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/spatstat/s2",
+      "quantityOfFiles": 179,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/thi-ng/vexed-generation"
+    },
+    {
+      "url": "https://github.com/azmr/geometer"
+    },
+    {
+      "url": "https://github.com/anachrocomputer/vec"
+    },
+    {
+      "url": "https://github.com/fougue/gmio"
+    },
+    {
+      "url": "https://github.com/robonrrd/csg"
+    },
+    {
+      "url": "https://github.com/tobozo/ESP32-Raytracer"
+    },
+    {
+      "url": "https://github.com/sho7noka/Merops"
+    },
+    {
+      "url": "https://github.com/AkosSeres/SoftwareRenderer"
+    },
+    {
+      "url": "https://github.com/saadtaame/fabrik-single-target"
+    },
+    {
+      "url": "https://github.com/Arukiap/Path-marcher"
+    },
+    {
+      "url": "https://github.com/JayedRafiProjects/cmath.c"
+    },
+    {
+      "url": "https://github.com/alessiapacca/Computer-Vision-"
+    },
+    {
+      "url": "https://github.com/hydrastro/gal"
+    },
+    {
+      "url": "https://github.com/hrefhref/elixir-geos"
+    },
+    {
+      "url": "https://github.com/miguelleitao/ObjTool"
+    },
+    {
+      "url": "https://github.com/wtsnz/Triangle"
+    },
+    {
+      "url": "https://github.com/dvbug/s2geo-node"
+    },
+    {
+      "url": "https://github.com/M4444/3D_puzzle"
+    },
+    {
+      "url": "https://github.com/TanukiSharp/SoftwareRasterizer"
+    },
+    {
+      "url": "https://github.com/madvid/42_FdF"
+    },
+    {
+      "url": "https://github.com/gemc/clas12Tags"
+    },
+    {
+      "url": "https://github.com/zjzhangd/crender"
+    },
+    {
+      "url": "https://github.com/JackKeogh/AFA"
+    },
+    {
+      "url": "https://github.com/al20ov/3DSphereGenerator"
+    },
+    {
+      "url": "https://github.com/QUAY17/geometry_calculator"
+    },
+    {
+      "url": "https://github.com/ProfECortez/GeometricShapes"
+    },
+    {
+      "url": "https://github.com/MoMoTaur/Archie"
+    },
+    {
+      "url": "https://github.com/Russell-Ryan/polyclip"
+    },
+    {
+      "url": "https://github.com/tgibbons95/CSE-546T"
+    },
+    {
+      "url": "https://github.com/AndreyKoudr/EarthSurface"
+    },
+    {
+      "url": "https://github.com/ZgzInfinity/Geminis"
+    },
+    {
+      "url": "https://github.com/Smoltbob/koch.c"
+    },
+    {
+      "url": "https://github.com/njamescouk/vecCalc"
+    },
+    {
+      "url": "https://github.com/Juangarcia8974/math-personal-project"
+    },
+    {
+      "url": "https://github.com/snorfalorpagus/pysfcgal"
+    },
+    {
+      "url": "https://github.com/Geo-Linux-Calculations/triangle"
+    },
+    {
+      "quantityOfRepositories": 41,
+      "quantityOfRelevantRepositories": 4,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/openMVG/openMVG",
+      "#pragma omp parallel": 93,
+      "#pragma omp single ": 11,
+      "#pragma omp for ": 14,
+      "#pragma omp parallel for": 67,
+      "#pragma omp critical": 36,
+      "#pragma omp atomic": 5,
+      "#pragma omp flush": 2,
+      "quantityOfFiles": 1908,
+      "quantityOfFilesWithOpenMP": 50
+    },
+    {
+      "url": "https://github.com/patriciogonzalezvivo/glslViewer",
+      "quantityOfFiles": 61,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/CGAL/cgal",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/root-project/root",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/google/s2geometry",
+      "quantityOfFiles": 363,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/PyMesh/PyMesh",
+      "quantityOfFiles": 950,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/strasdat/Sophus",
+      "quantityOfFiles": 51,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/artivis/manif",
+      "quantityOfFiles": 146,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/sweeneychris/TheiaSfM",
+      "#pragma omp parallel": 39,
+      "#pragma omp for ": 14,
+      "#pragma omp parallel for": 21,
+      "#pragma omp critical": 5,
+      "quantityOfFiles": 986,
+      "quantityOfFilesWithOpenMP": 12
+    },
+    {
+      "url": "https://github.com/libgeos/geos",
+      "quantityOfFiles": 1139,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/hjwdzh/QuadriFlow",
+      "#pragma omp parallel": 21,
+      "#pragma omp parallel for": 21,
+      "quantityOfFiles": 225,
+      "quantityOfFilesWithOpenMP": 6
+    },
+    {
+      "url": "https://github.com/fwilliams/point-cloud-utils"
+    },
+    {
+      "url": "https://github.com/ddiakopoulos/tinyply",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/NVlabs/intrinsic3d",
+      "#pragma omp parallel": 1,
+      "#pragma omp parallel for": 1,
+      "quantityOfFiles": 65,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/boostorg/geometry",
+      "quantityOfFiles": 2131,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/jbuckmccready/CavalierContours"
+    },
+    {
+      "url": "https://github.com/Erkaman/hole_fixer"
+    },
+    {
+      "url": "https://github.com/gismo/gismo",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/xBimTeam/XbimGeometry",
+      "quantityOfFiles": 5388,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/DLR-SC/tigl",
+      "quantityOfFiles": 1263,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/JeremyBYU/polylidar"
+    },
+    {
+      "url": "https://github.com/mapbox/wagyu",
+      "quantityOfFiles": 42,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/alicevision/geogram"
+    },
+    {
+      "url": "https://github.com/avaxman/Directional",
+      "quantityOfFiles": 132,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/wavelab/wave_geometry"
+    },
+    {
+      "url": "https://github.com/GeomScale/volesti",
+      "#pragma omp parallel": 10,
+      "#pragma omp single ": 2,
+      "#pragma omp parallel for": 9,
+      "#pragma omp critical": 2,
+      "quantityOfFiles": 350,
+      "quantityOfFilesWithOpenMP": 3
+    },
+    {
+      "url": "https://github.com/sandialabs/omega_h",
+      "#pragma omp parallel": 9,
+      "#pragma omp task": 4,
+      "#pragma omp parallel for": 6,
+      "#pragma omp master": 1,
+      "#pragma omp barrier": 2,
+      "#pragma omp atomic": 1,
+      "#pragma omp declare reduction": 1,
+      "quantityOfFiles": 346,
+      "quantityOfFilesWithOpenMP": 5
+    },
+    {
+      "url": "https://github.com/patriciogonzalezvivo/hilma"
+    },
+    {
+      "url": "https://github.com/thomasp85/euclid",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/uos/mesh_tools",
+      "#pragma omp parallel": 6,
+      "#pragma omp parallel for": 6,
+      "quantityOfFiles": 33,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/tatsy/tinymesh"
+    },
+    {
+      "url": "https://github.com/InteractiveComputerGraphics/TriangleMeshDistance"
+    },
+    {
+      "url": "https://github.com/Tw1ddle/geometrize-lib"
+    },
+    {
+      "url": "https://github.com/miho/OCC-CSG"
+    },
+    {
+      "url": "https://github.com/nmwsharp/variational-surface-cutting"
+    },
+    {
+      "url": "https://github.com/igororlov/TrafficLight"
+    },
+    {
+      "url": "https://github.com/aecins/symseg"
+    },
+    {
+      "url": "https://github.com/mloskot/spatial_index_benchmark"
+    },
+    {
+      "url": "https://github.com/edap/ofxBranchesPrimitive"
+    },
+    {
+      "url": "https://github.com/Esri/pyprt",
+      "quantityOfFiles": 24,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/planaria/dmc"
+    },
+    {
+      "url": "https://github.com/nmandery/batyr",
+      "quantityOfFiles": 66,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/akavel/martinez-src"
+    },
+    {
+      "url": "https://github.com/jamboree/niji"
+    },
+    {
+      "url": "https://github.com/vahancho/erkir"
+    },
+    {
+      "url": "https://github.com/wildmeshing/wildmeshing-python"
+    },
+    {
+      "url": "https://github.com/mapbox/spatial-algorithms",
+      "quantityOfFiles": 50,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/pvigier/MyGAL"
+    },
+    {
+      "url": "https://github.com/jericks/geos-cli"
+    },
+    {
+      "url": "https://github.com/basmaashouur/computational-geometry-library"
+    },
+    {
+      "url": "https://github.com/vilya/miniply",
+      "quantityOfFiles": 4,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/tonystone/geofeatures",
+      "quantityOfFiles": 2512,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/AngryAccelerated/Physics2D"
+    },
+    {
+      "url": "https://github.com/izakharkin/SplashGeom"
+    },
+    {
+      "url": "https://github.com/fwilleke80/PointProjector"
+    },
+    {
+      "url": "https://github.com/MeshFrame/MeshFrame"
+    },
+    {
+      "url": "https://github.com/cgogn/CGoGN_2"
+    },
+    {
+      "url": "https://github.com/hanyangii/DelaunayTriangulation2D"
+    },
+    {
+      "url": "https://github.com/diegoarjz/pagoda"
+    },
+    {
+      "url": "https://github.com/willprice/ray-tracing-in-one-weekend"
+    },
+    {
+      "url": "https://github.com/Esri/serlio"
+    },
+    {
+      "url": "https://github.com/hjwdzh/VectorGraphRenderer"
+    },
+    {
+      "url": "https://github.com/1robertslattery/GeometricTestLibrary"
+    },
+    {
+      "url": "https://github.com/oberbichler/ANurbs"
+    },
+    {
+      "url": "https://github.com/AhmedHani/Online-Judges-Problems-SourceCode"
+    },
+    {
+      "url": "https://github.com/victimofleisure/Whorld"
+    },
+    {
+      "url": "https://github.com/utiasASRL/lgmath"
+    },
+    {
+      "url": "https://github.com/mhalber/ply_io_benchmark"
+    },
+    {
+      "url": "https://github.com/basmaashouur/competitive-programming"
+    },
+    {
+      "url": "https://github.com/srivathsanmurali/domsetLibrary"
+    },
+    {
+      "url": "https://github.com/Ipiano/coverage-planning"
+    },
+    {
+      "url": "https://github.com/AndrewB330/EuclideanMST"
+    },
+    {
+      "url": "https://github.com/CatOnly/GMath"
+    },
+    {
+      "url": "https://github.com/sohale/implisolid"
+    },
+    {
+      "url": "https://github.com/ropensci-archive/wicket"
+    },
+    {
+      "url": "https://github.com/MeshRUs/MeshLib"
+    },
+    {
+      "url": "https://github.com/cgogn/CGoGN_3"
+    },
+    {
+      "url": "https://github.com/Pex2892/kinematics_manipulator_3d_2d"
+    },
+    {
+      "url": "https://github.com/Marcello-Sega/pytetgen"
+    },
+    {
+      "url": "https://github.com/CHoudrouge4/SNNAHDD"
+    },
+    {
+      "url": "https://github.com/iLCSoft/lcgeo"
+    },
+    {
+      "url": "https://github.com/abetten/orbiter"
+    },
+    {
+      "url": "https://github.com/RoboJackets/robocup-common"
+    },
+    {
+      "url": "https://github.com/Satre95/Progressive-Meshes"
+    },
+    {
+      "url": "https://github.com/LuisMBaezCo/cpp-algorithm-snippets"
+    },
+    {
+      "url": "https://github.com/Vicky-Jha/Number-Theory"
+    },
+    {
+      "url": "https://github.com/vissarion/respol"
+    },
+    {
+      "url": "https://github.com/Chaf-Libraries/Ilum"
+    },
+    {
+      "url": "https://github.com/jbuckmccready/CavalierContoursDev"
+    },
+    {
+      "url": "https://github.com/schaban/crossdata_gfx"
+    },
+    {
+      "url": "https://github.com/HSF/Qt3DExaminerViewer"
+    },
+    {
+      "url": "https://github.com/James-QiuHaoran/selfdriving-vehicle"
+    },
+    {
+      "url": "https://github.com/potato3d/instancing"
+    },
+    {
+      "url": "https://github.com/senhorsolar/concavehull"
+    },
+    {
+      "url": "https://github.com/mo42/ler"
+    },
+    {
+      "url": "https://github.com/hrefhref/erlang-s2geometry"
+    },
+    {
+      "url": "https://github.com/lionkor/Vector2"
+    },
+    {
+      "url": "https://github.com/zinsmatt/3D-Vision"
+    },
+    {
+      "url": "https://github.com/xizhonghua/threecpp"
+    },
+    {
+      "url": "https://github.com/orbingol/rwsat"
+    },
+    {
+      "url": "https://github.com/Noctem/pogeo"
+    },
+    {
+      "url": "https://github.com/penghao94/3dqrcode_libigl"
+    },
+    {
+      "url": "https://github.com/cppd/math"
+    },
+    {
+      "url": "https://github.com/changh95/DirectLinearTransform_Eigen"
+    },
+    {
+      "url": "https://github.com/ssavi-ict/UVa-Online-Judge"
+    },
+    {
+      "url": "https://github.com/samiBendou/MathToolKitCPP"
+    },
+    {
+      "url": "https://github.com/cosmicray001/Online_judge_Solutions"
+    },
+    {
+      "url": "https://github.com/vocheretnyi/Delaunay-Triangulations"
+    },
+    {
+      "url": "https://github.com/ohjay/mesh-parameterization"
+    },
+    {
+      "url": "https://github.com/stratzilla/fractal-generator"
+    },
+    {
+      "url": "https://github.com/dylan007/RayTracer"
+    },
+    {
+      "url": "https://github.com/Spationaute/GeometryTest"
+    },
+    {
+      "url": "https://github.com/edgarcosta/controlledreduction"
+    },
+    {
+      "url": "https://github.com/Tw1ddle/geometrize-lib-unit-tests"
+    },
+    {
+      "url": "https://github.com/DorianDepriester/voroGmsh"
+    },
+    {
+      "url": "https://github.com/singh-mayank/makeshape"
+    },
+    {
+      "url": "https://github.com/ucpu/degrid"
+    },
+    {
+      "url": "https://github.com/Possseidon/dang-lib"
+    },
+    {
+      "url": "https://github.com/enzoleo/fiocca"
+    },
+    {
+      "url": "https://github.com/Samim-Arefin/UVa-Problem-Solution"
+    },
+    {
+      "url": "https://github.com/adityagupta1089/earth-geometry"
+    },
+    {
+      "url": "https://github.com/lucas-bremond/geometric-tools-engine"
+    },
+    {
+      "url": "https://github.com/stelzo/GeoLib"
+    },
+    {
+      "url": "https://github.com/BIJOY-SUST/Competitive-Programming"
+    },
+    {
+      "url": "https://github.com/ludlows/BALL"
+    },
+    {
+      "url": "https://github.com/patmjen/surfseg"
+    },
+    {
+      "url": "https://github.com/dgulotta/paintlines"
+    },
+    {
+      "url": "https://github.com/sckorpio/MyCity"
+    },
+    {
+      "url": "https://github.com/esmitt/OffLoader"
+    },
+    {
+      "url": "https://github.com/singh7priyanshu/cses"
+    },
+    {
+      "url": "https://github.com/attcs/Octree"
+    },
+    {
+      "url": "https://github.com/Degra02/GAL-Library"
+    },
+    {
+      "url": "https://github.com/oscarburga/cses-solutions"
+    },
+    {
+      "url": "https://github.com/StoccoDavide/acme"
+    },
+    {
+      "url": "https://github.com/chao-he/s2-geometry-library"
+    },
+    {
+      "url": "https://github.com/mitevpi/mesh-simplify"
+    },
+    {
+      "url": "https://github.com/hyperfix-digital/Muser"
+    },
+    {
+      "url": "https://github.com/AhmedHani/Polygons"
+    },
+    {
+      "url": "https://github.com/iKrishneel/simple_object_segmentation"
+    },
+    {
+      "url": "https://github.com/KriAga/Geo-Encryption-Algorithm"
+    },
+    {
+      "url": "https://github.com/ANDREYDEN/cpp-triang-tsp"
+    },
+    {
+      "url": "https://github.com/brisyramshere/SDFGen"
+    },
+    {
+      "url": "https://github.com/nickmcummins/quikgrid"
+    },
+    {
+      "url": "https://github.com/Tw1ddle/geometrize-lib-fuzzing"
+    },
+    {
+      "url": "https://github.com/dle8/CP-Notebook"
+    },
+    {
+      "url": "https://github.com/ChrisKing340/GeometryKing"
+    },
+    {
+      "url": "https://github.com/antaalt/geometry"
+    },
+    {
+      "url": "https://github.com/ArchStanton9/polygons"
+    },
+    {
+      "url": "https://github.com/adl1995/geolib"
+    },
+    {
+      "url": "https://github.com/GarrettVance/FrenetFrame"
+    },
+    {
+      "url": "https://github.com/oscarburga/cp-library"
+    },
+    {
+      "url": "https://github.com/ArchStanton9/polygons"
+    },
+    {
+      "url": "https://github.com/adl1995/geolib"
+    },
+    {
+      "url": "https://github.com/GarrettVance/FrenetFrame"
+    },
+    {
+      "url": "https://github.com/brunofreeman/dijkstra_polygon"
+    },
+    {
+      "url": "https://github.com/devel0/iot-sci"
+    },
+    {
+      "url": "https://github.com/avighnac/coordinate_plane"
+    },
+    {
+      "url": "https://github.com/CrowbarBarian/QuME"
+    },
+    {
+      "url": "https://github.com/iaomw/Meshcan"
+    },
+    {
+      "url": "https://github.com/ibaylov/fractal-spheres"
+    },
+    {
+      "url": "https://github.com/alpn/ddg-ex"
+    },
+    {
+      "url": "https://github.com/lxq2537664558/cgal"
+    },
+    {
+      "url": "https://github.com/jaypokarna/competitive"
+    },
+    {
+      "url": "https://github.com/ppizarror/LIB-CC5502-1"
+    },
+    {
+      "url": "https://github.com/marcelcp/Codeblocks-Shape-Shader-Geometry"
+    },
+    {
+      "url": "https://github.com/stronka/convex-hull"
+    },
+    {
+      "url": "https://github.com/GarrettVance/KleinianGroups"
+    },
+    {
+      "url": "https://github.com/manuelpagliuca/computational-geometry"
+    },
+    {
+      "url": "https://github.com/tanmaybinaykiya/Raytracer"
+    },
+    {
+      "url": "https://github.com/neczpal/geom-2d"
+    },
+    {
+      "url": "https://github.com/Romain96/L3S6_Geo3D"
+    },
+    {
+      "url": "https://github.com/jacketsj/geometryvis"
+    },
+    {
+      "url": "https://github.com/595744412/densemesh"
+    },
+    {
+      "url": "https://github.com/Romain96/M1S1_CPOA"
+    },
+    {
+      "url": "https://github.com/farg-bristol/rsvs3d"
+    },
+    {
+      "url": "https://github.com/shimpe/voronoicircles"
+    },
+    {
+      "url": "https://github.com/TypHo22/Graham-Scan-CPP"
+    },
+    {
+      "url": "https://github.com/NateRex/geometry4cpp"
+    },
+    {
+      "url": "https://github.com/Ahmed-Elgohary1/codeforce-A.-problams-solution"
+    },
+    {
+      "url": "https://github.com/vimodev/2IMA15CG"
+    },
+    {
+      "url": "https://github.com/pustovitDmytro/numerical-methods"
+    },
+    {
+      "url": "https://github.com/NelsonBilber/geometric.computing"
+    },
+    {
+      "url": "https://github.com/iankury/CPP"
+    },
+    {
+      "url": "https://github.com/Ruglio/Mesh"
+    },
+    {
+      "url": "https://github.com/DgrinderHZ/Basic-2D-3D-Infographics-project"
+    },
+    {
+      "url": "https://github.com/AndrewB330/VoronoiX2"
+    },
+    {
+      "url": "https://github.com/robonrrd/kdtree"
+    },
+    {
+      "url": "https://github.com/caiocandido/Mathematics"
+    },
+    {
+      "url": "https://github.com/hrkrshnn/thurston"
+    },
+    {
+      "url": "https://github.com/alexandervanrenen/fast-line-of-sight-test"
+    },
+    {
+      "url": "https://github.com/e-schumann/flann"
+    },
+    {
+      "url": "https://github.com/trajkd/Extended-Kalman-Filters"
+    },
+    {
+      "url": "https://github.com/Luke2336/graph-visualization"
+    },
+    {
+      "url": "https://github.com/g-raffy/scefig"
+    },
+    {
+      "url": "https://github.com/Raynesz/Triangulator-2D"
+    },
+    {
+      "url": "https://github.com/lucaspetry/graphical-interactive-system"
+    },
+    {
+      "url": "https://github.com/chengengjie/cpp-utils"
+    },
+    {
+      "url": "https://github.com/TaKeTube/Geometry"
+    },
+    {
+      "url": "https://github.com/dorezyuk/fast_tf"
+    },
+    {
+      "url": "https://github.com/ctu-mrs/mrs_lib"
+    },
+    {
+      "url": "https://github.com/Sibras/ShiftLib"
+    },
+    {
+      "url": "https://github.com/mmochocki/Circle-Divide"
+    },
+    {
+      "url": "https://github.com/milasudril/geosimd"
+    },
+    {
+      "url": "https://github.com/kzvd4729/Geometry"
+    },
+    {
+      "url": "https://github.com/james-d12/Atomic"
+    },
+    {
+      "url": "https://github.com/wszlosek/Geometric-calculator"
+    },
+    {
+      "url": "https://github.com/ajtudela/simple_laser_geometry"
+    },
+    {
+      "url": "https://github.com/rebornplusplus/UVa"
+    },
+    {
+      "url": "https://github.com/fanvanzh/computational_geometry"
+    },
+    {
+      "url": "https://github.com/cantaro86/Cut-Pyramid-Polygon"
+    },
+    {
+      "url": "https://github.com/ajtudela/simple_laser_geometry"
+    },
+    {
+      "url": "https://github.com/avindra/ttt-plusplus"
+    },
+    {
+      "url": "https://github.com/sathyaramv/Geometry_Master_Quiz"
+    },
+    {
+      "url": "https://github.com/teoionescu/GC-polygon-triangulation-visual"
+    },
+    {
+      "url": "https://github.com/Hepic/Geometry-Convex-hull-CGAL"
+    },
+    {
+      "url": "https://github.com/mohammadIdriss/geometry-library-for-cp"
+    },
+    {
+      "url": "https://github.com/RomanSoloweow/GradientGeometry"
+    },
+    {
+      "quantityOfRepositories": 217,
+      "quantityOfRelevantRepositories": 28,
+      "quantityOfRelevantRepositoriesWithOpenMP": 7
+    }
+  ]
+}

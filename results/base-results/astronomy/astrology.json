@@ -1,0 +1,64 @@
+{
+  "fortran": [],
+  "c": [
+    {
+      "url": "https://github.com/astrorigin/pyswisseph",
+      "quantityOfFiles": 1,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/silvinaroldan/SwissEphemeris"
+    },
+    {
+      "url": "https://github.com/kivutar/goastrows"
+    },
+    {
+      "url": "https://github.com/vsmithers1087/SwissEphemeris"
+    },
+    {
+      "url": "https://github.com/astrorigin/swephelp"
+    },
+    {
+      "url": "https://github.com/initself/astrolog541g"
+    },
+    {
+      "url": "https://github.com/sublunarspace/sublunar.almanac"
+    },
+    {
+      "url": "https://github.com/lfborjas/swiss-ephemeris"
+    },
+    {
+      "url": "https://github.com/ratreya/indic-ephemeris"
+    },
+    {
+      "quantityOfRepositories": 9,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/CruiserOne/Astrolog"
+    },
+    {
+      "url": "https://github.com/timotejroiko/sweph"
+    },
+    {
+      "url": "https://github.com/toddcarnes/Astrolog-64"
+    },
+    {
+      "url": "https://github.com/artwaw/nibiru"
+    },
+    {
+      "url": "https://github.com/federicotdn/taurus"
+    },
+    {
+      "url": "https://github.com/ssayin/specni"
+    },
+    {
+      "quantityOfRepositories": 6,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
+}

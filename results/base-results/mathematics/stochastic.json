@@ -1,0 +1,73 @@
+{
+  "fortran": [],
+  "c": [
+    {
+      "url": "https://github.com/omarandlorraine/stoc"
+    },
+    {
+      "url": "https://github.com/FrancescoVassalli/FTB"
+    },
+    {
+      "url": "https://github.com/msuzen/guduz"
+    },
+    {
+      "quantityOfRepositories": 3,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/InstituteforDiseaseModeling/EMOD",
+      "quantityOfFiles": 1089,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/astralord/RandLib"
+    },
+    {
+      "url": "https://github.com/GAIA-UNIL/G2S",
+      "#pragma omp parallel": 55,
+      "#pragma omp for ": 1,
+      "#pragma omp simd ": 4,
+      "#pragma omp parallel for": 49,
+      "#pragma omp parallel for simd": 26,
+      "#pragma omp critical": 18,
+      "#pragma omp atomic": 16,
+      "quantityOfFiles": 65,
+      "quantityOfFilesWithOpenMP": 18
+    },
+    {
+      "url": "https://github.com/jmdvinodjmd/LIBS2ML"
+    },
+    {
+      "url": "https://github.com/eggplantbren/Celery"
+    },
+    {
+      "url": "https://github.com/Charan619/Football-Coach-Simulator"
+    },
+    {
+      "url": "https://github.com/geoSpacer/SUE"
+    },
+    {
+      "url": "https://github.com/heitoradao/univali-lavacar"
+    },
+    {
+      "url": "https://github.com/brandte/stochastic_battery"
+    },
+    {
+      "url": "https://github.com/pipegreyback/stochastic_bernoulli"
+    },
+    {
+      "url": "https://github.com/breezerider/pSSAlib"
+    },
+    {
+      "url": "https://github.com/Hysperr/decision-tree"
+    },
+    {
+      "quantityOfRepositories": 12,
+      "quantityOfRelevantRepositories": 2,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "fortran": [],
+  "c": [
+    {
+      "url": "https://github.com/zailtoncalheiros/LKH-Passengers"
+    },
+    {
+      "url": "https://github.com/Abhishek0697/HackerRank"
+    },
+    {
+      "url": "https://github.com/Agung-Krisna/Prime-Number-Checker"
+    },
+    {
+      "url": "https://github.com/sednabcn/Simulation-Articles"
+    },
+    {
+      "url": "https://github.com/anagdesa/Dasar-Bahasa-C"
+    },
+    {
+      "url": "https://github.com/Agung-Krisna/Binary-Converter"
+    },
+    {
+      "url": "https://github.com/iupsilon/MEWCP"
+    },
+    {
+      "url": "https://github.com/ngandhi369/C-CPP_FunCodes"
+    },
+    {
+      "url": "https://github.com/trecky/bezout-s_theorem-c"
+    },
+    {
+      "url": "https://github.com/ndeyerl/ParallelComputing"
+    },
+    {
+      "quantityOfRepositories": 10,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/ethz-adrl/ifopt",
+      "quantityOfFiles": 23,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/WaderManasi/Knowing-DataStructures-Algorithms"
+    },
+    {
+      "url": "https://github.com/ds4dm/ZERO"
+    },
+    {
+      "url": "https://github.com/wardromeijnders/LBDA"
+    },
+    {
+      "url": "https://github.com/salepape/solar-system-simulation"
+    },
+    {
+      "url": "https://github.com/yashsehgal/sigmoid-function-cpp"
+    },
+    {
+      "url": "https://github.com/david-alvarez-rosa/simplex-algorithm"
+    },
+    {
+      "url": "https://github.com/afkummer/hhcrsp-mip-lower-bounds-2021"
+    },
+    {
+      "url": "https://github.com/Krypteria/Programacion_competitiva"
+    },
+    {
+      "url": "https://github.com/farazkh80/Racing-Game"
+    },
+    {
+      "url": "https://github.com/ndeyerl/NumericalODEs"
+    },
+    {
+      "quantityOfRepositories": 11,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
+}

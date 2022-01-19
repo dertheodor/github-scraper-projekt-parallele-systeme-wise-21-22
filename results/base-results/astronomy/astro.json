@@ -1,0 +1,31 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/uclchem/UCLCHEM"
+    },
+    {
+      "quantityOfRepositories": 1,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c": [],
+  "c++": [
+    {
+      "url": "https://github.com/onekiloparsec/SwiftAA",
+      "quantityOfFiles": 292,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/jeromefavrou/RS_EOS_Astro"
+    },
+    {
+      "url": "https://github.com/kytoaq/device_motorola_astronomic"
+    },
+    {
+      "quantityOfRepositories": 3,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
+}

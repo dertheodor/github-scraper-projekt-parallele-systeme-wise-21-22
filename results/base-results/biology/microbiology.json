@@ -1,0 +1,37 @@
+{
+  "fortran": [],
+  "c": [
+    {
+      "url": "https://github.com/labgem/pangenomeNEM"
+    },
+    {
+      "url": "https://github.com/ph-u/agalony"
+    },
+    {
+      "url": "https://github.com/crice009/CountertopIncubator"
+    },
+    {
+      "quantityOfRepositories": 3,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/qgeissmann/OpenCFU",
+      "#pragma omp parallel": 6,
+      "#pragma omp parallel for": 6,
+      "#pragma omp critical": 3,
+      "quantityOfFiles": 102,
+      "quantityOfFilesWithOpenMP": 3
+    },
+    {
+      "url": "https://github.com/levifussell/MicroEvo"
+    },
+    {
+      "quantityOfRepositories": 2,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ]
+}
