@@ -1,14 +1,1 @@
-{
-  "quantityOfFiles": 3449,
-  "quantityOfFilesWithOpenMP": 12,
-  "quantityOfRepositories": 96,
-  "quantityOfRelevantRepositories": 7,
-  "quantityOfRelevantRepositoriesWithOpenMP": 5,
-  "parallel": 39,
-  "do": 11,
-  "simd": 2,
-  "do simd": 3,
-  "parallel do": 32,
-  "critical": 2,
-  "barrier": 1
-}
+{"quantityOfFiles":3449,"quantityOfFilesWithOpenMP":12,"quantityOfRepositories":96,"quantityOfRelevantRepositories":7,"quantityOfRelevantRepositoriesWithOpenMP":5,"parallel":39,"do":11,"simd":2,"do simd":3,"parallel do":32,"critical":2,"barrier":1}

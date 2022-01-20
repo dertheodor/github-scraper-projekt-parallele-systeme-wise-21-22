@@ -35,57 +35,23 @@ const shell = require('shelljs');
 /**
  * Initializes the counting of all topics.
  */
-function evaluateResults() {
+function evaluateTopicResults() {
     // eval topics
     //var baseResults = shell.ls(resultsPath + '\\base-results');
-    var baseResults = shell.ls(resultsPath + 'XXX/base-results');
+    var baseResults = shell.ls(resultsPath + '/base-results');
 
     for (let i = 0; i < baseResults.length; i++) {
         if (typeof baseResults[i] === "string") {
-           // var topics = shell.ls(`${resultsPath}\\base-results\\${baseResults[i]}`);
-           var topics = shell.ls(`${resultsPath}/base-results/${baseResults[i]}`);
+            // var topics = shell.ls(`${resultsPath}\\base-results\\${baseResults[i]}`);
+            var topics = shell.ls(`${resultsPath}/base-results/${baseResults[i]}`);
 
-            for (let j =0; j < topics.length; j++) {
+            for (let j = 0; j < topics.length; j++) {
                 if (typeof topics[j] === "string") {
                     evaluateTopic(baseResults[i], topics[j]);
                 }
             }
         }
     }
-
-
-    // eval Sciences
-    //var evaluatedTopicResults = shell.ls(resultsPath + '\\evaluated-topic-results');
-    var evaluatedTopicResults = shell.ls(resultsPath + 'XXXX/evaluated-topic-results');
-
-    for (let i = 0; i < evaluatedTopicResults.length; i++) {
-
-        if (typeof evaluatedTopicResults[i] === "string") {
-        //    var evaluatedTopics = shell.ls(`${resultsPath}\\evaluated-topic-results\\${evaluatedTopicResults[i]}`);
-            var evaluatedTopics = shell.ls(`${resultsPath}/evaluated-topic-results/${evaluatedTopicResults[i]}`);
-
-            for (let j =0; j < evaluatedTopics.length; j++) {
-                if (typeof evaluatedTopics[j] === "string") {
-                  evaluateScience(evaluatedTopicResults[i], evaluatedTopics[j]);
-                }
-            }
-        }
-    }
-
-    // eval Final Results
-    //var evaluatedScienceResults = shell.ls(resultsPath + '\\evaluated-science-results');
-    var evaluatedScienceResults = shell.ls(resultsPath + '/evaluated-science-results');
-
-    for (let i = 0; i < evaluatedScienceResults.length; i++) {
-
-        if (typeof evaluatedScienceResults[i] === "string") {
-            //    var evaluatedTopics = shell.ls(`${resultsPath}\\evaluated-science-results\\${evaluatedScienceResults[i]}`);
-            var evaluatedScience = shell.ls(`${resultsPath}/evaluated-science-results/${evaluatedScienceResults[i]}`);
-
-                evaluateFinal(evaluatedScienceResults[i], evaluatedScience);
-            }
-    }
-    console.log(`The Final Result has been successfully evaluated.`);
 
 }
 
@@ -173,57 +139,6 @@ function evaluateTopic(science, jsonFileName) {
     });
 }
 
-/**
- *
- * @param science
- * @param jsonFileName
- */
-function evaluateScience(science, jsonFileName) {
-    var jsonContent = require(`../results/evaluated-topic-results/${science}/${jsonFileName}`);
 
-    for (let [key, value] of Object.entries(jsonContent)) {
-        var evaluatedScience = require(`../results/evaluated-science-results/${science}/${science}`);
 
-        if (!evaluatedScience[key]) {
-            evaluatedScience[key] = 0;
-        }
-        evaluatedScience[key] += value;
-        saveFile(science, evaluatedScience);
-    }
-}
-
-/**
- *
- * @param science
- * @param jsonFileName
- */
-function evaluateFinal(science, jsonFileName) {
-    var jsonContent = require(`../results/evaluated-science-results/${science}/${jsonFileName}`);
-
-    for (let [key, value] of Object.entries(jsonContent)) {
-        var evaluatedAllSciences = require(`../results/final-results/final`);
-
-        if (!evaluatedAllSciences[key]) {
-            evaluatedAllSciences[key] = 0;
-        }
-        evaluatedAllSciences[key] += value;
-
-        fs.writeFile(`./results/final-results/final.json`, JSON.stringify(evaluatedAllSciences), 'utf8', function (err) {
-            if (err) {
-                return console.log(err);
-            }
-        });
-    }
-}
-
-function saveFile(science, data) {
-    // write evaluated contents to new json
-    fs.writeFile(`./results/evaluated-science-results/${science}/${science}.json`, JSON.stringify(data), 'utf8', function (err) {
-        if (err) {
-            return console.log(err);
-        }
-        console.log(`The science has been successfully evaluated.`);
-    });
-}
-
-evaluateResults();
+evaluateTopicResults();

@@ -1,9 +1,1 @@
-{
-  "quantityOfFiles": 527,
-  "quantityOfFilesWithOpenMP": 6,
-  "quantityOfRepositories": 16,
-  "quantityOfRelevantRepositories": 1,
-  "quantityOfRelevantRepositoriesWithOpenMP": 1,
-  "simd": 4,
-  "declare simd": 10
-}
+{"quantityOfFiles":527,"quantityOfFilesWithOpenMP":6,"quantityOfRepositories":16,"quantityOfRelevantRepositories":1,"quantityOfRelevantRepositoriesWithOpenMP":1,"simd":4,"declare simd":10}
