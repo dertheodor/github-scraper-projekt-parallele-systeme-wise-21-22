@@ -9,7 +9,7 @@
     "evaltopics": "node eval/evalTopics.js",
     "evalsciences": "node eval/evalSciences.js",
     "evalfinal": "node eval/evalFinal.js",
-    "initFiles": "node eval/initFiles.js"
+    "initfiles": "node eval/initFiles.js"
   },
   "author": "",
   "license": "ISC",

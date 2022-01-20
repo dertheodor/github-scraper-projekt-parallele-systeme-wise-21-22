@@ -1,0 +1,1 @@
+{"quantityOfFiles":1431,"quantityOfFilesWithOpenMP":111,"quantityOfRepositories":43,"quantityOfRelevantRepositories":7,"quantityOfRelevantRepositoriesWithOpenMP":5,"parallel":895,"single ":2,"do":472,"task":7,"parallel do":783,"master":17,"critical":10,"barrier":8,"atomic":2,"flush":1,"threadprivate":1}

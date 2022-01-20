@@ -50,8 +50,10 @@ function evaluateScienceResults() {
             for (let j =0; j < evaluatedTopics.length; j++) {
                 if (typeof evaluatedTopics[j] === "string") {
                   evaluateScience(evaluatedTopicResults[i], evaluatedTopics[j]);
+
                 }
             }
+
         }
     }
 
@@ -65,8 +67,10 @@ function evaluateScienceResults() {
 function evaluateScience(science, jsonFileName) {
     var jsonContent = require(`../results/evaluated-topic-results/${science}/${jsonFileName}`);
 
+
     for (let [key, value] of Object.entries(jsonContent)) {
         var evaluatedScience = require(`../results/evaluated-science-results/${science}/${science}`);
+         console.log(evaluatedScience);
 
         if (!evaluatedScience[key]) {
             evaluatedScience[key] = 0;
@@ -74,6 +78,8 @@ function evaluateScience(science, jsonFileName) {
         evaluatedScience[key] += value;
         saveFile(science, evaluatedScience);
     }
+
+
 }
 
 /**

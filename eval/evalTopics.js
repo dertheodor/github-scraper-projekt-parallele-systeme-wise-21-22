@@ -44,7 +44,6 @@ function evaluateTopicResults() {
         if (typeof baseResults[i] === "string") {
             // var topics = shell.ls(`${resultsPath}\\base-results\\${baseResults[i]}`);
             var topics = shell.ls(`${resultsPath}/base-results/${baseResults[i]}`);
-
             for (let j = 0; j < topics.length; j++) {
                 if (typeof topics[j] === "string") {
                     evaluateTopic(baseResults[i], topics[j]);

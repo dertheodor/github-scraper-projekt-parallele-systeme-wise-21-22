@@ -50,14 +50,14 @@ function initFiles() {
         });
 
     }
-
+/**
     fs.writeFile(`./results/final-results/final.json`, JSON.stringify(data), 'utf8', function (err) {
         if (err) {
             return console.log(err);
         }
         console.log(`The final file has been successfully initialized.`);
     });
-
+*/
 }
 
 
