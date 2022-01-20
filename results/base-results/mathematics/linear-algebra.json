@@ -1,0 +1,1367 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/flame/libflame",
+      "#pragma omp parallel": 2,
+      "#pragma omp parallel for": 2,
+      "quantityOfFiles": 9315,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    {
+      "url": "https://github.com/ralna/spral",
+      "!$omp parallel": 4,
+      "!$omp single ": 2,
+      "!$omp task": 3,
+      "!$omp taskyield": 1,
+      "!$omp taskgroup": 1,
+      "!$omp atomic": 2,
+      "#pragma omp parallel": 1,
+      "#pragma omp single ": 1,
+      "#pragma omp simd ": 2,
+      "#pragma omp task": 35,
+      "#pragma omp taskyield": 1,
+      "#pragma omp critical": 1,
+      "#pragma omp taskgroup": 7,
+      "#pragma omp atomic": 46,
+      "#pragma omp cancel": 27,
+      "#pragma omp cancellation point": 14,
+      "quantityOfFiles": 175,
+      "quantityOfFilesWithOpenMP": 12
+    },
+    {
+      "url": "https://github.com/wrathematics/float",
+      "#pragma omp parallel": 7,
+      "#pragma omp parallel for": 7,
+      "quantityOfFiles": 50,
+      "quantityOfFilesWithOpenMP": 4
+    },
+    {
+      "url": "https://github.com/mpimd-csc/flexiblas"
+    },
+    {
+      "url": "https://github.com/william-dawson/NTPoly"
+    },
+    {
+      "url": "https://github.com/jchristopherson/linalg"
+    },
+    {
+      "url": "https://github.com/urbanjost/M_blas"
+    },
+    {
+      "url": "https://github.com/NLESC-JCER/Fortran_Davidson"
+    },
+    {
+      "url": "https://github.com/ghbrown/minila"
+    },
+    {
+      "url": "https://github.com/wavefunction91/HAXX"
+    },
+    {
+      "url": "https://github.com/ShrirajHegde/fortran-snippet-collection"
+    },
+    {
+      "url": "https://github.com/komahanb/linear-nonlinear-algebra"
+    },
+    {
+      "url": "https://github.com/EverLookNeverSee/FCS"
+    },
+    {
+      "url": "https://github.com/Prince781/libgpublas"
+    },
+    {
+      "url": "https://github.com/Nick314159/LMPEP"
+    },
+    {
+      "url": "https://github.com/gauravag99/smallfortran90programs"
+    },
+    {
+      "url": "https://github.com/axothy/SLE-solver"
+    },
+    {
+      "url": "https://github.com/antoinetavant/PetscBenchmarks"
+    },
+    {
+      "url": "https://github.com/zyth0s/dml"
+    },
+    {
+      "url": "https://github.com/albandil/scalapack-ilp64"
+    },
+    {
+      "quantityOfRepositories": 20,
+      "quantityOfRelevantRepositories": 3,
+      "quantityOfRelevantRepositoriesWithOpenMP": 3
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/flame/blis",
+      "#pragma omp parallel": 3,
+      "#pragma omp simd ": 3,
+      "#pragma omp parallel for": 1,
+      "quantityOfFiles": 1872,
+      "quantityOfFilesWithOpenMP": 6
+    },
+    {
+      "url": "https://github.com/fredrik-johansson/arb",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/michelp/pggraphblas"
+    },
+    {
+      "url": "https://github.com/phpsci/phpsci-carray",
+      "quantityOfFiles": 99,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/explosion/cython-blis",
+      "#pragma omp parallel": 2,
+      "#pragma omp simd ": 2,
+      "#pragma omp parallel for": 1,
+      "quantityOfFiles": 1367,
+      "quantityOfFilesWithOpenMP": 4
+    },
+    {
+      "url": "https://github.com/DanielMartensson/EmbeddedLapack"
+    },
+    {
+      "url": "https://github.com/osqp/qdldl",
+      "quantityOfFiles": 14,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/SciRuby/numruby",
+      "quantityOfFiles": 13,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/malb/m4ri",
+      "#pragma omp parallel": 9,
+      "#pragma omp parallel for": 7,
+      "#pragma omp parallel sections": 2,
+      "#pragma omp critical": 3,
+      "quantityOfFiles": 94,
+      "quantityOfFilesWithOpenMP": 3
+    },
+    {
+      "url": "https://github.com/nomemory/neat-matrix-library"
+    },
+    {
+      "url": "https://github.com/madrury/linalg"
+    },
+    {
+      "url": "https://github.com/sergiud/SuiteSparse",
+      "#pragma omp parallel": 16,
+      "#pragma omp parallel for": 16,
+      "quantityOfFiles": 196,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    {
+      "url": "https://github.com/drdanick/raycaster-sdl"
+    },
+    {
+      "url": "https://github.com/foowaa/slach"
+    },
+    {
+      "url": "https://github.com/victor-yacovlev/erlynum"
+    },
+    {
+      "url": "https://github.com/renehorstmann/Mathc"
+    },
+    {
+      "url": "https://github.com/funlibs/cglm"
+    },
+    {
+      "url": "https://github.com/JulianThijssen/GDT"
+    },
+    {
+      "url": "https://github.com/osqp/qdldl-python"
+    },
+    {
+      "url": "https://github.com/masyagin1998/divide-and-conquer-eigenvalues"
+    },
+    {
+      "url": "https://github.com/DanielBrito/ufc"
+    },
+    {
+      "url": "https://github.com/huiscliu/sxamg"
+    },
+    {
+      "url": "https://github.com/barrettotte/Linear-Algebra-C"
+    },
+    {
+      "url": "https://github.com/jmabuin/matrix-market-suite"
+    },
+    {
+      "url": "https://github.com/larapollehn/bitmap-editor"
+    },
+    {
+      "url": "https://github.com/hrautila/armas"
+    },
+    {
+      "url": "https://github.com/malb/m4rie"
+    },
+    {
+      "url": "https://github.com/Kaushal1011/matrix-row-major"
+    },
+    {
+      "url": "https://github.com/sn2606/SciComp"
+    },
+    {
+      "url": "https://github.com/fsaporito/numC"
+    },
+    {
+      "url": "https://github.com/moe123/macadam"
+    },
+    {
+      "url": "https://github.com/TendTo/Linear-System-Solver"
+    },
+    {
+      "url": "https://github.com/AdrianWR/miniRT"
+    },
+    {
+      "url": "https://github.com/RoyiAvital/GLPKMEX"
+    },
+    {
+      "url": "https://github.com/mingodad/GLPK"
+    },
+    {
+      "url": "https://github.com/anaef/lua-linear"
+    },
+    {
+      "url": "https://github.com/Gizmoscope/magic-square"
+    },
+    {
+      "url": "https://github.com/Smorodov/SuiteSparse"
+    },
+    {
+      "url": "https://github.com/MohamedHmini/LINEAR-PROGRAMMING"
+    },
+    {
+      "url": "https://github.com/SayanChakraborty126/Matrix_Computation_Library"
+    },
+    {
+      "url": "https://github.com/kmilo17pet/MTX"
+    },
+    {
+      "url": "https://github.com/hydrastro/gal"
+    },
+    {
+      "url": "https://github.com/Dutta-SD/Numerical_Methods"
+    },
+    {
+      "url": "https://github.com/lionholler/libmtrx"
+    },
+    {
+      "url": "https://github.com/mp4096/cholesky-update"
+    },
+    {
+      "url": "https://github.com/BeratE/smol"
+    },
+    {
+      "url": "https://github.com/CSchank/2d-partial-sums"
+    },
+    {
+      "url": "https://github.com/Dingye888/Utah-Teapot"
+    },
+    {
+      "url": "https://github.com/matrn/C-digit-recognition"
+    },
+    {
+      "url": "https://github.com/huiscliu/itsol"
+    },
+    {
+      "url": "https://github.com/YanzheL/Matrix"
+    },
+    {
+      "url": "https://github.com/aam29dc/cxmatrix"
+    },
+    {
+      "url": "https://github.com/justinlubin/Julina"
+    },
+    {
+      "url": "https://github.com/borisfoko/Matrix-Multiplication-SIMD-Intrinsics-and-FPU"
+    },
+    {
+      "url": "https://github.com/roscibely/Computer-graphics"
+    },
+    {
+      "url": "https://github.com/iwoodsawyer/dpre"
+    },
+    {
+      "url": "https://github.com/cfnptr/cmmt"
+    },
+    {
+      "url": "https://github.com/zhuangsc/cholesky"
+    },
+    {
+      "url": "https://github.com/antonijn/polyfit"
+    },
+    {
+      "url": "https://github.com/axelf4/vmath"
+    },
+    {
+      "url": "https://github.com/axelf4/vmath"
+    },
+    {
+      "url": "https://github.com/sudip-padhye/Runge-Kutta-Method"
+    },
+    {
+      "url": "https://github.com/yashrajkakkad/linear-equations-solver"
+    },
+    {
+      "url": "https://github.com/iwoodsawyer/factor"
+    },
+    {
+      "url": "https://github.com/DavidZuidema/libmatrix"
+    },
+    {
+      "url": "https://github.com/haplav/petsc-tut-cscs-2019"
+    },
+    {
+      "url": "https://github.com/johnpayne-dev/Math3D"
+    },
+    {
+      "url": "https://github.com/aligusnet/morpheus"
+    },
+    {
+      "url": "https://github.com/maitreyeepaliwal/Solving-System-of-linear-equations-in-parallel-and-serial"
+    },
+    {
+      "url": "https://github.com/MustafaNesin/LinearC"
+    },
+    {
+      "url": "https://github.com/purav-parekh/C-Library-on-Linear-Algebra"
+    },
+    {
+      "url": "https://github.com/VivekThazhathattil/VILINAL"
+    },
+    {
+      "url": "https://github.com/zhuangsc/Linompss"
+    },
+    {
+      "url": "https://github.com/phil-shenk/linalglib"
+    },
+    {
+      "url": "https://github.com/matinmoezzi/numerical-linear-algebra-mini-library"
+    },
+    {
+      "url": "https://github.com/mikhel1984/tmatrix"
+    },
+    {
+      "url": "https://github.com/desmond-rn/linear-algebra-suite"
+    },
+    {
+      "url": "https://github.com/rafaelmgr12/linear-algebra"
+    },
+    {
+      "url": "https://github.com/zhuangsc/jacobi"
+    },
+    {
+      "url": "https://github.com/mrparth23/Linear-Equation-Solver"
+    },
+    {
+      "url": "https://github.com/moe123/algatike"
+    },
+    {
+      "url": "https://github.com/seatonullberg/linalg"
+    },
+    {
+      "url": "https://github.com/dotran/jin-myimsl-cpp"
+    },
+    {
+      "url": "https://github.com/hrishitchaudhuri/line"
+    },
+    {
+      "url": "https://github.com/Mathias-Fuchs/LaplaceEquationPlayground"
+    },
+    {
+      "url": "https://github.com/aahadley/Matrix-Library-C"
+    },
+    {
+      "url": "https://github.com/iwoodsawyer/lsmin"
+    },
+    {
+      "url": "https://github.com/ju-resplande/system-solvers"
+    },
+    {
+      "url": "https://github.com/edualves15/minMatrix"
+    },
+    {
+      "url": "https://github.com/AgamemnonasKyriazis/num_c"
+    },
+    {
+      "url": "https://github.com/tulians/l24es"
+    },
+    {
+      "url": "https://github.com/leonardo-anjos/folha-de-pagamento"
+    },
+    {
+      "url": "https://github.com/cjkeati1/Matrix_Arithmetic"
+    },
+    {
+      "url": "https://github.com/aszylow/Topics-using-C"
+    },
+    {
+      "url": "https://github.com/gaut2172/OpenGL_3d_scene"
+    },
+    {
+      "url": "https://github.com/AgamemnonasKyriazis/num_c"
+    },
+    {
+      "url": "https://github.com/draialexis/Y2_Num_Algo"
+    },
+    {
+      "url": "https://github.com/Nrehtron/maTricks"
+    },
+    {
+      "url": "https://github.com/Chenghan-Sun/Num_LA"
+    },
+    {
+      "url": "https://github.com/acgaudette/slip"
+    },
+    {
+      "url": "https://github.com/dssgabriel/numerical-analysis"
+    },
+    {
+      "url": "https://github.com/ptia/cnet"
+    },
+    {
+      "url": "https://github.com/glebnovodran/groundwork"
+    },
+    {
+      "url": "https://github.com/Mithilesh1609/linear_equation-AX-b-solver"
+    },
+    {
+      "url": "https://github.com/iwoodsawyer/rrqr"
+    },
+    {
+      "url": "https://github.com/acgaudette/alg"
+    },
+    {
+      "url": "https://github.com/meetakbari/Null-Space-Calculator"
+    },
+    {
+      "url": "https://github.com/iwoodsawyer/csd"
+    },
+    {
+      "url": "https://github.com/unikraft/lib-eigen"
+    },
+    {
+      "quantityOfRepositories": 109,
+      "quantityOfRelevantRepositories": 8,
+      "quantityOfRelevantRepositoriesWithOpenMP": 4
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/eigenteam/eigen-git-mirror",
+      "#pragma omp parallel": 3,
+      "#pragma omp parallel for": 2,
+      "#pragma omp atomic": 1,
+      "quantityOfFiles": 1434,
+      "quantityOfFilesWithOpenMP": 3
+    },
+    {
+      "url": "https://github.com/tensor-compiler/taco",
+      "#pragma omp parallel": 2,
+      "#pragma omp parallel for": 2,
+      "#pragma omp atomic": 2,
+      "quantityOfFiles": 202,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    {
+      "url": "https://github.com/Tiramisu-Compiler/tiramisu",
+      "#pragma omp parallel": 42,
+      "#pragma omp simd ": 1,
+      "#pragma omp parallel for": 36,
+      "#pragma omp master": 2,
+      "#pragma omp barrier": 12,
+      "quantityOfFiles": 1938,
+      "quantityOfFilesWithOpenMP": 26
+    },
+    {
+      "url": "https://github.com/stsievert/swix",
+      "quantityOfFiles": 218,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/yixuan/spectra",
+      "quantityOfFiles": 81,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/simit-lang/simit",
+      "quantityOfFiles": 289,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/Kolkir/mlcpp"
+    },
+    {
+      "url": "https://github.com/ginkgo-project/ginkgo",
+      "#pragma omp parallel": 213,
+      "#pragma omp single ": 1,
+      "#pragma omp for ": 7,
+      "#pragma omp parallel for": 196,
+      "#pragma omp barrier": 2,
+      "#pragma omp atomic": 15,
+      "#pragma omp flush": 1,
+      "#pragma omp declare reduction": 8,
+      "quantityOfFiles": 887,
+      "quantityOfFilesWithOpenMP": 37
+    },
+    {
+      "url": "https://github.com/kokkos/kokkos-kernels",
+      "#pragma omp parallel": 17,
+      "#pragma omp for ": 1,
+      "#pragma omp simd ": 1,
+      "#pragma omp parallel for": 6,
+      "quantityOfFiles": 737,
+      "quantityOfFilesWithOpenMP": 10
+    },
+    {
+      "url": "https://github.com/ricosjp/monolish",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/xtensor-stack/xtensor-blas",
+      "quantityOfFiles": 1300,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/eth-cscs/COSMA",
+      "#pragma omp parallel": 1,
+      "#pragma omp single ": 2,
+      "#pragma omp task": 2,
+      "#pragma omp critical": 2,
+      "quantityOfFiles": 85,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/petiaccja/Mathter"
+    },
+    {
+      "url": "https://github.com/calebzulawski/cotila",
+      "quantityOfFiles": 18,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/boostorg/ublas",
+      "#pragma omp parallel": 4,
+      "#pragma omp parallel for": 4,
+      "quantityOfFiles": 296,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/hpddm/hpddm"
+    },
+    {
+      "url": "https://github.com/pghysels/STRUMPACK",
+      "#pragma omp parallel": 179,
+      "#pragma omp single ": 110,
+      "#pragma omp task": 352,
+      "#pragma omp taskloop": 40,
+      "#pragma omp parallel for": 65,
+      "#pragma omp master": 4,
+      "#pragma omp critical": 6,
+      "#pragma omp taskgroup": 8,
+      "#pragma omp atomic": 1,
+      "quantityOfFiles": 296,
+      "quantityOfFilesWithOpenMP": 49
+    },
+    {
+      "url": "https://github.com/IntelLabs/SpMP",
+      "#pragma omp parallel": 108,
+      "#pragma omp single ": 6,
+      "#pragma omp for ": 14,
+      "#pragma omp parallel for": 56,
+      "#pragma omp master": 21,
+      "#pragma omp barrier": 70,
+      "quantityOfFiles": 41,
+      "quantityOfFilesWithOpenMP": 20
+    },
+    {
+      "url": "https://github.com/andrewssobral/dtt"
+    },
+    {
+      "url": "https://github.com/linbox-team/linbox",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/ankitdhall/Vanishing-Point-Detector"
+    },
+    {
+      "url": "https://github.com/MGfoundation/mgcpp",
+      "quantityOfFiles": 192,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/sympiler/nasoq",
+      "#pragma omp parallel": 22,
+      "#pragma omp for ": 3,
+      "#pragma omp parallel for": 6,
+      "#pragma omp critical": 9,
+      "#pragma omp atomic": 10,
+      "quantityOfFiles": 124,
+      "quantityOfFilesWithOpenMP": 9
+    },
+    {
+      "url": "https://github.com/BertrandBev/eigen-js"
+    },
+    {
+      "url": "https://github.com/libsusa/susa"
+    },
+    {
+      "url": "https://github.com/linbox-team/fflas-ffpack",
+      "#pragma omp parallel": 71,
+      "#pragma omp task": 4,
+      "#pragma omp parallel for": 71,
+      "quantityOfFiles": 330,
+      "quantityOfFilesWithOpenMP": 14
+    },
+    {
+      "url": "https://github.com/mrtkp9993/Cpp-Examples"
+    },
+    {
+      "url": "https://github.com/ef-gy/topologic"
+    },
+    {
+      "url": "https://github.com/zmij/math"
+    },
+    {
+      "url": "https://github.com/STEllAR-GROUP/blaze_tensor",
+      "#pragma omp parallel": 4,
+      "#pragma omp for ": 1,
+      "quantityOfFiles": 487,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/sympiler/sympiler",
+      "#pragma omp parallel": 48,
+      "#pragma omp for ": 10,
+      "#pragma omp parallel for": 24,
+      "#pragma omp critical": 7,
+      "#pragma omp atomic": 17,
+      "quantityOfFiles": 182,
+      "quantityOfFilesWithOpenMP": 13
+    },
+    {
+      "url": "https://github.com/ignitionrobotics/ign-math",
+      "quantityOfFiles": 245,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/owlbarn/eigen",
+      "#pragma omp parallel": 2,
+      "#pragma omp parallel for": 1,
+      "#pragma omp atomic": 1,
+      "quantityOfFiles": 551,
+      "quantityOfFilesWithOpenMP": 3
+    },
+    {
+      "url": "https://github.com/fml-fam/fml"
+    },
+    {
+      "url": "https://github.com/conradsnicta/bandicoot-code"
+    },
+    {
+      "url": "https://github.com/izakharkin/SplashGeom"
+    },
+    {
+      "url": "https://github.com/AMatrix/AMatrix"
+    },
+    {
+      "url": "https://github.com/mlcpp/Matrix"
+    },
+    {
+      "url": "https://github.com/tvercaut/LSQR-cpp"
+    },
+    {
+      "url": "https://github.com/nvmd/itpp"
+    },
+    {
+      "url": "https://github.com/zziz/sm"
+    },
+    {
+      "url": "https://github.com/arotem3/numerics"
+    },
+    {
+      "url": "https://github.com/netcan/LinAlg"
+    },
+    {
+      "url": "https://github.com/jewettaij/jacobi_pd"
+    },
+    {
+      "url": "https://github.com/dendisuhubdy/blaze"
+    },
+    {
+      "url": "https://github.com/DanIsraelMalta/GLSL-CPP"
+    },
+    {
+      "url": "https://github.com/josephjaspers/blackcat_tensors"
+    },
+    {
+      "url": "https://github.com/CatOnly/GMath"
+    },
+    {
+      "url": "https://github.com/eth-cscs/spla"
+    },
+    {
+      "url": "https://github.com/microsoft/ISLE"
+    },
+    {
+      "url": "https://github.com/MingjieQian/libLAML"
+    },
+    {
+      "url": "https://github.com/JetBrains-Research/cuBool"
+    },
+    {
+      "url": "https://github.com/STEllAR-GROUP/blaze"
+    },
+    {
+      "url": "https://github.com/mbsim-env/fmatvec"
+    },
+    {
+      "url": "https://github.com/romanlarionov/VirtualVistaVulkan"
+    },
+    {
+      "url": "https://github.com/NumericalMax/Randomized-Matrix-Product"
+    },
+    {
+      "url": "https://github.com/christianparpart/linear_algebra"
+    },
+    {
+      "url": "https://github.com/rnburn/satyr"
+    },
+    {
+      "url": "https://github.com/auto-lambda/kMath"
+    },
+    {
+      "url": "https://github.com/JHurricane96/fastmatrix"
+    },
+    {
+      "url": "https://github.com/nikulukani/pycublasxt"
+    },
+    {
+      "url": "https://github.com/JetBrains-Research/spla"
+    },
+    {
+      "url": "https://github.com/tttapa/Linear-Algebra"
+    },
+    {
+      "url": "https://github.com/cdcq/MATCAL"
+    },
+    {
+      "url": "https://github.com/cpmech/vismatrix"
+    },
+    {
+      "url": "https://github.com/c-f-h/ilupp"
+    },
+    {
+      "url": "https://github.com/bshoshany/multithreaded-matrix"
+    },
+    {
+      "url": "https://github.com/mhassell/BEM"
+    },
+    {
+      "url": "https://github.com/arcaneframework/alien"
+    },
+    {
+      "url": "https://github.com/ray42/oomphlib"
+    },
+    {
+      "url": "https://github.com/Nico-Curti/Data-Analysis"
+    },
+    {
+      "url": "https://github.com/fmorenovr/ComputerScience_UCSP"
+    },
+    {
+      "url": "https://github.com/veximtokora/WR_JacobiEigen"
+    },
+    {
+      "url": "https://github.com/vincent-picaud/LinearAlgebra"
+    },
+    {
+      "url": "https://github.com/rudrasohan/Operations_Research"
+    },
+    {
+      "url": "https://github.com/tachidok/scicellxx"
+    },
+    {
+      "url": "https://github.com/meh/ela"
+    },
+    {
+      "url": "https://github.com/w1th0utnam3/linear_algebra_containers"
+    },
+    {
+      "url": "https://github.com/ukrbublik/nblas-plus"
+    },
+    {
+      "url": "https://github.com/mattiaisgro/uroboro"
+    },
+    {
+      "url": "https://github.com/hifirworks/hifir"
+    },
+    {
+      "url": "https://github.com/rads2995/HOPE"
+    },
+    {
+      "url": "https://github.com/mnucci32/eigenVsAither"
+    },
+    {
+      "url": "https://github.com/pulkitkd/simple-things"
+    },
+    {
+      "url": "https://github.com/omyllymaki/solvers"
+    },
+    {
+      "url": "https://github.com/ASakrak/QuadraticFormula"
+    },
+    {
+      "url": "https://github.com/rbaygildin/learn-graphics"
+    },
+    {
+      "url": "https://github.com/Smipe-a/Student-Works"
+    },
+    {
+      "url": "https://github.com/lazyten/lazyten"
+    },
+    {
+      "url": "https://github.com/samiBendou/MathToolKitCPP"
+    },
+    {
+      "url": "https://github.com/bhrnjica/MagmaSharp"
+    },
+    {
+      "url": "https://github.com/Christian-Prather/Pied-Piper"
+    },
+    {
+      "url": "https://github.com/brugr9/qir"
+    },
+    {
+      "url": "https://github.com/YifanShenSZ/Torch-Chemistry"
+    },
+    {
+      "url": "https://github.com/jmatta1/DecompLib"
+    },
+    {
+      "url": "https://github.com/swr06/linear-mafs"
+    },
+    {
+      "url": "https://github.com/bgsa/openml"
+    },
+    {
+      "url": "https://github.com/arashrahmani/camera-pose-estimation-using-aruco-marker"
+    },
+    {
+      "url": "https://github.com/kostaslemis/Matrix-Calculator"
+    },
+    {
+      "url": "https://github.com/Sibelius-6/matrix-toolkit"
+    },
+    {
+      "url": "https://github.com/timstr/scorch"
+    },
+    {
+      "url": "https://github.com/overtane/udacity-carnd-p7"
+    },
+    {
+      "url": "https://github.com/ansleliu/MatrixCalculator"
+    },
+    {
+      "url": "https://github.com/Pankin610/linalg"
+    },
+    {
+      "url": "https://github.com/christianparpart/dim"
+    },
+    {
+      "url": "https://github.com/Lord-KA/Matrix"
+    },
+    {
+      "url": "https://github.com/Degra02/GAL-Library"
+    },
+    {
+      "url": "https://github.com/unvercanunlu/quadratic-equation-solver"
+    },
+    {
+      "url": "https://github.com/BenjaminWSwenson/Matrix-Datatype"
+    },
+    {
+      "url": "https://github.com/lazarst96/NumericalOptimization"
+    },
+    {
+      "url": "https://github.com/WaleedYaser/nova"
+    },
+    {
+      "url": "https://github.com/Caliikha/MatrixVectorLib"
+    },
+    {
+      "url": "https://github.com/pranavbudhwant/snail"
+    },
+    {
+      "url": "https://github.com/a-stickan/Chemical-Equation-Autobalancer"
+    },
+    {
+      "url": "https://github.com/IoannisKaragiannis/LinearAlgebra"
+    },
+    {
+      "url": "https://github.com/petiaccja/MathterBench"
+    },
+    {
+      "url": "https://github.com/elvircrn/NA"
+    },
+    {
+      "url": "https://github.com/FakeEmperor/LinearAlgebra"
+    },
+    {
+      "url": "https://github.com/alexvlis/3D-object-collision-detection"
+    },
+    {
+      "url": "https://github.com/dams666/LinAlgebra"
+    },
+    {
+      "url": "https://github.com/UZerbinati/Suite"
+    },
+    {
+      "url": "https://github.com/ecrc/hcorepp"
+    },
+    {
+      "url": "https://github.com/yashiro32/Linear-Algebra-Parallel"
+    },
+    {
+      "url": "https://github.com/Mathific/Tense"
+    },
+    {
+      "url": "https://github.com/Papich23691/Math"
+    },
+    {
+      "url": "https://github.com/Youssef-ADOUIRI/Matrix"
+    },
+    {
+      "url": "https://github.com/mohammadmohebi/gauss"
+    },
+    {
+      "url": "https://github.com/abhinav-bhardwaj/Sparse-Matrix-Implementation-and-Operations"
+    },
+    {
+      "url": "https://github.com/Blodangan/cgla"
+    },
+    {
+      "url": "https://github.com/calvang/linear-algebra-lib"
+    },
+    {
+      "url": "https://github.com/themarkrizkallah/simply"
+    },
+    {
+      "url": "https://github.com/kaizhang/matrix-sized"
+    },
+    {
+      "url": "https://github.com/adeeconometrics/LinearAlgebra"
+    },
+    {
+      "url": "https://github.com/hedyhefty/parallel_linear_algebra_cpp"
+    },
+    {
+      "url": "https://github.com/alu0101128894/CyA"
+    },
+    {
+      "url": "https://github.com/Sh3B0/LAL"
+    },
+    {
+      "url": "https://github.com/keithalewis/fms_blas"
+    },
+    {
+      "url": "https://github.com/Phoenix1747/vmath"
+    },
+    {
+      "url": "https://github.com/ei14/finlin"
+    },
+    {
+      "url": "https://github.com/project-asgard/kronmult993"
+    },
+    {
+      "url": "https://github.com/pustovitDmytro/numerical-methods"
+    },
+    {
+      "url": "https://github.com/lucashubner/numerical-methods"
+    },
+    {
+      "url": "https://github.com/AnselmoGPP/Eigen_examples"
+    },
+    {
+      "url": "https://github.com/BunnyHobby/Basic-Vector-Class"
+    },
+    {
+      "url": "https://github.com/kirill-korolev/linalg"
+    },
+    {
+      "url": "https://github.com/diwalkerdev/LinAlg"
+    },
+    {
+      "url": "https://github.com/akalenuk/semi-static-linear-solver"
+    },
+    {
+      "url": "https://github.com/shkr/eigen_notebook"
+    },
+    {
+      "url": "https://github.com/mustafagonul/matrix-cpp"
+    },
+    {
+      "url": "https://github.com/Chaphlagical/CML"
+    },
+    {
+      "url": "https://github.com/Blodangan/cgla"
+    },
+    {
+      "url": "https://github.com/calvang/linear-algebra-lib"
+    },
+    {
+      "url": "https://github.com/themarkrizkallah/simply"
+    },
+    {
+      "url": "https://github.com/kaizhang/matrix-sized"
+    },
+    {
+      "url": "https://github.com/philsupertramp/game-math"
+    },
+    {
+      "url": "https://github.com/SimoneGasperini/linalg"
+    },
+    {
+      "url": "https://github.com/adeeconometrics/LinearAlgebra"
+    },
+    {
+      "url": "https://github.com/hedyhefty/parallel_linear_algebra_cpp"
+    },
+    {
+      "url": "https://github.com/tomy0000000/YZU-Linear-Algebra"
+    },
+    {
+      "url": "https://github.com/alu0101128894/CyA"
+    },
+    {
+      "url": "https://github.com/Sh3B0/LAL"
+    },
+    {
+      "url": "https://github.com/keithalewis/fms_blas"
+    },
+    {
+      "url": "https://github.com/berkerdemirel/Linear-Algebra"
+    },
+    {
+      "url": "https://github.com/Phoenix1747/vmath"
+    },
+    {
+      "url": "https://github.com/ei14/finlin"
+    },
+    {
+      "url": "https://github.com/project-asgard/kronmult993"
+    },
+    {
+      "url": "https://github.com/kar-m/ml-framework"
+    },
+    {
+      "url": "https://github.com/pustovitDmytro/numerical-methods"
+    },
+    {
+      "url": "https://github.com/lucashubner/numerical-methods"
+    },
+    {
+      "url": "https://github.com/AnselmoGPP/Eigen_examples"
+    },
+    {
+      "url": "https://github.com/BunnyHobby/Basic-Vector-Class"
+    },
+    {
+      "url": "https://github.com/kirill-korolev/linalg"
+    },
+    {
+      "url": "https://github.com/diwalkerdev/LinAlg"
+    },
+    {
+      "url": "https://github.com/justinmeiners/lin-math"
+    },
+    {
+      "url": "https://github.com/Godlike/Epona"
+    },
+    {
+      "url": "https://github.com/spenserwenhe/matrix-calculator"
+    },
+    {
+      "url": "https://github.com/malczuuu/cequsys"
+    },
+    {
+      "url": "https://github.com/akalenuk/semi-static-linear-solver"
+    },
+    {
+      "url": "https://github.com/shkr/eigen_notebook"
+    },
+    {
+      "url": "https://github.com/mustafagonul/matrix-cpp"
+    },
+    {
+      "url": "https://github.com/Chaphlagical/CML"
+    },
+    {
+      "url": "https://github.com/ArtCie/Matrix-Calculator"
+    },
+    {
+      "url": "https://github.com/mingkaic/tenncor"
+    },
+    {
+      "url": "https://github.com/benmandrew/ProjectLux"
+    },
+    {
+      "url": "https://github.com/grking8/linear-algebra"
+    },
+    {
+      "url": "https://github.com/ikhatri/c-matrix"
+    },
+    {
+      "url": "https://github.com/cassiorenan/eve"
+    },
+    {
+      "url": "https://github.com/deempalme/algebraica"
+    },
+    {
+      "url": "https://github.com/carlocochran/matrix-determinant"
+    },
+    {
+      "url": "https://github.com/ChristianPanov/mtlx"
+    },
+    {
+      "url": "https://github.com/devel0/iot-sci"
+    },
+    {
+      "url": "https://github.com/ramizouari/MathsLibrary"
+    },
+    {
+      "url": "https://github.com/sahilgupta2105/H-Matrix-Construction-Lib"
+    },
+    {
+      "url": "https://github.com/jdao55/ce-matrix"
+    },
+    {
+      "url": "https://github.com/thrunduil/Matcl"
+    },
+    {
+      "url": "https://github.com/GeneKao/Eigen-Cpp-Notes"
+    },
+    {
+      "url": "https://github.com/BojanFaletic/Matrix"
+    },
+    {
+      "url": "https://github.com/LLNL/croquis"
+    },
+    {
+      "url": "https://github.com/silverSapphire/Eigen-Malloc-Free-Pseudoinverse"
+    },
+    {
+      "url": "https://github.com/4iar/opencl-matrix-add"
+    },
+    {
+      "url": "https://github.com/jasonpfi/2-Dimentional-Separating-Axis-Theorem"
+    },
+    {
+      "url": "https://github.com/SBAM/mfmat"
+    },
+    {
+      "url": "https://github.com/shawnlong636/PhysicsEngine"
+    },
+    {
+      "url": "https://github.com/dgarvit/sparse"
+    },
+    {
+      "url": "https://github.com/VenkatKS/MachineLearning"
+    },
+    {
+      "url": "https://github.com/StatisKit/LinAlg"
+    },
+    {
+      "url": "https://github.com/cliffplaysdrums/MachineLearningLibrary"
+    },
+    {
+      "url": "https://github.com/pdx-2019-multigrid/Barry"
+    },
+    {
+      "url": "https://github.com/pugakn/Kamaitachi-AI"
+    },
+    {
+      "url": "https://github.com/DCubix/TMath"
+    },
+    {
+      "url": "https://github.com/ethereal-sheep/elsMath"
+    },
+    {
+      "url": "https://github.com/MrBoogle/3DEngine"
+    },
+    {
+      "url": "https://github.com/ChiangYintso/libra"
+    },
+    {
+      "url": "https://github.com/jointpoints/vulkan-gram-schmidt"
+    },
+    {
+      "url": "https://github.com/DropSoftCommunity/dropMath"
+    },
+    {
+      "url": "https://github.com/VenkatKS/MachineLearning"
+    },
+    {
+      "url": "https://github.com/StatisKit/LinAlg"
+    },
+    {
+      "url": "https://github.com/cliffplaysdrums/MachineLearningLibrary"
+    },
+    {
+      "url": "https://github.com/pdx-2019-multigrid/Barry"
+    },
+    {
+      "url": "https://github.com/pugakn/Kamaitachi-AI"
+    },
+    {
+      "url": "https://github.com/DCubix/TMath"
+    },
+    {
+      "url": "https://github.com/ivanarena/integer-matrix-product"
+    },
+    {
+      "url": "https://github.com/anewgithubname/Juzhen"
+    },
+    {
+      "url": "https://github.com/DiamonDinoia/jacobi"
+    },
+    {
+      "url": "https://github.com/shenxiul/eigen-git-mirror"
+    },
+    {
+      "url": "https://github.com/basp1/spandex"
+    },
+    {
+      "url": "https://github.com/bgiorgio0506/LinearSystem"
+    },
+    {
+      "url": "https://github.com/ilia-glushchenko/SimplePathTracer"
+    },
+    {
+      "url": "https://github.com/broderio/Matrix-ADT"
+    },
+    {
+      "url": "https://github.com/yunfeng-net/matrix"
+    },
+    {
+      "url": "https://github.com/mdh266/dealii"
+    },
+    {
+      "url": "https://github.com/kozin1972/Indexed-Tensor-Template-Library"
+    },
+    {
+      "url": "https://github.com/phillipstemmlar/math.stem"
+    },
+    {
+      "url": "https://github.com/kcavatar/linear-algebra"
+    },
+    {
+      "url": "https://github.com/lelemmen/davidson"
+    },
+    {
+      "url": "https://github.com/NoHomey/math-objects"
+    },
+    {
+      "url": "https://github.com/EthanHowellUKY/linear-algebra"
+    },
+    {
+      "url": "https://github.com/mutluer96/Projecting-A-Vector-Onto-A-Subspace"
+    },
+    {
+      "url": "https://github.com/Alan-Kuan/MatrixSpaces"
+    },
+    {
+      "url": "https://github.com/luqmanmalik/15-01_97-16664_0387982590"
+    },
+    {
+      "url": "https://github.com/OscarSaharoy/matrices"
+    },
+    {
+      "url": "https://github.com/jthoth/matrixNumericOperations"
+    },
+    {
+      "url": "https://github.com/KabalMcBlade/Prophet"
+    },
+    {
+      "url": "https://github.com/lnugraha/mtx-toolbox"
+    },
+    {
+      "url": "https://github.com/derekharrison/LUdecomposition"
+    },
+    {
+      "url": "https://github.com/PrimerLi/MatrixCpp"
+    },
+    {
+      "url": "https://github.com/mez/opengl_by_examples"
+    },
+    {
+      "url": "https://github.com/ntauth/xtensor-acts"
+    },
+    {
+      "url": "https://github.com/05st/linear-algebra"
+    },
+    {
+      "url": "https://github.com/michelemartone/sparsersb"
+    },
+    {
+      "url": "https://github.com/bermejus/gopt"
+    },
+    {
+      "url": "https://github.com/francBara/Matrix_Algebra"
+    },
+    {
+      "url": "https://github.com/vvbv/ICA-FOBI"
+    },
+    {
+      "url": "https://github.com/kiritofeng/physics_h"
+    },
+    {
+      "url": "https://github.com/EgorOrachyov/TensorCFPQ"
+    },
+    {
+      "url": "https://github.com/potato3d/baselib"
+    },
+    {
+      "url": "https://github.com/james-d12/Atomic"
+    },
+    {
+      "url": "https://github.com/ghinanto/silver-solver"
+    },
+    {
+      "url": "https://github.com/user-simon/dandy"
+    },
+    {
+      "url": "https://github.com/JustWhit3/matrixop"
+    },
+    {
+      "url": "https://github.com/NickG-Math/Mackey"
+    },
+    {
+      "url": "https://github.com/magestik/linear-algebra"
+    },
+    {
+      "url": "https://github.com/JM1/python-edamer"
+    },
+    {
+      "url": "https://github.com/evrhel/MatrixUtil"
+    },
+    {
+      "url": "https://github.com/JM1/hbrs-mpl"
+    },
+    {
+      "quantityOfRepositories": 265,
+      "quantityOfRelevantRepositories": 23,
+      "quantityOfRelevantRepositoriesWithOpenMP": 14
+    }
+  ]
+}

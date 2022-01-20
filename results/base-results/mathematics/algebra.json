@@ -1,0 +1,217 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/Foadsf/Cmathtuts"
+    },
+    {
+      "url": "https://github.com/EverLookNeverSee/FCS"
+    },
+    {
+      "url": "https://github.com/MX-FOR/FORTRAN-P01-Linear-Algebra"
+    },
+    {
+      "url": "https://github.com/VictorCarreira/LinearAlgebraModule"
+    },
+    {
+      "quantityOfRepositories": 4,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/JayedRafiProjects/cmath.c"
+    },
+    {
+      "url": "https://github.com/hydrastro/gal"
+    },
+    {
+      "url": "https://github.com/mateuschaves/DLL"
+    },
+    {
+      "url": "https://github.com/luverolla/vector.c"
+    },
+    {
+      "url": "https://github.com/tomwisniewskiprv/CG_exercises"
+    },
+    {
+      "url": "https://github.com/moe123/algatike"
+    },
+    {
+      "url": "https://github.com/dniku/grb"
+    },
+    {
+      "url": "https://github.com/luverolla/matrix.c"
+    },
+    {
+      "url": "https://github.com/cohenrobinson/matrix_arithmetic"
+    },
+    {
+      "url": "https://github.com/jefersonla/AlgebraLinear-Trabalho"
+    },
+    {
+      "quantityOfRepositories": 10,
+      "quantityOfRelevantRepositories": 0,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/jeremyong/klein",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/godefv/math"
+    },
+    {
+      "url": "https://github.com/yahya-mohammed07/Kraken"
+    },
+    {
+      "url": "https://github.com/DanIsraelMalta/GLSL-CPP"
+    },
+    {
+      "url": "https://github.com/szymonmaszke/numpp"
+    },
+    {
+      "url": "https://github.com/krivenko/libcommute"
+    },
+    {
+      "url": "https://github.com/abetten/orbiter"
+    },
+    {
+      "url": "https://github.com/DavideNardone/Blind-Source-Separation-using-Dictionary-Learning"
+    },
+    {
+      "url": "https://github.com/libsemigroups/libsemigroups_pybind11"
+    },
+    {
+      "url": "https://github.com/samiBendou/MathToolKitCPP"
+    },
+    {
+      "url": "https://github.com/DanIsraelMalta/NumericalPlusPlus"
+    },
+    {
+      "url": "https://github.com/kostaslemis/Polynomial-Calculator"
+    },
+    {
+      "url": "https://github.com/ori-drs/common_utils_drs"
+    },
+    {
+      "url": "https://github.com/mohabouje/AcousticLPS"
+    },
+    {
+      "url": "https://github.com/Daninet/ginac-wasm"
+    },
+    {
+      "url": "https://github.com/kentavv/Albert"
+    },
+    {
+      "url": "https://github.com/rubcv/INGENIERIA-INFORMATICA-ETSIIT-UGR"
+    },
+    {
+      "url": "https://github.com/AlgebraicWolf/algebraic-structures"
+    },
+    {
+      "url": "https://github.com/abhinav-bhardwaj/Numerical-Analysis-Methods"
+    },
+    {
+      "url": "https://github.com/christianparpart/dim"
+    },
+    {
+      "url": "https://github.com/ninebird1/Algebra"
+    },
+    {
+      "url": "https://github.com/pabloasenjo3/Algebra_I"
+    },
+    {
+      "url": "https://github.com/FakeEmperor/LinearAlgebra"
+    },
+    {
+      "url": "https://github.com/samiBendou/AES"
+    },
+    {
+      "url": "https://github.com/ju-resplande/symmetric-group"
+    },
+    {
+      "url": "https://github.com/mrnkr/matrix-crypt"
+    },
+    {
+      "url": "https://github.com/potato3d/baselib"
+    },
+    {
+      "url": "https://github.com/ghinanto/silver-solver"
+    },
+    {
+      "url": "https://github.com/NoHomey/math-objects"
+    },
+    {
+      "url": "https://github.com/hermantrym/CompetitiveProgramming"
+    },
+    {
+      "url": "https://github.com/mrc-tech/AutoMat"
+    },
+    {
+      "url": "https://github.com/Samuel-col/cppProjects"
+    },
+    {
+      "url": "https://github.com/MuteJester/CPP_Math_Platform"
+    },
+    {
+      "url": "https://github.com/dmckinnon/SVD_Compression"
+    },
+    {
+      "url": "https://github.com/samuelohterion/AlgebraWithSTL"
+    },
+    {
+      "url": "https://github.com/generic-pers0n/lines"
+    },
+    {
+      "url": "https://github.com/HelloZorex/QEcalc"
+    },
+    {
+      "url": "https://github.com/dmancilla85/cpp-vs-algebra"
+    },
+    {
+      "url": "https://github.com/shoooe/Sor"
+    },
+    {
+      "url": "https://github.com/AnselmoGPP/Eigen_examples"
+    },
+    {
+      "url": "https://github.com/isaf27/groebner_basis"
+    },
+    {
+      "url": "https://github.com/sarkarchandan/Francois"
+    },
+    {
+      "url": "https://github.com/tdegeus/GMatTensor"
+    },
+    {
+      "url": "https://github.com/VanessB/AlFractal"
+    },
+    {
+      "url": "https://github.com/iwalainz/libpoly"
+    },
+    {
+      "url": "https://github.com/oliverh57/Binomial-Expansion"
+    },
+    {
+      "url": "https://github.com/lethanhvietctt5/Data-Structure-and-Algorithm-Project"
+    },
+    {
+      "url": "https://github.com/IkerGalardi/liblinalg"
+    },
+    {
+      "url": "https://github.com/TianhaoW/CentralizerOfMatrix"
+    },
+    {
+      "url": "https://github.com/estebanrdo/tidoplib"
+    },
+    {
+      "quantityOfRepositories": 50,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ]
+}

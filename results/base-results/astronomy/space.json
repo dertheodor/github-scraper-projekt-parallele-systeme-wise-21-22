@@ -1,0 +1,453 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/spacepy/spacepy",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/Space-Systems/neptune"
+    },
+    {
+      "url": "https://github.com/Space-Systems/libslam"
+    },
+    {
+      "quantityOfRepositories": 3,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/csete/gpredict",
+      "quantityOfFiles": 190,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/naev/naev",
+      "quantityOfFiles": 365,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/UAVCAN/libuavcan"
+    },
+    {
+      "url": "https://github.com/amcajal/8_bit_hubble"
+    },
+    {
+      "url": "https://github.com/superzazu/invaders"
+    },
+    {
+      "url": "https://github.com/pnp-software/cordetfw"
+    },
+    {
+      "url": "https://github.com/Gizmoscope/black-hole"
+    },
+    {
+      "url": "https://github.com/mesbahamin/star-sim"
+    },
+    {
+      "url": "https://github.com/0c370t/spaceapps2021"
+    },
+    {
+      "url": "https://github.com/semissioncontrol/cli"
+    },
+    {
+      "url": "https://github.com/valentinpi/cheap-google-earth"
+    },
+    {
+      "url": "https://github.com/gamemann/AF_XDP-Test"
+    },
+    {
+      "url": "https://github.com/GoranTopic/Terminal-Space-Adventure"
+    },
+    {
+      "url": "https://github.com/nonbinaryprogrammer/SeniorDesign"
+    },
+    {
+      "url": "https://github.com/kmenezes/ARO-Tracking-Software"
+    },
+    {
+      "url": "https://github.com/ostef/cubemap-generator"
+    },
+    {
+      "url": "https://github.com/vankxr/qo-100-tools"
+    },
+    {
+      "url": "https://github.com/FS-make-simple/cutedf"
+    },
+    {
+      "url": "https://github.com/ZoussCity/sofa-sys"
+    },
+    {
+      "url": "https://github.com/jicehel/Invaders-for-espLGE"
+    },
+    {
+      "url": "https://github.com/alexheinrich/Intel8080"
+    },
+    {
+      "url": "https://github.com/KilianCM/SpaceUP"
+    },
+    {
+      "url": "https://github.com/cpilipis/BeanJumper"
+    },
+    {
+      "url": "https://github.com/leojaimesson/space"
+    },
+    {
+      "url": "https://github.com/nmancus1/big-bang"
+    },
+    {
+      "url": "https://github.com/rnsavinelli/swbss"
+    },
+    {
+      "url": "https://github.com/loicttn/barnes-hut"
+    },
+    {
+      "quantityOfRepositories": 27,
+      "quantityOfRelevantRepositories": 2,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/pioneerspacesim/pioneer",
+      "quantityOfFiles": 597,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/CelestiaProject/Celestia",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/UAVCAN/libcanard",
+      "quantityOfFiles": 17,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/orbiternassp/NASSP",
+      "quantityOfFiles": 407,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/arescentral/antares",
+      "quantityOfFiles": 241,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/PW-Sat2/PWSat2OBC",
+      "quantityOfFiles": 1123,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/arbonagw/AstralShipwright"
+    },
+    {
+      "url": "https://github.com/spacechain/SpaceChain-OS",
+      "#pragma omp parallel": 35,
+      "#pragma omp sections": 2,
+      "#pragma omp parallel for": 30,
+      "#pragma omp parallel sections": 2,
+      "quantityOfFiles": 19869,
+      "quantityOfFilesWithOpenMP": 5
+    },
+    {
+      "url": "https://github.com/marscoin/marscoin",
+      "quantityOfFiles": 532,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/dgavedissian/dawn-engine"
+    },
+    {
+      "url": "https://github.com/zac-garby/solar-system",
+      "quantityOfFiles": 22,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/TheOpenSpaceProgram/new-ospgl"
+    },
+    {
+      "url": "https://github.com/thm-mni-ii/sea"
+    },
+    {
+      "url": "https://github.com/open-space-collective/open-space-toolkit-astrodynamics"
+    },
+    {
+      "url": "https://github.com/AetherModel/Aether"
+    },
+    {
+      "url": "https://github.com/Taose/Vegastrike-taose"
+    },
+    {
+      "url": "https://github.com/MitchCarroll/spacesim"
+    },
+    {
+      "url": "https://github.com/open-space-collective/open-space-toolkit-core"
+    },
+    {
+      "url": "https://github.com/Evols/SpaceKit"
+    },
+    {
+      "url": "https://github.com/kghose/groho"
+    },
+    {
+      "url": "https://github.com/open-space-collective/open-space-toolkit-physics"
+    },
+    {
+      "url": "https://github.com/JohnVV/MyCelestiaBuild"
+    },
+    {
+      "url": "https://github.com/jtrulson/conquest"
+    },
+    {
+      "url": "https://github.com/open-space-collective/open-space-toolkit-mathematics"
+    },
+    {
+      "url": "https://github.com/open-space-collective/open-space-toolkit-io"
+    },
+    {
+      "url": "https://github.com/OpenStratos/server"
+    },
+    {
+      "url": "https://github.com/dimitrijekaranfilovic/space-invaders"
+    },
+    {
+      "url": "https://github.com/SmallSatGasTeam/OpenSPA"
+    },
+    {
+      "url": "https://github.com/HON9LIN/space-invaders"
+    },
+    {
+      "url": "https://github.com/avogelba/WinDirStats"
+    },
+    {
+      "url": "https://github.com/BruceJohnJennerLawso/Ignition_Engine"
+    },
+    {
+      "url": "https://github.com/PESchoenberg/DGIIIAI"
+    },
+    {
+      "url": "https://github.com/NablaZeroLabs/mxd"
+    },
+    {
+      "url": "https://github.com/HussainAbdi/Gravity-Simulator"
+    },
+    {
+      "url": "https://github.com/HarryCLucas/GoSpacePackets"
+    },
+    {
+      "url": "https://github.com/ingunnsund/Romteknologi"
+    },
+    {
+      "url": "https://github.com/cyphics/universe-idle"
+    },
+    {
+      "url": "https://github.com/juakofz/Age-of-Space"
+    },
+    {
+      "url": "https://github.com/ucpu/degrid"
+    },
+    {
+      "url": "https://github.com/InversePalindrome/Spacelapse"
+    },
+    {
+      "url": "https://github.com/CelestiaFork/celestia"
+    },
+    {
+      "url": "https://github.com/amirhossein-hkh/sfml-games"
+    },
+    {
+      "url": "https://github.com/RMDarth/Space-Runner"
+    },
+    {
+      "url": "https://github.com/justinnamilee/KSPboard"
+    },
+    {
+      "url": "https://github.com/HaralDev/433MHz_ROS_RasPi"
+    },
+    {
+      "url": "https://github.com/Lumorti/asciiOrbits"
+    },
+    {
+      "url": "https://github.com/PESchoenberg/SQLC"
+    },
+    {
+      "url": "https://github.com/dolu-bl/zorgi"
+    },
+    {
+      "url": "https://github.com/PandaGamersHDNL/SpaceFactory"
+    },
+    {
+      "url": "https://github.com/jarreed0/SpaceGameOrWhatever"
+    },
+    {
+      "url": "https://github.com/ScorSpace/Cansat"
+    },
+    {
+      "url": "https://github.com/Nomurad/reentry_deb"
+    },
+    {
+      "url": "https://github.com/InjectorGames/VoxelSpaceCPP"
+    },
+    {
+      "url": "https://github.com/abekkine/space-game"
+    },
+    {
+      "url": "https://github.com/SciQLop/CDFpp"
+    },
+    {
+      "url": "https://github.com/malikkirchner/froggy"
+    },
+    {
+      "url": "https://github.com/FrozenStormInteractive/Spacescape"
+    },
+    {
+      "url": "https://github.com/jkimpro/OSS12"
+    },
+    {
+      "url": "https://github.com/uccubecats/LEOPARD"
+    },
+    {
+      "url": "https://github.com/AustinOldham/Starogen"
+    },
+    {
+      "url": "https://github.com/kz04px/stardank"
+    },
+    {
+      "url": "https://github.com/TransNeptunianStudios/Triangulum-III"
+    },
+    {
+      "url": "https://github.com/DstoverVT/rocksat-flight-computer-2021"
+    },
+    {
+      "url": "https://github.com/alexandre10044/RType-CPP"
+    },
+    {
+      "url": "https://github.com/Krogenit/bfsr-cplusplus"
+    },
+    {
+      "url": "https://github.com/evansneath/ephemeral"
+    },
+    {
+      "url": "https://github.com/IngInf/ASpaceGame"
+    },
+    {
+      "url": "https://github.com/lhsbikeshed/arduinos"
+    },
+    {
+      "url": "https://github.com/Glebanister/gravity"
+    },
+    {
+      "url": "https://github.com/bonorose/adspecto"
+    },
+    {
+      "url": "https://github.com/zesterer/vast-old"
+    },
+    {
+      "url": "https://github.com/kreug/corbital"
+    },
+    {
+      "url": "https://github.com/jerrychong25/MarsMobilityArduino"
+    },
+    {
+      "url": "https://github.com/yiqiangjizhang/CubeSat-Reaction-Wheel-control"
+    },
+    {
+      "url": "https://github.com/dandocmando/CHHS_ZeroRobotics"
+    },
+    {
+      "url": "https://github.com/SocExplorer/SpaceWireZMQ"
+    },
+    {
+      "url": "https://github.com/mike-f1/pioneer"
+    },
+    {
+      "url": "https://github.com/bsteen/ud-rocksat-2018"
+    },
+    {
+      "url": "https://github.com/movaid7/DarthInvaders"
+    },
+    {
+      "url": "https://github.com/414owen/Bird-Up"
+    },
+    {
+      "url": "https://github.com/Mukad3/Advanced-Planetary-Simulator"
+    },
+    {
+      "url": "https://github.com/ajshah7/Space-Drift-Computer-graphics-project"
+    },
+    {
+      "url": "https://github.com/kennyrkun/intrepid"
+    },
+    {
+      "url": "https://github.com/yiqiangjizhang/Interplanetary-Mission"
+    },
+    {
+      "url": "https://github.com/rrainey/DSKY-digital-indicator-replica"
+    },
+    {
+      "url": "https://github.com/natehalsey/plan-it-time"
+    },
+    {
+      "url": "https://github.com/lemontyc/arduino-space-invaders"
+    },
+    {
+      "url": "https://github.com/Resethel/N-Body-Simulator"
+    },
+    {
+      "url": "https://github.com/mattstvan/arc"
+    },
+    {
+      "url": "https://github.com/amity/sprite"
+    },
+    {
+      "url": "https://github.com/ut-astria/AllSky"
+    },
+    {
+      "url": "https://github.com/SocExplorer/SpaceWirePP"
+    },
+    {
+      "url": "https://github.com/Anxiko/FDX_Fighter"
+    },
+    {
+      "url": "https://github.com/bakullama/badrockets"
+    },
+    {
+      "url": "https://github.com/tsoj/spacesimulator"
+    },
+    {
+      "url": "https://github.com/KunstDerFuge/Headspace"
+    },
+    {
+      "url": "https://github.com/SocExplorer/SocExplorer2"
+    },
+    {
+      "url": "https://github.com/AMastryukov/Elemental"
+    },
+    {
+      "url": "https://github.com/puzzlef/csr-regular-vs-hybrid"
+    },
+    {
+      "url": "https://github.com/ATTron/optg"
+    },
+    {
+      "url": "https://github.com/Sub-Xaero/Indefinite-Aeon"
+    },
+    {
+      "url": "https://github.com/newbHy/spacesimulation"
+    },
+    {
+      "url": "https://github.com/sasanradan1999/StarX"
+    },
+    {
+      "url": "https://github.com/ucpu/space-ants"
+    },
+    {
+      "quantityOfRepositories": 104,
+      "quantityOfRelevantRepositories": 9,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ]
+}
