@@ -1,7 +1,6 @@
 const config = require('./config');
 const repositoryScraper = require('./repositoryScraper');
 const errorLogger = require("./variables/errorLogger");
-const shell = require('shelljs');
 
 const scraperObject = {
     /**
@@ -14,7 +13,7 @@ const scraperObject = {
     async scrapeTopics(browser, url) {
 
         // data which will be passed back to pageController
-        let data =[];
+        let data = [];
 
         // new tab which opens
         let page = await browser.newPage();
@@ -25,7 +24,7 @@ const scraperObject = {
 
         try {
             // Navigate to the selected page
-            await page.goto(url, {timeout:0, waitUntil: 'domcontentloaded'});
+            await page.goto(url, {timeout: 0, waitUntil: 'domcontentloaded'});
         } catch (error) {
             // write error to logs folder
             errorLogger(error, url);
@@ -62,17 +61,9 @@ const scraperObject = {
         // close tab
         await page.close();
 
-        // TODO different logic for git cloning all repos and the searching with grep locally
-        const path  = 'C:\\Users\\Theo\\IdeaProjects\\wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen\\test\\testfile.txt';
-
-        //shell.exec(`git clone https://github.com/nwchemgit/nwchem`);
-        console.log(shell.grep('!\\$omp', path).stdout);
-
-
         // loop over all found repositories
-        // TODO change back to repositoryList.length
-        for (let i = 0; i < 1; i++) {
-            //data.push(await repositoryScraper.scrapeRepository(browser, repositoryList[i]));
+        for (let i = 0; i < repositoryList.length; i++) {
+            data.push(await repositoryScraper.scrapeRepository(browser, repositoryList[i]));
         }
 
         /**
@@ -103,13 +94,13 @@ const scraperObject = {
 
         for (let i = 0; i < data.length; i++) {
             if (Object.keys(data[i]).length >= 3) {
-                metrics['quantityOfRelevantRepositories'] ++;
+                metrics['quantityOfRelevantRepositories']++;
             }
         }
 
         for (let i = 0; i < data.length; i++) {
             if (Object.keys(data[i]).length >= 4) {
-                metrics['quantityOfRelevantRepositoriesWithOpenMP'] ++;
+                metrics['quantityOfRelevantRepositoriesWithOpenMP']++;
             }
         }
 

@@ -27,14 +27,11 @@ async function scrapeAll(browserInstance) {
             scrapedData['fortran'] = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=fortran`);
             await saveFile(scrapedData, category);
 
-            //TODO comment in
-            /*
             scrapedData['c'] = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=c`);
             await saveFile(scrapedData, category);
 
             scrapedData['c++'] = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=c%2B%2B`);
             await saveFile(scrapedData, category);
-             */
 
             scrapedData = {};
         }
