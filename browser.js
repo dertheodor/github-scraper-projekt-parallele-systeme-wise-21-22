@@ -1,5 +1,9 @@
 const puppeteer = require('puppeteer');
 
+/**
+ * This function initializes the puppeteer instance.
+ * @returns {Promise<Browser>}
+ */
 async function startBrowser() {
     let browser;
     try {
