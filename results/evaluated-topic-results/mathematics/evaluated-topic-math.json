@@ -1,0 +1,20 @@
+{
+  "quantityOfFiles": 26109,
+  "quantityOfFilesWithOpenMP": 16,
+  "quantityOfRepositories": 736,
+  "quantityOfRelevantRepositories": 27,
+  "quantityOfRelevantRepositoriesWithOpenMP": 3,
+  "parallel": 134,
+  "teams": 59,
+  "sections": 1,
+  "single ": 1,
+  "do": 36,
+  "distribute": 1,
+  "distribute parallel do": 1,
+  "target": 59,
+  "parallel do": 95,
+  "teams distribute": 58,
+  "teams distribute parallel do": 32,
+  "critical": 6,
+  "atomic": 4
+}

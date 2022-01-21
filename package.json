@@ -5,11 +5,10 @@
   "main": "scraperInitializer.js",
   "scripts": {
     "scrape": "node scraperInitializer.js",
-    "eval": "node eval/eval.js",
+    "eval": "node eval/evalTest.js",
     "evaltopics": "node eval/evalTopics.js",
     "evalsciences": "node eval/evalSciences.js",
-    "evalfinal": "node eval/evalFinal.js",
-    "initfiles": "node eval/initFiles.js"
+    "evalfinal": "node eval/evalFinal.js"
   },
   "author": "",
   "license": "ISC",
