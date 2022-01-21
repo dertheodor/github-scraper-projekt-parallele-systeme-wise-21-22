@@ -1,29 +1,6 @@
 {
   "fortran": [
     {
-      "url": "https://github.com/nwchemgit/nwchem",
-      "!$omp parallel": 91,
-      "!$omp teams": 32,
-      "!$omp sections": 4,
-      "!$omp single ": 65,
-      "!$omp do": 632,
-      "!$omp simd": 24,
-      "!$omp task": 5,
-      "!$omp target data": 5,
-      "!$omp target enter data": 3,
-      "!$omp target exit data": 3,
-      "!$omp target": 45,
-      "!$omp parallel do": 64,
-      "!$omp target teams": 2,
-      "!$omp target teams distribute": 1,
-      "!$omp target teams distribute parallel do": 1,
-      "!$omp master": 603,
-      "!$omp critical": 78,
-      "!$omp barrier": 487,
-      "quantityOfFiles": 15611,
-      "quantityOfFilesWithOpenMP": 158
-    },
-    {
       "url": "https://github.com/grimme-lab/xtb",
       "!$omp parallel": 92,
       "!$omp do": 24,
@@ -148,11 +125,6 @@
     }
   ],
   "c": [
-    {
-      "url": "https://github.com/merzlab/QUICK",
-      "quantityOfFiles": 1201,
-      "quantityOfFilesWithOpenMP": 0
-    },
     {
       "url": "https://github.com/briling/v"
     },

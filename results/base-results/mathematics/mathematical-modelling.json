@@ -57,11 +57,6 @@
   ],
   "c++": [
     {
-      "url": "https://github.com/Chaste/Chaste",
-      "quantityOfFiles": 1736,
-      "quantityOfFilesWithOpenMP": 0
-    },
-    {
       "url": "https://github.com/JohnDTill/ContinuumRobotExamples"
     },
     {

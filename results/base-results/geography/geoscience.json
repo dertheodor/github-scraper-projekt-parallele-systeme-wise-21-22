@@ -36,15 +36,6 @@
   ],
   "c++": [
     {
-      "url": "https://github.com/ringmesh/RINGMesh",
-      "#pragma omp parallel": 90,
-      "#pragma omp parallel for": 88,
-      "#pragma omp critical": 19,
-      "#pragma omp atomic": 5,
-      "quantityOfFiles": 1805,
-      "quantityOfFilesWithOpenMP": 15
-    },
-    {
       "url": "https://github.com/scivision/Andor-sCMOS-examples"
     },
     {

@@ -256,15 +256,6 @@
       "quantityOfFilesWithOpenMP": 0
     },
     {
-      "url": "https://github.com/spirit-code/spirit",
-      "#pragma omp parallel": 77,
-      "#pragma omp parallel for": 76,
-      "#pragma omp atomic": 1,
-      "#pragma omp declare reduction": 1,
-      "quantityOfFiles": 1199,
-      "quantityOfFilesWithOpenMP": 11
-    },
-    {
       "url": "https://github.com/khavernathy/mcmd"
     },
     {
@@ -323,11 +314,6 @@
     },
     {
       "url": "https://github.com/roshanpoudyal/Fluid-Simulation-and-Physics-Based-Animation"
-    },
-    {
-      "url": "https://github.com/KATRIN-Experiment/Kassiopeia",
-      "quantityOfFiles": 2927,
-      "quantityOfFilesWithOpenMP": 0
     },
     {
       "url": "https://github.com/louis-langholtz/Box2D"

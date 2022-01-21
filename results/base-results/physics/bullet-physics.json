@@ -62,13 +62,6 @@
       "quantityOfFilesWithOpenMP": 0
     },
     {
-      "url": "https://github.com/sdslabs/Rootex",
-      "#pragma omp parallel": 3,
-      "#pragma omp parallel for": 3,
-      "quantityOfFiles": 3853,
-      "quantityOfFilesWithOpenMP": 2
-    },
-    {
       "url": "https://github.com/NickHardeman/ofxBullet",
       "quantityOfFiles": 792,
       "quantityOfFilesWithOpenMP": 0

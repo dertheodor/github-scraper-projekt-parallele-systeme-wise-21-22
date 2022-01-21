@@ -518,19 +518,6 @@
       "quantityOfFilesWithOpenMP": 2
     },
     {
-      "url": "https://github.com/psi4/psi4",
-      "#pragma omp parallel": 1103,
-      "#pragma omp single ": 1,
-      "#pragma omp for ": 63,
-      "#pragma omp simd ": 10,
-      "#pragma omp parallel for": 1035,
-      "#pragma omp parallel for simd": 4,
-      "#pragma omp critical": 21,
-      "#pragma omp atomic": 46,
-      "quantityOfFiles": 1521,
-      "quantityOfFilesWithOpenMP": 91
-    },
-    {
       "url": "https://github.com/gszauer/GamePhysicsCookbook"
     },
     {
