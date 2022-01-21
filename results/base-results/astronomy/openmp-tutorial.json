@@ -1,0 +1,98 @@
+{
+  "c": [
+    {
+      "url": "https://github.com/UoB-HPC/openmp-tutorial",
+      "#pragma omp parallel": 14,
+      "#pragma omp teams": 13,
+      "#pragma omp single ": 3,
+      "#pragma omp for ": 4,
+      "#pragma omp distribute": 2,
+      "#pragma omp target enter data": 5,
+      "#pragma omp target exit data": 5,
+      "#pragma omp target": 28,
+      "#pragma omp parallel for": 10,
+      "#pragma omp teams distribute": 11,
+      "#pragma omp teams distribute parallel for": 11,
+      "#pragma omp teams distribute parallel for simd": 11,
+      "#pragma omp target teams": 1,
+      "#pragma omp target teams distribute": 1,
+      "#pragma omp target teams distribute parallel for": 1,
+      "#pragma omp target teams distribute parallel for simd": 1,
+      "#pragma omp critical": 1,
+      "quantityOfFiles": 28,
+      "quantityOfFilesWithOpenMP": 19
+    },
+    {
+      "url": "https://github.com/tgmattso/OpenMP_intro_tutorial",
+      "#pragma omp parallel": 12,
+      "#pragma omp sections": 1,
+      "#pragma omp single ": 5,
+      "#pragma omp for ": 3,
+      "#pragma omp task": 1,
+      "#pragma omp parallel for": 4,
+      "#pragma omp master": 3,
+      "#pragma omp critical": 1,
+      "#pragma omp barrier": 1,
+      "#pragma omp atomic": 1,
+      "#pragma omp flush": 5,
+      "#pragma omp threadprivate": 1,
+      "quantityOfFiles": 25,
+      "quantityOfFilesWithOpenMP": 13
+    },
+    {
+      "url": "https://github.com/ilyak/openmp-tutorial",
+      "#pragma omp parallel": 15,
+      "#pragma omp parallel for": 5,
+      "#pragma omp parallel sections": 1,
+      "#pragma omp critical": 1,
+      "#pragma omp barrier": 1,
+      "#pragma omp ordered": 1,
+      "quantityOfFiles": 18,
+      "quantityOfFilesWithOpenMP": 14
+    },
+    {
+      "url": "https://github.com/ysh329/OpenMP-101",
+      "#pragma omp parallel": 24,
+      "#pragma omp sections": 1,
+      "#pragma omp single ": 5,
+      "#pragma omp for ": 3,
+      "#pragma omp task": 1,
+      "#pragma omp parallel for": 16,
+      "#pragma omp master": 3,
+      "#pragma omp critical": 2,
+      "#pragma omp barrier": 1,
+      "#pragma omp atomic": 1,
+      "#pragma omp flush": 5,
+      "#pragma omp threadprivate": 1,
+      "quantityOfFiles": 31,
+      "quantityOfFilesWithOpenMP": 19
+    },
+    {
+      "url": "https://github.com/IBM/openacc-openmp-tutorial",
+      "quantityOfFiles": 12,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/tgmattso/OpenMP_Exercises",
+      "#pragma omp parallel": 19,
+      "#pragma omp sections": 1,
+      "#pragma omp single ": 13,
+      "#pragma omp for ": 8,
+      "#pragma omp task": 16,
+      "#pragma omp parallel for": 5,
+      "#pragma omp master": 4,
+      "#pragma omp critical": 1,
+      "#pragma omp barrier": 1,
+      "#pragma omp atomic": 13,
+      "#pragma omp flush": 5,
+      "#pragma omp threadprivate": 1,
+      "quantityOfFiles": 79,
+      "quantityOfFilesWithOpenMP": 21
+    },
+    {
+      "quantityOfRepositories": 6,
+      "quantityOfRelevantRepositories": 6,
+      "quantityOfRelevantRepositoriesWithOpenMP": 5
+    }
+  ]
+}
