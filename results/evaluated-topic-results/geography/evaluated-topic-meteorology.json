@@ -1,0 +1,9 @@
+{
+  "quantityOfFiles": 11298,
+  "quantityOfFilesWithOpenMP": 1,
+  "quantityOfRepositories": 32,
+  "quantityOfRelevantRepositories": 3,
+  "quantityOfRelevantRepositoriesWithOpenMP": 1,
+  "parallel": 6,
+  "parallel do": 6
+}

@@ -23,13 +23,14 @@ const codeScraper = {
 
         try {
             // Navigate to the selected page
-            await page.goto(url, {timeout:0, waitUntil: 'domcontentloaded'});
+            await page.goto(url, {timeout: 0, waitUntil: 'domcontentloaded'});
         } catch (error) {
             // write error to logs folder
             errorLogger(error, url);
             return data;
         }
 
+        // variable containing all the pages code
         let fileCode = await page.evaluate(() => {
             let element = document.querySelector('.blob-code-content .highlight.tab-size > tbody');
             return element ? element.innerText.replaceAll('\n', '').replaceAll('\t', '') : null;

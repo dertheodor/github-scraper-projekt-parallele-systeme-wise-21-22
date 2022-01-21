@@ -44,14 +44,16 @@ const repositoryScraper = {
         // do actual scraping if repository fulfills requirements
         if (await checkIfRepositoryIsRelevant() === true) {
 
+            // get directories and files containing the allowed file extensions
             await filterRepoURLs();
 
+            // start recursively opening directories
             if (relevantDirectoryURLs[0]) {
                 // go level deeper and open next directory
                 await scrapeRepositorySubPage();
             }
 
-            // call codeScraper
+            // call codeScraper when only files are left
             await callCodeScraper();
 
             // beautify directives
@@ -74,7 +76,7 @@ const repositoryScraper = {
             await page.waitForTimeout(config.antiAbuseDetectionTimeout);
 
             // Navigate to the selected page
-            await page.goto(url, {timeout:0, waitUntil: 'domcontentloaded'});
+            await page.goto(url, {timeout: 0, waitUntil: 'domcontentloaded'});
             console.log(`Navigating to ${url}...`);
 
             // Wait for the required DOM to be rendered
@@ -130,7 +132,6 @@ const repositoryScraper = {
                 repositoryLatestCommitDate >= config.repositoryLatestCommitDate &&
                 repositoryCommitsCount >= config.repositoryCommitsCount &&
                 repositoryContributorsCount >= config.repositoryContributorsCount) {
-                // TODO add relevance related infos to data[]
                 return true
             }
             return false;
@@ -249,8 +250,7 @@ const repositoryScraper = {
         }
 
         /**
-         *Check the Used File Language to count the Directives for that Language
-         *
+         * Check the used file language to count the directives for that language.
          * @returns {Promise<void>}
          */
         async function buildBeautifiedData() {
@@ -269,8 +269,7 @@ const repositoryScraper = {
 
 
         /**
-         * Count the used Compiler Directives from different files in a Repository together
-         *
+         * Count the used compiler directives from different files in a repository together.
          * @param languageDirectivesArray
          * @returns {Promise<void>}
          */
@@ -281,10 +280,10 @@ const repositoryScraper = {
                 for (let j = 0; j < Object.keys(fileData).length; j++) {
                     if (fileData[`file-${j}`][languageDirectivesArray[i]]) {
                         // number has not been initialized yet
-                        if (typeof data[languageDirectivesArray[i].source.replace('\\','')] === 'undefined') {
-                            data[languageDirectivesArray[i].source.replace('\\','')] = 0;
+                        if (typeof data[languageDirectivesArray[i].source.replace('\\', '')] === 'undefined') {
+                            data[languageDirectivesArray[i].source.replace('\\', '')] = 0;
                         }
-                        data[languageDirectivesArray[i].source.replace('\\','')] += fileData[`file-${j}`][languageDirectivesArray[i]]
+                        data[languageDirectivesArray[i].source.replace('\\', '')] += fileData[`file-${j}`][languageDirectivesArray[i]]
                     }
                 }
             }
@@ -296,9 +295,10 @@ const repositoryScraper = {
         // memorize overall count of files per repository containing OpenMP directives
         data['quantityOfFilesWithOpenMP'] = 0;
 
+        // count files containing OpenMP code
         for (let i = 0; i < Object.keys(fileData).length; i++) {
             if (Object.keys(fileData[`file-${i}`]).length >= 1) {
-                data['quantityOfFilesWithOpenMP'] ++;
+                data['quantityOfFilesWithOpenMP']++;
             }
         }
 

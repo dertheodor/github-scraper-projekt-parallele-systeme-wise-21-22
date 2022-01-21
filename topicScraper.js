@@ -13,7 +13,7 @@ const scraperObject = {
     async scrapeTopics(browser, url) {
 
         // data which will be passed back to pageController
-        let data =[];
+        let data = [];
 
         // new tab which opens
         let page = await browser.newPage();
@@ -24,7 +24,7 @@ const scraperObject = {
 
         try {
             // Navigate to the selected page
-            await page.goto(url, {timeout:0, waitUntil: 'domcontentloaded'});
+            await page.goto(url, {timeout: 0, waitUntil: 'domcontentloaded'});
         } catch (error) {
             // write error to logs folder
             errorLogger(error, url);
@@ -63,7 +63,6 @@ const scraperObject = {
 
         // loop over all found repositories
         for (let i = 0; i < repositoryList.length; i++) {
-            // TODO maybe use repo-1, repo-2 ... instead of hrefs for key name
             data.push(await repositoryScraper.scrapeRepository(browser, repositoryList[i]));
         }
 
@@ -95,13 +94,13 @@ const scraperObject = {
 
         for (let i = 0; i < data.length; i++) {
             if (Object.keys(data[i]).length >= 3) {
-                metrics['quantityOfRelevantRepositories'] ++;
+                metrics['quantityOfRelevantRepositories']++;
             }
         }
 
         for (let i = 0; i < data.length; i++) {
             if (Object.keys(data[i]).length >= 4) {
-                metrics['quantityOfRelevantRepositoriesWithOpenMP'] ++;
+                metrics['quantityOfRelevantRepositoriesWithOpenMP']++;
             }
         }
 

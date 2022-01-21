@@ -1,56 +1,64 @@
-/*
-// 1. Zusammenrechnen für jede Topic pro Sprache(Fortran, C, C++):
- // Beispiel für C mit einem Objekt im Array wo alles drin steht (keine Ahnung was besser ist)
-{
-  "c": [
-    {
-      "#pragma omp parallel": X,
-      "#pragma omp for ": X,
-      "#pragma omp parallel for": X,
-      "quantityOfFiles": X,
-      "quantityOfFilesWithOpenMP": X
-      "quantityOfRepositories": X,
-      "quantityOfRelevantRepositories": X,
-      "quantityOfRelevantRepositoriesWithOpenMP": X
-    }
-  ]
-}
 
-//2. Zusammenrechnen für jede Wissenschaft(besteht aus mehreren Topics) pro Sprache
-// Dateiname z.B.: chemistryLanguageAggregation.json
-// Gleicher Inhalt wie oben, auch aufgeteilt auf die drei Sprachen
-
-
-//3. Zusammenrechnen für jede Wissenschaft
-// Dateiname z.B.: chemistryAggregation.json
-// Gleicher Inhalt wie oben, nun aber nicht mehr aufgeteilt auf Sprachen, sondern über alle Sprachen hinweg zusammengerechnet
- */
+//const resultsPath = 'C:\\Users\\theod\\IdeaProjects\\wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen\\results'
+const resultsPath = '/Users/janisru/intellij-workspace/wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen/results'
 
 const fs = require('fs')
 const openMPDirectives = require('../variables/openMPDirectives');
+const shell = require('shelljs');
 
 /**
+ * Initializes the evaluating of all topics.
+ */
+function evaluateResults() {
+
+    //var baseResults = shell.ls(resultsPath + '\\base-results');
+    var baseResults = shell.ls(resultsPath + '/base-results');
+
+    // Iterate over each Science in the base-results directory
+    for (let i = 0; i < baseResults.length; i++) {
+        if (typeof baseResults[i] === "string") {
+            // CHANGE THEO: var topics = shell.ls(`${resultsPath}\\base-results\\${baseResults[i]}`);
+            var topics = shell.ls(`${resultsPath}/base-results/${baseResults[i]}`);
+
+            // Iterate over each topic in the sciences directories of base-results directory
+            for (let j =0; j < topics.length; j++) {
+                if (typeof topics[j] === "string") {
+                    evaluateTopic(baseResults[i], topics[j]);
+                }
+            }
+        }
+    }
+}
+
+/**
+ *Evaluate each topic and saving each topic to a new evaluated-topic json file.
  *
- * @param science
- * @param jsonFileName
+ * @param science the science, which the topic belongs to
+ * @param jsonFileName the name of the topic
  */
 function evaluateTopic(science, jsonFileName) {
+
+    //initialize the object in which the details are saved in
     var evaluatedTopic = {};
-    var jsonContent = require(`../results/base-results/${science}/${jsonFileName}.json`);
+    // get the web scraper output for that topic (base-result)
+    var jsonContent = require(`../results/base-results/${science}/${jsonFileName}`);
+    // the three languages for openMP directives
     var languages = ["fortran", "c", "c++"]
 
 
-    // Count files and Repositories
+    // initializes the files and repositories entries for the counting
     var quantityOfFiles = 0;
     var quantityOfFilesWithOpenMP = 0;
     var quantityOfRepositories = 0;
     var quantityOfRelevantRepositories = 0;
     var quantityOfRelevantRepositoriesWithOpenMP = 0;
 
+    //count the quantityOfFiles, quantityOfFilesWithOpenMP, quantityOfRepositories, quantityOfRelevantRepositories,
+    //quantityOfRelevantRepositoriesWithOpenMP
     for (let i = 0; i < languages.length; i++) {
         for (let j = 0; j < jsonContent[languages[i]].length; j++) {
             // quantityOfFiles and quantityOfFilesWithOpenMP
-            if (jsonContent[languages[i]][j]["quantityOfFilesWithOpenMP"]) {
+            if (jsonContent[languages[i]][j]["quantityOfFiles"]) {
                 quantityOfFiles += jsonContent[languages[i]][j]["quantityOfFiles"];
                 quantityOfFilesWithOpenMP += jsonContent[languages[i]][j]["quantityOfFilesWithOpenMP"];
             }
@@ -64,22 +72,23 @@ function evaluateTopic(science, jsonFileName) {
         }
     }
 
+    // Set the key+values in the object
     evaluatedTopic['quantityOfFiles'] = quantityOfFiles;
     evaluatedTopic['quantityOfFilesWithOpenMP'] = quantityOfFilesWithOpenMP;
     evaluatedTopic['quantityOfRepositories'] = quantityOfRepositories;
     evaluatedTopic['quantityOfRelevantRepositories'] = quantityOfRelevantRepositories;
     evaluatedTopic['quantityOfRelevantRepositoriesWithOpenMP'] = quantityOfRelevantRepositoriesWithOpenMP;
 
-    // Count Directives
+    // Get the Directives-Arrays
     var openMPDirectivesAll = openMPDirectives.openMPDirectivesAll;
     var openMPDirectivesC = openMPDirectives.openMPDirectivesCString;
     var openMPDirectivesFortran = openMPDirectives.openMPDirectivesFortranString;
 
+    // Count the C/C++ and Fortran Directives
     for (let h = 0; h < openMPDirectivesAll.length; h++) {
         for (let i = 0; i < languages.length; i++) {
             for (let j = 0; j < jsonContent[languages[i]].length; j++) {
                 // Check Directives Fortran
-                // Zusätzliche if abfrage für sprache
                 if (languages[i] === 'fortran') {
                     if (jsonContent[languages[i]][j][openMPDirectivesFortran[h]]) {
                         if (typeof evaluatedTopic[openMPDirectivesAll[h]] === 'undefined') {
@@ -89,7 +98,6 @@ function evaluateTopic(science, jsonFileName) {
                     }
                 }
                 // Check Directives C/C++
-                // Object.keys(jsonContent[languages[i]][j]).includes(openMPDirectivesAll[h])-> Regex in klammern
                 if (languages[i] === 'c' ||  languages[i] === 'c++') {
                     if (jsonContent[languages[i]][j][openMPDirectivesC[h]]) {
                         if (typeof evaluatedTopic[openMPDirectivesAll[h]] === 'undefined') {
@@ -97,22 +105,20 @@ function evaluateTopic(science, jsonFileName) {
                         }
                         evaluatedTopic[openMPDirectivesAll[h]] += jsonContent[languages[i]][j][openMPDirectivesC[h]];
                     }
-                }   
-                 
+                }
+
             }
         }
     }
-    
 
-    // write evaluated contents to new json
-    fs.writeFile(`./results/evaluated-topic-results/${science}/evaluated${jsonFileName}.json`, JSON.stringify(evaluatedTopic), 'utf8', function (err) {
+    // write evaluated topic contents to new json file
+    fs.writeFile(`./results/evaluated-topic-results/${science}/evaluated-topic-${jsonFileName}`, JSON.stringify(evaluatedTopic), 'utf8', function (err) {
         if (err) {
             return console.log(err);
         }
-        console.log(`The data has been successfully evaluated.`);
+        console.log(`The topics has been successfully evaluated.`);
     });
 }
 
-
-evaluateTopic('chemistry', 'chemistry');
-
+// call the evaluation method
+evaluateResults();

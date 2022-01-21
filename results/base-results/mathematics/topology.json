@@ -1,0 +1,137 @@
+{
+  "fortran": [],
+  "c": [
+    {
+      "url": "https://github.com/open-mpi/hwloc",
+      "quantityOfFiles": 235,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/kshitizsaini113/L2-Emulator"
+    },
+    {
+      "url": "https://github.com/basant-kumar/Computer_Networks_Lab"
+    },
+    {
+      "url": "https://github.com/NewAlexandria/knotscap"
+    },
+    {
+      "url": "https://github.com/rams-research/fastcliques"
+    },
+    {
+      "url": "https://github.com/alhazred/freebsd-fma"
+    },
+    {
+      "url": "https://github.com/Sobika2531/Computer-Networks-Laboratory"
+    },
+    {
+      "quantityOfRepositories": 7,
+      "quantityOfRelevantRepositories": 1,
+      "quantityOfRelevantRepositoriesWithOpenMP": 0
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/DGtal-team/DGtal",
+      "#pragma omp parallel": 6,
+      "#pragma omp parallel for": 1,
+      "quantityOfFiles": 189,
+      "quantityOfFilesWithOpenMP": 3
+    },
+    {
+      "url": "https://github.com/scikit-tda/ripser.py",
+      "quantityOfFiles": 2,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/GUDHI/gudhi-devel",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/owenliang/task_schedule"
+    },
+    {
+      "url": "https://github.com/lambdahuang/FlashRoute"
+    },
+    {
+      "url": "https://github.com/danzeng8/TopoSimplifier"
+    },
+    {
+      "url": "https://github.com/giotto-ai/giotto-ph",
+      "quantityOfFiles": 8,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/ctlee/casc"
+    },
+    {
+      "url": "https://github.com/peekxc/simplextree"
+    },
+    {
+      "url": "https://github.com/xubenhao/Algorithm"
+    },
+    {
+      "url": "https://github.com/phcerdan/SGEXT"
+    },
+    {
+      "url": "https://github.com/Mathesis-Software/Knots"
+    },
+    {
+      "url": "https://github.com/telematik-tu-ilmenau/TopoGen"
+    },
+    {
+      "url": "https://github.com/Satyavart/Campus_Network_Model"
+    },
+    {
+      "url": "https://github.com/ZiroKyl/LLTR-Simulation-Model"
+    },
+    {
+      "url": "https://github.com/arirepo/parcurved3D"
+    },
+    {
+      "url": "https://github.com/rrrlw/ripserr"
+    },
+    {
+      "url": "https://github.com/lorinanthony/Tropix"
+    },
+    {
+      "url": "https://github.com/sndtkrh/surikagaku"
+    },
+    {
+      "url": "https://github.com/zhewang/SMURPH"
+    },
+    {
+      "url": "https://github.com/Org-Placeholder/Bus-Topology-Sim"
+    },
+    {
+      "url": "https://github.com/GarrettVance/HipHopf"
+    },
+    {
+      "url": "https://github.com/ElsevierSoftwareX/SOFTX-D-21-00026"
+    },
+    {
+      "url": "https://github.com/khabbazian/looplets"
+    },
+    {
+      "url": "https://github.com/pretodev/grid-environment"
+    },
+    {
+      "url": "https://github.com/rvcgeeks/MNIST_neural_net"
+    },
+    {
+      "url": "https://github.com/alpn/ddg-ex"
+    },
+    {
+      "url": "https://github.com/marcomanno/mm_mesh_experiments"
+    },
+    {
+      "url": "https://github.com/RakSrinaNa/DI4---Topology"
+    },
+    {
+      "quantityOfRepositories": 29,
+      "quantityOfRelevantRepositories": 4,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ]
+}

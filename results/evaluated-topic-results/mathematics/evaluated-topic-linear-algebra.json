@@ -1,0 +1,23 @@
+{
+  "quantityOfFiles": 23128,
+  "quantityOfFilesWithOpenMP": 222,
+  "quantityOfRepositories": 394,
+  "quantityOfRelevantRepositories": 34,
+  "quantityOfRelevantRepositoriesWithOpenMP": 21,
+  "parallel": 750,
+  "single ": 121,
+  "do": 36,
+  "simd": 7,
+  "task": 361,
+  "taskloop": 40,
+  "taskyield": 1,
+  "parallel do": 494,
+  "parallel sections": 2,
+  "master": 27,
+  "critical": 27,
+  "barrier": 84,
+  "taskgroup": 9,
+  "atomic": 49,
+  "flush": 1,
+  "declare reduction": 8
+}

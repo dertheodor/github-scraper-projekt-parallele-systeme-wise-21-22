@@ -21,17 +21,17 @@ async function scrapeAll(browserInstance) {
         // call the scraper for the URLs
         for (let i = 0; i < toBeScrapedTopicURLs.length; i++) {
             // regex for getting the topic of the URL
-            let category = toBeScrapedTopicURLs[i].match(/\/topics\/(.*)/)[1];
+            let topic = toBeScrapedTopicURLs[i].match(/\/topics\/(.*)/)[1];
 
             // scraper call for all three programming languages
             scrapedData['fortran'] = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=fortran`);
-            await saveFile(scrapedData, category);
+            await saveFile(scrapedData, topic);
 
             scrapedData['c'] = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=c`);
-            await saveFile(scrapedData, category);
+            await saveFile(scrapedData, topic);
 
             scrapedData['c++'] = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=c%2B%2B`);
-            await saveFile(scrapedData, category);
+            await saveFile(scrapedData, topic);
 
             scrapedData = {};
         }
@@ -39,15 +39,15 @@ async function scrapeAll(browserInstance) {
         /**
          * Saves each category to a JSON file with the category as its name.
          * @param data
-         * @param category
+         * @param topic
          */
-        function saveFile(data, category) {
+        function saveFile(data, topic) {
             // write scraped content to JSON file
-            fs.writeFile(`./results/${category}.json`, JSON.stringify(data), 'utf8', function (err) {
+            fs.writeFile(`./results/base-results/${topic}.json`, JSON.stringify(data), 'utf8', function (err) {
                 if (err) {
                     return console.log(err);
                 }
-                console.log(`The data has been scraped and saved successfully! View it at './${category}.json`);
+                console.log(`The data has been scraped and saved successfully! View it at './${topic}.json`);
             });
         }
 
