@@ -1,6 +1,7 @@
 const config = require('./config');
 const topicScraper = require('./topicScraper');
 const fs = require('fs');
+const { performance } = require('perf_hooks');
 
 /**
  * Top most level logic of scraper.
@@ -12,14 +13,18 @@ async function scrapeAll(browserInstance) {
     let browser;
     try {
         browser = await browserInstance;
-        // the scrapedData object will be parsed to a JSON file
-        let scrapedData = {};
 
         // these category URLs will be scraped (respectively for ?l params of fortran, c and  c++)
         let toBeScrapedTopicURLs = config.toBeScrapedTopicURLs;
 
         // call the scraper for the URLs
         for (let i = 0; i < toBeScrapedTopicURLs.length; i++) {
+            // the scrapedData object will be parsed to a JSON file
+            let scrapedData = {};
+
+            // startTime for calculating how long the scraper took for the topic
+            var startTime = performance.now();
+
             // regex for getting the topic of the URL
             let topic = toBeScrapedTopicURLs[i].match(/\/topics\/(.*)/)[1];
 
@@ -31,9 +36,10 @@ async function scrapeAll(browserInstance) {
             await saveFile(scrapedData, topic);
 
             scrapedData['c++'] = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=c%2B%2B`);
+            // endTime after last language
+            var endTime = performance.now()
+            scrapedData['timeElapsedSeconds'] = (endTime - startTime) / 1000;
             await saveFile(scrapedData, topic);
-
-            scrapedData = {};
         }
 
         /**
