@@ -1,0 +1,472 @@
+{
+  "fortran": [
+    {
+      "url": "https://github.com/nwchemgit/nwchem",
+      "!$omp parallel": 91,
+      "!$omp teams": 32,
+      "!$omp sections": 4,
+      "!$omp single ": 65,
+      "!$omp do": 632,
+      "!$omp simd": 24,
+      "!$omp task": 5,
+      "!$omp target data": 5,
+      "!$omp target enter data": 3,
+      "!$omp target exit data": 3,
+      "!$omp target": 45,
+      "!$omp parallel do": 64,
+      "!$omp target teams": 2,
+      "!$omp target teams distribute": 1,
+      "!$omp target teams distribute parallel do": 1,
+      "!$omp master": 603,
+      "!$omp critical": 78,
+      "!$omp barrier": 487,
+      "quantityOfFiles": 15611,
+      "quantityOfFilesWithOpenMP": 158
+    },
+    {
+      "url": "https://github.com/hande-qmc/hande",
+      "!$omp parallel": 12,
+      "!$omp do": 5,
+      "!$omp parallel do": 8,
+      "!$omp master": 2,
+      "!$omp critical": 3,
+      "!$omp barrier": 1,
+      "quantityOfFiles": 213,
+      "quantityOfFilesWithOpenMP": 9
+    },
+    {
+      "url": "https://github.com/LCPQ/quantum_package",
+      "quantityOfFiles": 0,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/QuantumPackage/qp2",
+      "!$omp parallel": 119,
+      "!$omp single ": 5,
+      "!$omp do": 62,
+      "!$omp task": 10,
+      "!$omp parallel do": 55,
+      "!$omp master": 4,
+      "!$omp critical": 32,
+      "!$omp barrier": 8,
+      "!$omp atomic": 6,
+      "quantityOfFiles": 333,
+      "quantityOfFilesWithOpenMP": 62
+    },
+    {
+      "url": "https://github.com/uclchem/UCLCHEM"
+    },
+    {
+      "url": "https://github.com/hokru/xopt"
+    },
+    {
+      "url": "https://github.com/qcscine/nevpt2"
+    },
+    {
+      "url": "https://github.com/mariotti/freemol"
+    },
+    {
+      "url": "https://github.com/abelcarreras/symgroup"
+    },
+    {
+      "url": "https://github.com/lmmentel/vconstr"
+    },
+    {
+      "url": "https://github.com/MJLMills/fepcat"
+    },
+    {
+      "url": "https://github.com/jepegit/dualf"
+    },
+    {
+      "url": "https://github.com/aslozada/kanon"
+    },
+    {
+      "url": "https://github.com/razvan3u/msvaf"
+    },
+    {
+      "url": "https://github.com/ninjab3381/WagonerBBNCode"
+    },
+    {
+      "quantityOfRepositories": 15,
+      "quantityOfRelevantRepositories": 4,
+      "quantityOfRelevantRepositoriesWithOpenMP": 3
+    }
+  ],
+  "c": [
+    {
+      "url": "https://github.com/Chelsea486MHz/senpai",
+      "quantityOfFiles": 21,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/lightdock/lightdock",
+      "quantityOfFiles": 41,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/merzlab/QUICK",
+      "quantityOfFiles": 1201,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/mpmccode/mpmc",
+      "quantityOfFiles": 85,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/Electrostatics/apbs",
+      "#pragma omp parallel": 21,
+      "#pragma omp parallel for": 21,
+      "#pragma omp atomic": 1,
+      "quantityOfFiles": 393,
+      "quantityOfFilesWithOpenMP": 8
+    },
+    {
+      "url": "https://github.com/djbarrow/fundamental"
+    },
+    {
+      "url": "https://github.com/CaGe-graph/CaGe"
+    },
+    {
+      "url": "https://github.com/FriendsofECCE/ECCE"
+    },
+    {
+      "url": "https://github.com/domdfcoding/pynist"
+    },
+    {
+      "url": "https://github.com/metgem/libmetgem"
+    },
+    {
+      "url": "https://github.com/ohlincha/ECCE"
+    },
+    {
+      "url": "https://github.com/srebughini/ASALI-KILA"
+    },
+    {
+      "url": "https://github.com/Undigon/thermodynamic-solubility"
+    },
+    {
+      "url": "https://github.com/scemama/slaterlib"
+    },
+    {
+      "url": "https://github.com/seatonullberg/chemfiles-cli"
+    },
+    {
+      "url": "https://github.com/ReactionMap/main_canost"
+    },
+    {
+      "url": "https://github.com/boryszef/mdarray"
+    },
+    {
+      "url": "https://github.com/bbongcaron/rxnbalancer"
+    },
+    {
+      "url": "https://github.com/frodofine/iupac_formats"
+    },
+    {
+      "url": "https://github.com/ThatPerson/MOLEC"
+    },
+    {
+      "url": "https://github.com/xomachine/gabedit"
+    },
+    {
+      "url": "https://github.com/federicomor/writing-with-chemistry"
+    },
+    {
+      "quantityOfRepositories": 22,
+      "quantityOfRelevantRepositories": 5,
+      "quantityOfRelevantRepositoriesWithOpenMP": 1
+    }
+  ],
+  "c++": [
+    {
+      "url": "https://github.com/psi4/psi4",
+      "quantityOfFiles": 27,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/openbabel/openbabel",
+      "#pragma omp parallel": 7,
+      "#pragma omp parallel for": 7,
+      "quantityOfFiles": 622,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/ITensor/ITensor",
+      "#pragma omp parallel": 2,
+      "#pragma omp for ": 1,
+      "#pragma omp parallel for": 1,
+      "quantityOfFiles": 241,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/OpenChemistry/avogadrolibs",
+      "quantityOfFiles": 678,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/epam/Indigo",
+      "#pragma omp parallel": 3,
+      "#pragma omp for ": 1,
+      "#pragma omp parallel for": 2,
+      "#pragma omp critical": 1,
+      "#pragma omp barrier": 1,
+      "quantityOfFiles": 1649,
+      "quantityOfFilesWithOpenMP": 1
+    },
+    {
+      "url": "https://github.com/chemfiles/chemfiles",
+      "quantityOfFiles": 458,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/OpenChemistry/avogadroapp",
+      "quantityOfFiles": 18,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/khavernathy/mcmd"
+    },
+    {
+      "url": "https://github.com/schrodinger/gpusimilarity",
+      "quantityOfFiles": 11,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/mlund/faunus",
+      "#pragma omp parallel": 10,
+      "#pragma omp for ": 1,
+      "#pragma omp declare simd": 1,
+      "#pragma omp parallel for": 7,
+      "#pragma omp critical": 3,
+      "quantityOfFiles": 90,
+      "quantityOfFilesWithOpenMP": 3
+    },
+    {
+      "url": "https://github.com/Avogadro/avogadro"
+    },
+    {
+      "url": "https://github.com/mnucci32/aither"
+    },
+    {
+      "url": "https://github.com/chopralab/lemon",
+      "quantityOfFiles": 61,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/qcscine/sparrow"
+    },
+    {
+      "url": "https://github.com/evangelistalab/forte",
+      "#pragma omp parallel": 82,
+      "#pragma omp parallel for": 58,
+      "#pragma omp critical": 39,
+      "#pragma omp barrier": 1,
+      "#pragma omp atomic": 44,
+      "quantityOfFiles": 288,
+      "quantityOfFilesWithOpenMP": 18
+    },
+    {
+      "url": "https://github.com/blttkgl/DLBFoam-1.0"
+    },
+    {
+      "url": "https://github.com/JoshuaSBrown/QC_Tools",
+      "quantityOfFiles": 71,
+      "quantityOfFilesWithOpenMP": 0
+    },
+    {
+      "url": "https://github.com/MRChemSoft/mrchem",
+      "#pragma omp parallel": 6,
+      "#pragma omp for ": 1,
+      "#pragma omp parallel for": 5,
+      "#pragma omp critical": 2,
+      "#pragma omp atomic": 3,
+      "#pragma omp flush": 1,
+      "quantityOfFiles": 211,
+      "quantityOfFilesWithOpenMP": 2
+    },
+    {
+      "url": "https://github.com/libantioch/antioch"
+    },
+    {
+      "url": "https://github.com/bryanherger/xdrawchem"
+    },
+    {
+      "url": "https://github.com/VespucciProject/Vespucci"
+    },
+    {
+      "url": "https://github.com/qcscine/qcmaquis"
+    },
+    {
+      "url": "https://github.com/qcscine/molassembler"
+    },
+    {
+      "url": "https://github.com/qcserenity/serenity"
+    },
+    {
+      "url": "https://github.com/justinmeiners/molecule-viewer"
+    },
+    {
+      "url": "https://github.com/lich-uct/molpher-lib"
+    },
+    {
+      "url": "https://github.com/RMeli/irc"
+    },
+    {
+      "url": "https://github.com/molovol/MoloVol"
+    },
+    {
+      "url": "https://github.com/gayverjr/opencap"
+    },
+    {
+      "url": "https://github.com/qcscine/readuct"
+    },
+    {
+      "url": "https://github.com/xuguodong1999/COCR"
+    },
+    {
+      "url": "https://github.com/semodi/libnxc"
+    },
+    {
+      "url": "https://github.com/mlund/coulombgalore"
+    },
+    {
+      "url": "https://github.com/RasmusRendal/crnsimul"
+    },
+    {
+      "url": "https://github.com/sbednarz/chemical-kinetics-simulator"
+    },
+    {
+      "url": "https://github.com/sevenTMers/celfies"
+    },
+    {
+      "url": "https://github.com/qcscine/core"
+    },
+    {
+      "url": "https://github.com/stigrs/chemapps"
+    },
+    {
+      "url": "https://github.com/conradhuebler/SupraFit"
+    },
+    {
+      "url": "https://github.com/nicocvn/emDNA"
+    },
+    {
+      "url": "https://github.com/qcscine/swoose"
+    },
+    {
+      "url": "https://github.com/DrGrafil/NISTConst"
+    },
+    {
+      "url": "https://github.com/xuguodong1999/ChemInk"
+    },
+    {
+      "url": "https://github.com/crdrisko/drychem"
+    },
+    {
+      "url": "https://github.com/Iarfen/MagickScience"
+    },
+    {
+      "url": "https://github.com/a-stickan/Chemical-Equation-Autobalancer"
+    },
+    {
+      "url": "https://github.com/ludlows/BALL"
+    },
+    {
+      "url": "https://github.com/massimofrassetto/SpeAr"
+    },
+    {
+      "url": "https://github.com/prs-group/make_projections"
+    },
+    {
+      "url": "https://github.com/diveshuttam/VSEPR-Models"
+    },
+    {
+      "url": "https://github.com/ekuester/GTK-Periodic-Table-Molecular-Formula"
+    },
+    {
+      "url": "https://github.com/NonOrganicCreature/chem"
+    },
+    {
+      "url": "https://github.com/shrey27tri01/Chemistry-dictionary"
+    },
+    {
+      "url": "https://github.com/TheOdd/Chemistry"
+    },
+    {
+      "url": "https://github.com/darnoceloc/jdftx"
+    },
+    {
+      "url": "https://github.com/AdityaMitra5102/Titrator"
+    },
+    {
+      "url": "https://github.com/bharatmazire/EducationalApplication"
+    },
+    {
+      "url": "https://github.com/qcscine/xtb_wrapper"
+    },
+    {
+      "url": "https://github.com/AlexB67/QMolview"
+    },
+    {
+      "url": "https://github.com/estineali/Elementary"
+    },
+    {
+      "url": "https://github.com/lnw/nano-tori"
+    },
+    {
+      "url": "https://github.com/CrimsonHemlock/Simple-Visual-Molecular-Dynamics"
+    },
+    {
+      "url": "https://github.com/Zahner-elektrik/Thales-Remote-Cpp"
+    },
+    {
+      "url": "https://github.com/UkrRobot/Lazer"
+    },
+    {
+      "url": "https://github.com/dleidert/gnome-chemistry-utils.import"
+    },
+    {
+      "url": "https://github.com/dualword/dualword-chem"
+    },
+    {
+      "url": "https://github.com/stigrs/lctoxy"
+    },
+    {
+      "url": "https://github.com/tackyunicorn/PeriodicTable"
+    },
+    {
+      "url": "https://github.com/melimat/Titrator_firmware"
+    },
+    {
+      "url": "https://github.com/dleidert/gnome-chemistry-utils"
+    },
+    {
+      "url": "https://github.com/0x6470/tools"
+    },
+    {
+      "url": "https://github.com/MisterMjir/pTable"
+    },
+    {
+      "url": "https://github.com/davidjtoomer/RetroCHEM"
+    },
+    {
+      "url": "https://github.com/alexzagu/Coloreaction"
+    },
+    {
+      "url": "https://github.com/ekuester/Periodic-Table-Molecular-Formula"
+    },
+    {
+      "url": "https://github.com/qcscine/utilities"
+    },
+    {
+      "url": "https://github.com/2AUK/CQCPP"
+    },
+    {
+      "quantityOfRepositories": 77,
+      "quantityOfRelevantRepositories": 13,
+      "quantityOfRelevantRepositoriesWithOpenMP": 6
+    }
+  ],
+  "timeElapsedSeconds": 54931.438899951005
+}
