@@ -3,6 +3,7 @@ const codeScraper = require('./codeScraper');
 const allowedFileExtensions = require('./variables/allowedFileExtensions');
 const openMPDirectives = require('./variables/openMPDirectives');
 const errorLogger = require("./variables/errorLogger");
+const shell = require("shelljs");
 
 const repositoryScraper = {
     /**
@@ -41,23 +42,13 @@ const repositoryScraper = {
         var relevantDirectoryURLs = [];
         var relevantFileURLs = [];
 
+        // cd into repo
+        shell.cd('C:\\Users\\Theo\\IdeaProjects\\wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen\\git-clones');
+
         // do actual scraping if repository fulfills requirements
         if (await checkIfRepositoryIsRelevant() === true) {
-
-            // get directories and files containing the allowed file extensions
-            await filterRepoURLs();
-
-            // start recursively opening directories
-            if (relevantDirectoryURLs[0]) {
-                // go level deeper and open next directory
-                await scrapeRepositorySubPage();
-            }
-
-            // call codeScraper when only files are left
-            await callCodeScraper();
-
-            // beautify directives
-            await buildBeautifiedData();
+            // clone relevant repo locally
+            shell.exec(`git clone ${url}`)
         }
         // return if checkIfRepositoryIsRelevant is false
         else {
