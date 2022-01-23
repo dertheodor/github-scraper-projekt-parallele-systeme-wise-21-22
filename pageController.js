@@ -29,13 +29,9 @@ async function scrapeAll(browserInstance) {
             let topic = toBeScrapedTopicURLs[i].match(/\/topics\/(.*)/)[1];
 
             // scraper call for all three programming languages
-            scrapedData['fortran'] = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=fortran`);
-            await saveFile(scrapedData, topic);
-
-            scrapedData['c'] = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=c`);
-            await saveFile(scrapedData, topic);
-
-            scrapedData['c++'] = await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=c%2B%2B`);
+            await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=fortran`);
+            await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=c`);
+            await topicScraper.scrapeTopics(browser, `${toBeScrapedTopicURLs[i]}?l=c%2B%2B`);
             // endTime after last language
             var endTime = performance.now()
             scrapedData['timeElapsedSeconds'] = (endTime - startTime) / 1000;
@@ -49,7 +45,7 @@ async function scrapeAll(browserInstance) {
          */
         function saveFile(data, topic) {
             // write scraped content to JSON file
-            fs.writeFile(`./results/base-results/${topic}.json`, JSON.stringify(data), 'utf8', function (err) {
+            fs.writeFile(`../results/base-results/${topic}.json`, JSON.stringify(data), 'utf8', function (err) {
                 if (err) {
                     return console.log(err);
                 }

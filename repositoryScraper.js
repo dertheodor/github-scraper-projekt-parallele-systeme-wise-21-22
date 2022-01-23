@@ -49,6 +49,9 @@ const repositoryScraper = {
         if (await checkIfRepositoryIsRelevant() === true) {
             // clone relevant repo locally
             shell.exec(`git clone ${url}`)
+            // close tab
+            await page.close();
+            return data;
         }
         // return if checkIfRepositoryIsRelevant is false
         else {
