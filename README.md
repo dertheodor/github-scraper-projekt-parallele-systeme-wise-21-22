@@ -41,7 +41,7 @@ The base results will be saved in the repository subfolder "base-results".
 
 ## How-to Evaluate
 
-- Inside of the files in the eval folder, the path used in the beginning of the files needs to be edited, this depends on your username and the system your are using 
+- Inside of every file in the eval folder, the path used in the beginning of the files needs to be edited, this depends on your username and the system your are using 
 
 | command | purpose |
 | ------ | ------ |
