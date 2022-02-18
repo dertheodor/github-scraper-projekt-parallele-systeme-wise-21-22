@@ -5,7 +5,6 @@
   "main": "scraperInitializer.js",
   "scripts": {
     "scrape": "node scraperInitializer.js",
-    "eval": "node eval/evalTest.js",
     "evaltopics": "node eval/evalTopics.js",
     "evalsciences": "node eval/evalSciences.js",
     "evalfinal": "node eval/evalFinal.js"
