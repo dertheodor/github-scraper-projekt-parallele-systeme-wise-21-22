@@ -1,6 +1,6 @@
 
+// CHANGE FILEPATH HERE
 const resultsPath = 'C:\\Users\\theod\\IdeaProjects\\wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen\\results'
-// const resultsPath = '/Users/janisru/intellij-workspace/wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen/results'
 
 const fs = require('fs')
 const openMPDirectives = require('../variables/openMPDirectives');
@@ -13,16 +13,13 @@ var evaluatedAllSciences = {};
  */
 function evaluateResults() {
 
-
     var evaluatedScienceResults = shell.ls(resultsPath + '\\evaluated-science-results');
-    // CHANGE JANIS for Mac: var evaluatedScienceResults = shell.ls(resultsPath + '/evaluated-science-results');
 
     // iterate over each science in the evaluated-science-results directory
     for (let i = 0; i < evaluatedScienceResults.length; i++) {
 
         if (typeof evaluatedScienceResults[i] === "string") {
-            // CHANGE THEO: var evaluatedScienceFile = shell.ls(`${resultsPath}\\evaluated-science-results\\${evaluatedScienceResults[i]}`);
-            var evaluatedScienceFile = shell.ls(`${resultsPath}/evaluated-science-results/${evaluatedScienceResults[i]}`);
+            var evaluatedScienceFile = shell.ls(`${resultsPath}\\evaluated-science-results\\${evaluatedScienceResults[i]}`);
 
             // evaluate each evaluated-science in the sciences directories of evaluated-science-results directory
             evaluateFinal(evaluatedScienceResults[i], evaluatedScienceFile);
