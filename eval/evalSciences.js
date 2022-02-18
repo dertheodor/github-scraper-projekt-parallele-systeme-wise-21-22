@@ -1,6 +1,5 @@
-
-//const resultsPath = 'C:\\Users\\theod\\IdeaProjects\\wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen\\results'
-const resultsPath = '/Users/janisru/intellij-workspace/wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen/results'
+const resultsPath = 'C:\\Users\\theod\\IdeaProjects\\wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen\\results'
+// const resultsPath = '/Users/janisru/intellij-workspace/wise-21-22-projekt-parallele-systeme-verwendung-von-openmp-in-opensource-applikationen/results'
 
 const fs = require('fs')
 const openMPDirectives = require('../variables/openMPDirectives');
@@ -14,8 +13,8 @@ var evaluatedScience = {};
  */
 function evaluateResults() {
 
-    // CHANGE THEO: var evaluatedTopicResults = shell.ls(resultsPath + '\\evaluated-topic-results');
-    var evaluatedTopicResults = shell.ls(resultsPath + '/evaluated-topic-results');
+    var evaluatedTopicResults = shell.ls(resultsPath + '\\evaluated-topic-results');
+    // CHANGE JANIS for Mac: var evaluatedTopicResults = shell.ls(resultsPath + '/evaluated-topic-results');
 
     // iterate over each science in the evaluated-topics-results directory
     for (let i = 0; i < evaluatedTopicResults.length; i++) {
