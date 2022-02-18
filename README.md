@@ -13,10 +13,23 @@ Install the dependencies.
 npm install
 ```
 
-Optional:
+How to configure the Scraper:
 - Open the top level file config.js
-- Make adjustments to the given flags
+| variable | purpose |
+| ------ | ------ |
+| toBeScrapedTopicURLs | topic URLs which will be scraped |
+| antiAbuseDetectionTimeout | timeout used before every navigation (to prevent abuse detection) |
+| repositoryStarsCount | minimum stars a repository needs to have to be classified as relevant |
+| repositoryForksCount | minimum forks a repository needs to have to be classified as relevant |
+| repositoryLatestCommitDate | latest commit date a repository needs to have to be classified as relevant |
+| repositoryCommitsCount | minimum commits a repository needs to have to be classified as relevant |
+| repositoryContributorsCount | minimum contributors a repository needs to have to be classified as relevant |
 
+- Open the variables folder
+| file | purpose |
+| ------ | ------ |
+| ```allowedFileExtensions.js``` | an array of regular expressions, only files matching the regexes are scraped |
+| ```openMPDirectives.js``` | an array strings/regular expressions, the regular expressions are used as search terms inside of the code which is scraped, the strings are are used for evaluation |
 
 Start the scraper.
 
@@ -24,22 +37,14 @@ Start the scraper.
 npm run scrape
 ```
 
+The base results will be saved in the repository subfolder "base-results".
+
 ## How-to Evaluate
 
-Evaluate Topics.
+- Inside of the files in the eval folder, the path used in the beginning of the files needs to be edited, this depends on your username and the system your are using 
 
-```sh
-npm run evaltopics
-```
-
-Evaluate Sciences.
-
-```sh
-npm run evalsciences
-```
-
-Evaluate Final Result.
-
-```sh
-npm run evalfinal
-```
+| command | purpose |
+| ------ | ------ |
+| ```npm run evaltopics``` | evaluate the topics |
+| ```npm run evalsciences``` | evaluate the sciences |
+| ```npm run evalfinal``` | evaluate the final results |
