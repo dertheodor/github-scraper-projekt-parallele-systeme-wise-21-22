@@ -56,8 +56,8 @@ const repositoryScraper = {
             // call codeScraper when only files are left
             await callCodeScraper();
 
-            // beautify directives
-            await buildBeautifiedData();
+            // count directives
+            await countDirectives(openMPDirectives.searchKeywords);
         }
         // return if checkIfRepositoryIsRelevant is false
         else {
@@ -248,25 +248,6 @@ const repositoryScraper = {
                 fileData[`file-${i}`] = await codeScraper.scrapeCode(browser, relevantFileURLs[i]);
             }
         }
-
-        /**
-         * Check the used file language to count the directives for that language.
-         * @returns {Promise<void>}
-         */
-        async function buildBeautifiedData() {
-            let JSONContents = JSON.stringify(fileData);
-
-            // fortran code
-            if (JSONContents.match(/!\\\\\$omp/i)) {
-                await countDirectives(openMPDirectives.openMPDirectivesFortran);
-            }
-
-            // c/c++ code
-            if (JSONContents.match(/#pragma omp/i)) {
-                await countDirectives(openMPDirectives.openMPDirectivesC);
-            }
-        }
-
 
         /**
          * Count the used compiler directives from different files in a repository together.

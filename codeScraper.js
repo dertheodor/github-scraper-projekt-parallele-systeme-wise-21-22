@@ -37,15 +37,7 @@ const codeScraper = {
         })
 
         if (fileCode) {
-            // fortran code
-            if (fileCode.match(/!\$omp/i)) {
-                await analyzeCode(openMPDirectives.openMPDirectivesFortran)
-            }
-
-            // c/c++ code
-            if (fileCode.match(/#pragma omp/i)) {
-                await analyzeCode(openMPDirectives.openMPDirectivesC)
-            }
+            await analyzeCode(openMPDirectives.searchKeywords)
         }
         // if there is no code return
         else {

@@ -1,9 +1,9 @@
 /**
- * Lists of OpenMP directives which we will search for inside the code
- * @type {RegExp[]}
+ * Used for evaluation.
+ * 67 Directives (Fortran)
+ * do and for are just saved as do (as fortran and c use different directive names for the same directive)
+ * @type {string[]}
  */
-// 67 Directives (Fortran)
-// do and for are just saved as do (as fortran and c use different directive names for the same directive)
 const openMPDirectivesAll = [
     "metadirective",
     "declare variant ",
@@ -75,7 +75,11 @@ const openMPDirectivesAll = [
     "declare mapper",
 ]
 
-// 67 Fortran Directives
+/**
+ * Used for evaluation.
+ * 67 Fortran Directives
+ * @type {string[]}
+ */
 const openMPDirectivesFortranString = [
     "!$omp metadirective",
     "!$omp declare variant ",
@@ -147,7 +151,11 @@ const openMPDirectivesFortranString = [
     "!$omp declare mapper",
 ]
 
-// 65 C/C++ Directives + two manually added space holders into the right position for the workshare/parallel workshare in Fortran
+/**
+ * Used for evaluation.
+ * 65 C/C++ Directives + two manually added space holders into the right position for the workshare/parallel workshare in Fortran
+ * @type {string[]}
+ */
 const openMPDirectivesCString = [
     "#pragma omp metadirective",
     "#pragma omp declare variant",
@@ -221,7 +229,10 @@ const openMPDirectivesCString = [
     "#pragma omp declare mapper",
 ]
 
-
+/**
+ * Used for evaluation.
+ * @type {RegExp[]}
+ */
 const openMPDirectivesFortran = [
     //Fortran Directives
     //Variant Directives
@@ -311,6 +322,10 @@ const openMPDirectivesFortran = [
     /!\$omp declare mapper/gi,
 ]
 
+/**
+ * Used for evaluation.
+ * @type {RegExp[]}
+ */
 const openMPDirectivesC = [
     // C / C++ Directives
     // Variant Directives
@@ -398,10 +413,30 @@ const openMPDirectivesC = [
     /#pragma omp declare mapper/gi,
 ]
 
+/**
+ * The search keywords for which the scraper will be looking for in the code.
+ * Should be regular expressions using the g (global, multiple occurrences allowed) and the i (case-insensitive) flag.
+ * @type {RegExp[]}
+ */
+const searchKeywords = [
+    /H5Pset_deflate/gi,
+    /H5Pset_deflate_f/gi,
+    /H5Pset_szip/gi,
+    /nc_def_var_szip/gi,
+    /nc_def_var_deflate/gi,
+    /nf90_def_var_deflate/gi,
+    /H5D_CHUNK_DONT_FILTER_PARTIAL_CHUNKS/gi,
+    /H5Pset_shuffle/gi,
+    /H5Pset_nbit/gi,
+    /h5pset_nbit_f/gi,
+    /H5FD_MPIO_COLLECTIVE_IO/gi,
+]
+
 module.exports = {
-    openMPDirectivesFortran,
-    openMPDirectivesC,
-    openMPDirectivesAll,
-    openMPDirectivesFortranString,
-    openMPDirectivesCString
+    //openMPDirectivesFortran,
+    //openMPDirectivesC,
+    //openMPDirectivesAll,
+    //openMPDirectivesFortranString,
+    //openMPDirectivesCString,
+    searchKeywords
 };
