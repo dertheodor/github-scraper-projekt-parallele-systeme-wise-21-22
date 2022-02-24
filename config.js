@@ -13,6 +13,12 @@ const toBeScrapedTopicURLs = [
 const antiAbuseDetectionTimeout = Math.random() * (1000 - 500) + 500;
 
 /**
+ * A boolean which determines if all criteria defined below should be ignored or not.
+ * @type {boolean}
+ */
+const byPassAllCriteria = true;
+
+/**
  * Minimum stars count of a repository.
  * @type {number}
  */
@@ -45,6 +51,7 @@ const repositoryContributorsCount = 1;
 
 module.exports = {
     toBeScrapedTopicURLs,
+    byPassAllCriteria,
     antiAbuseDetectionTimeout,
     repositoryStarsCount,
     repositoryForksCount,

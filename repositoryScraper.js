@@ -90,6 +90,11 @@ const repositoryScraper = {
          * @returns {Promise<boolean>}
          */
         async function checkIfRepositoryIsRelevant() {
+            // if flag is set to true do not eval criteria and return repo immediately as relevant
+            if (config.byPassAllCriteria === true) {
+                return true;
+            }
+
             // Wait as sometimes not all the needed information is inside the HTML
             await page.waitForTimeout(config.antiAbuseDetectionTimeout * 10);
 
