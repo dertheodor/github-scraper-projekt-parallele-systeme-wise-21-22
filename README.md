@@ -7,7 +7,7 @@ Dieses findet im Rahmen des Bachelor Projektes Parallele Systeme der UHH statt.
 
 [Node.js](https://nodejs.org/) is required to run the Web Scraper.
 
-Install the dependencies.
+Install the dependencies:
 
 ```sh
 npm install
@@ -31,7 +31,7 @@ Configure the Scraper:
 | ```allowedFileExtensions.js``` | an array of regular expressions, only files matching the regexes are scraped |
 | ```openMPDirectives.js``` | an array strings/regular expressions, the regular expressions are used as search terms inside of the code which is scraped, the strings are are used for evaluation |
 
-Start the Scraper.
+Start the Scraper:
 
 ```sh
 npm run scrape
