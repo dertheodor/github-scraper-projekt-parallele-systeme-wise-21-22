@@ -1,9 +1,9 @@
 /**
- * Lists of OpenMP directives which we will search for inside the code
- * @type {RegExp[]}
+ * Used for evaluation.
+ * 67 Directives (Fortran)
+ * do and for are just saved as do (as fortran and c use different directive names for the same directive)
+ * @type {string[]}
  */
-// 67 Directives (Fortran)
-// do and for are just saved as do (as fortran and c use different directive names for the same directive)
 const openMPDirectivesAll = [
     "metadirective",
     "declare variant ",
@@ -75,7 +75,11 @@ const openMPDirectivesAll = [
     "declare mapper",
 ]
 
-// 67 Fortran Directives
+/**
+ * Used for evaluation.
+ * 67 Fortran Directives
+ * @type {string[]}
+ */
 const openMPDirectivesFortranString = [
     "!$omp metadirective",
     "!$omp declare variant ",
@@ -147,7 +151,11 @@ const openMPDirectivesFortranString = [
     "!$omp declare mapper",
 ]
 
-// 65 C/C++ Directives + two manually added space holders into the right position for the workshare/parallel workshare in Fortran
+/**
+ * Used for evaluation.
+ * 65 C/C++ Directives + two manually added space holders into the right position for the workshare/parallel workshare in Fortran
+ * @type {string[]}
+ */
 const openMPDirectivesCString = [
     "#pragma omp metadirective",
     "#pragma omp declare variant",
@@ -221,7 +229,10 @@ const openMPDirectivesCString = [
     "#pragma omp declare mapper",
 ]
 
-
+/**
+ * Regular expressions for which the Scraper searches in Fortran code, also used in evaluation.
+ * @type {RegExp[]}
+ */
 const openMPDirectivesFortran = [
     //Fortran Directives
     //Variant Directives
@@ -311,6 +322,10 @@ const openMPDirectivesFortran = [
     /!\$omp declare mapper/gi,
 ]
 
+/**
+ * Regular expressions for which the Scraper searches in C/ C++ code, also used in evaluation.
+ * @type {RegExp[]}
+ */
 const openMPDirectivesC = [
     // C / C++ Directives
     // Variant Directives
